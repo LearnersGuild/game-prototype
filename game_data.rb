@@ -2,9 +2,22 @@ require 'csv'
 
 class NoDataFileProvidedError < StandardError; end
 class MissingDataError < StandardError; end
+class InvalidCSVError < StandardError; end
 
 class GameData
   include Enumerable
+
+  FIELDS = %w[ cycleNumber
+               question
+               questionId
+               respondentEmail
+               respondentHandle
+               respondentId
+               respondentName
+               subject
+               subjectId
+               surveyId
+               value ]
 
   QUESTION_TYPES = {
     contribution: 'cacefe2b-9193-41e1-9886-a0dd61fe9159',
@@ -18,7 +31,7 @@ class GameData
 
   attr_reader :data
 
-  def initialize(dataset)
+  def initialize(dataset=[])
     @data = dataset
   end
 
@@ -31,24 +44,11 @@ class GameData
 
     dataset = files.map do |file|
       csv = CSV.read(file, headers: true)
+      raise InvalidCSVError unless csv.headers.sort == FIELDS.sort
       csv.map(&:to_hash)
     end.flatten
 
     self.new(dataset)
-  end
-
-  def shortened(id)
-    id.split('-').first
-  end
-
-  def values
-    data.map do |r|
-      if block_given?
-        yield r['value']
-      else
-        r['value']
-      end
-    end
   end
 
   # create a query method for each of the above question types
@@ -79,42 +79,24 @@ class GameData
     end
   end
 
+  def survey(survey_id=nil)
+    return self if survey_id.nil?
+    if survey_id[0] == '!' # use inverse
+      self.class.new(data.reject { |r| shortened(r['surveyId']) == shortened(survey_id) })
+    else
+      self.class.new(data.select { |r| shortened(r['surveyId']) == shortened(survey_id) })
+    end
+  end
+
   def project(proj_name=nil)
     return self if proj_name.nil?
-    project = projects[proj_name]
+    project = get_projects[proj_name]
 
     subset = data.select do |r|
       shortened(r['surveyId']) == shortened(project[:survey]) \
         || shortened(r['subjectId']) == shortened(project[:subj])
     end
     self.class.new(subset)
-  end
-
-  def team_size(proj_name)
-    project(proj_name).proj_hours.count
-  end
-
-  def projects(player_id=nil)
-    project_hours = reporter(player_id).proj_hours
-    raise MissingDataError, "No project hours reported by player with id #{player_id}" if project_hours.none?
-
-    Hash[
-      project_hours.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
-                   .uniq
-    ]
-  end
-
-  def players
-    data.map do |entry|
-      {
-        email: entry['respondentEmail'],
-        handle: entry['respondentHandle'],
-        id: entry['respondentId'],
-        name: entry['respondentName']
-      }
-    end.uniq do |player|
-      player[:id]
-    end
   end
 
   def self_reported_contribution(player_id, proj_name)
@@ -137,8 +119,62 @@ class GameData
     result
   end
 
+  def values
+    data.map do |r|
+      if block_given?
+        yield r['value']
+      else
+        r['value']
+      end
+    end
+  end
+
+  def get_projects(player_id=nil)
+    contributions = subject(player_id).contribution
+
+    survey_ids = contributions.map { |r| r['surveyId'] }.uniq
+    project_records = survey_ids.map { |survey_id| survey(survey_id).proj_hours.data }.flatten
+
+    Hash[
+      project_records.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
+                     .uniq
+    ]
+  end
+
+  def get_players(player_id=nil)
+    players = data.map do |r|
+      {
+        email: r['respondentEmail'],
+        handle: r['respondentHandle'],
+        id: r['respondentId'],
+        name: r['respondentName']
+      }
+    end.uniq do |player|
+      player[:id]
+    end
+
+    return players.select { |player| shortened(player[:id]) == shortened(player_id) } if player_id
+    players
+  end
+
+  def cycles
+    data.map { |r| r['cycleNumber'] }.uniq
+  end
+
+  def team_size(proj_name)
+    project(proj_name).proj_hours.count
+  end
+
   def count
     data.count
+  end
+
+  def shortened(id)
+    id.split('-').first
+  end
+
+  def +(game_data)
+    self.class.new(self.data + game_data.data)
   end
 end
 

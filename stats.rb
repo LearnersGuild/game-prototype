@@ -1,18 +1,7 @@
 require 'csv'
 
 require_relative './game_data.rb'
-
-module Aggregates
-  def mean(nums)
-    nums.reduce(:+) / nums.count.to_f
-  end
-end
-
-class Numeric
-  def to_percent(limit, decimal = 2)
-    ((self / limit.to_f) * 100).round(decimal)
-  end
-end
+require_relative './utils.rb'
 
 class InvalidHoursValueError < StandardError; end
 class MissingOptionError < StandardError; end
@@ -26,11 +15,16 @@ class Stats
     @data = GameData.import(files)
   end
 
-  def report
-    players.map do |player|
+  def stat_names
+    %w[ xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
+  end
+
+  def report(player_id=nil)
+    data.get_players(player_id).map do |player|
       id = player[:id]
 
       {
+        id: id,
         name: player[:name],
         handle: player[:handle],
         xp: xp(player_id: id),
@@ -45,7 +39,7 @@ class Stats
   end
 
   def xp(opts = {})
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
     proj_xps = projects.map do |proj_name, p_data|
       next if opts[:proj_name] && proj_name != opts[:proj_name]
@@ -63,7 +57,7 @@ class Stats
       proj_xp.round(2)
     end
 
-    proj_xps.reject(&:nil?).reduce(:+)
+    proj_xps.reject(&:nil?).reduce(:+).round(2)
   end
 
   def culture_contrib(opts = {})
@@ -93,9 +87,10 @@ class Stats
     player_id = opts[:player_id]
     cycle_no = opts[:cycle_no]
 
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_completeness(proj_name: proj_name) }
 
+    return 'missing data' if scores.none?
     mean(scores).to_percent(100)
   end
 
@@ -103,9 +98,10 @@ class Stats
     player_id = opts[:player_id]
     cycle_no = opts[:cycle_no]
 
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_quality(proj_name: proj_name) }
 
+    return 'missing data' if scores.none?
     mean(scores).to_percent(100)
   end
 
@@ -139,7 +135,7 @@ class Stats
   end
 
   def discernment(opts = {})
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
     proj_discernments = projects.map do |proj_name, p_data|
       next if opts[:proj_name] && proj_name != opts[:proj_name]
@@ -151,7 +147,9 @@ class Stats
       proj_discernment.abs
     end
 
-    mean(proj_discernments.reject(&:nil?)).round(2)
+    discernments = proj_discernments.reject(&:nil?)
+    return 'missing data' if discernments.none?
+    mean(discernments).round(2)
   end
 
   def contribution_dissonance(opts = {})
@@ -169,10 +167,6 @@ class Stats
     proj_name = opts[:proj_name]
 
     hours = data.project(proj_name).reporter(player_id).proj_hours.values
-    unless hours.all? { |h| h =~ /\A\d+\z/ } # must be nothing but numbers
-      raise InvalidHoursValueError, "Can't parse '#{hours}'"
-    end
-
     hours.map(&:to_i).reduce(:+)
   end
 
@@ -183,13 +177,15 @@ class Stats
         .count
   end
 
-  def players(opts = {})
-    player_id = opts[:player_id]
+  # Helper queries
 
-    players = data.players
-    return players unless player_id
+  def projects(opts = {})
+    data.cycle(opts[:cycle_no])
+        .get_projects(opts[:player_id])
+  end
 
-    players.find { |player| player[:id] == player_id }
+  def cycles
+    data.cycles
   end
 end
 

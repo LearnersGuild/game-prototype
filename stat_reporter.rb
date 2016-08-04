@@ -34,7 +34,7 @@ class StatReporter
   end
 
   def player_aggreagate_report(player_id)
-    aggregate_report = stats.report(player_id).first
+    aggregate_report = stats.report(player_id: player_id).first
     aggregate_report.delete(:name)
     aggregate_report.delete(:handle)
     { period: 'aggregated stats' }.merge(aggregate_report)

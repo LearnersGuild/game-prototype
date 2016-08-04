@@ -19,14 +19,15 @@ class Stats
     %w[ xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
   end
 
-  def report(player_id=nil)
-    data.get_players(player_id).map do |player|
+  def report(opts = {})
+    default_opts = { player_id: nil, anonymous: true }
+    opts = default_opts.merge(opts)
+
+    data.get_players(opts[:player_id]).map do |player|
       id = player[:id]
 
-      {
-        id: id,
-        name: player[:name],
-        handle: player[:handle],
+      stat_report = {
+        id: shortened(id),
         xp: xp(player_id: id),
         avg_proj_comp: proj_completeness_for_player(player_id: id),
         avg_proj_qual: proj_quality_for_player(player_id: id),
@@ -35,6 +36,13 @@ class Stats
         discern: discernment(player_id: id),
         no_proj_rvws: no_proj_reviews(player_id: id)
       }
+
+      if !opts[:anonymous]
+        stat_report[:name] = player[:name]
+        stat_report[:handle] = player[:handle]
+      end
+
+      stat_report
     end
   end
 

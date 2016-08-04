@@ -1,5 +1,7 @@
 require 'csv'
 
+require_relative './utils.rb'
+
 class NoDataFileProvidedError < StandardError; end
 class MissingDataError < StandardError; end
 class InvalidCSVError < StandardError; end
@@ -167,10 +169,6 @@ class GameData
 
   def count
     data.count
-  end
-
-  def shortened(id)
-    id.split('-').first
   end
 
   def +(game_data)

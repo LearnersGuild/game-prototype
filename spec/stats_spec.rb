@@ -10,28 +10,42 @@ describe Stats do
   let(:s_raw) { Stats.new(RAW_DATA) }
 
   describe "#report" do
-    it "builds a report with all players stats" do
-      headers = [ :id, :name, :handle, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
+    let(:rep) { s.report }
 
-      expect(s.report.count).to eq(19)
-      expect(s.report.first.keys.sort).to eq(headers.sort)
+    it "builds a report with all players stats" do
+      headers = [ :id, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
+
+      expect(rep.count).to eq(19)
+      expect(rep.first.keys.sort).to eq(headers.sort)
     end
 
-    it "calculates the correct stats for the player" do
-      player_stats = s.report.find { |s| s[:handle] == 'jrob8577' }
+    it "is anonymous by default" do
+      expect(rep.first.keys).not_to include(:name, :handle, :email)
+    end
 
-      expected_stats = { id: '75dbe257',
-                         name: 'John Roberts',
-                         handle: 'jrob8577',
-                         xp: 100.56,
-                         avg_proj_comp: 87.94,
-                         avg_proj_qual: 83.52,
-                         lrn_supp: 94.29,
-                         cult_cont: 97.14,
-                         discern: 6.05,
-                         no_proj_rvws: 7 }
+    describe "when given a player_id:" do
+      it "calculates the correct stats for the player" do
+        player_stats = s.report(player_id: '75dbe257') # player: 'jrob8577'
 
-      expect(player_stats).to eq(expected_stats)
+        expected_stats = [{ id: '75dbe257',
+                            xp: 100.56,
+                            avg_proj_comp: 87.94,
+                            avg_proj_qual: 83.52,
+                            lrn_supp: 94.29,
+                            cult_cont: 97.14,
+                            discern: 6.05,
+                            no_proj_rvws: 7 }]
+
+        expect(player_stats).to eq(expected_stats)
+      end
+    end
+
+    describe "when the :anonymous flag is set to false" do
+      it "will show player name and handle" do
+        report = s.report(player_id: '75dbe257', anonymous: false)
+
+        expect(report.first.keys).to include(:name, :handle)
+      end
     end
   end
 

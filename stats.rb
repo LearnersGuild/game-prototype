@@ -137,8 +137,27 @@ class Stats
     unless hours =~ /\A\d+\z/ # must be nothing but numbers
       raise InvalidHoursValueError, "Can't parse '#{hours}'"
     end
-    
+
     hours.to_i
+  end
+
+  def players(opts = {})
+    player_id = opts.fetch(:player_id, nil)
+
+    players = @csv.map do |entry|
+      {
+        email: entry['respondentEmail'],
+        handle: entry['respondentHandle'],
+        id: entry['respondentId'],
+        name: entry['respondentName']
+      }
+    end.uniq do |player|
+      player[:id]
+    end
+
+    return players unless player_id
+
+    players.find { |player| player[:id] == player_id }
   end
 
   def project_ids(opts = {})

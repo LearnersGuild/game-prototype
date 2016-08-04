@@ -31,7 +31,7 @@ class GameData
 
   attr_reader :data
 
-  def initialize(dataset)
+  def initialize(dataset=[])
     @data = dataset
   end
 
@@ -79,6 +79,15 @@ class GameData
     end
   end
 
+  def survey(survey_id=nil)
+    return self if survey_id.nil?
+    if survey_id[0] == '!' # use inverse
+      self.class.new(data.reject { |r| shortened(r['surveyId']) == shortened(survey_id) })
+    else
+      self.class.new(data.select { |r| shortened(r['surveyId']) == shortened(survey_id) })
+    end
+  end
+
   def project(proj_name=nil)
     return self if proj_name.nil?
     project = get_projects[proj_name]
@@ -121,11 +130,14 @@ class GameData
   end
 
   def get_projects(player_id=nil)
-    project_hours = reporter(player_id).proj_hours
-    
+    contributions = subject(player_id).contribution
+
+    survey_ids = contributions.map { |r| r['surveyId'] }.uniq
+    project_records = survey_ids.map { |survey_id| survey(survey_id).proj_hours.data }.flatten
+
     Hash[
-      project_hours.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
-                   .uniq
+      project_records.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
+                     .uniq
     ]
   end
 
@@ -141,7 +153,7 @@ class GameData
       player[:id]
     end
 
-    return players.select { |player| player[:id] == player_id } if player_id
+    return players.select { |player| shortened(player[:id]) == shortened(player_id) } if player_id
     players
   end
 
@@ -161,6 +173,9 @@ class GameData
     id.split('-').first
   end
 
+  def +(game_data)
+    self.class.new(self.data + game_data.data)
+  end
 end
 
 if $PROGRAM_NAME == __FILE__

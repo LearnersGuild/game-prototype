@@ -11,7 +11,7 @@ describe Stats do
 
   describe "#report" do
     it "builds a report with all players stats" do
-      headers = [ :name, :handle, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
+      headers = [ :id, :name, :handle, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
 
       expect(s.report.count).to eq(19)
       expect(s.report.first.keys.sort).to eq(headers.sort)
@@ -20,7 +20,8 @@ describe Stats do
     it "calculates the correct stats for the player" do
       player_stats = s.report.find { |s| s[:handle] == 'jrob8577' }
 
-      expected_stats = { name: 'John Roberts',
+      expected_stats = { id: '75dbe257',
+                         name: 'John Roberts',
                          handle: 'jrob8577',
                          xp: 100.56,
                          avg_proj_comp: 87.94,
@@ -164,14 +165,6 @@ describe Stats do
 
       it "finds the hours worked by the player on that project" do
         expect(s.proj_hours(opts)).to eq(10)
-      end
-    end
-
-    describe "when an unparseable answer arises" do
-      let(:opts) { { player_id: '936e3168', proj_name: 'wiggly-jacana' } } # player: 'rachel-ftw'
-
-      it "it throws an InvalidHoursValueError error" do
-        expect { s_raw.proj_hours(opts) }.to raise_error(InvalidHoursValueError)
       end
     end
   end

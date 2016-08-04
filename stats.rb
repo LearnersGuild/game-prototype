@@ -24,6 +24,7 @@ class Stats
       id = player[:id]
 
       {
+        id: id,
         name: player[:name],
         handle: player[:handle],
         xp: xp(player_id: id),
@@ -56,7 +57,7 @@ class Stats
       proj_xp.round(2)
     end
 
-    proj_xps.reject(&:nil?).reduce(:+)
+    proj_xps.reject(&:nil?).reduce(:+).round(2)
   end
 
   def culture_contrib(opts = {})
@@ -89,6 +90,7 @@ class Stats
     projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_completeness(proj_name: proj_name) }
 
+    return 'missing data' if scores.none?
     mean(scores).to_percent(100)
   end
 
@@ -99,6 +101,7 @@ class Stats
     projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_quality(proj_name: proj_name) }
 
+    return 'missing data' if scores.none?
     mean(scores).to_percent(100)
   end
 
@@ -144,7 +147,9 @@ class Stats
       proj_discernment.abs
     end
 
-    mean(proj_discernments.reject(&:nil?)).round(2)
+    discernments = proj_discernments.reject(&:nil?)
+    return 'missing data' if discernments.none?
+    mean(discernments).round(2)
   end
 
   def contribution_dissonance(opts = {})

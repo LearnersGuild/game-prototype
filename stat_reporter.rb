@@ -35,14 +35,13 @@ class StatReporter
 
   def player_aggreagate_report(player_id)
     aggregate_report = stats.report(player_id: player_id).first
-    aggregate_report.delete(:name)
-    aggregate_report.delete(:handle)
     { period: 'aggregated stats' }.merge(aggregate_report)
   end
 
   def player_cycle_report(opts = {})
     cycle_report = {
       period: "cycle #{opts[:cycle_no]}",
+      id: opts[:player_id],
       xp: stats.xp(opts),
       avg_proj_comp: stats.proj_completeness_for_player(opts),
       avg_proj_qual: stats.proj_quality_for_player(opts),
@@ -56,6 +55,7 @@ class StatReporter
   def player_project_report(opts = {})
     proj_report = {
       period: "project #{opts[:proj_name]}",
+      id: opts[:player_id],
       xp: stats.xp(opts),
       avg_proj_comp: stats.proj_completeness_for_player(opts),
       avg_proj_qual: stats.proj_quality_for_player(opts),

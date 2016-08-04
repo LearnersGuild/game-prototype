@@ -162,10 +162,6 @@ class Stats
     proj_name = opts[:proj_name]
 
     hours = data.project(proj_name).reporter(player_id).proj_hours.values
-    unless hours.all? { |h| h =~ /\A\d+\z/ } # must be nothing but numbers
-      raise InvalidHoursValueError, "Can't parse '#{hours}'"
-    end
-
     hours.map(&:to_i).reduce(:+)
   end
 

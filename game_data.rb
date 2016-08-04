@@ -122,8 +122,7 @@ class GameData
 
   def get_projects(player_id=nil)
     project_hours = reporter(player_id).proj_hours
-    raise MissingDataError, "No project hours reported by player with id #{player_id}" if project_hours.none?
-
+    
     Hash[
       project_hours.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
                    .uniq

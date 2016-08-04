@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative '../stats.rb'
+require_relative '../stat_reporter.rb'
+
+if ARGV.empty?
+  files = Dir[ File.expand_path('../../data/*.csv', __FILE__) ]
+else
+  files = ARGV
+end
+
+s = Stats.new(*files)
+r = StatReporter.new(s)
+puts r.full_report

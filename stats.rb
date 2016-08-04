@@ -3,7 +3,6 @@ require 'csv'
 require_relative './game_data.rb'
 require_relative './utils.rb'
 
-
 class InvalidHoursValueError < StandardError; end
 class MissingOptionError < StandardError; end
 
@@ -16,8 +15,12 @@ class Stats
     @data = GameData.import(files)
   end
 
-  def report
-    data.get_players.map do |player|
+  def stat_names
+    %w[ xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
+  end
+
+  def report(player_id=nil)
+    data.get_players(player_id).map do |player|
       id = player[:id]
 
       {
@@ -171,6 +174,17 @@ class Stats
         .reporter(opts[:player_id])
         .proj_completeness
         .count
+  end
+
+  # Helper queries
+
+  def projects(opts = {})
+    data.cycle(opts[:cycle_no])
+        .get_projects(opts[:player_id])
+  end
+
+  def cycles
+    data.cycles
   end
 end
 

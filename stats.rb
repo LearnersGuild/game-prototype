@@ -39,7 +39,7 @@ class Stats
         lrn_supp: learning_support(player_id: id),
         cult_cont: culture_contrib(player_id: id),
         discern: discernment(player_id: id),
-        # no_proj_rvws:  ,
+        no_proj_rvws: no_proj_reviews(player_id: id)
       }
     end
   end
@@ -174,6 +174,13 @@ class Stats
     end
 
     hours.map(&:to_i).reduce(:+)
+  end
+
+  def no_proj_reviews(opts = {})
+    data.cycle(opts[:cycle_no])
+        .reporter(opts[:player_id])
+        .proj_completeness
+        .count
   end
 
   def players(opts = {})

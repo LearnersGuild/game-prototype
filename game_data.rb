@@ -55,19 +55,23 @@ class GameData
     define_method(type) { self.class.new(data.select { |r| shortened(r['questionId']) == shortened(id) }) }
   end
 
-  def cycle(cycle_no)
+  def cycle(cycle_no=nil)
+    return self if cycle_no.nil?
     self.class.new(data.select { |r| r['cycleNumber'].to_i == cycle_no.to_i })
   end
 
-  def giver(player_id)
+  def reporter(player_id=nil)
+    return self if player_id.nil?
     self.class.new(data.select { |r| shortened(r['respondentId']) == shortened(player_id) })
   end
 
-  def receiver(player_id)
-    self.class.new(data.select { |r| shortened(r['subjectId']) == shortened(player_id) })
+  def subject(subj_id=nil)
+    return self if subj_id.nil?
+    self.class.new(data.select { |r| shortened(r['subjectId']) == shortened(subj_id) })
   end
 
-  def project(proj_name)
+  def project(proj_name=nil)
+    return self if proj_name.nil?
     project = projects[proj_name]
 
     subset = data.select do |r|
@@ -77,9 +81,11 @@ class GameData
     self.class.new(subset)
   end
 
-  def projects
-    @projects ||= Hash[
-      proj_hours.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }.uniq
+  def projects(player_id=nil)
+    Hash[
+      reporter(player_id).proj_hours
+                         .map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
+                         .uniq
     ]
   end
 

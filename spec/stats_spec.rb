@@ -26,4 +26,24 @@ describe Stats do
       end
     end
   end
+
+  describe "#proj_completeness" do
+    describe "when given a project name" do
+      let(:opts) { { proj_name: 'cluttered-partridge' } }
+
+      it "calculates project completeness as 2-decimal percentage" do
+        expect(s.proj_completeness(opts)).to eq(86.83)
+      end
+    end
+  end
+
+  describe "#proj_quality" do
+    describe "when given a project name" do
+      let(:opts) { { proj_name: 'cluttered-partridge' } }
+
+      it "calculates project quality as 2-decimal percentage" do
+        expect(s.proj_quality(opts)).to eq(85.06)
+      end
+    end
+  end
 end

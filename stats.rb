@@ -66,9 +66,56 @@ class Stats
 
     score.to_percent(7)
   end
+
+  def proj_completeness(opts = {})
+    proj_name = opts.fetch(:proj_name)
+    question_id = question_id(:proj_completeness)
+
+    scores = @csv.select do |entry|
+      entry['subject'] == proj_name \
+        && entry['questionId'] == question_id
+    end.map do |entry|
+      entry['value'].to_i
+    end
+
+    score = scores.reduce(:+) / scores.count.to_f
+
+    score.to_percent(100)
+  end
+
+  def proj_quality(opts = {})
+    proj_name = opts.fetch(:proj_name)
+    question_id = question_id(:proj_quality)
+
+    scores = @csv.select do |entry|
+      entry['subject'] == proj_name \
+        && entry['questionId'] == question_id
+    end.map do |entry|
+      entry['value'].to_i
+    end
+
+    score = scores.reduce(:+) / scores.count.to_f
+
+    score.to_percent(100)
+  end
+
+  def project_ids(opts = {})
+    cycle_no = opts.fetch(:cycle_no, nil)
+    question_id = question_id(:project_hours)
+
+    project_ids = @csv.select do |entry|
+      (cycle_no.nil? || entry['cycleNumber'].to_i == cycle_no) \
+        && entry['questionId'] == question_id
+    end.map do |entry|
+      [entry['subject'], entry['surveyId']]
+    end.uniq
+
+    Hash[project_ids]
+  end
 end
 
 if $PROGRAM_NAME == __FILE__
   s = Stats.new(ARGV[0])
-  p s.culture_contrib(player_id: '070b3063', cycle_no: 3)
+  # p s.culture_contrib(player_id: '070b3063', cycle_no: 3)
+  p s.project_ids
 end

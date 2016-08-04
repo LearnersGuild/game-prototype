@@ -82,10 +82,12 @@ class GameData
   end
 
   def projects(player_id=nil)
+    project_hours = reporter(player_id).proj_hours
+    raise "No project hours reported by player with id #{player_id}" if project_hours.none?
+
     Hash[
-      reporter(player_id).proj_hours
-                         .map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
-                         .uniq
+      project_hours.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
+                   .uniq
     ]
   end
 

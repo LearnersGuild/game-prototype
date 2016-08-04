@@ -2,10 +2,46 @@ require 'rspec'
 
 require_relative "../stats"
 
-TEST_DATA_CSV = File.expand_path("../data/cycle.csv", __FILE__)
+RAW_DATA = File.expand_path("../data/cycle-raw.csv", __FILE__)
+CLEAN_DATA = File.expand_path("../data/cycle-cleaned.csv", __FILE__)
 
 describe Stats do
-  let(:s) { Stats.new(TEST_DATA_CSV) }
+  let(:s) { Stats.new(CLEAN_DATA) }
+  let(:s_raw) { Stats.new(RAW_DATA) }
+
+  describe "#report" do
+    it "builds a report with all players stats" do
+      headers = %w[ name handle xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
+
+      expect(s.report.count).to eq(19)
+      expect(s.report.first.keys.sort).to eq(headers.sort)
+    end
+
+    it "calculates the correct stats for the player" do
+      player_stats = s.report.find { |s| s[:handle] == 'jrob8577' }
+
+      expected_stats = { xp: 96.09, avg_proj_comp: 87.94, avg_proj_qual: 83.52, lrn_supp: 94.29, cult_cont: 97.14, discern: 0, no_proj_rvws: 7, }
+      expect(player_stats).to eq(expected_stats)
+    end
+  end
+
+  describe "#xp" do
+    describe "when given a player" do
+      let(:opts) { { player_id: '75dbe257' } } # player: 'jrob8577'
+
+      it "calculates XP for the player across all cycles and projects" do
+        expect(s.xp(opts)).to eq(100.56)
+      end
+    end
+
+    describe "when given a player and a project" do
+      let(:opts) { { player_id: '75dbe257', proj_name: 'wiggly-jacana' } } # player: 'jrob8577'
+
+      it "calculates XP for the player in the particular project" do
+        expect(s.xp(opts)).to eq(37.18)
+      end
+    end
+  end
 
   describe "#culture_contrib" do
     describe "when given a player and cycle" do
@@ -75,7 +111,7 @@ describe Stats do
       let(:opts) { { player_id: '936e3168', proj_name: 'wiggly-jacana' } } # player: 'rachel-ftw'
 
       it "it throws an InvalidHoursValueError error" do
-        expect { s.proj_hours(opts) }.to raise_error(InvalidHoursValueError)
+        expect { s_raw.proj_hours(opts) }.to raise_error(InvalidHoursValueError)
       end
     end
   end

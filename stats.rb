@@ -55,9 +55,14 @@ class Stats
               * (p_data[:quality] / 100.0)
 
       proj_xp.round(2)
+    end.reject(&:nil?)
+
+    if proj_xps.empty?
+      warn "Can't calculate XP for player #{opts[:player_id]}"
+      return 0
     end
 
-    proj_xps.reject(&:nil?).reduce(:+).round(2)
+    proj_xps.reduce(:+).round(2)
   end
 
   def culture_contrib(opts = {})
@@ -121,10 +126,15 @@ class Stats
   end
 
   def self_reported_contribution(opts = {})
-    data.self_reported_contribution(opts[:player_id], opts[:proj_name])
-        .values(&:to_i)
-        .first
-        .to_percent(100)
+    begin
+      data.self_reported_contribution(opts[:player_id], opts[:proj_name])
+          .values(&:to_i)
+          .first
+          .to_percent(100)
+    rescue MissingDataError => e
+      warn "No self-reported contribution for #{opts}"
+      nil
+    end
   end
 
   def team_reported_contribution(opts = {})
@@ -142,6 +152,11 @@ class Stats
 
       p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
       p_data[:team_rep_contrib] = team_reported_contribution(opts.merge(proj_name: proj_name))
+
+      if p_data[:self_rep_contrib].nil?
+        warn "Can't calculate discernment for player #{opts[:player_id]} in project #{proj_name}"
+        next
+      end
 
       proj_discernment = p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
       proj_discernment.abs

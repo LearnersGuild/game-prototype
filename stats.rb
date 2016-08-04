@@ -23,6 +23,8 @@ class Numeric
   end
 end
 
+class InvalidHoursValueError < StandardError; end
+
 class Stats
   attr_reader :files
 
@@ -97,6 +99,43 @@ class Stats
     score = scores.reduce(:+) / scores.count.to_f
 
     score.to_percent(100)
+  end
+
+  def contribution(opts = {})
+    player_id = opts.fetch(:player_id)
+    proj_name = opts.fetch(:proj_name)
+    proj_survey_id = project_ids[proj_name]
+    question_id = question_id(:contribution)
+
+    scores = @csv.select do |entry|
+      entry['subjectId'] == player_id \
+        && entry['surveyId'] == proj_survey_id \
+        && entry['questionId'] == question_id
+    end.map do |entry|
+      entry['value'].to_i
+    end
+
+    score = scores.reduce(:+) / scores.count.to_f
+
+    score.to_percent(100)
+  end
+
+  def project_hours(opts = {})
+    player_id = opts.fetch(:player_id)
+    proj_name = opts.fetch(:proj_name)
+    proj_survey_id = project_ids[proj_name]
+    question_id = question_id(:project_hours)
+
+    hoursResponse = @csv.find do |entry|
+      entry['respondentId'] == player_id \
+        && entry['surveyId'] == proj_survey_id \
+        && entry['questionId'] == question_id
+    end
+
+    hours = hoursResponse['value']
+
+    raise InvalidHoursValueError unless hours =~ /\A\d+\z/ # must be nothing but numbers
+    hours.to_i
   end
 
   def project_ids(opts = {})

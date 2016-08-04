@@ -11,7 +11,7 @@ describe Stats do
     describe "when given a player and cycle" do
       let(:opts) { { player_id: '75dbe257', cycle_no: 3 } } # player: 'jrob8577'
 
-      it "calculates culture contribution as a 2-decimal percentage" do
+      it "calculates mean culture contribution as a 2-decimal percentage" do
         expect(s.culture_contrib(opts)).to eq(97.14)
       end
     end
@@ -21,7 +21,7 @@ describe Stats do
     describe "when given a player and cycle" do
       let(:opts) { { player_id: '75dbe257', cycle_no: 3 } } # player: 'jrob8577'
 
-      it "calculates learning support as 2-decimal percentage" do
+      it "calculates mean learning support as 2-decimal percentage" do
         expect(s.learning_support(opts)).to eq(94.29)
       end
     end
@@ -41,8 +41,41 @@ describe Stats do
     describe "when given a project name" do
       let(:opts) { { proj_name: 'cluttered-partridge' } }
 
-      it "calculates project quality as 2-decimal percentage" do
+      it "calculates mean project quality as 2-decimal percentage" do
         expect(s.proj_quality(opts)).to eq(85.06)
+      end
+    end
+  end
+
+  describe "#contribution" do
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
+
+      it "calculates mean contribution percentage as a 2-decimal percentage" do
+        expect(s.contribution(opts)).to eq(28.33)
+      end
+
+      it "even works with advanced players" do
+        opts[:player_id] = '75dbe257' # player: 'jrob8577'
+        expect(s.contribution(opts)).to eq(46.67)
+      end
+    end
+  end
+
+  describe "#project_hours" do
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: '75dbe257', proj_name: 'cluttered-partridge' } } # player: 'jrob8577'
+
+      it "finds the hours worked by the player on that project" do
+        expect(s.project_hours(opts)).to eq(10)
+      end
+    end
+
+    describe "when an unparseable answer arises" do
+      let(:opts) { { player_id: '936e3168', proj_name: 'wiggly-jacana' } } # player: 'rachel-ftw'
+
+      it "it throws an InvalidHoursValueError error" do
+        expect { s.project_hours(opts) }.to raise_error(InvalidHoursValueError)
       end
     end
   end

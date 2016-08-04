@@ -134,7 +134,10 @@ class Stats
 
     hours = hoursResponse['value']
 
-    raise InvalidHoursValueError unless hours =~ /\A\d+\z/ # must be nothing but numbers
+    unless hours =~ /\A\d+\z/ # must be nothing but numbers
+      raise InvalidHoursValueError, "Can't parse '#{hours}'"
+    end
+    
     hours.to_i
   end
 

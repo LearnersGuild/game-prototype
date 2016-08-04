@@ -142,12 +142,12 @@ class GameData
       player[:id]
     end
 
-    return players.find { |player| player[:id] == player_id } if player_id
+    return players.select { |player| player[:id] == player_id } if player_id
     players
   end
 
   def cycles
-    data.map { |r| r['cycleNumber'] }
+    data.map { |r| r['cycleNumber'] }.uniq
   end
 
   def team_size(proj_name)

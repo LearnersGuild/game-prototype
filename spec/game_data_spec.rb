@@ -18,7 +18,7 @@ describe GameData do
       let(:player_id) { '75dbe257' } # player: 'jrob8577'
 
       it "returns data for the player" do
-        expect(gd.get_players(player_id)[:handle]).to eq('jrob8577')
+        expect(gd.get_players(player_id).first[:handle]).to eq('jrob8577')
       end
     end
   end

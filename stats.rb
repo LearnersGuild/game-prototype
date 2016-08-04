@@ -15,6 +15,7 @@ class Numeric
 end
 
 class InvalidHoursValueError < StandardError; end
+class MissingOptionError < StandardError; end
 
 class Stats
   include Aggregates
@@ -37,7 +38,7 @@ class Stats
         avg_proj_qual: proj_quality_for_player(player_id: id),
         lrn_supp: learning_support(player_id: id),
         cult_cont: culture_contrib(player_id: id),
-        # discern: ,
+        discern: discernment(player_id: id),
         # no_proj_rvws:  ,
       }
     end
@@ -121,6 +122,46 @@ class Stats
 
     scores = data.project(proj_name).contribution.subject(player_id).values(&:to_i)
     mean(scores).to_percent(100)
+  end
+
+  def self_reported_contribution(opts = {})
+    data.self_reported_contribution(opts[:player_id], opts[:proj_name])
+        .values(&:to_i)
+        .first
+        .to_percent(100)
+  end
+
+  def team_reported_contribution(opts = {})
+    scores= data.team_reported_contribution(opts[:player_id], opts[:proj_name])
+                .values(&:to_i)
+
+    mean(scores).to_percent(100)
+  end
+
+  def discernment(opts = {})
+    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+
+    proj_discernments = projects.map do |proj_name, p_data|
+      next if opts[:proj_name] && proj_name != opts[:proj_name]
+
+      p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
+      p_data[:team_rep_contrib] = team_reported_contribution(opts.merge(proj_name: proj_name))
+
+      proj_discernment = p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
+      proj_discernment.abs
+    end
+
+    mean(proj_discernments.reject(&:nil?)).round(2)
+  end
+
+  def contribution_dissonance(opts = {})
+    contribution(opts) - expected_contribution(opts)
+  end
+
+  def expected_contribution(opts = {})
+    raise MissingOptionError, :proj_name unless opts[:proj_name]
+
+    (1 / data.team_size(opts[:proj_name]).to_f).round(2)
   end
 
   def proj_hours(opts = {})

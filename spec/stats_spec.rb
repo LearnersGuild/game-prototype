@@ -27,7 +27,7 @@ describe Stats do
                          avg_proj_qual: 83.52,
                          lrn_supp: 94.29,
                          cult_cont: 97.14,
-                         discern: 0,
+                         discern: 6.05,
                          no_proj_rvws: 7 }
 
       expect(player_stats).to eq(expected_stats)
@@ -103,6 +103,57 @@ describe Stats do
       it "even works with advanced players" do
         opts[:player_id] = '75dbe257' # player: 'jrob8577'
         expect(s.contribution(opts)).to eq(46.67)
+      end
+    end
+  end
+
+  describe "#discernment" do
+    describe "when given a player id" do
+      let(:opts) { { player_id: 'adda47cf' } } # player: 'harmanisdeep'
+
+      it "determines how accurate their judgment is relative to others'" do
+        expect(s.discernment(opts)).to eq(1.67)
+      end
+
+      it "is always expressed as a positive number" do
+        opts = { player_id: 'cbcff678' } # player: 'Moniarchy'
+        expect(s.discernment(opts)).to be > 0
+      end
+
+      it "even works with advanced players" do
+        opts[:player_id] = '75dbe257' # player: 'jrob8577'
+        expect(s.discernment(opts)).to eq(6.05)
+      end
+    end
+
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: '75dbe257', proj_name: 'cluttered-partridge' } } # player: 'jrob8577'
+
+      it "limits the discernment score to just the project scores" do
+        one_project_score = s.discernment(opts)
+
+        expect(one_project_score).to eq(13.33)
+        expect(s.discernment(player_id: opts[:player_id])).not_to eq(one_project_score)
+      end
+    end
+  end
+
+  describe "#contribution_dissonance" do
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
+
+      it "calculates the difference between actual contribution and expected contribution" do
+        expect(s.contribution_dissonance(opts)).to eq(28.33 - (1 / 3.0).round(2))
+      end
+    end
+  end
+
+  describe "#expected_contribution" do
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
+
+      it "calculates how much contribution is expected of a player based on team size" do
+        expect(s.expected_contribution(opts)).to eq((1 / 3.0).round(2))
       end
     end
   end

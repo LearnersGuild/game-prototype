@@ -1,6 +1,7 @@
 require 'csv'
 
 class NoDataFileProvidedError < StandardError; end
+class MissingDataError < StandardError; end
 
 class GameData
   include Enumerable
@@ -62,12 +63,20 @@ class GameData
 
   def reporter(player_id=nil)
     return self if player_id.nil?
-    self.class.new(data.select { |r| shortened(r['respondentId']) == shortened(player_id) })
+    if player_id[0] == '!' # use inverse
+      self.class.new(data.reject { |r| shortened(r['respondentId']) == shortened(player_id) })
+    else
+      self.class.new(data.select { |r| shortened(r['respondentId']) == shortened(player_id) })
+    end
   end
 
   def subject(subj_id=nil)
     return self if subj_id.nil?
-    self.class.new(data.select { |r| shortened(r['subjectId']) == shortened(subj_id) })
+    if subj_id[0] == '!' # use inverse
+      self.class.new(data.reject { |r| shortened(r['subjectId']) == shortened(subj_id) })
+    else
+      self.class.new(data.select { |r| shortened(r['subjectId']) == shortened(subj_id) })
+    end
   end
 
   def project(proj_name=nil)
@@ -81,9 +90,13 @@ class GameData
     self.class.new(subset)
   end
 
+  def team_size(proj_name)
+    project(proj_name).proj_hours.count
+  end
+
   def projects(player_id=nil)
     project_hours = reporter(player_id).proj_hours
-    raise "No project hours reported by player with id #{player_id}" if project_hours.none?
+    raise MissingDataError, "No project hours reported by player with id #{player_id}" if project_hours.none?
 
     Hash[
       project_hours.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
@@ -102,6 +115,30 @@ class GameData
     end.uniq do |player|
       player[:id]
     end
+  end
+
+  def self_reported_contribution(player_id, proj_name)
+    result = project(proj_name)
+               .reporter(player_id)
+               .subject(player_id)
+               .contribution
+
+    raise MissingDataError, "No self-reported contribution for player #{player_id} in project #{proj_name}" if result.none?
+    result
+  end
+
+  def team_reported_contribution(player_id, proj_name)
+    result = project(proj_name)
+               .reporter('!' + player_id)
+               .subject(player_id)
+               .contribution
+
+    raise MissingDataError, "No team-reported contributions for player #{player_id} in project #{proj_name}" if result.none?
+    result
+  end
+
+  def count
+    data.count
   end
 end
 

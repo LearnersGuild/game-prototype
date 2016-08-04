@@ -37,20 +37,6 @@ class GameData
     self.new(dataset)
   end
 
-  def shortened(id)
-    id.split('-').first
-  end
-
-  def values
-    data.map do |r|
-      if block_given?
-        yield r['value']
-      else
-        r['value']
-      end
-    end
-  end
-
   # create a query method for each of the above question types
   QUESTION_TYPES.each do |type, id|
     define_method(type) { self.class.new(data.select { |r| shortened(r['questionId']) == shortened(id) }) }
@@ -90,8 +76,34 @@ class GameData
     self.class.new(subset)
   end
 
-  def team_size(proj_name)
-    project(proj_name).proj_hours.count
+  def self_reported_contribution(player_id, proj_name)
+    result = project(proj_name)
+               .reporter(player_id)
+               .subject(player_id)
+               .contribution
+
+    raise MissingDataError, "No self-reported contribution for player #{player_id} in project #{proj_name}" if result.none?
+    result
+  end
+
+  def team_reported_contribution(player_id, proj_name)
+    result = project(proj_name)
+               .reporter('!' + player_id)
+               .subject(player_id)
+               .contribution
+
+    raise MissingDataError, "No team-reported contributions for player #{player_id} in project #{proj_name}" if result.none?
+    result
+  end
+
+  def values
+    data.map do |r|
+      if block_given?
+        yield r['value']
+      else
+        r['value']
+      end
+    end
   end
 
   def projects(player_id=nil)
@@ -117,29 +129,18 @@ class GameData
     end
   end
 
-  def self_reported_contribution(player_id, proj_name)
-    result = project(proj_name)
-               .reporter(player_id)
-               .subject(player_id)
-               .contribution
-
-    raise MissingDataError, "No self-reported contribution for player #{player_id} in project #{proj_name}" if result.none?
-    result
-  end
-
-  def team_reported_contribution(player_id, proj_name)
-    result = project(proj_name)
-               .reporter('!' + player_id)
-               .subject(player_id)
-               .contribution
-
-    raise MissingDataError, "No team-reported contributions for player #{player_id} in project #{proj_name}" if result.none?
-    result
+  def team_size(proj_name)
+    project(proj_name).proj_hours.count
   end
 
   def count
     data.count
   end
+
+  def shortened(id)
+    id.split('-').first
+  end
+
 end
 
 if $PROGRAM_NAME == __FILE__

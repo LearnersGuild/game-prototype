@@ -48,6 +48,24 @@ class Stats
 
     score.to_percent(7)
   end
+
+  def learning_support(opts = {})
+    question_id = question_id(:learning_support)
+    player_id = opts.fetch(:player_id)
+    cycle = opts.fetch(:cycle_no)
+
+    scores = @csv.select do |entry|
+      entry['subjectId'] == player_id \
+        && entry['questionId'] == question_id \
+        && entry['cycleNumber'].to_i == cycle.to_i
+    end.map do |entry|
+      entry['value'].to_i
+    end
+
+    score = scores.reduce(:+) / scores.count.to_f
+
+    score.to_percent(7)
+  end
 end
 
 if $PROGRAM_NAME == __FILE__

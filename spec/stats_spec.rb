@@ -11,7 +11,7 @@ describe Stats do
 
   describe "#report" do
     it "builds a report with all players stats" do
-      headers = %w[ name handle xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
+      headers = [ :name, :handle, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
 
       expect(s.report.count).to eq(19)
       expect(s.report.first.keys.sort).to eq(headers.sort)
@@ -20,7 +20,16 @@ describe Stats do
     it "calculates the correct stats for the player" do
       player_stats = s.report.find { |s| s[:handle] == 'jrob8577' }
 
-      expected_stats = { xp: 96.09, avg_proj_comp: 87.94, avg_proj_qual: 83.52, lrn_supp: 94.29, cult_cont: 97.14, discern: 0, no_proj_rvws: 7, }
+      expected_stats = { name: 'John Roberts',
+                         handle: 'jrob8577',
+                         xp: 100.56,
+                         avg_proj_comp: 87.94,
+                         avg_proj_qual: 83.52,
+                         lrn_supp: 94.29,
+                         cult_cont: 97.14,
+                         discern: 0,
+                         no_proj_rvws: 7 }
+
       expect(player_stats).to eq(expected_stats)
     end
   end

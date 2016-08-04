@@ -32,9 +32,9 @@ class Stats
       {
         name: player[:name],
         handle: player[:handle],
-        # xp: ,
-        # avg_proj_comp: ,
-        # avg_proj_qual:  ,
+        xp: xp(player_id: id),
+        avg_proj_comp: proj_completeness_for_player(player_id: id),
+        avg_proj_qual: proj_quality_for_player(player_id: id),
         lrn_supp: learning_support(player_id: id),
         cult_cont: culture_contrib(player_id: id),
         # discern: ,
@@ -85,6 +85,26 @@ class Stats
     proj_name = opts[:proj_name]
 
     scores = data.project(proj_name).proj_completeness.values(&:to_i)
+    mean(scores).to_percent(100)
+  end
+
+  def proj_completeness_for_player(opts = {})
+    player_id = opts[:player_id]
+    cycle_no = opts[:cycle_no]
+
+    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    scores = projects.map { |proj_name, _| proj_completeness(proj_name: proj_name) }
+
+    mean(scores).to_percent(100)
+  end
+
+  def proj_quality_for_player(opts = {})
+    player_id = opts[:player_id]
+    cycle_no = opts[:cycle_no]
+
+    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    scores = projects.map { |proj_name, _| proj_quality(proj_name: proj_name) }
+
     mean(scores).to_percent(100)
   end
 

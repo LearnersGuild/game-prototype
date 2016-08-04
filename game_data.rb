@@ -2,9 +2,22 @@ require 'csv'
 
 class NoDataFileProvidedError < StandardError; end
 class MissingDataError < StandardError; end
+class InvalidCSVError < StandardError; end
 
 class GameData
   include Enumerable
+
+  FIELDS = %w[ cycleNumber
+               question
+               questionId
+               respondentEmail
+               respondentHandle
+               respondentId
+               respondentName
+               subject
+               subjectId
+               surveyId
+               value ]
 
   QUESTION_TYPES = {
     contribution: 'cacefe2b-9193-41e1-9886-a0dd61fe9159',
@@ -31,6 +44,7 @@ class GameData
 
     dataset = files.map do |file|
       csv = CSV.read(file, headers: true)
+      raise InvalidCSVError unless csv.headers.sort == FIELDS.sort
       csv.map(&:to_hash)
     end.flatten
 
@@ -67,7 +81,7 @@ class GameData
 
   def project(proj_name=nil)
     return self if proj_name.nil?
-    project = projects[proj_name]
+    project = get_projects[proj_name]
 
     subset = data.select do |r|
       shortened(r['surveyId']) == shortened(project[:survey]) \
@@ -106,7 +120,7 @@ class GameData
     end
   end
 
-  def projects(player_id=nil)
+  def get_projects(player_id=nil)
     project_hours = reporter(player_id).proj_hours
     raise MissingDataError, "No project hours reported by player with id #{player_id}" if project_hours.none?
 
@@ -116,17 +130,24 @@ class GameData
     ]
   end
 
-  def players
-    data.map do |entry|
+  def get_players(player_id=nil)
+    players = data.map do |r|
       {
-        email: entry['respondentEmail'],
-        handle: entry['respondentHandle'],
-        id: entry['respondentId'],
-        name: entry['respondentName']
+        email: r['respondentEmail'],
+        handle: r['respondentHandle'],
+        id: r['respondentId'],
+        name: r['respondentName']
       }
     end.uniq do |player|
       player[:id]
     end
+
+    return players.find { |player| player[:id] == player_id } if player_id
+    players
+  end
+
+  def cycles
+    data.map { |r| r['cycleNumber'] }
   end
 
   def team_size(proj_name)

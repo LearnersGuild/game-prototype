@@ -27,7 +27,7 @@ class Stats
   end
 
   def report
-    players.map do |player|
+    data.get_players.map do |player|
       id = player[:id]
 
       {
@@ -45,7 +45,7 @@ class Stats
   end
 
   def xp(opts = {})
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
     proj_xps = projects.map do |proj_name, p_data|
       next if opts[:proj_name] && proj_name != opts[:proj_name]
@@ -93,7 +93,7 @@ class Stats
     player_id = opts[:player_id]
     cycle_no = opts[:cycle_no]
 
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_completeness(proj_name: proj_name) }
 
     mean(scores).to_percent(100)
@@ -103,7 +103,7 @@ class Stats
     player_id = opts[:player_id]
     cycle_no = opts[:cycle_no]
 
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_quality(proj_name: proj_name) }
 
     mean(scores).to_percent(100)
@@ -139,7 +139,7 @@ class Stats
   end
 
   def discernment(opts = {})
-    projects = data.cycle(opts[:cycle_no]).projects(opts[:player_id])
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
     proj_discernments = projects.map do |proj_name, p_data|
       next if opts[:proj_name] && proj_name != opts[:proj_name]
@@ -181,15 +181,6 @@ class Stats
         .reporter(opts[:player_id])
         .proj_completeness
         .count
-  end
-
-  def players(opts = {})
-    player_id = opts[:player_id]
-
-    players = data.players
-    return players unless player_id
-
-    players.find { |player| player[:id] == player_id }
   end
 end
 

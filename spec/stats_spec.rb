@@ -175,20 +175,4 @@ describe Stats do
       end
     end
   end
-
-  describe "#players" do
-    describe "with no arguments" do
-      it "returns all the players that have responses in the cycle data" do
-        expect(s.players.count).to eq(19)
-      end
-    end
-
-    describe "when given a player id" do
-      let(:opts) { { player_id: '75dbe257' } } # player: 'jrob8577'
-
-      it "returns data for the player" do
-        expect(s.players(opts)[:handle]).to eq('jrob8577')
-      end
-    end
-  end
 end

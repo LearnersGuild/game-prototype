@@ -10,8 +10,9 @@
 /test/version_tmp/
 /tmp/
 
-# Don't track data files
+# Don't track data files or outputted reports
 /data/
+/reports/
 
 # Used by dotenv library to load environment variables.
 .env

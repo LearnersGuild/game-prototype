@@ -1,0 +1,992 @@
+cycleNumber,question,questionId,respondentEmail,respondentHandle,respondentId,respondentName,subject,subjectId,surveyId,value
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,quick-curlew,c16e99a0,34090604,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,dazzling-white-eye,b7d9d81d,299748f4,98
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,bluemihai,070b3063,Mihai Banulescu,Devon Wesley,29f423c4,7256392b,"I want to work with you because you know your stuff and often see what's wrong in the code before I do.  I would want to work with you more if...  there's something but I can't get a good grasp on it...  I sometimes wonder if you're actually fully connected to yourself and saying what you need - as opposed to just going along with what's comfortable.  Taking more risks, I guess.  Taking leadership even at the risk of others liking you less."
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,Jusdev89,29f423c4,Devon Wesley,Majid Rahimi,45a99283,7256392b,your really good at breaking down the problem and we had more time to work
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Mihai Banulescu,070b3063,c4297101,7
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,Jusdev89,29f423c4,Devon Wesley,terrific-crake,2abf68bc,7256392b,42
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,instinctive-nyala,767eb800,c0698ba3,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,tested-serval,363d0e23,ec7ba19d,40
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,quick-curlew,c16e99a0,34090604,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,wiggly-jacana,3b7c4e64,7916c4fc,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Mihai Banulescu,070b3063,c4297101,7
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,shakalee14,9ae522cc,Shaka Lee,Jared Grippe,dcf14075,36be33ca,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,quick-curlew,c16e99a0,34090604,90
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jrob8577,75dbe257,John Roberts,Rachel,936e3168,5fc0d2e8,7
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,Mihai Banulescu,070b3063,7256392b,21
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Nico,396fad2d,de28e027,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,dazzling-white-eye,b7d9d81d,299748f4,98
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,instinctive-nyala,767eb800,c0698ba3,80
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,Moniarchy,cbcff678,Moniarchy,John Roberts,75dbe257,5fc0d2e8,7
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,Jusdev89,29f423c4,Devon Wesley,EthanJStark,4a6f36f6,7256392b,your really into process and we had more time to refactor
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,wiggly-jacana,3b7c4e64,7916c4fc,70
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Phillip Lorenzo,85eb0e18,de28e027,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,terrific-crake,2abf68bc,8187186f,91
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,rachel-ftw,936e3168,Rachel,John Roberts,75dbe257,5fc0d2e8,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,instinctive-nyala,767eb800,c0698ba3,90
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,jrob8577,75dbe257,John Roberts,wiggly-jacana,3b7c4e64,5fc0d2e8,16
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,instinctive-nyala,767eb800,c0698ba3,75
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,rachel-ftw,936e3168,Rachel,wiggly-jacana,3b7c4e64,5fc0d2e8,... all of them... 9 hrs/day m-th and through noon on Friday... so around 40.
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,deadlyicon,dcf14075,Jared Grippe,Shaka Lee,9ae522cc,36be33ca,5
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,wiggly-jacana,3b7c4e64,7916c4fc,95
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,cluttered-partridge,868785dd,8507ec50,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,terrific-crake,2abf68bc,8187186f,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,Moniarchy,cbcff678,Moniarchy,John Roberts,75dbe257,5fc0d2e8,6
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,deadlyicon,dcf14075,Jared Grippe,Nico,396fad2d,de28e027,you're awesome Nico. maybe speak up more? you seem reluctant to speak sometimes.
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,wiggly-jacana,3b7c4e64,7916c4fc,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,asantos3026,45664623,Aileen Santos,dazzling-white-eye,b7d9d81d,299748f4,88
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,Aileen Santos,45664623,36be33ca,20
+3,How much did each team member contribute this cycle?,cacefe2b,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Mihai Banulescu,070b3063,7256392b,15
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,instinctive-nyala,767eb800,c0698ba3,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,wiggly-jacana,3b7c4e64,7916c4fc,89
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,dazzling-white-eye,b7d9d81d,299748f4,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,tested-serval,363d0e23,ec7ba19d,80
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,Moniarchy,cbcff678,Moniarchy,John Roberts,75dbe257,5fc0d2e8,"@jrob8577, working with you was great. I learned a lot just by watching you and you were always available when we needed you to answer questions. More than that, you went in depth and really really helped us (me) get a handle on important concepts. Your attitude made me feel comfortable reaching out to you for help at any time, and you were interested in how we were doing/interacting with the learning model."
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,dazzling-white-eye,b7d9d81d,299748f4,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,instinctive-nyala,767eb800,c0698ba3,70
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,dazzling-white-eye,b7d9d81d,299748f4,60
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,quick-curlew,c16e99a0,34090604,80
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Nico,396fad2d,de28e027,7
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,Phillip Lorenzo,85eb0e18,de28e027,30
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,instinctive-nyala,767eb800,c0698ba3,85
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,yaseenagag,690c133a,Yaseen Hussain,Harman Singh,adda47cf,56091f86,30
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,bluemihai,070b3063,Mihai Banulescu,dazzling-white-eye,b7d9d81d,299748f4,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,quick-curlew,c16e99a0,34090604,90
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,harmanisdeep,adda47cf,Harman Singh,Yaseen Hussain,690c133a,56091f86,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,wiggly-jacana,3b7c4e64,7916c4fc,80
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,cluttered-partridge,868785dd,8507ec50,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,tested-serval,363d0e23,ec7ba19d,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,wiggly-jacana,3b7c4e64,7916c4fc,87
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,quick-curlew,c16e99a0,34090604,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,bluemihai,070b3063,Mihai Banulescu,tested-serval,363d0e23,ec7ba19d,75
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,cluttered-partridge,868785dd,8507ec50,95
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,cluttered-partridge,868785dd,8507ec50,80
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jrob8577,75dbe257,John Roberts,Harman Singh,adda47cf,56091f86,"I want to work with you because you show a desire to struggle with the tough concepts we're working with, and ask questions that help me externalize my knowledge as we work together. I would want to work with you more if you were more self-directed, and engaged with the project."
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Jusdev89,29f423c4,Devon Wesley,Mihai Banulescu,070b3063,7256392b,25
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,nicosesma,396fad2d,Nico,Nico,396fad2d,de28e027,23
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,wiggly-jacana,3b7c4e64,7916c4fc,80
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,quick-curlew,c16e99a0,34090604,85
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,asantos3026,45664623,Aileen Santos,quick-curlew,c16e99a0,34090604,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,instinctive-nyala,767eb800,c0698ba3,80
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,dazzling-white-eye,b7d9d81d,299748f4,70
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Jared Grippe,dcf14075,de28e027,44
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,wiggly-jacana,3b7c4e64,7916c4fc,80
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,James D Stewart,b6aa9c94,c4297101,40
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,bluemihai,070b3063,Mihai Banulescu,James D Stewart,b6aa9c94,c4297101,"I want to work with you because you're self-aware and appropriately confident at this point in your career.  You also seem to be willing to take on responsibility, and there's a streak of boldness."
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,James D Stewart,b6aa9c94,c4297101,24
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,yaseenagag,690c133a,Yaseen Hussain,Yaseen Hussain,690c133a,56091f86,30
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Jared Grippe,dcf14075,de28e027,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,phoniks,90945a45,John Hopkins,Shaka Lee,9ae522cc,36be33ca,6
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,bluemihai,070b3063,Mihai Banulescu,James D Stewart,b6aa9c94,c4297101,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,dazzling-white-eye,b7d9d81d,299748f4,95
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,terrific-crake,2abf68bc,8187186f,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,harmanisdeep,adda47cf,Harman Singh,Yaseen Hussain,690c133a,56091f86,"I want to work with you because you are a hardworker, and we have fun together. I want to work with you more if you were able to help more with code and force me and you to focus."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,bluemihai,070b3063,Mihai Banulescu,Majid Rahimi,45a99283,7256392b,"I want to work with you because you're skilled, confident and methodical, because you're funny (intentional or not), because you seem to value both your own perspective and others'.  I would want to work with you more if...  I can't quite tell if you're TOO confident; certainly nothing's rubbing me the wrong way.  But I can kind of imagine circumstances where it might..."
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,cluttered-partridge,868785dd,8507ec50,50
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,rachel-ftw,936e3168,Rachel,Moniarchy,cbcff678,5fc0d2e8,"I want to work with you because you're rad and caring, you're on point, and you work hard. I'd want to work with you more if... When your foundation of learning is stronger, but that'll happen in time. ^__^"
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,bluemihai,070b3063,Mihai Banulescu,Thomas W. Smith,89ffaeb3,c4297101,4
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,instinctive-nyala,767eb800,c0698ba3,70
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,Harman Singh,adda47cf,56091f86,25
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,deadlyicon,dcf14075,Jared Grippe,Nico,396fad2d,de28e027,6
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,nicosesma,396fad2d,Nico,anasauce,4d87f1c5,de28e027,"@Anasause, I want to work with you because you are open to trying new ideas while programming. I would want to work with you more if you collaborated more."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,tested-serval,363d0e23,ec7ba19d,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,tested-serval,363d0e23,ec7ba19d,65
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,yaseenagag,690c133a,Yaseen Hussain,Harman Singh,adda47cf,56091f86,"I love to work with you because i learn so much from you and you take your time to explain things even if its too basic.
+
+I would love to work with you if you can take it easy on yourself because you are working too hard"
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Nico,396fad2d,de28e027,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,asantos3026,45664623,Aileen Santos,wiggly-jacana,3b7c4e64,7916c4fc,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,instinctive-nyala,767eb800,c0698ba3,67
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,quick-curlew,c16e99a0,34090604,60
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,Shaka Lee,9ae522cc,36be33ca,20
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,dazzling-white-eye,b7d9d81d,299748f4,95
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,tested-serval,363d0e23,ec7ba19d,70
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,Jusdev89,29f423c4,Devon Wesley,Mihai Banulescu,070b3063,7256392b,7
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Mihai Banulescu,070b3063,7256392b,I want to work with you because of the amazing methods and techniques you bring to the group around group dynamics and reflection. And the way you share your process out loud is amazing for learning. I can't think of anything that would make me want to work with you more.
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,deadlyicon,dcf14075,Jared Grippe,John Hopkins,90945a45,36be33ca,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,tested-serval,363d0e23,ec7ba19d,85
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,harmanisdeep,adda47cf,Harman Singh,John Roberts,75dbe257,56091f86,6
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,Jusdev89,29f423c4,Devon Wesley,EthanJStark,4a6f36f6,7256392b,7
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,deadlyicon,dcf14075,Jared Grippe,tested-serval,363d0e23,36be33ca,16
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,wiggly-jacana,3b7c4e64,7916c4fc,80
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Moniarchy,cbcff678,Moniarchy,Rachel,936e3168,5fc0d2e8,30
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,shakalee14,9ae522cc,Shaka Lee,John Hopkins,90945a45,36be33ca,"John was great to work with. Took the time to figure things out. In the beginning, John was really hesitant to pair program in the beginning. He spent a lot of time but got really stuck on certain issues."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,tested-serval,363d0e23,ec7ba19d,80
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,phoniks,90945a45,John Hopkins,Jared Grippe,dcf14075,36be33ca,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,quick-curlew,c16e99a0,34090604,95
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,rachel-ftw,936e3168,Rachel,Moniarchy,cbcff678,5fc0d2e8,19
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,instinctive-nyala,767eb800,c0698ba3,83
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,dazzling-white-eye,b7d9d81d,299748f4,60
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,quick-curlew,c16e99a0,34090604,93
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,dazzling-white-eye,b7d9d81d,299748f4,60
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,cluttered-partridge,868785dd,8507ec50,96
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,quick-curlew,c16e99a0,34090604,95
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,terrific-crake,2abf68bc,8187186f,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,phoniks,90945a45,John Hopkins,Aileen Santos,45664623,36be33ca,6
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,tested-serval,363d0e23,ec7ba19d,70
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,tested-serval,363d0e23,ec7ba19d,80
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Devon Wesley,29f423c4,7256392b,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,dazzling-white-eye,b7d9d81d,299748f4,75
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,cluttered-partridge,868785dd,8507ec50,90
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,shakalee14,9ae522cc,Shaka Lee,Aileen Santos,45664623,36be33ca,24
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,sydroth,f7ba1065,Syd Rothman,Syd Rothman,f7ba1065,e8c89422,21
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Mihai Banulescu,070b3063,7256392b,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,quick-curlew,c16e99a0,34090604,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,bluemihai,070b3063,Mihai Banulescu,dazzling-white-eye,b7d9d81d,299748f4,70
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,Moniarchy,cbcff678,Moniarchy,Rachel,936e3168,5fc0d2e8,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,terrific-crake,2abf68bc,8187186f,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jrob8577,75dbe257,John Roberts,Harman Singh,adda47cf,56091f86,5
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,Jusdev89,29f423c4,Devon Wesley,Majid Rahimi,45a99283,7256392b,7
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,bluemihai,070b3063,Mihai Banulescu,quick-curlew,c16e99a0,c4297101,28
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,phoniks,90945a45,John Hopkins,Jared Grippe,dcf14075,36be33ca,30
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jrob8577,75dbe257,John Roberts,Yaseen Hussain,690c133a,56091f86,"I want to work with you because you ask great questions that help me externalize my knowledge as we work together. I would want to work with you more if you were more self-directed and engaged with the project, honoring our commitments to be present and on time."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,tested-serval,363d0e23,ec7ba19d,85
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,bluemihai,070b3063,Mihai Banulescu,terrific-crake,2abf68bc,8187186f,80
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,rachel-ftw,936e3168,Rachel,Moniarchy,cbcff678,5fc0d2e8,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,cluttered-partridge,868785dd,8507ec50,98
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,bluemihai,070b3063,Mihai Banulescu,Devon Wesley,29f423c4,7256392b,7
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,phoniks,90945a45,John Hopkins,Shaka Lee,9ae522cc,36be33ca,5
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,dazzling-white-eye,b7d9d81d,299748f4,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,nicosesma,396fad2d,Nico,Phillip Lorenzo,85eb0e18,de28e027,"@pllearns, I want to work with you because you're a great developer who encourages the team to keep moving forward and contributes positively to the dynamics of the team so we get the project done efficiently. I would want to work with you more in the future."
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,Thomas W. Smith,89ffaeb3,c4297101,10
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,bluemihai,070b3063,Mihai Banulescu,Devon Wesley,29f423c4,7256392b,6
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Jusdev89,29f423c4,Devon Wesley,EthanJStark,4a6f36f6,7256392b,25
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,terrific-crake,2abf68bc,8187186f,100
+3,How much did each team member contribute this cycle?,cacefe2b,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Majid Rahimi,45a99283,7256392b,30
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,bluemihai,070b3063,Mihai Banulescu,EthanJStark,4a6f36f6,7256392b,6
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,deadlyicon,dcf14075,Jared Grippe,Aileen Santos,45664623,36be33ca,7
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,harmanisdeep,adda47cf,Harman Singh,Yaseen Hussain,690c133a,56091f86,6
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,harmanisdeep,adda47cf,Harman Singh,John Roberts,75dbe257,56091f86,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,terrific-crake,2abf68bc,8187186f,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Mihai Banulescu,070b3063,c4297101,Work with: because your honesty and directness is extremely useful. I would want to work with you more if you continue providing feedback.
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,cluttered-partridge,868785dd,8507ec50,95
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,yaseenagag,690c133a,Yaseen Hussain,John Roberts,75dbe257,56091f86,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jrob8577,75dbe257,John Roberts,Moniarchy,cbcff678,5fc0d2e8,7
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,Rachel,936e3168,5fc0d2e8,15
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,tested-serval,363d0e23,ec7ba19d,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,EthanJStark,4a6f36f6,EthanJStark,EthanJStark,4a6f36f6,7256392b,26
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,asantos3026,45664623,Aileen Santos,dazzling-white-eye,b7d9d81d,299748f4,87
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,cluttered-partridge,868785dd,8507ec50,90
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Thomas W. Smith,89ffaeb3,c4297101,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,terrific-crake,2abf68bc,8187186f,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jrob8577,75dbe257,John Roberts,Syd Rothman,f7ba1065,e8c89422,6
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Nico,396fad2d,de28e027,"@nicosesma I want to work with you because you continue to demonstrate that you have a passion to be a web developer. I am grateful for your continued effort on each project, and I really want you to be an awesome developer."
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,shakalee14,9ae522cc,Shaka Lee,Jared Grippe,dcf14075,36be33ca,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,cluttered-partridge,868785dd,8507ec50,70
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,cluttered-partridge,868785dd,8507ec50,80
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,Syd Rothman,f7ba1065,e8c89422,20
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,Mihai Banulescu,070b3063,c4297101,We have conflicting personalities and styles. This is a learning opportunity and I thank you for every moment.
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Mihai Banulescu,070b3063,c4297101,50
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,dazzling-white-eye,b7d9d81d,299748f4,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,tested-serval,363d0e23,ec7ba19d,85
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,instinctive-nyala,767eb800,c0698ba3,70
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,yaseenagag,690c133a,Yaseen Hussain,John Roberts,75dbe257,56091f86,Always lovely working with you
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,Thomas W. Smith,89ffaeb3,c4297101,15
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Jared Grippe,dcf14075,de28e027,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,nicosesma,396fad2d,Nico,anasauce,4d87f1c5,de28e027,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,instinctive-nyala,767eb800,c0698ba3,78
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,quick-curlew,c16e99a0,34090604,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,instinctive-nyala,767eb800,c0698ba3,75
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Phillip Lorenzo,85eb0e18,de28e027,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,instinctive-nyala,767eb800,c0698ba3,70
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,dazzling-white-eye,b7d9d81d,299748f4,95
+3,How much did each team member contribute this cycle?,cacefe2b,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Phillip Lorenzo,85eb0e18,de28e027,20
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,cluttered-partridge,868785dd,8507ec50,95
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Moniarchy,cbcff678,Moniarchy,Moniarchy,cbcff678,5fc0d2e8,12
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,Mihai Banulescu,070b3063,c4297101,5
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,anasauce,4d87f1c5,de28e027,7
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,deadlyicon,dcf14075,Jared Grippe,Aileen Santos,45664623,36be33ca,i love how positive you are. youre awesome
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,deadlyicon,dcf14075,Jared Grippe,Nico,396fad2d,de28e027,5
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,phoniks,90945a45,John Hopkins,Shaka Lee,9ae522cc,36be33ca,25
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,rachel-ftw,936e3168,Rachel,John Roberts,75dbe257,5fc0d2e8,49
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,dazzling-white-eye,b7d9d81d,299748f4,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Mihai Banulescu,070b3063,7256392b,22
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,dazzling-white-eye,b7d9d81d,299748f4,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,tested-serval,363d0e23,ec7ba19d,90
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,harmanisdeep,adda47cf,Harman Singh,Yaseen Hussain,690c133a,56091f86,30
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,tested-serval,363d0e23,ec7ba19d,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,tested-serval,363d0e23,ec7ba19d,89
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Majid Rahimi,45a99283,7256392b,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,wiggly-jacana,3b7c4e64,7916c4fc,70
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,anasauce,4d87f1c5,de28e027,"I want to work with you because I feel that you do have a passion for code and have a good heart. I know that we will continue to exchange ideas and concepts. I think the only thing I would want to communicate to you is to let go a little more and let us fail a little more, that's also self-advice for me too."
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Nico,396fad2d,de28e027,"@nicosesma, I want to work with you because you are incredibly smart, maybe one of the smartest people here. You have a calm demeanor that was very helpful in stressful situations. I would want to work with you more if...sometimes you were just a tad bit more vocal. But other than that, you are a great team member."
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,sydroth,f7ba1065,Syd Rothman,John Roberts,75dbe257,e8c89422,79
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,tested-serval,363d0e23,ec7ba19d,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Nico,396fad2d,de28e027,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,dazzling-white-eye,b7d9d81d,299748f4,99
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Thomas W. Smith,89ffaeb3,c4297101,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,terrific-crake,2abf68bc,8187186f,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,instinctive-nyala,767eb800,c0698ba3,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,instinctive-nyala,767eb800,c0698ba3,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,quick-curlew,c16e99a0,34090604,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,instinctive-nyala,767eb800,c0698ba3,65
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,quick-curlew,c16e99a0,34090604,95
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Majid Rahimi,45a99283,7256392b,"I want to work with you because of your confidence, determination, dedication, and strong inner drive. I can't think of anything that would make me want to work with you more."
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,bluemihai,070b3063,Mihai Banulescu,EthanJStark,4a6f36f6,7256392b,"I want to work with you because you're calm and positive in a way that influences others, you seem to value me and your other group mates and are comfortable sharing that.  I would want to work with you more if you had even more experience which might result in speed, etc - but you're pretty good at that already."
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,shakalee14,9ae522cc,Shaka Lee,Jared Grippe,dcf14075,36be33ca,35
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,bluemihai,070b3063,Mihai Banulescu,terrific-crake,2abf68bc,7256392b,30
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,terrific-crake,2abf68bc,8187186f,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,asantos3026,45664623,Aileen Santos,quick-curlew,c16e99a0,34090604,86
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,tested-serval,363d0e23,ec7ba19d,89
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,rachel-ftw,936e3168,Rachel,John Roberts,75dbe257,5fc0d2e8,"I want to work with you because You're patient, you know what you're doing, and you help us to understand the problem better. I'd want to work with you more if...no comment... I think you did a great job. We're all struggling with balance and learning how to do this game."
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,yaseenagag,690c133a,Yaseen Hussain,Harman Singh,adda47cf,56091f86,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,quick-curlew,c16e99a0,34090604,85
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,shakalee14,9ae522cc,Shaka Lee,Aileen Santos,45664623,36be33ca,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,James D Stewart,b6aa9c94,c4297101,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,asantos3026,45664623,Aileen Santos,instinctive-nyala,767eb800,c0698ba3,85
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,James D Stewart,b6aa9c94,c4297101,35
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,Nico,396fad2d,de28e027,30
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,bluemihai,070b3063,Mihai Banulescu,tested-serval,363d0e23,ec7ba19d,85
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,rachel-ftw,936e3168,Rachel,Rachel,936e3168,5fc0d2e8,32
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,terrific-crake,2abf68bc,8187186f,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,deadlyicon,dcf14075,Jared Grippe,Shaka Lee,9ae522cc,36be33ca,keep being positive. you rock!
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,quick-curlew,c16e99a0,34090604,70
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,harmanisdeep,adda47cf,Harman Singh,cluttered-partridge,868785dd,56091f86,40
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,yaseenagag,690c133a,Yaseen Hussain,cluttered-partridge,868785dd,56091f86,40
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,quick-curlew,c16e99a0,34090604,75
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,deadlyicon,dcf14075,Jared Grippe,anasauce,4d87f1c5,de28e027,6
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jrob8577,75dbe257,John Roberts,Rachel,936e3168,5fc0d2e8,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,instinctive-nyala,767eb800,c0698ba3,95
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,cluttered-partridge,868785dd,8507ec50,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Mihai Banulescu,070b3063,7256392b,"I learned from him, he's a lovely person"
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,tested-serval,363d0e23,ec7ba19d,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,quick-curlew,c16e99a0,34090604,87
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,deadlyicon,dcf14075,Jared Grippe,anasauce,4d87f1c5,de28e027,you're awesome ana!
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,wiggly-jacana,3b7c4e64,7916c4fc,75
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,phoniks,90945a45,John Hopkins,Shaka Lee,9ae522cc,36be33ca,"I want to work with you because you're funny and fun, and I would want to work with you more if you made it more clear that you're serious sometimes too."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,cluttered-partridge,868785dd,8507ec50,75
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,cluttered-partridge,868785dd,8507ec50,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,instinctive-nyala,767eb800,c0698ba3,100
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,deadlyicon,dcf14075,Jared Grippe,Shaka Lee,9ae522cc,36be33ca,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,asantos3026,45664623,Aileen Santos,instinctive-nyala,767eb800,c0698ba3,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,tested-serval,363d0e23,ec7ba19d,80
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,nicosesma,396fad2d,Nico,anasauce,4d87f1c5,de28e027,22
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jrob8577,75dbe257,John Roberts,Moniarchy,cbcff678,5fc0d2e8,7
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Phillip Lorenzo,85eb0e18,de28e027,"@pllearns, I want to work with you because you are a great person to work with! You are incredibly smart and fun to collaborate with. You alway put the needs of the project and the team collective first. You really helped provide kind leadership that helped us meet our goals. I would want to work with you more if...I can't think of anything. Honestly you are one of my favorite people I have worked with."
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,yaseenagag,690c133a,Yaseen Hussain,Harman Singh,adda47cf,56091f86,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,tested-serval,363d0e23,ec7ba19d,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,dazzling-white-eye,b7d9d81d,299748f4,99
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,sydroth,f7ba1065,Syd Rothman,John Roberts,75dbe257,e8c89422,I want to work with you because you're very concise and easy to understand when you explain things. I find learning comes easy from you. I would want to work with you more if you allowed more time for learning vs. completing project.
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,bluemihai,070b3063,Mihai Banulescu,Majid Rahimi,45a99283,7256392b,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,tested-serval,363d0e23,ec7ba19d,85
+3,How much did each team member contribute this cycle?,cacefe2b,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,anasauce,4d87f1c5,de28e027,20
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Mihai Banulescu,070b3063,7256392b,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,quick-curlew,c16e99a0,34090604,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,deadlyicon,dcf14075,Jared Grippe,Phillip Lorenzo,85eb0e18,de28e027,5
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,quick-curlew,c16e99a0,34090604,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,instinctive-nyala,767eb800,c0698ba3,75
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,cluttered-partridge,868785dd,8507ec50,60
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,terrific-crake,2abf68bc,8187186f,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Jared Grippe,dcf14075,de28e027,"@deadlyicon, I love working with you because I always know that you will come in and assist but expect a lot of me too. I know that I still know nothing, but I am grateful that you are around so that I feel supported."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,instinctive-nyala,767eb800,c0698ba3,65
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,wiggly-jacana,3b7c4e64,7916c4fc,85
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,nicosesma,396fad2d,Nico,Jared Grippe,dcf14075,de28e027,31
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,cluttered-partridge,868785dd,8507ec50,75
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,deadlyicon,dcf14075,Jared Grippe,instinctive-nyala,767eb800,de28e027,16
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,bluemihai,070b3063,Mihai Banulescu,cluttered-partridge,868785dd,8507ec50,65
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,phoniks,90945a45,John Hopkins,John Hopkins,90945a45,36be33ca,20
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,EthanJStark,4a6f36f6,7256392b,6
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,harmanisdeep,adda47cf,Harman Singh,John Roberts,75dbe257,56091f86,40
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Majid Rahimi,45a99283,7256392b,26
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,Mihai Banulescu,070b3063,c4297101,50
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,harmanisdeep,adda47cf,Harman Singh,Harman Singh,adda47cf,56091f86,30
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,instinctive-nyala,767eb800,c0698ba3,85
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,asantos3026,45664623,Aileen Santos,terrific-crake,2abf68bc,8187186f,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,quick-curlew,c16e99a0,34090604,93
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,Jared Grippe,dcf14075,36be33ca,40
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,phoniks,90945a45,John Hopkins,Jared Grippe,dcf14075,36be33ca,5
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Jared Grippe,dcf14075,de28e027,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,shakalee14,9ae522cc,Shaka Lee,Aileen Santos,45664623,36be33ca,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,dazzling-white-eye,b7d9d81d,299748f4,80
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,nicosesma,396fad2d,Nico,Jared Grippe,dcf14075,de28e027,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,terrific-crake,2abf68bc,8187186f,100
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,quick-curlew,c16e99a0,34090604,75
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,deadlyicon,dcf14075,Jared Grippe,Phillip Lorenzo,85eb0e18,de28e027,7
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,shakalee14,9ae522cc,Shaka Lee,Jared Grippe,dcf14075,36be33ca,Jared is super great at doing cognitive apprenticeship.
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,quick-curlew,c16e99a0,c4297101,from the moment I stepped in to the moment I stepped out. . . . and maybe a little after. 41 hours
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,nicosesma,396fad2d,Nico,Phillip Lorenzo,85eb0e18,de28e027,24
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,terrific-crake,2abf68bc,8187186f,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,yaseenagag,690c133a,Yaseen Hussain,John Roberts,75dbe257,56091f86,40
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jrob8577,75dbe257,John Roberts,Yaseen Hussain,690c133a,56091f86,5
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,quick-curlew,c16e99a0,34090604,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,shakalee14,9ae522cc,Shaka Lee,Aileen Santos,45664623,36be33ca,"I want to work with Aileen because she is super dedicated, willing to go through things step by step and really pushed herself more than last week to do backend things. I would want to work with you more if Aileen she was more willing to use less frameworks."
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,terrific-crake,2abf68bc,7256392b,45
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Devon Wesley,29f423c4,7256392b,"He's awesome, I love working with him"
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,tested-serval,363d0e23,ec7ba19d,70
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,shakalee14,9ae522cc,Shaka Lee,Shaka Lee,9ae522cc,36be33ca,21
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Thomas W. Smith,89ffaeb3,c4297101,10
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,John Hopkins,90945a45,36be33ca,20
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,cluttered-partridge,868785dd,8507ec50,70
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,anasauce,4d87f1c5,de28e027,20
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,asantos3026,45664623,Aileen Santos,terrific-crake,2abf68bc,8187186f,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,dazzling-white-eye,b7d9d81d,299748f4,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,tested-serval,363d0e23,ec7ba19d,88
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jrob8577,75dbe257,John Roberts,Harman Singh,adda47cf,56091f86,5
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,phoniks,90945a45,John Hopkins,Aileen Santos,45664623,36be33ca,I want to work with you because you're awesome with the front end and fun to work with.  I would want to work with you more if you weren't so intimidated by the back end.  You can do it!
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Nico,396fad2d,de28e027,19
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,tested-serval,363d0e23,ec7ba19d,100
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,Jusdev89,29f423c4,Devon Wesley,EthanJStark,4a6f36f6,7256392b,7
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,anasauce,4d87f1c5,de28e027,18
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,Jusdev89,29f423c4,Devon Wesley,Mihai Banulescu,070b3063,7256392b,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,instinctive-nyala,767eb800,c0698ba3,70
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,bluemihai,070b3063,Mihai Banulescu,quick-curlew,c16e99a0,34090604,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,quick-curlew,c16e99a0,34090604,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,wiggly-jacana,3b7c4e64,7916c4fc,80
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,shakalee14,9ae522cc,Shaka Lee,dazzling-white-eye,b7d9d81d,299748f4,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,terrific-crake,2abf68bc,8187186f,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,quick-curlew,c16e99a0,34090604,95
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,deadlyicon,dcf14075,Jared Grippe,anasauce,4d87f1c5,de28e027,5
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,phoniks,90945a45,John Hopkins,Aileen Santos,45664623,36be33ca,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,wiggly-jacana,3b7c4e64,7916c4fc,95
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,instinctive-nyala,767eb800,c0698ba3,88
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,cluttered-partridge,868785dd,8507ec50,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,harmanisdeep,adda47cf,Harman Singh,John Roberts,75dbe257,56091f86,I want to work with you because you help me fix issues. I would want to work with you more if you were able to help me and my team for a longer time like you did with other groups.
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,James D Stewart,b6aa9c94,c4297101,6
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jrob8577,75dbe257,John Roberts,dazzling-white-eye,b7d9d81d,299748f4,100
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,dazzling-white-eye,b7d9d81d,299748f4,95
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,wiggly-jacana,3b7c4e64,7916c4fc,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,instinctive-nyala,767eb800,c0698ba3,65
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jrob8577,75dbe257,John Roberts,cluttered-partridge,868785dd,8507ec50,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,quick-curlew,c16e99a0,34090604,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,quick-curlew,c16e99a0,34090604,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,bluemihai,070b3063,Mihai Banulescu,terrific-crake,2abf68bc,8187186f,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,bluemihai,070b3063,Mihai Banulescu,Thomas W. Smith,89ffaeb3,c4297101,More to share in person
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,tested-serval,363d0e23,ec7ba19d,70
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,shakalee14,9ae522cc,Shaka Lee,John Hopkins,90945a45,36be33ca,6
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,terrific-crake,2abf68bc,8187186f,100
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Mihai Banulescu,070b3063,7256392b,7
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,instinctive-nyala,767eb800,de28e027,45 hrs
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,tested-serval,363d0e23,ec7ba19d,90
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,deadlyicon,dcf14075,Jared Grippe,John Hopkins,90945a45,36be33ca,5
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,nicosesma,396fad2d,Nico,terrific-crake,2abf68bc,8187186f,98
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,nicosesma,396fad2d,Nico,Jared Grippe,dcf14075,de28e027,"@deadlyicon, I want to work with you because you're a great programmer and are able to find many creative solutions, which helps me learn a lot while getting the project done as well. I would want to work with you more if I was able to keep up with your agile typing and thought-processing while coding."
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,James D Stewart,b6aa9c94,c4297101,I learned how to be a more assertive person. Thank you James.
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jrob8577,75dbe257,John Roberts,Rachel,936e3168,5fc0d2e8,"I want to work with you because you are incredibly organized and thoughtful in the way you approach solving problems, and you easily engage with other learners to help facilitate their understanding. I would want to work with you more, period.  :)"
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,John Roberts,75dbe257,56091f86,60
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,dazzling-white-eye,b7d9d81d,299748f4,95
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,instinctive-nyala,767eb800,c0698ba3,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,wiggly-jacana,3b7c4e64,7916c4fc,75
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,bluemihai,070b3063,Mihai Banulescu,quick-curlew,c16e99a0,34090604,80
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,cluttered-partridge,868785dd,8507ec50,90
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,Jusdev89,29f423c4,Devon Wesley,Majid Rahimi,45a99283,7256392b,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,tested-serval,363d0e23,ec7ba19d,70
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,terrific-crake,2abf68bc,8187186f,100
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Jared Grippe,dcf14075,de28e027,7
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,dazzling-white-eye,b7d9d81d,299748f4,90
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,Devon Wesley,29f423c4,7256392b,27
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,cluttered-partridge,868785dd,8507ec50,95
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,instinctive-nyala,767eb800,c0698ba3,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,bluemihai,070b3063,Mihai Banulescu,cluttered-partridge,868785dd,8507ec50,80
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,Jusdev89,29f423c4,Devon Wesley,Mihai Banulescu,070b3063,7256392b,you always excited about in challenges and we had more time to code review
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,cluttered-partridge,868785dd,8507ec50,100
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,deadlyicon,dcf14075,Jared Grippe,Phillip Lorenzo,85eb0e18,de28e027,you're awesome. i would love to work with you more
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,dazzling-white-eye,b7d9d81d,299748f4,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,terrific-crake,2abf68bc,8187186f,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Devon Wesley,29f423c4,7256392b,26
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Devon Wesley,29f423c4,7256392b,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,shakalee14,9ae522cc,Shaka Lee,John Hopkins,90945a45,36be33ca,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Majid Rahimi,45a99283,7256392b,7
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,sydroth,f7ba1065,Syd Rothman,John Roberts,75dbe257,e8c89422,7
+3,How much did each team member contribute this cycle?,cacefe2b,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Devon Wesley,29f423c4,7256392b,30
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,cluttered-partridge,868785dd,8507ec50,85
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,jrob8577,75dbe257,John Roberts,Yaseen Hussain,690c133a,56091f86,5
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,phoniks,90945a45,John Hopkins,Jared Grippe,dcf14075,36be33ca,"I want to work with you because ""jared magic"" is awesome, and I would want to work with you more if you didn't shit on Keystone so much. :)"
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,terrific-crake,2abf68bc,8187186f,100
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,instinctive-nyala,767eb800,de28e027,30 plus
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,jrob8577,75dbe257,John Roberts,cluttered-partridge,868785dd,56091f86,10
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,cluttered-partridge,868785dd,8507ec50,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,wiggly-jacana,3b7c4e64,7916c4fc,75
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,nicosesma,396fad2d,Nico,Jared Grippe,dcf14075,de28e027,7
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,EthanJStark,4a6f36f6,7256392b,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,instinctive-nyala,767eb800,c0698ba3,70
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,quick-curlew,c16e99a0,34090604,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,instinctive-nyala,767eb800,c0698ba3,73
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,nicosesma,396fad2d,Nico,anasauce,4d87f1c5,de28e027,7
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,instinctive-nyala,767eb800,c0698ba3,78
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,John Roberts,75dbe257,5fc0d2e8,60
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,rachel-ftw,936e3168,Rachel,John Roberts,75dbe257,5fc0d2e8,7
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Jared Grippe,dcf14075,de28e027,"@deadlyicon, I want to work with you because you are incredibly skilled and scarily intelligent. You are incredibly good at mentoring less experienced players in a way that helps move our project forward. I would want to work with you more if you played less video games in the afternoon...lol."
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,dazzling-white-eye,b7d9d81d,299748f4,85
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,jrob8577,75dbe257,John Roberts,Syd Rothman,f7ba1065,e8c89422,6
+3,How much did each team member contribute this cycle?,cacefe2b,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,EthanJStark,4a6f36f6,7256392b,25
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,wiggly-jacana,3b7c4e64,7916c4fc,90
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,EthanJStark,4a6f36f6,EthanJStark,terrific-crake,2abf68bc,7256392b,36
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,sydroth,f7ba1065,Syd Rothman,John Roberts,75dbe257,e8c89422,7
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,dazzling-white-eye,b7d9d81d,299748f4,80
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,wiggly-jacana,3b7c4e64,7916c4fc,75
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,bluemihai,070b3063,Mihai Banulescu,James D Stewart,b6aa9c94,c4297101,5
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,deadlyicon,dcf14075,Jared Grippe,John Hopkins,90945a45,36be33ca,you the man John. Looking forward to working with you again
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,deadlyicon,dcf14075,Jared Grippe,Jared Grippe,dcf14075,de28e027,20
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,phoniks,90945a45,John Hopkins,tested-serval,363d0e23,36be33ca,all of the hours.
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,quick-curlew,c16e99a0,34090604,90
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Devon Wesley,29f423c4,7256392b,7
+3,How much did each team member contribute this cycle?,cacefe2b,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Nico,396fad2d,de28e027,20
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,bluemihai,070b3063,Mihai Banulescu,EthanJStark,4a6f36f6,7256392b,7
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,tested-serval,363d0e23,ec7ba19d,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,rachel-ftw,936e3168,Rachel,dazzling-white-eye,b7d9d81d,299748f4,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jrob8577,75dbe257,John Roberts,Moniarchy,cbcff678,5fc0d2e8,I want to work with you because you are thoughtful and organized in the way you ask questions and pursue knowledge.  I would want to work with you more without qualification.  :)
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,yaseenagag,690c133a,Yaseen Hussain,John Roberts,75dbe257,56091f86,7
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,Majid Rahimi,45a99283,7256392b,27
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,sydroth,f7ba1065,Syd Rothman,dazzling-white-eye,b7d9d81d,e8c89422,40 ish?
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,bluemihai,070b3063,Mihai Banulescu,Thomas W. Smith,89ffaeb3,c4297101,5
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,EthanJStark,4a6f36f6,EthanJStark,terrific-crake,2abf68bc,8187186f,98
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,shakalee14,9ae522cc,Shaka Lee,tested-serval,363d0e23,36be33ca,35
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,EthanJStark,4a6f36f6,7256392b,25
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,asantos3026,45664623,Aileen Santos,wiggly-jacana,3b7c4e64,7916c4fc,85
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,bluemihai,070b3063,Mihai Banulescu,Mihai Banulescu,070b3063,c4297101,66
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,quick-curlew,c16e99a0,c4297101,Rescue time says 20 hrs and 8 minutes
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Mihai Banulescu,070b3063,7256392b,7
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,nicosesma,396fad2d,Nico,instinctive-nyala,767eb800,de28e027,38?
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Jusdev89,29f423c4,Devon Wesley,tested-serval,363d0e23,ec7ba19d,88
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Jusdev89,29f423c4,Devon Wesley,Devon Wesley,29f423c4,7256392b,25
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,nicosesma,396fad2d,Nico,Phillip Lorenzo,85eb0e18,de28e027,7
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,bluemihai,070b3063,Mihai Banulescu,Majid Rahimi,45a99283,7256392b,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,tested-serval,363d0e23,ec7ba19d,80
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,jrob8577,75dbe257,John Roberts,dazzling-white-eye,b7d9d81d,e8c89422,14
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,quick-curlew,c16e99a0,34090604,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,rachel-ftw,936e3168,Rachel,quick-curlew,c16e99a0,34090604,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Jusdev89,29f423c4,Devon Wesley,Majid Rahimi,45a99283,7256392b,25
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,terrific-crake,2abf68bc,8187186f,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,Yaseen Hussain,690c133a,56091f86,15
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Moniarchy,cbcff678,Moniarchy,dazzling-white-eye,b7d9d81d,299748f4,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,Moniarchy,cbcff678,Moniarchy,Rachel,936e3168,5fc0d2e8,"@rachel-ftw, I want to work with you because you took time to answer my questions. I would want to work with you more if you allowed me to implement my ideas EVEN more often instead of dismissing them. Even if ultimately you knew the path we needed to go on, I also need the opportunity to try and fail."
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,sydroth,f7ba1065,Syd Rothman,terrific-crake,2abf68bc,8187186f,100
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,tested-serval,363d0e23,ec7ba19d,70
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,Phillip Lorenzo,85eb0e18,de28e027,19
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,EthanJStark,4a6f36f6,7256392b,I enjoyed working with him
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,wiggly-jacana,3b7c4e64,7916c4fc,50
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,Moniarchy,cbcff678,Moniarchy,Rachel,936e3168,5fc0d2e8,5
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,yaseenagag,690c133a,Yaseen Hussain,dazzling-white-eye,b7d9d81d,299748f4,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,EthanJStark,4a6f36f6,EthanJStark,Devon Wesley,29f423c4,7256392b,"I want to work with you because your positive energy, strong communication, and insight. I can't think of anything that would make me want to work with you more."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,harmanisdeep,adda47cf,Harman Singh,tested-serval,363d0e23,ec7ba19d,100
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,phoniks,90945a45,John Hopkins,tested-serval,363d0e23,ec7ba19d,70
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,Devon Wesley,29f423c4,7256392b,7
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,anasauce,4d87f1c5,de28e027,7
+3,What percentage of this project has been completed?,65cad3c5,mrahimi1@mail.ccsf.edu,Farhad33,45a99283,Majid Rahimi,wiggly-jacana,3b7c4e64,7916c4fc,70
+3,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e,test@example.com,Moniarchy,cbcff678,Moniarchy,wiggly-jacana,3b7c4e64,5fc0d2e8,38
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,sydroth,f7ba1065,Syd Rothman,cluttered-partridge,868785dd,8507ec50,85
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,cluttered-partridge,868785dd,8507ec50,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,phoniks,90945a45,John Hopkins,wiggly-jacana,3b7c4e64,7916c4fc,100
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,Moniarchy,cbcff678,5fc0d2e8,25
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,pllearns,85eb0e18,Phillip Lorenzo,dazzling-white-eye,b7d9d81d,299748f4,90
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,deadlyicon,dcf14075,Jared Grippe,instinctive-nyala,767eb800,c0698ba3,75
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,shakalee14,9ae522cc,Shaka Lee,John Hopkins,90945a45,36be33ca,20
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,rachel-ftw,936e3168,Rachel,Moniarchy,cbcff678,5fc0d2e8,4
+3,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,Mihai Banulescu,070b3063,c4297101,6
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,Moniarchy,cbcff678,Moniarchy,dazzling-white-eye,b7d9d81d,299748f4,60
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,jrob8577,75dbe257,John Roberts,John Roberts,75dbe257,e8c89422,80
+3,How much did each team member contribute this cycle?,cacefe2b,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5,anasauce,Jared Grippe,dcf14075,de28e027,40
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,phoniks,90945a45,John Hopkins,Aileen Santos,45664623,36be33ca,25
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,shakalee14,9ae522cc,Shaka Lee,quick-curlew,c16e99a0,34090604,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,deadlyicon,dcf14075,Jared Grippe,terrific-crake,2abf68bc,8187186f,90
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jrob8577,75dbe257,John Roberts,Syd Rothman,f7ba1065,e8c89422,"I want to work with you because you are so engaged with the project, and are constantly looking for ways to increase your knowledge and understanding of the various technologies we are working with.  I would want to work with you more if you practiced remaining focused on the task at hand, and continued to push into areas of knowledge and technology that you are not comfortable with."
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,nicosesma,396fad2d,Nico,instinctive-nyala,767eb800,c0698ba3,90
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,TS22082,89ffaeb3,Thomas W. Smith,quick-curlew,c16e99a0,34090604,95
+3,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14,test@example.com,jamestewartjr,b6aa9c94,James D Stewart,Thomas W. Smith,89ffaeb3,c4297101,I want to work with you because you are willing to be direct about where you are. I would want to work with you more if you were to really get comfortable with different process or lack of process.
+3,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5,test@example.com,harmanisdeep,adda47cf,Harman Singh,instinctive-nyala,767eb800,c0698ba3,95
+3,How much did each team member contribute this cycle?,cacefe2b,test@example.com,Moniarchy,cbcff678,Moniarchy,John Roberts,75dbe257,5fc0d2e8,58
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,deadlyicon,dcf14075,Jared Grippe,Aileen Santos,45664623,36be33ca,5
+3,What percentage of this project has been completed?,65cad3c5,test@example.com,Jusdev89,29f423c4,Devon Wesley,dazzling-white-eye,b7d9d81d,299748f4,85
+3,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0,test@example.com,nicosesma,396fad2d,Nico,Phillip Lorenzo,85eb0e18,de28e027,7

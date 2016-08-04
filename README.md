@@ -1,4 +1,4 @@
-# game-prototype
+# Game Prototype
 
 Lightweight, minimal implementation of game mechanics for rapid experimentation and prototyping.
 
@@ -17,9 +17,14 @@ Then move the cycle data files to the `data/` directory (that way they aren't tr
 Now you can create specs for one or more cycles:
 
 ```shell-session
-$ ruby stat_reporter.rb data/cycle-1.csv data/cycle-2.csv > stats.csv
+$ bin/stat-report-chapter data/cycle-1.csv data/cycle-2.csv > stats.csv
 $ cat stats.csv
-name,handle,xp,proj-completeness,proj-quality,rel-contribution
-bob jones,bobbyj,123,98.23,72.23,3.42
+id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
+af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
 ...
+
+$ bin/stat-report-player af38nda2 data/cycle-1.csv data/cycle-2.csv > stats.csv
+$ cat stats.csv
+id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
+af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
 ```

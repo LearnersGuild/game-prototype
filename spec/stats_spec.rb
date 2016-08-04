@@ -62,12 +62,12 @@ describe Stats do
     end
   end
 
-  describe "#project_hours" do
+  describe "#proj_hours" do
     describe "when given a player id and a project name" do
       let(:opts) { { player_id: '75dbe257', proj_name: 'cluttered-partridge' } } # player: 'jrob8577'
 
       it "finds the hours worked by the player on that project" do
-        expect(s.project_hours(opts)).to eq(10)
+        expect(s.proj_hours(opts)).to eq(10)
       end
     end
 
@@ -75,7 +75,7 @@ describe Stats do
       let(:opts) { { player_id: '936e3168', proj_name: 'wiggly-jacana' } } # player: 'rachel-ftw'
 
       it "it throws an InvalidHoursValueError error" do
-        expect { s.project_hours(opts) }.to raise_error(InvalidHoursValueError)
+        expect { s.proj_hours(opts) }.to raise_error(InvalidHoursValueError)
       end
     end
   end

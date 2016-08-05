@@ -4,7 +4,67 @@ Lightweight, minimal implementation of game mechanics for rapid experimentation 
 
 ## Stats
 
-First, go download the retro CSV data from `game.learnersguid.org`:
+There are two kinds of stat reports: `chapter` and `player`.
+
+Chapter reports are by default aggregates (they do not report data by cycle or project).
+
+Player reports show stats for each project and cycle, as well as the full aggregation.
+
+### Chapter Stat Reports
+
+Stats can be generated for a chapter by running `./bin/stat-report-chapter` and passing one or more data files.
+
+The report will be written to `STDOUT`, and any missing data or errors will be written to `STDERR`.
+
+```shell-session
+$ bin/stat-report-chapter data/cycle-1.csv data/cycle-2.csv > report-c2.csv
+$ cat report-c2.csv
+id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
+af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
+...
+
+$ bin/stat-report-chapter data/cycle-* > report-all.csv
+$ cat report-c2.csv
+id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
+af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
+...
+```
+
+### Player Stat Reports
+
+Stats can be generated for a player by running `./bin/stat-report-chapter` and passing a player id one or more data files.
+
+The report will be written to `STDOUT`, and any missing data or errors will be written to `STDERR`.
+
+The player id can be the first 4 bytes of a player's id (e.g. `b6aa9c94`) or the full 128-bit UUID.
+
+```shell-session
+$ ./bin/stat-report-player 75dbe257 data/cycle-3* > 75dbe257-report.csv
+$ cat 75dbe257-report.csv
+period,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,discern,no_proj_rvws
+aggregated stats,75dbe257,100.56,87.94,83.52,94.29,97.14,6.05,7
+cycle 3,75dbe257,100.56,87.94,83.52,94.29,97.14,6.05,7
+project cluttered-partridge,75dbe257,31.02,87.94,83.52,94.29,97.14,13.33,
+project dazzling-white-eye,75dbe257,32.36,87.94,83.52,94.29,97.14,0.5,
+project wiggly-jacana,75dbe257,37.18,87.94,83.52,94.29,97.14,4.33,
+```
+
+### Anonymity
+
+By default, all reports are generated without identifying player information (except for the shortened ID).
+
+To turn anonymity off, and display player info like their name and GitHub handle, set the `ANON` env variable to `false`:
+
+```shell-session
+$ ANON=false bin/stat-report-player 75dbe257 data/cycle-1*
+period,name,handle,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,discern,no_proj_rvws
+aggregated stats,John Roberts,jrob8577,75dbe257,84.91,94.0,91.0,97.62,95.24,3.89,8
+...
+```
+
+### Data Sources
+
+The stats expect specifically formatted CSV files of game data. Download the game CSV data from `game.learnersguid.org`:
 
 [https://game.learnersguild.org/reports/cycleResponses?chapterName=Oakland&cycleNumber=1](https://game.learnersguild.org/reports/cycleResponses?chapterName=Oakland&cycleNumber=1)
 
@@ -12,19 +72,20 @@ Change the `chapterName` and `cycleNumber` to match what you need.
 
 Note: you'll need to have `moderator` or `backoffice` privileges to download these files.
 
-Then move the cycle data files to the `data/` directory (that way they aren't tracked by git).
+Then move the cycle data files to a `./data/` directory (that way they aren't tracked by git).
 
-Now you can create specs for one or more cycles:
+### Validating Data
+
+Sometimes the data will not be clean, which can make the stats wonky.
+
+To validate game data, run `./bin/validate-data` and pass one or more data files:
 
 ```shell-session
-$ bin/stat-report-chapter data/cycle-1.csv data/cycle-2.csv > stats.csv
-$ cat stats.csv
-id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
-af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
-...
+$ bin/validate-data data/cycle-*.csv
 
-$ bin/stat-report-player af38nda2 data/cycle-1.csv data/cycle-2.csv > stats.csv
-$ cat stats.csv
-id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
-af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
+[ERROR] Non-numeric hours: '... all of them... 9 hrs/day m-th and through noon on Friday... so around 40.'
+ Record: {"cycleNumber"=>"3", "question"=>"During this past cycle, how many hours did you dedicate to this project?", "questionId"=>"29a4bc7e", "respondentEmail"=>"test@example.com",
+...
 ```
+
+It will highlight invalid or unparseable data in the files, so that you can fix them. ...which you'll have to do by hand. :)

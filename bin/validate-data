@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require_relative '../game_data_validator.rb'
+
+if ARGV.empty?
+  files = Dir[ File.expand_path('../../data/*.csv', __FILE__) ]
+else
+  files = ARGV
+end
+
+gv = GameDataValidator.new(GameData.import(ARGV))
+gv.validate_hours_are_numeric

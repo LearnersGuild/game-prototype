@@ -1,8 +1,9 @@
 class StatReporter
-  attr_reader :stats
+  attr_reader :stats, :anonymous
 
-  def initialize(stats)
+  def initialize(stats, anonymous=true)
     @stats = stats
+    @anonymous = anonymous
   end
 
   def stat_names
@@ -10,7 +11,7 @@ class StatReporter
   end
 
   def full_report(as=:csv)
-    report = stats.report
+    report = stats.report(anonymous: anonymous)
 
     return csv(report) if as == :csv
     report
@@ -34,7 +35,7 @@ class StatReporter
   end
 
   def player_aggreagate_report(player_id)
-    aggregate_report = stats.report(player_id: player_id).first
+    aggregate_report = stats.report(player_id: player_id, anonymous: anonymous).first
     { period: 'aggregated stats' }.merge(aggregate_report)
   end
 

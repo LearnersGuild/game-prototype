@@ -9,6 +9,8 @@ else
   files = ARGV
 end
 
+anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
+
 s = Stats.new(*files)
-r = StatReporter.new(s)
+r = StatReporter.new(s, anonymous)
 puts r.full_report

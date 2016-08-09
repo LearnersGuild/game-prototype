@@ -16,7 +16,7 @@ describe Stats do
       expect(rep.first.keys).not_to include(:name, :handle, :email)
     end
 
-    describe "when given a player_id:" do
+    describe "when given a player id" do
       it "calculates the correct stats for the player" do
         player_stats = s.report(player_id: '75dbe257') # player: 'jrob8577'
 

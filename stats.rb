@@ -40,7 +40,7 @@ class Stats
       stat_report[:lrn_supp] = learning_support(player_id: id)
       stat_report[:cult_cont] = culture_contrib(player_id: id)
       stat_report[:discern] = discernment(player_id: id)
-      stat_report[:no_proj_rvws] = no_proj_reviews(player_id: id)      
+      stat_report[:no_proj_rvws] = no_proj_reviews(player_id: id)
 
       stat_report
     end
@@ -191,6 +191,18 @@ class Stats
 
     hours = data.project(proj_name).reporter(player_id).proj_hours.values
     hours.map(&:to_i).reduce(:+)
+  end
+
+  def cycle_hours(opts = {})
+    hours = data.cycle(opts[:cycle_no]).reporter(opts[:player_id]).proj_hours
+    hours_per_cycle = hours.reduce([]) do |cycles, r|
+      cycle_no = r['cycleNumber'].to_i - 1
+      cycles[cycle_no] ||= []
+      cycles[cycle_no] << r['value'].to_i
+      cycles
+    end.reject(&:nil?).map { |hours| hours.reduce(:+) }
+
+    mean(hours_per_cycle)
   end
 
   def no_proj_reviews(opts = {})

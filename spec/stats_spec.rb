@@ -182,4 +182,12 @@ describe Stats do
       end
     end
   end
+
+  describe "#cycle_hours" do
+    let(:opts) { { player_id: '75dbe257' } } # player: 'jrob8577'
+
+    it "calculates the mean hours worked per cycle" do
+      expect(s.cycle_hours(opts)).to eq(40)
+    end
+  end
 end

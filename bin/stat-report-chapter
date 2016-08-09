@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
-require_relative '../stats.rb'
-require_relative '../stat_reporter.rb'
+require_relative '../config'
+
+require 'stats'
+require 'stat_reporter'
 
 if ARGV.empty?
   files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]

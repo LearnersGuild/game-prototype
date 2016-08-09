@@ -1,8 +1,6 @@
-require 'rspec'
+require_relative './spec_config'
 
-require_relative "../game_data"
-
-CLEAN_DATA = File.expand_path("../data/cycle-cleaned.csv", __FILE__)
+require 'game_data'
 
 describe GameData do
   let(:gd) { GameData.import([CLEAN_DATA]) }

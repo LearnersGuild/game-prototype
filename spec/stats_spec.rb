@@ -1,9 +1,6 @@
-require 'rspec'
+require_relative './spec_config'
 
-require_relative "../stats"
-
-RAW_DATA = File.expand_path("../data/cycle-raw.csv", __FILE__)
-CLEAN_DATA = File.expand_path("../data/cycle-cleaned.csv", __FILE__)
+require 'stats'
 
 describe Stats do
   let(:s) { Stats.new(CLEAN_DATA) }

@@ -9,7 +9,7 @@ class MissingOptionError < StandardError; end
 class Stats
   include Aggregates
 
-  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont discern discern_bias no_proj_rvws ]
+  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont contrib_accuracy contrib_bias no_proj_rvws ]
 
   attr_reader :data
 
@@ -38,8 +38,8 @@ class Stats
       stat_report[:avg_proj_qual] = proj_quality_for_player(player_id: id)
       stat_report[:lrn_supp] = learning_support(player_id: id)
       stat_report[:cult_cont] = culture_contrib(player_id: id)
-      stat_report[:discern] = discernment(player_id: id)
-      stat_report[:discern_bias] = discernment_bias(player_id: id)
+      stat_report[:contrib_accuracy] = contribution_accuracy(player_id: id)
+      stat_report[:contrib_bias] = contribution_bias(player_id: id)
       stat_report[:no_proj_rvws] = no_proj_reviews(player_id: id)
 
       stat_report
@@ -133,6 +133,46 @@ class Stats
     mean(scores).to_percent(100)
   end
 
+  alias_method :actual_contribution, :contribution
+
+  def expected_contribution(opts = {})
+    raise MissingOptionError, :proj_name unless opts[:proj_name]
+
+    (1 / data.team_size(opts[:proj_name]).to_f).round(2)
+  end
+
+  def contribution_gap(opts = {})
+    contribution(opts) - expected_contribution(opts)
+  end
+
+  def contribution_accuracy(opts = {})
+    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
+
+    accuracies = projects.map do |proj_name, p_data|
+      next if opts[:proj_name] && proj_name != opts[:proj_name]
+
+      p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
+      p_data[:team_rep_contrib] = team_reported_contribution(opts.merge(proj_name: proj_name))
+
+      if p_data[:self_rep_contrib].nil?
+        warn "Can't calculate contribution_accuracy for player #{opts[:player_id]} in project #{proj_name}"
+        next
+      end
+
+      p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
+    end
+
+    accuracies = accuracies.reject(&:nil?)
+    accuracies = accuracies.map(&:abs) unless opts[:include_negatives]
+
+    return 'missing data' if accuracies.none?
+    mean(accuracies).round(2)
+  end
+
+  def contribution_bias(opts = {})
+    contribution_accuracy(opts.merge(include_negatives: true))
+  end
+
   def self_reported_contribution(opts = {})
     begin
       data.self_reported_contribution(opts[:player_id], opts[:proj_name])
@@ -150,44 +190,6 @@ class Stats
                 .values(&:to_i)
 
     mean(scores).to_percent(100)
-  end
-
-  def discernment(opts = {})
-    projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
-
-    discernments = projects.map do |proj_name, p_data|
-      next if opts[:proj_name] && proj_name != opts[:proj_name]
-
-      p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
-      p_data[:team_rep_contrib] = team_reported_contribution(opts.merge(proj_name: proj_name))
-
-      if p_data[:self_rep_contrib].nil?
-        warn "Can't calculate discernment for player #{opts[:player_id]} in project #{proj_name}"
-        next
-      end
-
-      p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
-    end
-
-    discernments = discernments.reject(&:nil?)
-    discernments = discernments.map(&:abs) unless opts[:include_negatives]
-
-    return 'missing data' if discernments.none?
-    mean(discernments).round(2)
-  end
-
-  def discernment_bias(opts = {})
-    discernment(opts.merge(include_negatives: true))
-  end
-
-  def contribution_dissonance(opts = {})
-    contribution(opts) - expected_contribution(opts)
-  end
-
-  def expected_contribution(opts = {})
-    raise MissingOptionError, :proj_name unless opts[:proj_name]
-
-    (1 / data.team_size(opts[:proj_name]).to_f).round(2)
   end
 
   def proj_hours(opts = {})

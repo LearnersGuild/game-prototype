@@ -27,8 +27,8 @@ describe Stats do
                             avg_proj_qual: 83.52,
                             lrn_supp: 94.29,
                             cult_cont: 97.14,
-                            discern: 6.05,
-                            discern_bias: 6.05,
+                            contrib_accuracy: 6.05,
+                            contrib_bias: 6.05,
                             no_proj_rvws: 7 }]
 
         expect(player_stats).to eq(expected_stats)
@@ -117,55 +117,6 @@ describe Stats do
     end
   end
 
-  describe "#discernment" do
-    describe "when given a player id" do
-      let(:opts) { { player_id: 'adda47cf' } } # player: 'harmanisdeep'
-
-      it "determines how accurate their judgment is relative to others'" do
-        expect(s.discernment(opts)).to eq(1.67)
-      end
-
-      it "is always expressed as a positive number" do
-        opts = { player_id: 'cbcff678' } # player: 'Moniarchy'
-        expect(s.discernment(opts)).to be > 0
-      end
-
-      it "even works with advanced players" do
-        opts[:player_id] = '75dbe257' # player: 'jrob8577'
-        expect(s.discernment(opts)).to eq(6.05)
-      end
-    end
-
-    describe "when given a player id and a project name" do
-      let(:opts) { { player_id: '75dbe257', proj_name: 'cluttered-partridge' } } # player: 'jrob8577'
-
-      it "limits the discernment score to just the project scores" do
-        one_project_score = s.discernment(opts)
-
-        expect(one_project_score).to eq(13.33)
-        expect(s.discernment(player_id: opts[:player_id])).not_to eq(one_project_score)
-      end
-    end
-  end
-
-  describe "#discernment_bias" do
-    let(:opts) { { player_id: 'cbcff678' } } # player: 'Moniarchy'
-
-    it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
-      expect(s.discernment_bias(opts)).to eq(-6.67)
-    end
-  end
-
-  describe "#contribution_dissonance" do
-    describe "when given a player id and a project name" do
-      let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
-
-      it "calculates the difference between actual contribution and expected contribution" do
-        expect(s.contribution_dissonance(opts)).to eq(28.33 - (1 / 3.0).round(2))
-      end
-    end
-  end
-
   describe "#expected_contribution" do
     describe "when given a player id and a project name" do
       let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
@@ -173,6 +124,55 @@ describe Stats do
       it "calculates how much contribution is expected of a player based on team size" do
         expect(s.expected_contribution(opts)).to eq((1 / 3.0).round(2))
       end
+    end
+  end
+
+  describe "#contribution_gap" do
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
+
+      it "calculates the difference between actual contribution and expected contribution" do
+        expect(s.contribution_gap(opts)).to eq(28.33 - (1 / 3.0).round(2))
+      end
+    end
+  end
+
+  describe "#contribution_accuracy" do
+    describe "when given a player id" do
+      let(:opts) { { player_id: 'adda47cf' } } # player: 'harmanisdeep'
+
+      it "determines how accurate their judgment is relative to others'" do
+        expect(s.contribution_accuracy(opts)).to eq(1.67)
+      end
+
+      it "is always expressed as a positive number" do
+        opts = { player_id: 'cbcff678' } # player: 'Moniarchy'
+        expect(s.contribution_accuracy(opts)).to be > 0
+      end
+
+      it "even works with advanced players" do
+        opts[:player_id] = '75dbe257' # player: 'jrob8577'
+        expect(s.contribution_accuracy(opts)).to eq(6.05)
+      end
+    end
+
+    describe "when given a player id and a project name" do
+      let(:opts) { { player_id: '75dbe257', proj_name: 'cluttered-partridge' } } # player: 'jrob8577'
+
+      it "limits the contribution_accuracy score to just the project scores" do
+        one_project_score = s.contribution_accuracy(opts)
+
+        expect(one_project_score).to eq(13.33)
+        expect(s.contribution_accuracy(player_id: opts[:player_id])).not_to eq(one_project_score)
+      end
+    end
+  end
+
+  describe "#contribution_bias" do
+    let(:opts) { { player_id: 'cbcff678' } } # player: 'Moniarchy'
+
+    it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
+      expect(s.contribution_bias(opts)).to eq(-6.67)
     end
   end
 

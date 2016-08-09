@@ -20,4 +20,15 @@ describe GameData do
       end
     end
   end
+
+  describe "using inverted: true" do
+    let(:player_id) { '75dbe257' } # player: 'jrob8577'
+
+    it "provides inverted results for certain methods" do
+      others_hours = gd.reporter(player_id, inverse: true).proj_hours
+      reporters = others_hours.map { |r| r['respondentId'] }
+
+      expect(reporters).not_to include(player_id)
+    end
+  end
 end

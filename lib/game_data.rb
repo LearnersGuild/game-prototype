@@ -61,27 +61,27 @@ class GameData
     self.class.new(data.select { |r| r['cycleNumber'].to_i == cycle_no.to_i })
   end
 
-  def reporter(player_id=nil)
+  def reporter(player_id=nil, opts={})
     return self if player_id.nil?
-    if player_id[0] == '!' # use inverse
+    if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['respondentId']) == shortened(player_id) })
     else
       self.class.new(data.select { |r| shortened(r['respondentId']) == shortened(player_id) })
     end
   end
 
-  def subject(subj_id=nil)
+  def subject(subj_id=nil, opts={})
     return self if subj_id.nil?
-    if subj_id[0] == '!' # use inverse
+    if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['subjectId']) == shortened(subj_id) })
     else
       self.class.new(data.select { |r| shortened(r['subjectId']) == shortened(subj_id) })
     end
   end
 
-  def survey(survey_id=nil)
+  def survey(survey_id=nil, opts={})
     return self if survey_id.nil?
-    if survey_id[0] == '!' # use inverse
+    if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['surveyId']) == shortened(survey_id) })
     else
       self.class.new(data.select { |r| shortened(r['surveyId']) == shortened(survey_id) })
@@ -111,7 +111,7 @@ class GameData
 
   def team_reported_contribution(player_id, proj_name)
     result = project(proj_name)
-               .reporter('!' + player_id)
+               .reporter(player_id, inverse: true)
                .subject(player_id)
                .contribution
 

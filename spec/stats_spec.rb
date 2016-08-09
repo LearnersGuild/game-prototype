@@ -20,13 +20,13 @@ describe Stats do
 
         expected_stats = [{ id: '75dbe257',
                             xp: 100.56,
-                            avg_cycle_hours: 40,
+                            avg_cycle_hours: 40.0,
                             avg_proj_comp: 87.94,
                             avg_proj_qual: 83.52,
                             lrn_supp: 94.29,
                             cult_cont: 97.14,
-                            contrib_accuracy: 6.05,
-                            contrib_bias: 6.05,
+                            contrib_accuracy: 9.17,
+                            contrib_bias: 9.17,
                             no_proj_rvws: 7 }]
 
         expect(player_stats).to eq(expected_stats)
@@ -140,7 +140,7 @@ describe Stats do
       let(:opts) { { player_id: 'adda47cf' } } # player: 'harmanisdeep'
 
       it "determines how accurate their judgment is relative to others'" do
-        expect(s.contribution_accuracy(opts)).to eq(1.67)
+        expect(s.contribution_accuracy(opts)).to eq(2.5)
       end
 
       it "is always expressed as a positive number" do
@@ -150,7 +150,7 @@ describe Stats do
 
       it "even works with advanced players" do
         opts[:player_id] = '75dbe257' # player: 'jrob8577'
-        expect(s.contribution_accuracy(opts)).to eq(6.05)
+        expect(s.contribution_accuracy(opts)).to eq(9.17)
       end
     end
 
@@ -160,7 +160,7 @@ describe Stats do
       it "limits the contribution_accuracy score to just the project scores" do
         one_project_score = s.contribution_accuracy(opts)
 
-        expect(one_project_score).to eq(13.33)
+        expect(one_project_score).to eq(20.0)
         expect(s.contribution_accuracy(player_id: opts[:player_id])).not_to eq(one_project_score)
       end
     end
@@ -170,7 +170,7 @@ describe Stats do
     let(:opts) { { player_id: 'cbcff678' } } # player: 'Moniarchy'
 
     it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
-      expect(s.contribution_bias(opts)).to eq(-6.67)
+      expect(s.contribution_bias(opts)).to eq(-10.0)
     end
   end
 

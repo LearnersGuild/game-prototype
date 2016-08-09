@@ -8,7 +8,7 @@ Elo.configure do |config|
 end
 
 
-@teams = CSV.read("teams2.csv", headers:true)
+@teams = CSV.read(File.expand_path("../../teams2.csv", __FILE__), headers:true)
 
 @players = Hash[@teams.map{|x| [x["player"], Elo::Player.new]}]
 

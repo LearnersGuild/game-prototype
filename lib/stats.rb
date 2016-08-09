@@ -174,7 +174,7 @@ class Stats
           .values(&:to_i)
           .first
           .to_percent(100)
-    rescue MissingDataError => e
+    rescue GameData::MissingDataError => e
       warn "No self-reported contribution for #{opts}"
       nil
     end

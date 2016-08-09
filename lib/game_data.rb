@@ -2,11 +2,11 @@ require 'csv'
 
 require_relative './utils.rb'
 
-class NoDataFileProvidedError < StandardError; end
-class MissingDataError < StandardError; end
-class InvalidCSVError < StandardError; end
-
 class GameData
+  class NoDataFileProvidedError < StandardError; end
+  class MissingDataError < StandardError; end
+  class InvalidCSVError < StandardError; end
+
   include Enumerable
 
   FIELDS = %w[ cycleNumber

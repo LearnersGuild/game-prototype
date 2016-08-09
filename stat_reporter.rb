@@ -6,10 +6,6 @@ class StatReporter
     @anonymous = anonymous
   end
 
-  def stat_names
-    stats.stat_names
-  end
-
   def full_report(as=:csv)
     report = stats.report(anonymous: anonymous)
 
@@ -44,6 +40,7 @@ class StatReporter
       period: "cycle #{opts[:cycle_no]}",
       id: opts[:player_id],
       xp: stats.xp(opts),
+      proj_hours: stats.proj_hours(opts),
       avg_proj_comp: stats.proj_completeness_for_player(opts),
       avg_proj_qual: stats.proj_quality_for_player(opts),
       lrn_supp: stats.learning_support(opts),
@@ -58,6 +55,7 @@ class StatReporter
       period: "project #{opts[:proj_name]}",
       id: opts[:player_id],
       xp: stats.xp(opts),
+      proj_hours: stats.proj_hours(opts),
       avg_proj_comp: stats.proj_completeness_for_player(opts),
       avg_proj_qual: stats.proj_quality_for_player(opts),
       lrn_supp: stats.learning_support(opts),
@@ -68,7 +66,7 @@ class StatReporter
 
   def csv(report)
     CSV.generate do |csv|
-      headers = report.first.keys
+      headers = report.map(&:keys).flatten.uniq
       csv << headers
 
       report.each do |player_stats|

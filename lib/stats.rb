@@ -3,9 +3,6 @@ require 'csv'
 require_relative './game_data.rb'
 require_relative './utils.rb'
 
-class InvalidHoursValueError < StandardError; end
-class MissingOptionError < StandardError; end
-
 class Stats
   include Aggregates
 
@@ -136,8 +133,6 @@ class Stats
   alias_method :project_contribution, :actual_contribution
 
   def expected_contribution(opts = {})
-    raise MissingOptionError, :proj_name unless opts[:proj_name]
-
     (1 / data.team_size(opts[:proj_name]).to_f).to_percent(1)
   end
 

@@ -1,7 +1,5 @@
 require 'csv'
 
-require_relative './utils.rb'
-
 class GameData
   class NoDataFileProvidedError < StandardError; end
   class MissingDataError < StandardError; end
@@ -148,7 +146,7 @@ class GameData
       {
         email: r['respondentEmail'],
         handle: r['respondentHandle'],
-        id: r['respondentId'],
+        id: shortened(r['respondentId']),
         name: r['respondentName']
       }
     end.uniq do |player|
@@ -173,6 +171,10 @@ class GameData
 
   def +(game_data)
     self.class.new(self.data + game_data.data)
+  end
+
+  def shortened(id)
+    id.split('-').first
   end
 end
 

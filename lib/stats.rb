@@ -1,7 +1,6 @@
 require 'csv'
 
-require_relative './game_data.rb'
-require_relative './utils.rb'
+require 'stats/utils'
 
 class Stats
   include Aggregates
@@ -10,8 +9,8 @@ class Stats
 
   attr_reader :data
 
-  def initialize(*files)
-    @data = GameData.import(files)
+  def initialize(game_data)
+    @data = game_data
   end
 
   def report(opts = {})
@@ -28,7 +27,7 @@ class Stats
         stat_report[:handle] = player[:handle]
       end
 
-      stat_report[:id] = shortened(id)
+      stat_report[:id] = id
       stat_report[:xp] = xp(player_id: id)
       stat_report[:avg_cycle_hours] = avg_cycle_hours(player_id: id)
       stat_report[:avg_proj_comp] = proj_completeness_for_player(player_id: id)
@@ -230,7 +229,8 @@ end
 
 if $PROGRAM_NAME == __FILE__
   require 'pry'
+  require './game_data.rb'
 
-  s = Stats.new(*ARGV)
+  s = Stats.new(GameData.import(ARGV))
   binding.pry
 end

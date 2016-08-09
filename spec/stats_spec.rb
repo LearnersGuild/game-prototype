@@ -1,10 +1,11 @@
 require_relative './spec_config'
 
 require 'stats'
+require 'game_data'
 
 describe Stats do
-  let(:s) { Stats.new(CLEAN_DATA) }
-  let(:s_raw) { Stats.new(RAW_DATA) }
+  let(:s) { Stats.new( GameData.import([CLEAN_DATA]) ) }
+  let(:s_raw) { Stats.new( GameData.import([RAW_DATA]) ) }
 
   describe "#report" do
     let(:rep) { s.report }

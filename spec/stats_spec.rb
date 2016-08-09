@@ -28,6 +28,7 @@ describe Stats do
                             lrn_supp: 94.29,
                             cult_cont: 97.14,
                             discern: 6.05,
+                            discern_bias: 6.05,
                             no_proj_rvws: 7 }]
 
         expect(player_stats).to eq(expected_stats)
@@ -144,6 +145,14 @@ describe Stats do
         expect(one_project_score).to eq(13.33)
         expect(s.discernment(player_id: opts[:player_id])).not_to eq(one_project_score)
       end
+    end
+  end
+
+  describe "#discernment_bias" do
+    let(:opts) { { player_id: 'cbcff678' } } # player: 'Moniarchy'
+
+    it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
+      expect(s.discernment_bias(opts)).to eq(-6.67)
     end
   end
 

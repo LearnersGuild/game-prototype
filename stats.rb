@@ -9,7 +9,7 @@ class MissingOptionError < StandardError; end
 class Stats
   include Aggregates
 
-  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
+  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont discern discern_bias no_proj_rvws ]
 
   attr_reader :data
 
@@ -39,6 +39,7 @@ class Stats
       stat_report[:lrn_supp] = learning_support(player_id: id)
       stat_report[:cult_cont] = culture_contrib(player_id: id)
       stat_report[:discern] = discernment(player_id: id)
+      stat_report[:discern_bias] = discernment_bias(player_id: id)
       stat_report[:no_proj_rvws] = no_proj_reviews(player_id: id)
 
       stat_report
@@ -154,7 +155,7 @@ class Stats
   def discernment(opts = {})
     projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
-    proj_discernments = projects.map do |proj_name, p_data|
+    discernments = projects.map do |proj_name, p_data|
       next if opts[:proj_name] && proj_name != opts[:proj_name]
 
       p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
@@ -165,13 +166,18 @@ class Stats
         next
       end
 
-      proj_discernment = p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
-      proj_discernment.abs
+      p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
     end
 
-    discernments = proj_discernments.reject(&:nil?)
+    discernments = discernments.reject(&:nil?)
+    discernments = discernments.map(&:abs) unless opts[:include_negatives]
+
     return 'missing data' if discernments.none?
     mean(discernments).round(2)
+  end
+
+  def discernment_bias(opts = {})
+    discernment(opts.merge(include_negatives: true))
   end
 
   def contribution_dissonance(opts = {})

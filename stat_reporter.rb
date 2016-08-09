@@ -46,6 +46,7 @@ class StatReporter
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contrib(opts),
       discern: stats.discernment(opts),
+      discern_bias: stats.discernment_bias(opts),
       no_proj_rvws: stats.no_proj_reviews(opts)
     }
   end
@@ -61,6 +62,7 @@ class StatReporter
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contrib(opts),
       discern: stats.discernment(opts),
+      discern_bias: stats.discernment_bias(opts),
     }
   end
 

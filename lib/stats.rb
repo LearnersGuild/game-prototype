@@ -74,32 +74,32 @@ class Stats
   end
 
   def culture_contrib(opts = {})
-    player_id = opts[:player_id]
-    cycle_no = opts[:cycle_no]
+    scores = data.culture_contrib
+                 .subject(opts[:player_id])
+                 .cycle(opts[:cycle_no])
+                 .values(&:to_i)
 
-    scores = data.culture_contrib.subject(player_id).cycle(cycle_no).values(&:to_i)
     mean(scores).to_percent(7)
   end
 
   def learning_support(opts = {})
-    player_id = opts[:player_id]
-    cycle_no = opts[:cycle_no]
+    scores = data.learning_support
+                 .subject(opts[:player_id])
+                 .cycle(opts[:cycle_no])
+                 .values(&:to_i)
 
-    scores = data.learning_support.subject(player_id).cycle(cycle_no).values(&:to_i)
     mean(scores).to_percent(7)
   end
 
   def proj_completeness(opts = {})
-    proj_name = opts[:proj_name]
+    scores = data.project(opts[:proj_name])
+                 .proj_completeness
+                 .values(&:to_i)
 
-    scores = data.project(proj_name).proj_completeness.values(&:to_i)
     mean(scores).to_percent(100)
   end
 
   def proj_completeness_for_player(opts = {})
-    player_id = opts[:player_id]
-    cycle_no = opts[:cycle_no]
-
     projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_completeness(proj_name: proj_name) }
 
@@ -107,10 +107,15 @@ class Stats
     mean(scores).to_percent(100)
   end
 
-  def proj_quality_for_player(opts = {})
-    player_id = opts[:player_id]
-    cycle_no = opts[:cycle_no]
+  def proj_quality(opts = {})
+    scores = data.project(opts[:proj_name])
+                 .proj_quality
+                 .values(&:to_i)
 
+    mean(scores).to_percent(100)
+  end
+
+  def proj_quality_for_player(opts = {})
     projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
     scores = projects.map { |proj_name, _| proj_quality(proj_name: proj_name) }
 
@@ -118,18 +123,12 @@ class Stats
     mean(scores).to_percent(100)
   end
 
-  def proj_quality(opts = {})
-    proj_name = opts[:proj_name]
-
-    scores = data.project(proj_name).proj_quality.values(&:to_i)
-    mean(scores).to_percent(100)
-  end
-
   def actual_contribution(opts = {})
-    player_id = opts[:player_id]
-    proj_name = opts[:proj_name]
+    scores = data.project(opts[:proj_name])
+                 .contribution
+                 .subject(opts[:player_id])
+                 .values(&:to_i)
 
-    scores = data.project(proj_name).contribution.subject(player_id).values(&:to_i)
     mean(scores).to_percent(100)
   end
 
@@ -187,8 +186,8 @@ class Stats
   end
 
   def team_reported_contribution(opts = {})
-    scores= data.team_reported_contribution(opts[:player_id], opts[:proj_name])
-                .values(&:to_i)
+    scores = data.team_reported_contribution(opts[:player_id], opts[:proj_name])
+                 .values(&:to_i)
 
     mean(scores).to_percent(100)
   end

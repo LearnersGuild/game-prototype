@@ -122,7 +122,7 @@ describe Stats do
       let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
 
       it "calculates how much contribution is expected of a player based on team size" do
-        expect(s.expected_contribution(opts)).to eq((1 / 3.0).round(2))
+        expect(s.expected_contribution(opts)).to eq(33.33)
       end
     end
   end
@@ -132,7 +132,7 @@ describe Stats do
       let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
 
       it "calculates the difference between actual contribution and expected contribution" do
-        expect(s.contribution_gap(opts)).to eq(28.33 - (1 / 3.0).round(2))
+        expect(s.contribution_gap(opts)).to eq(28.33 - 33.33)
       end
     end
   end

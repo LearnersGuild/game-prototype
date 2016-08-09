@@ -4,7 +4,7 @@ require_relative '../stats.rb'
 require_relative '../stat_reporter.rb'
 
 if ARGV.empty?
-  files = Dir[ File.expand_path('../../data/*.csv', __FILE__) ]
+  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
 else
   files = ARGV
 end

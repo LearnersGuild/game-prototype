@@ -45,8 +45,8 @@ class StatReporter
       avg_proj_qual: stats.proj_quality_for_player(opts),
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contrib(opts),
-      discern: stats.discernment(opts),
-      discern_bias: stats.discernment_bias(opts),
+      contrib_accuracy: stats.contribution_accuracy(opts),
+      contrib_bias: stats.contribution_bias(opts),
       no_proj_rvws: stats.no_proj_reviews(opts)
     }
   end
@@ -61,8 +61,11 @@ class StatReporter
       avg_proj_qual: stats.proj_quality_for_player(opts),
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contrib(opts),
-      discern: stats.discernment(opts),
-      discern_bias: stats.discernment_bias(opts),
+      project_contrib: stats.project_contribution(opts),
+      expected_contrib: stats.expected_contribution(opts),
+      contrib_gap: stats.contribution_gap(opts),
+      contrib_accuracy: stats.contribution_accuracy(opts),
+      contrib_bias: stats.contribution_bias(opts),
     }
   end
 

@@ -9,14 +9,12 @@ class MissingOptionError < StandardError; end
 class Stats
   include Aggregates
 
+  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
+
   attr_reader :data
 
   def initialize(*files)
     @data = GameData.import(files)
-  end
-
-  def stat_names
-    %w[ xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
   end
 
   def report(opts = {})
@@ -35,6 +33,7 @@ class Stats
 
       stat_report[:id] = shortened(id)
       stat_report[:xp] = xp(player_id: id)
+      stat_report[:avg_cycle_hours] = avg_cycle_hours(player_id: id)
       stat_report[:avg_proj_comp] = proj_completeness_for_player(player_id: id)
       stat_report[:avg_proj_qual] = proj_quality_for_player(player_id: id)
       stat_report[:lrn_supp] = learning_support(player_id: id)
@@ -186,14 +185,16 @@ class Stats
   end
 
   def proj_hours(opts = {})
-    player_id = opts[:player_id]
-    proj_name = opts[:proj_name]
+    hours = data.project(opts[:proj_name])
+                .cycle(opts[:cycle_no])
+                .reporter(opts[:player_id])
+                .proj_hours
+                .values
 
-    hours = data.project(proj_name).reporter(player_id).proj_hours.values
     hours.map(&:to_i).reduce(:+)
   end
 
-  def cycle_hours(opts = {})
+  def avg_cycle_hours(opts = {})
     hours = data.cycle(opts[:cycle_no]).reporter(opts[:player_id]).proj_hours
     hours_per_cycle = hours.reduce([]) do |cycles, r|
       cycle_no = r['cycleNumber'].to_i - 1
@@ -202,7 +203,7 @@ class Stats
       cycles
     end.reject(&:nil?).map { |hours| hours.reduce(:+) }
 
-    mean(hours_per_cycle)
+    mean(hours_per_cycle).round(2)
   end
 
   def no_proj_reviews(opts = {})

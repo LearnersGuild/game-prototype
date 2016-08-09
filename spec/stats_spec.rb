@@ -12,13 +12,6 @@ describe Stats do
   describe "#report" do
     let(:rep) { s.report }
 
-    it "builds a report with all players stats" do
-      headers = [ :id, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
-
-      expect(rep.count).to eq(19)
-      expect(rep.first.keys.sort).to eq(headers.sort)
-    end
-
     it "is anonymous by default" do
       expect(rep.first.keys).not_to include(:name, :handle, :email)
     end
@@ -29,6 +22,7 @@ describe Stats do
 
         expected_stats = [{ id: '75dbe257',
                             xp: 100.56,
+                            avg_cycle_hours: 40,
                             avg_proj_comp: 87.94,
                             avg_proj_qual: 83.52,
                             lrn_supp: 94.29,
@@ -183,11 +177,11 @@ describe Stats do
     end
   end
 
-  describe "#cycle_hours" do
+  describe "#avg_cycle_hours" do
     let(:opts) { { player_id: '75dbe257' } } # player: 'jrob8577'
 
     it "calculates the mean hours worked per cycle" do
-      expect(s.cycle_hours(opts)).to eq(40)
+      expect(s.avg_cycle_hours(opts)).to eq(40)
     end
   end
 end

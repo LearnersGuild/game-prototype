@@ -8,7 +8,7 @@ player_id = ARGV.shift
 raise "No player id provided" unless player_id
 
 if ARGV.empty?
-  files = Dir[ File.expand_path('../../data/*.csv', __FILE__) ]
+  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
 else
   files = ARGV
 end

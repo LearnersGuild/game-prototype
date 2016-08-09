@@ -12,13 +12,6 @@ describe Stats do
   describe "#report" do
     let(:rep) { s.report }
 
-    it "builds a report with all players stats" do
-      headers = [ :id, :xp, :avg_proj_comp, :avg_proj_qual, :lrn_supp, :cult_cont, :discern, :no_proj_rvws ]
-
-      expect(rep.count).to eq(19)
-      expect(rep.first.keys.sort).to eq(headers.sort)
-    end
-
     it "is anonymous by default" do
       expect(rep.first.keys).not_to include(:name, :handle, :email)
     end
@@ -29,11 +22,13 @@ describe Stats do
 
         expected_stats = [{ id: '75dbe257',
                             xp: 100.56,
+                            avg_cycle_hours: 40,
                             avg_proj_comp: 87.94,
                             avg_proj_qual: 83.52,
                             lrn_supp: 94.29,
                             cult_cont: 97.14,
                             discern: 6.05,
+                            discern_bias: 6.05,
                             no_proj_rvws: 7 }]
 
         expect(player_stats).to eq(expected_stats)
@@ -153,6 +148,14 @@ describe Stats do
     end
   end
 
+  describe "#discernment_bias" do
+    let(:opts) { { player_id: 'cbcff678' } } # player: 'Moniarchy'
+
+    it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
+      expect(s.discernment_bias(opts)).to eq(-6.67)
+    end
+  end
+
   describe "#contribution_dissonance" do
     describe "when given a player id and a project name" do
       let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
@@ -180,6 +183,14 @@ describe Stats do
       it "finds the hours worked by the player on that project" do
         expect(s.proj_hours(opts)).to eq(10)
       end
+    end
+  end
+
+  describe "#avg_cycle_hours" do
+    let(:opts) { { player_id: '75dbe257' } } # player: 'jrob8577'
+
+    it "calculates the mean hours worked per cycle" do
+      expect(s.avg_cycle_hours(opts)).to eq(40)
     end
   end
 end

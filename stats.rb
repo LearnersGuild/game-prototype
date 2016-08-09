@@ -9,14 +9,12 @@ class MissingOptionError < StandardError; end
 class Stats
   include Aggregates
 
+  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont discern discern_bias no_proj_rvws ]
+
   attr_reader :data
 
   def initialize(*files)
     @data = GameData.import(files)
-  end
-
-  def stat_names
-    %w[ xp avg_proj_comp avg_proj_qual lrn_supp cult_cont discern no_proj_rvws ]
   end
 
   def report(opts = {})
@@ -35,12 +33,14 @@ class Stats
 
       stat_report[:id] = shortened(id)
       stat_report[:xp] = xp(player_id: id)
+      stat_report[:avg_cycle_hours] = avg_cycle_hours(player_id: id)
       stat_report[:avg_proj_comp] = proj_completeness_for_player(player_id: id)
       stat_report[:avg_proj_qual] = proj_quality_for_player(player_id: id)
       stat_report[:lrn_supp] = learning_support(player_id: id)
       stat_report[:cult_cont] = culture_contrib(player_id: id)
       stat_report[:discern] = discernment(player_id: id)
-      stat_report[:no_proj_rvws] = no_proj_reviews(player_id: id)      
+      stat_report[:discern_bias] = discernment_bias(player_id: id)
+      stat_report[:no_proj_rvws] = no_proj_reviews(player_id: id)
 
       stat_report
     end
@@ -155,7 +155,7 @@ class Stats
   def discernment(opts = {})
     projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
-    proj_discernments = projects.map do |proj_name, p_data|
+    discernments = projects.map do |proj_name, p_data|
       next if opts[:proj_name] && proj_name != opts[:proj_name]
 
       p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
@@ -166,13 +166,18 @@ class Stats
         next
       end
 
-      proj_discernment = p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
-      proj_discernment.abs
+      p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
     end
 
-    discernments = proj_discernments.reject(&:nil?)
+    discernments = discernments.reject(&:nil?)
+    discernments = discernments.map(&:abs) unless opts[:include_negatives]
+
     return 'missing data' if discernments.none?
     mean(discernments).round(2)
+  end
+
+  def discernment_bias(opts = {})
+    discernment(opts.merge(include_negatives: true))
   end
 
   def contribution_dissonance(opts = {})
@@ -186,11 +191,25 @@ class Stats
   end
 
   def proj_hours(opts = {})
-    player_id = opts[:player_id]
-    proj_name = opts[:proj_name]
+    hours = data.project(opts[:proj_name])
+                .cycle(opts[:cycle_no])
+                .reporter(opts[:player_id])
+                .proj_hours
+                .values
 
-    hours = data.project(proj_name).reporter(player_id).proj_hours.values
     hours.map(&:to_i).reduce(:+)
+  end
+
+  def avg_cycle_hours(opts = {})
+    hours = data.cycle(opts[:cycle_no]).reporter(opts[:player_id]).proj_hours
+    hours_per_cycle = hours.reduce([]) do |cycles, r|
+      cycle_no = r['cycleNumber'].to_i - 1
+      cycles[cycle_no] ||= []
+      cycles[cycle_no] << r['value'].to_i
+      cycles
+    end.reject(&:nil?).map { |hours| hours.reduce(:+) }
+
+    mean(hours_per_cycle).round(2)
   end
 
   def no_proj_reviews(opts = {})

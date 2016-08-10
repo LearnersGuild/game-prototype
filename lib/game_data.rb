@@ -1,12 +1,10 @@
 require 'csv'
 
-require_relative './utils.rb'
-
-class NoDataFileProvidedError < StandardError; end
-class MissingDataError < StandardError; end
-class InvalidCSVError < StandardError; end
-
 class GameData
+  class NoDataFileProvidedError < StandardError; end
+  class MissingDataError < StandardError; end
+  class InvalidCSVError < StandardError; end
+
   include Enumerable
 
   FIELDS = %w[ cycleNumber
@@ -23,7 +21,7 @@ class GameData
 
   QUESTION_TYPES = {
     contribution: 'cacefe2b-9193-41e1-9886-a0dd61fe9159',
-    culture_contrib: '60fb5922-6be7-4e76-aaa3-16d574489833',
+    culture_contribution: '60fb5922-6be7-4e76-aaa3-16d574489833',
     text_feedback: 'cd350a14-8a70-4593-9801-30cedab3dc75',
     proj_hours: '29a4bc7e-631e-409b-a8ed-6d06a9ae39f7',
     learning_support: '26ccd2a0-64af-4bf4-ae6b-e87445a2b213',
@@ -63,27 +61,27 @@ class GameData
     self.class.new(data.select { |r| r['cycleNumber'].to_i == cycle_no.to_i })
   end
 
-  def reporter(player_id=nil)
+  def reporter(player_id=nil, opts={})
     return self if player_id.nil?
-    if player_id[0] == '!' # use inverse
+    if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['respondentId']) == shortened(player_id) })
     else
       self.class.new(data.select { |r| shortened(r['respondentId']) == shortened(player_id) })
     end
   end
 
-  def subject(subj_id=nil)
+  def subject(subj_id=nil, opts={})
     return self if subj_id.nil?
-    if subj_id[0] == '!' # use inverse
+    if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['subjectId']) == shortened(subj_id) })
     else
       self.class.new(data.select { |r| shortened(r['subjectId']) == shortened(subj_id) })
     end
   end
 
-  def survey(survey_id=nil)
+  def survey(survey_id=nil, opts={})
     return self if survey_id.nil?
-    if survey_id[0] == '!' # use inverse
+    if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['surveyId']) == shortened(survey_id) })
     else
       self.class.new(data.select { |r| shortened(r['surveyId']) == shortened(survey_id) })
@@ -113,7 +111,7 @@ class GameData
 
   def team_reported_contribution(player_id, proj_name)
     result = project(proj_name)
-               .reporter('!' + player_id)
+               .reporter(player_id, inverse: true)
                .subject(player_id)
                .contribution
 
@@ -148,7 +146,7 @@ class GameData
       {
         email: r['respondentEmail'],
         handle: r['respondentHandle'],
-        id: r['respondentId'],
+        id: shortened(r['respondentId']),
         name: r['respondentName']
       }
     end.uniq do |player|
@@ -174,11 +172,8 @@ class GameData
   def +(game_data)
     self.class.new(self.data + game_data.data)
   end
-end
 
-if $PROGRAM_NAME == __FILE__
-  require 'pry'
-
-  gd = GameData.import(ARGV)
-  binding.pry
+  def shortened(id)
+    id.split('-').first
+  end
 end

@@ -1,5 +1,3 @@
-require_relative './game_data.rb'
-
 class GameDataValidator
   attr_reader :data
 
@@ -28,6 +26,8 @@ class GameDataValidator
 end
 
 if $PROGRAM_NAME == __FILE__
+  require_relative './game_data.rb'
+
   gv = GameDataValidator.new(GameData.import(ARGV))
   gv.validate_hours_are_numeric
 end

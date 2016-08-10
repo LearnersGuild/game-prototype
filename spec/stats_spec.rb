@@ -1,48 +1,11 @@
-require 'rspec'
+require_relative './spec_config'
 
-require_relative "../stats"
-
-RAW_DATA = File.expand_path("../data/cycle-raw.csv", __FILE__)
-CLEAN_DATA = File.expand_path("../data/cycle-cleaned.csv", __FILE__)
+require 'stats'
+require 'game_data'
 
 describe Stats do
-  let(:s) { Stats.new(CLEAN_DATA) }
-  let(:s_raw) { Stats.new(RAW_DATA) }
-
-  describe "#report" do
-    let(:rep) { s.report }
-
-    it "is anonymous by default" do
-      expect(rep.first.keys).not_to include(:name, :handle, :email)
-    end
-
-    describe "when given a player id" do
-      it "calculates the correct stats for the player" do
-        player_stats = s.report(player_id: '75dbe257') # player: 'jrob8577'
-
-        expected_stats = [{ id: '75dbe257',
-                            xp: 100.56,
-                            avg_cycle_hours: 40,
-                            avg_proj_comp: 87.94,
-                            avg_proj_qual: 83.52,
-                            lrn_supp: 94.29,
-                            cult_cont: 97.14,
-                            contrib_accuracy: 6.05,
-                            contrib_bias: 6.05,
-                            no_proj_rvws: 7 }]
-
-        expect(player_stats).to eq(expected_stats)
-      end
-    end
-
-    describe "when the :anonymous flag is set to false" do
-      it "will show player name and handle" do
-        report = s.report(player_id: '75dbe257', anonymous: false)
-
-        expect(report.first.keys).to include(:name, :handle)
-      end
-    end
-  end
+  let(:s) { Stats.new( GameData.import([CLEAN_DATA]) ) }
+  let(:s_raw) { Stats.new( GameData.import([RAW_DATA]) ) }
 
   describe "#xp" do
     describe "when given a player" do
@@ -62,12 +25,12 @@ describe Stats do
     end
   end
 
-  describe "#culture_contrib" do
+  describe "#culture_contribution" do
     describe "when given a player and cycle" do
       let(:opts) { { player_id: '75dbe257', cycle_no: 3 } } # player: 'jrob8577'
 
       it "calculates mean culture contribution as a 2-decimal percentage" do
-        expect(s.culture_contrib(opts)).to eq(97.14)
+        expect(s.culture_contribution(opts)).to eq(97.14)
       end
     end
   end
@@ -102,17 +65,17 @@ describe Stats do
     end
   end
 
-  describe "#contribution" do
+  describe "#actual_contribution" do
     describe "when given a player id and a project name" do
       let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
 
       it "calculates mean contribution percentage as a 2-decimal percentage" do
-        expect(s.contribution(opts)).to eq(28.33)
+        expect(s.actual_contribution(opts)).to eq(28.33)
       end
 
       it "even works with advanced players" do
         opts[:player_id] = '75dbe257' # player: 'jrob8577'
-        expect(s.contribution(opts)).to eq(46.67)
+        expect(s.actual_contribution(opts)).to eq(46.67)
       end
     end
   end
@@ -142,7 +105,7 @@ describe Stats do
       let(:opts) { { player_id: 'adda47cf' } } # player: 'harmanisdeep'
 
       it "determines how accurate their judgment is relative to others'" do
-        expect(s.contribution_accuracy(opts)).to eq(1.67)
+        expect(s.contribution_accuracy(opts)).to eq(2.5)
       end
 
       it "is always expressed as a positive number" do
@@ -152,7 +115,7 @@ describe Stats do
 
       it "even works with advanced players" do
         opts[:player_id] = '75dbe257' # player: 'jrob8577'
-        expect(s.contribution_accuracy(opts)).to eq(6.05)
+        expect(s.contribution_accuracy(opts)).to eq(9.17)
       end
     end
 
@@ -162,7 +125,7 @@ describe Stats do
       it "limits the contribution_accuracy score to just the project scores" do
         one_project_score = s.contribution_accuracy(opts)
 
-        expect(one_project_score).to eq(13.33)
+        expect(one_project_score).to eq(20.0)
         expect(s.contribution_accuracy(player_id: opts[:player_id])).not_to eq(one_project_score)
       end
     end
@@ -172,7 +135,7 @@ describe Stats do
     let(:opts) { { player_id: 'cbcff678' } } # player: 'Moniarchy'
 
     it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
-      expect(s.contribution_bias(opts)).to eq(-6.67)
+      expect(s.contribution_bias(opts)).to eq(-10.0)
     end
   end
 
@@ -191,6 +154,21 @@ describe Stats do
 
     it "calculates the mean hours worked per cycle" do
       expect(s.avg_cycle_hours(opts)).to eq(40)
+    end
+  end
+
+  describe ".types" do
+    let(:types) { Stats.types }
+
+    it "returns a mapping of all stat types and their stat methods" do
+      expect(types.keys).to include(:estimation, :support)
+      expect(types[:support]).to include(:culture_contribution, :learning_support)
+    end
+
+    it "returns callable methods of the same name" do
+      types.values.flatten.each do |stat_method|
+        expect(s).to respond_to(stat_method)
+      end
     end
   end
 end

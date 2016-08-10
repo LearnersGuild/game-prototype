@@ -1,8 +1,6 @@
-require 'rspec'
+require_relative './spec_config'
 
-require_relative "../game_data"
-
-CLEAN_DATA = File.expand_path("../data/cycle-cleaned.csv", __FILE__)
+require 'game_data'
 
 describe GameData do
   let(:gd) { GameData.import([CLEAN_DATA]) }
@@ -20,6 +18,17 @@ describe GameData do
       it "returns data for the player" do
         expect(gd.get_players(player_id).first[:handle]).to eq('jrob8577')
       end
+    end
+  end
+
+  describe "using inverted: true" do
+    let(:player_id) { '75dbe257' } # player: 'jrob8577'
+
+    it "provides inverted results for certain methods" do
+      others_hours = gd.reporter(player_id, inverse: true).proj_hours
+      reporters = others_hours.map { |r| r['respondentId'] }
+
+      expect(reporters).not_to include(player_id)
     end
   end
 end

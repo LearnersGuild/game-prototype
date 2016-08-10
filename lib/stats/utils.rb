@@ -9,7 +9,3 @@ class Numeric
     ((self / limit.to_f) * 100).round(decimal)
   end
 end
-
-def shortened(id)
-  id.split('-').first
-end

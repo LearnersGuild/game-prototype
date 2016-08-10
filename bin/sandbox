@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+
+require_relative '../config'
+
+require 'game_data'
+require 'stats'
+require 'stat_reporter'
+
+if ARGV.empty?
+  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
+else
+  files = ARGV
+end
+
+gd = GameData.import(files)
+s = Stats.new(gd)
+sr = StatReporter.new(s)
+binding.pry

@@ -109,11 +109,3 @@ class StatReporter
     end
   end
 end
-
-if $PROGRAM_NAME == __FILE__
-  require_relative './stats.rb'
-
-  s = Stats.new(*ARGV)
-  r = StatReporter.new(s)
-  binding.pry
-end

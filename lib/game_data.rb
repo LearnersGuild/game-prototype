@@ -177,10 +177,3 @@ class GameData
     id.split('-').first
   end
 end
-
-if $PROGRAM_NAME == __FILE__
-  require 'pry'
-
-  gd = GameData.import(ARGV)
-  binding.pry
-end

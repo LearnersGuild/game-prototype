@@ -43,11 +43,3 @@ class Stats
     data.cycles
   end
 end
-
-if $PROGRAM_NAME == __FILE__
-  require 'pry'
-  require './game_data.rb'
-
-  s = Stats.new(GameData.import(ARGV))
-  binding.pry
-end

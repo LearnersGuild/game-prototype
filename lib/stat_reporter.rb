@@ -6,6 +6,35 @@ class StatReporter
     @anonymous = anonymous
   end
 
+  def report(opts = {})
+    default_opts = { player_id: nil, anonymous: true }
+    opts = default_opts.merge(opts)
+
+    stats.players(opts).map do |player|
+      id = player[:id]
+
+      stat_report = {}
+
+      unless opts[:anonymous]
+        stat_report[:name] = player[:name]
+        stat_report[:handle] = player[:handle]
+      end
+
+      stat_report[:id] = id
+      stat_report[:xp] = stats.xp(player_id: id)
+      stat_report[:avg_cycle_hours] = stats.avg_cycle_hours(player_id: id)
+      stat_report[:avg_proj_comp] = stats.proj_completeness_for_player(player_id: id)
+      stat_report[:avg_proj_qual] = stats.proj_quality_for_player(player_id: id)
+      stat_report[:lrn_supp] = stats.learning_support(player_id: id)
+      stat_report[:cult_cont] = stats.culture_contrib(player_id: id)
+      stat_report[:contrib_accuracy] = stats.contribution_accuracy(player_id: id)
+      stat_report[:contrib_bias] = stats.contribution_bias(player_id: id)
+      stat_report[:no_proj_rvws] = stats.no_proj_reviews(player_id: id)
+
+      stat_report
+    end
+  end
+
   def full_report(as=:csv)
     report = stats.report(anonymous: anonymous)
 

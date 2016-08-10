@@ -1,5 +1,9 @@
+require 'stats/stat_type'
+
 class Stats
-  module Accuracy
+  module Estimation
+    extend StatType
+
     def contribution_accuracy(opts = {})
       projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 

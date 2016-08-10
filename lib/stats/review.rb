@@ -1,5 +1,9 @@
+require 'stats/stat_type'
+
 class Stats
   module Review
+    extend StatType
+
     def proj_completeness(opts = {})
       scores = data.project(opts[:proj_name])
                    .proj_completeness

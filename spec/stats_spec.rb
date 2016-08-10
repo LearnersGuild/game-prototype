@@ -25,12 +25,12 @@ describe Stats do
     end
   end
 
-  describe "#culture_contrib" do
+  describe "#culture_contribution" do
     describe "when given a player and cycle" do
       let(:opts) { { player_id: '75dbe257', cycle_no: 3 } } # player: 'jrob8577'
 
       it "calculates mean culture contribution as a 2-decimal percentage" do
-        expect(s.culture_contrib(opts)).to eq(97.14)
+        expect(s.culture_contribution(opts)).to eq(97.14)
       end
     end
   end
@@ -65,17 +65,17 @@ describe Stats do
     end
   end
 
-  describe "#contribution" do
+  describe "#actual_contribution" do
     describe "when given a player id and a project name" do
       let(:opts) { { player_id: 'adda47cf', proj_name: 'cluttered-partridge' } } # player: 'harmanisdeep'
 
       it "calculates mean contribution percentage as a 2-decimal percentage" do
-        expect(s.contribution(opts)).to eq(28.33)
+        expect(s.actual_contribution(opts)).to eq(28.33)
       end
 
       it "even works with advanced players" do
         opts[:player_id] = '75dbe257' # player: 'jrob8577'
-        expect(s.contribution(opts)).to eq(46.67)
+        expect(s.actual_contribution(opts)).to eq(46.67)
       end
     end
   end
@@ -154,6 +154,21 @@ describe Stats do
 
     it "calculates the mean hours worked per cycle" do
       expect(s.avg_cycle_hours(opts)).to eq(40)
+    end
+  end
+
+  describe ".types" do
+    let(:types) { Stats.types }
+
+    it "returns a mapping of all stat types and their stat methods" do
+      expect(types.keys).to include(:estimation, :support)
+      expect(types[:support]).to include(:culture_contribution, :learning_support)
+    end
+
+    it "returns callable methods of the same name" do
+      types.values.flatten.each do |stat_method|
+        expect(s).to respond_to(stat_method)
+      end
     end
   end
 end

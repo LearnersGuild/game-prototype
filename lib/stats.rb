@@ -1,7 +1,7 @@
 require 'csv'
 
-require 'stats/accuracy'
 require 'stats/contribution'
+require 'stats/estimation'
 require 'stats/experience'
 require 'stats/hours'
 require 'stats/review'
@@ -10,16 +10,20 @@ require 'stats/support'
 require 'stats/utils'
 
 class Stats
-  include Accuracy
+  class << self
+    def types
+      @types ||= {}
+    end
+  end
+
   include Contribution
+  include Estimation
   include Experience
   include Hours
   include Review
   include Support
 
   include Aggregates
-
-  TYPES = %i[ xp avg_cycle_hours avg_proj_comp avg_proj_qual lrn_supp cult_cont contrib_accuracy contrib_bias no_proj_rvws ]
 
   attr_reader :data
 

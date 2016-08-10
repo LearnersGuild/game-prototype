@@ -21,7 +21,7 @@ class GameData
 
   QUESTION_TYPES = {
     contribution: 'cacefe2b-9193-41e1-9886-a0dd61fe9159',
-    culture_contrib: '60fb5922-6be7-4e76-aaa3-16d574489833',
+    culture_contribution: '60fb5922-6be7-4e76-aaa3-16d574489833',
     text_feedback: 'cd350a14-8a70-4593-9801-30cedab3dc75',
     proj_hours: '29a4bc7e-631e-409b-a8ed-6d06a9ae39f7',
     learning_support: '26ccd2a0-64af-4bf4-ae6b-e87445a2b213',

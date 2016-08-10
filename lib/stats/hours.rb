@@ -1,5 +1,9 @@
+require 'stats/stat_type'
+
 class Stats
   module Hours
+    extend StatType
+
     def proj_hours(opts = {})
       hours = data.project(opts[:proj_name])
                   .cycle(opts[:cycle_no])

@@ -1,7 +1,11 @@
+require 'stats/stat_type'
+
 class Stats
   module Support
-    def culture_contrib(opts = {})
-      scores = data.culture_contrib
+    extend StatType
+
+    def culture_contribution(opts = {})
+      scores = data.culture_contribution
                    .subject(opts[:player_id])
                    .cycle(opts[:cycle_no])
                    .values(&:to_i)

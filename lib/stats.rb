@@ -4,6 +4,7 @@ require 'stats/contribution'
 require 'stats/estimation'
 require 'stats/experience'
 require 'stats/hours'
+require 'stats/mastery'
 require 'stats/review'
 require 'stats/support'
 
@@ -20,6 +21,7 @@ class Stats
   include Estimation
   include Experience
   include Hours
+  include Mastery
   include Review
   include Support
 

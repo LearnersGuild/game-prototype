@@ -28,6 +28,22 @@ describe Stats do
     end
   end
 
+  describe "#elo" do
+    describe "when given a player" do
+      it "calculates the correct Elo ranking for that player" do
+        expect(s.elo(opts_adv_player)).to eq(1373)
+      end
+    end
+  end
+
+  describe "#proj_effectiveness" do
+    describe "when given a player and a project" do
+      it "determines the potency/effectiveness of a player's time" do
+        expect(s.proj_effectiveness(opts_adv_player_project)).to eq(3.48)
+      end
+    end
+  end
+
   describe "#culture_contribution" do
     describe "when given a player" do
       it "calculates mean culture contribution as a 2-decimal percentage" do

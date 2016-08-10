@@ -2,6 +2,21 @@
 
 Lightweight, minimal implementation of game mechanics for rapid experimentation and prototyping.
 
+## Getting Started
+
+You can load a sandbox console to launch a pry session to play with some of the main classes and query datasets from `./data/cycle-*.csv`:
+
+```shell-session
+$ bin/sandbox
+    ...
+    17: gd = GameData.import(files)
+    18: s = Stats.new(gd)
+    19: sr = StatReporter.new(s)
+ => 20: binding.pry
+ [1] pry(main)> s.learning_support(player_id: '75dbe257', cycle_no: 3)
+ => 94.29
+```
+
 ## Stats
 
 There are two kinds of stat reports: `chapter` and `player`.

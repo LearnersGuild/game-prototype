@@ -7,18 +7,18 @@ class Stats
     def contribution_accuracy(opts = {})
       projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
-      accuracies = projects.map do |proj_name, p_data|
-        next if opts[:proj_name] && proj_name != opts[:proj_name]
+      accuracies = projects.map do |proj|
+        next if opts[:proj_name] && proj[:name] != opts[:proj_name]
 
-        p_data[:self_rep_contrib] = self_reported_contribution(opts.merge(proj_name: proj_name))
-        p_data[:team_rep_contrib] = team_reported_contribution(opts.merge(proj_name: proj_name))
+        self_rep_contrib = self_reported_contribution(opts.merge(proj_name: proj[:name]))
+        team_rep_contrib = team_reported_contribution(opts.merge(proj_name: proj[:name]))
 
-        if p_data[:self_rep_contrib].nil?
-          warn "Can't calculate contribution_accuracy for player #{opts[:player_id]} in project #{proj_name}"
+        if self_rep_contrib.nil?
+          warn "Can't calculate contribution_accuracy for player #{opts[:player_id]} in project #{proj[:name]}"
           next
         end
 
-        p_data[:self_rep_contrib] - p_data[:team_rep_contrib]
+        self_rep_contrib - team_rep_contrib
       end
 
       accuracies = accuracies.reject(&:nil?)

@@ -90,7 +90,7 @@ class GameData
 
   def project(proj_name=nil)
     return self if proj_name.nil?
-    project = get_projects[proj_name]
+    project = get_projects.find { |proj| proj[:name] == proj_name }
 
     subset = data.select do |r|
       shortened(r['surveyId']) == shortened(project[:survey]) \
@@ -135,10 +135,8 @@ class GameData
     survey_ids = contributions.map { |r| r['surveyId'] }.uniq
     project_records = survey_ids.map { |survey_id| survey(survey_id).proj_hours.data }.flatten
 
-    Hash[
-      project_records.map { |r| [ r['subject'], { survey: r['surveyId'], subj: r['subjectId'] } ] }
-                     .uniq
-    ]
+    project_records.map { |r| { name: r['subject'], survey: r['surveyId'], subj: r['subjectId'] } }
+                   .uniq
   end
 
   def get_players(player_id=nil)

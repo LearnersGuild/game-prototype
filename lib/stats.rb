@@ -37,15 +37,17 @@ class Stats
 
   def players(opts = {})
     data.cycle(opts[:cycle_no])
+        .project(opts[:proj_name])
         .get_players(opts[:player_id])
   end
 
   def projects(opts = {})
     data.cycle(opts[:cycle_no])
         .get_projects(opts[:player_id])
+
   end
 
   def cycles
-    data.cycles
+    data.cycles.map(&:to_i).sort
   end
 end

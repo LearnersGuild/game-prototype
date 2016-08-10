@@ -50,8 +50,8 @@ class StatReporter
       report << player_cycle_report(player_id: player_id, cycle_no: cycle_no)
 
       projects = stats.projects(player_id: player_id, cycle_no: cycle_no)
-      projects.sort.each do |proj_name, p_data|
-        report << player_project_report(player_id: player_id, proj_name: proj_name)
+      projects.sort.each do |proj|
+        report << player_project_report(player_id: player_id, proj_name: proj[:name])
       end
     end
 

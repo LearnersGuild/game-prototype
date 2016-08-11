@@ -27,11 +27,11 @@ class Stats
 
   include Aggregates
 
-  attr_reader :data, :verbose
+  attr_reader :data, :debug
 
   def initialize(game_data, opts = {})
     @data = game_data
-    @verbose = opts.fetch(:verbose) { false }
+    @debug = opts.fetch(:debug) { false }
   end
 
   # Helper queries
@@ -53,13 +53,13 @@ class Stats
   end
 
   def report(message)
-    return nil unless verbose
+    return nil unless debug
 
     case message
     when String
       puts message
     when Array
-      puts message.map { |col| col.to_s.ljust(80 / message.count) }.join('| ')
+      puts message.map { |col| col.to_s.ljust(100 / message.count) }.join('| ')
     end
   end
 end

@@ -66,14 +66,16 @@ class Stats
     end
 
     def _play(player_a, player_b)
-      report " ~ "
-      report "Match: #{player_a[:handle]}(#{player_a[:elo].rating}) vs. #{player_b[:handle]}(#{player_b[:elo].rating})"
+      before_a = "#{player_a[:handle]}(#{player_a[:elo].rating})"
+      before_b = "#{player_b[:handle]}(#{player_b[:elo].rating})"
 
       game = player_a[:elo].versus(player_b[:elo])
       game.result = _game_result(player_a, player_b)
 
-      report [ "game outcome", player_a[:handle], player_b[:handle] ]
-      report [ game.result.round(2), player_a[:elo].rating, player_b[:elo].rating ]
+      game_outcome = game.result.round(2)
+      after_a = "#{player_a[:handle]}(#{player_a[:elo].rating})"
+      after_b = "#{player_b[:handle]}(#{player_b[:elo].rating})"
+      report [ before_a, before_b, game_outcome, after_a, after_b ]
     end
 
     def _game_result(player_a, player_b)

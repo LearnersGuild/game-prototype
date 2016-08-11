@@ -27,10 +27,11 @@ class Stats
 
   include Aggregates
 
-  attr_reader :data
+  attr_reader :data, :verbose
 
-  def initialize(game_data)
+  def initialize(game_data, opts = {})
     @data = game_data
+    @verbose = opts.fetch(:verbose) { false }
   end
 
   # Helper queries
@@ -49,5 +50,16 @@ class Stats
 
   def cycles
     data.cycles.map(&:to_i).sort
+  end
+
+  def report(message)
+    return nil unless verbose
+
+    case message
+    when String
+      puts message
+    when Array
+      puts message.map { |col| col.to_s.ljust(80 / message.count) }.join('| ')
+    end
   end
 end

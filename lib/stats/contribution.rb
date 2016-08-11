@@ -14,7 +14,10 @@ class Stats
     end
 
     def expected_contribution(opts = {})
-      (1 / data.team_size(opts[:proj_name]).to_f).to_percent(1)
+      player_hours = proj_hours(player_id: opts[:player_id], proj_name: opts[:proj_name])
+      proj_hours = proj_hours(proj_name: opts[:proj_name])
+
+      (player_hours / proj_hours.to_f).to_percent(1)
     end
 
     def contribution_gap(opts = {})

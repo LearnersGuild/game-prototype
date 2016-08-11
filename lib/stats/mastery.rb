@@ -9,6 +9,9 @@ class Stats
     end
 
     def proj_effectiveness(opts = {})
+      raise "No project name provided" unless opts[:proj_name]
+      raise "No player id provided" unless opts[:proj_name]
+
       contribution = actual_contribution(opts)
       hours = proj_hours(opts)
 
@@ -56,8 +59,8 @@ class Stats
           report "Running games for project #{proj[:name]}..."
           report "Team: #{handles.join(', ')}"
 
-          team.combination(2).each do |player_a, player_b|
-            _play(player_a, player_b)
+          team.combination(2).each do |players|
+            _play(players, proj)
           end
         end
       end
@@ -65,29 +68,28 @@ class Stats
       @generated = true
     end
 
-    def _play(player_a, player_b)
-      before_a = "#{player_a[:handle]}(#{player_a[:elo].rating})"
-      before_b = "#{player_b[:handle]}(#{player_b[:elo].rating})"
+    def _play(players, proj)
+      before_a = "#{players[0][:handle]}(#{players[0][:elo].rating})"
+      before_b = "#{players[1][:handle]}(#{players[1][:elo].rating})"
 
-      game = player_a[:elo].versus(player_b[:elo])
-      game.result = _game_result(player_a, player_b)
+      game = players[0][:elo].versus(players[1][:elo])
+      game.result = _game_result(players, proj)
 
       game_outcome = game.result.round(2)
-      after_a = "#{player_a[:handle]}(#{player_a[:elo].rating})"
-      after_b = "#{player_b[:handle]}(#{player_b[:elo].rating})"
+      after_a = "#{players[0][:handle]}(#{players[0][:elo].rating})"
+      after_b = "#{players[1][:handle]}(#{players[1][:elo].rating})"
       report [ before_a, before_b, game_outcome, after_a, after_b ]
     end
 
-    def _game_result(player_a, player_b)
-      a_effectiveness = proj_effectiveness(player_id: player_a[:id])
-      b_effectiveness = proj_effectiveness(player_id: player_b[:id])
+    def _game_result(players, proj)
+      effectivenesses = players.map { |player| proj_effectiveness(player_id: player[:id], proj_name: proj[:name]) }
 
       # margin-based ELO
-      return a_effectiveness / (a_effectiveness + b_effectiveness).to_f
+      return effectivenesses[0] / (effectivenesses[0] + effectivenesses[1]).to_f
 
-      # return 0.5 if (((a_effectiveness-b_effectiveness).abs/a_effectiveness) < 0.1)
-      # return 1 if a_effectiveness > b_effectiveness
-      # return 0 if b_effectiveness > a_effectiveness
+      # return 0.5 if (((effectivenesses[0]-effectivenesses[1]).abs/effectivenesses[0]) < 0.1)
+      # return 1 if effectivenesses[0] > effectivenesses[1]
+      # return 0 if effectivenesses[1] > effectivenesses[0]
     end
   end
 end

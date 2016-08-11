@@ -31,12 +31,12 @@ describe Stats do
   describe "#elo" do
     describe "when given a player" do
       it "calculates the correct Elo ranking for that player" do
-        expect(s.elo(opts_adv_player)).to eq(1248)
+        expect(s.elo(opts_adv_player)).to eq(1372)
       end
     end
 
     xit "is not a deterministic number, because it randomizes project and player order" do
-      
+
     end
   end
 

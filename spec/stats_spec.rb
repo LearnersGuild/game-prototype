@@ -34,6 +34,10 @@ describe Stats do
         expect(s.elo(opts_adv_player)).to eq(1248)
       end
     end
+
+    xit "is not a deterministic number, because it randomizes project and player order" do
+      
+    end
   end
 
   describe "#proj_effectiveness" do

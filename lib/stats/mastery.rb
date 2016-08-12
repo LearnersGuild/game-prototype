@@ -1,5 +1,4 @@
 require 'stats/stat_type'
-require 'utils'
 
 class Stats
   module Mastery
@@ -46,8 +45,8 @@ class Stats
       cycle_limit = opts[:cycle_no] || cycles.last
 
       1.upto(cycle_limit) do |cycle_no|
-        report " --- "
-        report "Running games for cycle #{cycle_no}..."
+        log " --- "
+        log "Running games for cycle #{cycle_no}..."
 
         cycle_projects = projects(cycle_no: cycle_no).sort_by { |proj| proj[:name] }
 
@@ -55,9 +54,9 @@ class Stats
           team = teams(proj_name: proj[:name]).map { |player| _scoreboard[player[:id]] }
           handles = team.map { |p| p[:handle] }
 
-          report " --- "
-          report "Running games for project #{proj[:name]}..."
-          report "Team: #{handles.join(', ')}"
+          log " --- "
+          log "Running games for project #{proj[:name]}..."
+          log "Team: #{handles.join(', ')}"
 
           team.combination(2).each do |players|
             _play(players, proj)
@@ -78,7 +77,7 @@ class Stats
       game_outcome = game.result.round(2)
       after_a = "#{players[0][:handle]}(#{players[0][:elo].rating})"
       after_b = "#{players[1][:handle]}(#{players[1][:elo].rating})"
-      report [ before_a, before_b, game_outcome, after_a, after_b ]
+      log [ before_a, before_b, game_outcome, after_a, after_b ]
     end
 
     def _game_result(players, proj)

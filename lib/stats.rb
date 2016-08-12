@@ -52,7 +52,7 @@ class Stats
     data.cycles.map(&:to_i).sort
   end
 
-  def report(message)
+  def log(message)
     return nil unless debug
 
     case message

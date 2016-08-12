@@ -2,6 +2,7 @@
 
 require_relative '../config'
 
+require 'game_data'
 require 'game_data_validator'
 
 if ARGV.empty?

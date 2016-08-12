@@ -36,7 +36,7 @@ class StatReporter
   end
 
   def full_report(as=:csv)
-    report = stats.report(anonymous: anonymous)
+    report = report(anonymous: anonymous)
 
     return csv(report) if as == :csv
     report
@@ -60,7 +60,7 @@ class StatReporter
   end
 
   def player_aggreagate_report(player_id)
-    aggregate_report = stats.report(player_id: player_id, anonymous: anonymous).first
+    aggregate_report = report(player_id: player_id, anonymous: anonymous).first
     { period: 'aggregated stats' }.merge(aggregate_report)
   end
 

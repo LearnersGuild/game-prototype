@@ -95,7 +95,7 @@ describe Stats do
   describe "#expected_contribution" do
     describe "when given a player id and a project name" do
       it "calculates how much contribution is expected of a player based on team size" do
-        expect(s.expected_contribution(opts_player_proj)).to eq(33.33)
+        expect(s.expected_contribution(opts_player_proj)).to eq(44.44)
       end
     end
   end
@@ -103,7 +103,7 @@ describe Stats do
   describe "#contribution_gap" do
     describe "when given a player id and a project name" do
       it "calculates the difference between actual contribution and expected contribution" do
-        expect(s.contribution_gap(opts_player_proj)).to eq(28.33 - 33.33)
+        expect(s.contribution_gap(opts_player_proj)).to eq(28.33 - 44.44)
       end
     end
   end
@@ -111,7 +111,7 @@ describe Stats do
   describe "#contribution_accuracy" do
     describe "when given a player id" do
       it "determines how accurate their judgment is relative to others'" do
-        expect(s.contribution_accuracy(opts_player)).to eq(2.5)
+        expect(s.contribution_accuracy(opts_player)).to eq(97.5)
       end
 
       it "is always expressed as a positive number" do
@@ -119,7 +119,7 @@ describe Stats do
       end
 
       it "even works with advanced players" do
-        expect(s.contribution_accuracy(opts_adv_player)).to eq(9.17)
+        expect(s.contribution_accuracy(opts_adv_player)).to eq(90.83)
       end
     end
 
@@ -128,7 +128,7 @@ describe Stats do
         one_project_score = s.contribution_accuracy(opts_adv_player_project)
         overall_score = s.contribution_accuracy(player_id: opts_adv_player_project[:player_id])
 
-        expect(one_project_score).to eq(6.5)
+        expect(one_project_score).to eq(93.5)
         expect(overall_score).not_to eq(one_project_score)
       end
     end

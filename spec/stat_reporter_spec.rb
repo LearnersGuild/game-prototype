@@ -25,7 +25,7 @@ describe StatReporter do
                             avg_proj_qual: 83.52,
                             lrn_supp: 94.29,
                             cult_cont: 97.14,
-                            est_accuracy: 9.17,
+                            est_accuracy: 90.83,
                             est_bias: 9.17,
                             no_proj_rvws: 7 }]
 

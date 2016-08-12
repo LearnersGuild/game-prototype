@@ -5,7 +5,9 @@ class Stats
     extend StatType
 
     def estimation_accuracy(opts = {})
-      100 - _estimation_differences(opts)
+      diff = _estimation_differences(opts)
+      return diff if diff == 'missing data'
+      (100 - diff.to_f).round(2)
     end
 
     def estimation_bias(opts = {})

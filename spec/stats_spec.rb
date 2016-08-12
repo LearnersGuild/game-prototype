@@ -108,25 +108,25 @@ describe Stats do
     end
   end
 
-  describe "#contribution_accuracy" do
+  describe "#estimation_accuracy" do
     describe "when given a player id" do
       it "determines how accurate their judgment is relative to others'" do
-        expect(s.contribution_accuracy(opts_player)).to eq(97.5)
+        expect(s.estimation_accuracy(opts_player)).to eq(97.5)
       end
 
       it "is always expressed as a positive number" do
-        expect(s.contribution_accuracy(opts_underestimated_player)).to be > 0
+        expect(s.estimation_accuracy(opts_underestimated_player)).to be > 0
       end
 
       it "even works with advanced players" do
-        expect(s.contribution_accuracy(opts_adv_player)).to eq(90.83)
+        expect(s.estimation_accuracy(opts_adv_player)).to eq(90.83)
       end
     end
 
     describe "when given a player id and a project name" do
-      it "limits the contribution_accuracy score to just the project scores" do
-        one_project_score = s.contribution_accuracy(opts_adv_player_project)
-        overall_score = s.contribution_accuracy(player_id: opts_adv_player_project[:player_id])
+      it "limits the estimation_accuracy score to just the project scores" do
+        one_project_score = s.estimation_accuracy(opts_adv_player_project)
+        overall_score = s.estimation_accuracy(player_id: opts_adv_player_project[:player_id])
 
         expect(one_project_score).to eq(93.5)
         expect(overall_score).not_to eq(one_project_score)
@@ -134,9 +134,9 @@ describe Stats do
     end
   end
 
-  describe "#contribution_bias" do
+  describe "#estimation_bias" do
     it "calculates average +/-% a player's self-evaluation is relative to their peer's evalution of them" do
-      expect(s.contribution_bias(opts_underestimated_player)).to eq(-10.0)
+      expect(s.estimation_bias(opts_underestimated_player)).to eq(-10.0)
     end
   end
 

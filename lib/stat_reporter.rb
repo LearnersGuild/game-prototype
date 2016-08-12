@@ -27,8 +27,8 @@ class StatReporter
       stat_report[:avg_proj_qual] = stats.proj_quality_for_player(player_id: id)
       stat_report[:lrn_supp] = stats.learning_support(player_id: id)
       stat_report[:cult_cont] = stats.culture_contribution(player_id: id)
-      stat_report[:contrib_accuracy] = stats.contribution_accuracy(player_id: id)
-      stat_report[:contrib_bias] = stats.contribution_bias(player_id: id)
+      stat_report[:est_accuracy] = stats.estimation_accuracy(player_id: id)
+      stat_report[:est_bias] = stats.estimation_bias(player_id: id)
       stat_report[:no_proj_rvws] = stats.no_proj_reviews(player_id: id)
 
       stat_report
@@ -74,8 +74,8 @@ class StatReporter
       avg_proj_qual: stats.proj_quality_for_player(opts),
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contribution(opts),
-      contrib_accuracy: stats.contribution_accuracy(opts),
-      contrib_bias: stats.contribution_bias(opts),
+      est_accuracy: stats.estimation_accuracy(opts),
+      est_bias: stats.estimation_bias(opts),
       no_proj_rvws: stats.no_proj_reviews(opts)
     }
   end
@@ -93,8 +93,8 @@ class StatReporter
       project_contrib: stats.project_contribution(opts),
       expected_contrib: stats.expected_contribution(opts),
       contrib_gap: stats.contribution_gap(opts),
-      contrib_accuracy: stats.contribution_accuracy(opts),
-      contrib_bias: stats.contribution_bias(opts),
+      est_accuracy: stats.estimation_accuracy(opts),
+      est_bias: stats.estimation_bias(opts),
     }
   end
 

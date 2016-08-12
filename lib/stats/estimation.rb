@@ -4,12 +4,12 @@ class Stats
   module Estimation
     extend StatType
 
-    def contribution_accuracy(opts = {})
-      100 - _contribution_differences(opts)
+    def estimation_accuracy(opts = {})
+      100 - _estimation_differences(opts)
     end
 
-    def contribution_bias(opts = {})
-      _contribution_differences(opts.merge(include_negatives: true))
+    def estimation_bias(opts = {})
+      _estimation_differences(opts.merge(include_negatives: true))
     end
 
     def self_reported_contribution(opts = {})
@@ -33,7 +33,7 @@ class Stats
 
   private
 
-    def _contribution_differences(opts = {})
+    def _estimation_differences(opts = {})
       projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
 
       accuracies = projects.map do |proj|
@@ -43,7 +43,7 @@ class Stats
         team_rep_contrib = team_reported_contribution(opts.merge(proj_name: proj[:name]))
 
         if self_rep_contrib.nil?
-          warn "Can't calculate _contribution_differences for player #{opts[:player_id]} in project #{proj[:name]}"
+          warn "Can't calculate _estimation_differences for player #{opts[:player_id]} in project #{proj[:name]}"
           next
         end
 

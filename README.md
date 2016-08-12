@@ -56,7 +56,7 @@ The player id can be the first 4 bytes of a player's id (e.g. `b6aa9c94`) or the
 ```shell-session
 $ ./bin/stat-report-player 75dbe257 data/cycle-3* > 75dbe257-report.csv
 $ cat 75dbe257-report.csv
-period,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,contrib_accuracy,no_proj_rvws
+period,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,est_accuracy,no_proj_rvws
 aggregated stats,75dbe257,100.56,87.94,83.52,94.29,97.14,6.05,7
 cycle 3,75dbe257,100.56,87.94,83.52,94.29,97.14,6.05,7
 project cluttered-partridge,75dbe257,31.02,87.94,83.52,94.29,97.14,13.33,
@@ -100,7 +100,7 @@ To turn anonymity off, and display player info like their name and GitHub handle
 
 ```shell-session
 $ ANON=false bin/stat-report-player 75dbe257 data/cycle-1*
-period,name,handle,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,contrib_accuracy,no_proj_rvws
+period,name,handle,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,est_accuracy,no_proj_rvws
 aggregated stats,John Roberts,jrob8577,75dbe257,84.91,94.0,91.0,97.62,95.24,3.89,8
 ...
 ```

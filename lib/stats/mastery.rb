@@ -5,6 +5,7 @@ class Stats
     extend StatType
 
     def elo(opts = {})
+      _scoreboard[opts[:player_id]][:elo].rating
     end
 
     def proj_effectiveness(opts = {})

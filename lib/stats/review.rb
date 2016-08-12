@@ -38,7 +38,7 @@ class Stats
 
     def no_proj_reviews(opts = {})
       data.cycle(opts[:cycle_no])
-          .reporter(opts[:player_id])
+          .reporter_id(opts[:player_id])
           .proj_completeness
           .count
     end

@@ -6,7 +6,7 @@ class Stats
 
     def culture_contribution(opts = {})
       scores = data.culture_contribution
-                   .subject(opts[:player_id])
+                   .subject_id(opts[:player_id])
                    .cycle(opts[:cycle_no])
                    .values(&:to_i)
 
@@ -15,7 +15,7 @@ class Stats
 
     def learning_support(opts = {})
       scores = data.learning_support
-                   .subject(opts[:player_id])
+                   .subject_id(opts[:player_id])
                    .cycle(opts[:cycle_no])
                    .values(&:to_i)
 

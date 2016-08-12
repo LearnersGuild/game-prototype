@@ -7,7 +7,7 @@ class Stats
     def proj_hours(opts = {})
       hours = data.project(opts[:proj_name])
                   .cycle(opts[:cycle_no])
-                  .reporter(opts[:player_id])
+                  .reporter_id(opts[:player_id])
                   .proj_hours
                   .values
 
@@ -15,7 +15,7 @@ class Stats
     end
 
     def avg_cycle_hours(opts = {})
-      hours = data.cycle(opts[:cycle_no]).reporter(opts[:player_id]).proj_hours
+      hours = data.cycle(opts[:cycle_no]).reporter_id(opts[:player_id]).proj_hours
       hours_per_cycle = hours.reduce([]) do |cycles, r|
         cycle_no = r['cycleNumber'].to_i - 1
         cycles[cycle_no] ||= []

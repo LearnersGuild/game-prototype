@@ -64,6 +64,34 @@ project dazzling-white-eye,75dbe257,32.36,87.94,83.52,94.29,97.14,0.5,
 project wiggly-jacana,75dbe257,37.18,87.94,83.52,94.29,97.14,4.33,
 ```
 
+### Elo Rating
+
+To see Elo ratings for players, use the `bin/elo` command:
+
+```shell-session
+$ bin/elo data/cycle-*.csv
+Elo rankings
+------------
+jrob8577            : 1159
+thejaneofalltrades  : 1125
+deadlyicon          : 1108
+...
+```
+
+To see a history of all the Elo games, set the env variable `DEBUG` to `true`:
+
+```shell-session
+$ DEBUG=true bin/elo data/cycle-*.csv
+ ---
+Running games for cycle 1...
+ ---
+Running games for project depraved-malleefowl...
+Team: Jusdev89, deadlyicon, shakalee14
+Jusdev89(1000)      | deadlyicon(1400)    | 0.43                | Jusdev89(1067)      | deadlyicon(1332)    
+Jusdev89(1067)      | shakalee14(1000)    | 0.49                | Jusdev89(1045)      | shakalee14(1021)    
+...
+```
+
 ### Anonymity
 
 By default, all reports are generated without identifying player information (except for the shortened ID).

@@ -11,7 +11,7 @@ class Stats
                   .proj_hours
                   .values
 
-      hours.map(&:to_i).reduce(:+)
+      hours.map(&:to_f).reduce(:+)
     end
 
     def avg_cycle_hours(opts = {})

@@ -9,14 +9,15 @@ class GameDataValidator
     invalid_hours = 0
 
     data.proj_hours.each do |record|
-      hours = record['value']
-
-      if hours =~ /\D+/ # must be nothing but numbers
+      begin
+        hours = Float(record['value'])
+      rescue ArgumentError
         invalid_hours += 1
-        puts ""
-        puts "[ERROR] Non-numeric hours: '#{hours}'"
-        puts "  Record: #{record}"
-        puts ""
+
+        warn ""
+        warn "[ERROR] Non-numeric hours: '#{record['value']}'"
+        warn "  Record: #{record}"
+        warn ""
       end
     end
 

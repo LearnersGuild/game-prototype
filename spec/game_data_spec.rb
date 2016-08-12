@@ -22,10 +22,17 @@ describe GameData do
 
   describe "using inverse: true" do
     it "provides inverted results for certain methods" do
-      others_hours = gd.reporter(prof_player_id, inverse: true).proj_hours
+      others_hours = gd.reporter_id(prof_player_id, inverse: true).proj_hours
       reporters = others_hours.map { |r| r['respondentId'] }
 
       expect(reporters).not_to include(prof_player_id)
+    end
+  end
+
+  describe "#get_team" do
+    it "returns all players who worked together on a specific project" do
+      team_players = gd.get_team('wiggly-jacana').map { |p| p[:id] }
+      expect(team_players).to include('75dbe257', '936e3168', 'cbcff678')
     end
   end
 end

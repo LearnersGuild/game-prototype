@@ -1,10 +1,22 @@
+require 'elo'
 require 'stats/stat_type'
+
+Elo.configure do |config|
+  config.k_factor(200) { games_played < 20 }
+  config.default_k_factor = 16
+  config.use_FIDE_settings = false
+end
 
 class Stats
   module Mastery
+    PROFESSIONAL_PLAYERS = %w[ jrob8577 deadlyicon bluemihai ]
+    PROFESSIONAL_INITIAL_RATING = 1400
+    DEFAULT_INITIAL_RATING = 1000
+
     extend StatType
 
     def elo(opts = {})
+      _generate_rankings
       _scoreboard[opts[:player_id]][:elo].rating
     end
 
@@ -26,12 +38,12 @@ class Stats
     def _scoreboard
       return @scoreboard if @scoreboard
       @scoreboard = Hash[
-        players.map { |player| [player[:id], _new_player(player)] }
+        players.map { |player| [player[:id], _enable_elo(player)] }
       ]
     end
 
-    def _new_player(player)
-      if PROFESSIONAL_PLAYERS.include?(player[:id])
+    def _enable_elo(player)
+      if PROFESSIONAL_PLAYERS.include?(player[:handle])
         initial_rating = PROFESSIONAL_INITIAL_RATING
       else
         initial_rating = DEFAULT_INITIAL_RATING
@@ -52,7 +64,7 @@ class Stats
         cycle_projects = projects(cycle_no: cycle_no).sort_by { |proj| proj[:name] }
 
         cycle_projects.each do |proj|
-          team = teams(proj_name: proj[:name]).map { |player| _scoreboard[player[:id]] }
+          team = team(proj_name: proj[:name]).map { |player| _scoreboard[player[:id]] }
           handles = team.map { |p| p[:handle] }
 
           log " --- "

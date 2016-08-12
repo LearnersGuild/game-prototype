@@ -7,7 +7,7 @@ class Stats
     def actual_contribution(opts = {})
       scores = data.project(opts[:proj_name])
                    .contribution
-                   .subject(opts[:player_id])
+                   .subject_id(opts[:player_id])
                    .values(&:to_i)
 
       mean(scores).to_percent(100)

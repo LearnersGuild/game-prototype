@@ -48,6 +48,12 @@ class Stats
 
   end
 
+  def team(opts = {})
+    raise "No team name specified" unless opts[:proj_name]
+
+    data.get_team(opts[:proj_name])
+  end
+
   def cycles
     data.cycles.map(&:to_i).sort
   end

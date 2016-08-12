@@ -61,7 +61,7 @@ class GameData
     self.class.new(data.select { |r| r['cycleNumber'].to_i == cycle_no.to_i })
   end
 
-  def reporter(player_id=nil, opts={})
+  def reporter_id(player_id=nil, opts={})
     return self if player_id.nil?
     if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['respondentId']) == shortened(player_id) })
@@ -70,7 +70,16 @@ class GameData
     end
   end
 
-  def subject(subj_id=nil, opts={})
+  def subject(subject=nil, opts={})
+    return self if subject.nil?
+    if opts[:inverse]
+      self.class.new(data.reject { |r| r['subject'] == subject })
+    else
+      self.class.new(data.select { |r| r['subject'] == subject })
+    end
+  end
+
+  def subject_id(subj_id=nil, opts={})
     return self if subj_id.nil?
     if opts[:inverse]
       self.class.new(data.reject { |r| shortened(r['subjectId']) == shortened(subj_id) })
@@ -101,8 +110,8 @@ class GameData
 
   def self_reported_contribution(player_id, proj_name)
     result = project(proj_name)
-               .reporter(player_id)
-               .subject(player_id)
+               .reporter_id(player_id)
+               .subject_id(player_id)
                .contribution
 
     raise MissingDataError, "No self-reported contribution for player #{player_id} in project #{proj_name}" if result.none?
@@ -111,8 +120,8 @@ class GameData
 
   def team_reported_contribution(player_id, proj_name)
     result = project(proj_name)
-               .reporter(player_id, inverse: true)
-               .subject(player_id)
+               .reporter_id(player_id, inverse: true)
+               .subject_id(player_id)
                .contribution
 
     raise MissingDataError, "No team-reported contributions for player #{player_id} in project #{proj_name}" if result.none?
@@ -130,7 +139,7 @@ class GameData
   end
 
   def get_projects(player_id=nil)
-    contributions = subject(player_id).contribution
+    contributions = subject_id(player_id).contribution
 
     survey_ids = contributions.map { |r| r['surveyId'] }.uniq
     project_records = survey_ids.map { |survey_id| survey(survey_id).proj_hours.data }.flatten
@@ -140,19 +149,13 @@ class GameData
   end
 
   def get_players(player_id=nil)
-    players = data.map do |r|
-      {
-        email: r['respondentEmail'],
-        handle: r['respondentHandle'],
-        id: shortened(r['respondentId']),
-        name: r['respondentName']
-      }
-    end.uniq do |player|
-      player[:id]
-    end
-
+    players = extract_player_info(data)
     return players.select { |player| shortened(player[:id]) == shortened(player_id) } if player_id
     players
+  end
+
+  def get_team(proj_name)
+    extract_player_info(subject(proj_name).proj_hours)
   end
 
   def cycles
@@ -173,5 +176,18 @@ class GameData
 
   def shortened(id)
     id.split('-').first
+  end
+
+  def extract_player_info(records)
+    records.map do |r|
+      {
+        email: r['respondentEmail'],
+        handle: r['respondentHandle'],
+        id: shortened(r['respondentId']),
+        name: r['respondentName']
+      }
+    end.uniq do |player|
+      player[:id]
+    end
   end
 end

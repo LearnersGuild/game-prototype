@@ -4,6 +4,7 @@ require 'game_data'
 
 describe GameData do
   let(:gd) { GameData.import([CLEAN_DATA]) }
+  let(:prof_player_id) { '75dbe257' } # player: 'jrob8577'
 
   describe "#get_players" do
     describe "with no arguments" do
@@ -13,22 +14,18 @@ describe GameData do
     end
 
     describe "when given a player id" do
-      let(:player_id) { '75dbe257' } # player: 'jrob8577'
-
       it "returns data for the player" do
-        expect(gd.get_players(player_id).first[:handle]).to eq('jrob8577')
+        expect(gd.get_players(prof_player_id).first[:handle]).to eq('jrob8577')
       end
     end
   end
 
-  describe "using inverted: true" do
-    let(:player_id) { '75dbe257' } # player: 'jrob8577'
-
+  describe "using inverse: true" do
     it "provides inverted results for certain methods" do
-      others_hours = gd.reporter(player_id, inverse: true).proj_hours
+      others_hours = gd.reporter(prof_player_id, inverse: true).proj_hours
       reporters = others_hours.map { |r| r['respondentId'] }
 
-      expect(reporters).not_to include(player_id)
+      expect(reporters).not_to include(prof_player_id)
     end
   end
 end

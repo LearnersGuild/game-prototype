@@ -37,10 +37,22 @@ class Stats
     end
 
     def no_proj_reviews(opts = {})
-      data.cycle(opts[:cycle_no])
-          .reporter_id(opts[:player_id])
-          .proj_completeness
-          .count
+      projects_with_completeness = data.cycle(opts[:cycle_no])
+                                       .reporter_id(opts[:player_id])
+                                       .proj_completeness
+                                       .map { |r| r['subjectId'] }
+                                       .uniq
+
+      projects_with_completeness.reduce(0) do |count, subj_id|
+        has_quality_review = data.cycle(opts[:cycle_no])
+                                 .reporter_id(opts[:player_id])
+                                 .subject_id(subj_id)
+                                 .proj_quality
+                                 .any?
+
+        count += 1 if has_quality_review
+        count
+      end
     end
   end
 end

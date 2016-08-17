@@ -27,6 +27,7 @@ describe StatReporter do
                             cult_cont: 97.14,
                             est_accuracy: 90.83,
                             est_bias: 9.17,
+                            team_play: 94.29,
                             no_proj_rvws: 7 }]
 
         expect(player_stats).to eq(expected_stats)

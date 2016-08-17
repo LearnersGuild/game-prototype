@@ -64,6 +64,14 @@ describe Stats do
     end
   end
 
+  describe "#team_play" do
+    describe "when given a player" do
+      it "calculates mean team play as 2-decimal percentage" do
+        expect(s.team_play(opts_adv_player)).to eq(94.29)
+      end
+    end
+  end
+
   describe "#proj_completeness" do
     describe "when given a project name" do
       it "calculates project completeness as 2-decimal percentage" do

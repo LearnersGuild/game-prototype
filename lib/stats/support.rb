@@ -21,5 +21,14 @@ class Stats
 
       mean(scores).to_percent(7)
     end
+
+    def team_play(opts = {})
+      scores = data.team_play
+                   .subject_id(opts[:player_id])
+                   .cycle(opts[:cycle_no])
+                   .values(&:to_i)
+
+      mean(scores).to_percent(7)
+    end
   end
 end

@@ -26,7 +26,8 @@ class GameData
     proj_hours: '29a4bc7e-631e-409b-a8ed-6d06a9ae39f7',
     learning_support: '26ccd2a0-64af-4bf4-ae6b-e87445a2b213',
     proj_completeness: '65cad3c5-e9e9-4284-999b-3a72c481c55e',
-    proj_quality: '2c335ce5-ed0b-4068-92c8-56666fb7fdad'
+    proj_quality: '2c335ce5-ed0b-4068-92c8-56666fb7fdad',
+    team_play: '57bc052d-1a7e-4faa-9617-11a93619ff6e'
   }
 
   attr_reader :data

@@ -23,11 +23,11 @@ describe StatReporter do
                             avg_cycle_hours: 40.0,
                             avg_proj_comp: 87.94,
                             avg_proj_qual: 83.52,
-                            lrn_supp: 94.29,
-                            cult_cont: 97.14,
+                            lrn_supp: 93.33,
+                            cult_cont: 96.67,
+                            team_play: 93.33,
                             est_accuracy: 90.83,
                             est_bias: 9.17,
-                            team_play: 94.29,
                             no_proj_rvws: 7 }]
 
         expect(player_stats).to eq(expected_stats)

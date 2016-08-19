@@ -5,30 +5,39 @@ class Stats
     extend StatType
 
     def culture_contribution(opts = {})
-      scores = data.culture_contribution
-                   .subject_id(opts[:player_id])
-                   .cycle(opts[:cycle_no])
-                   .values(&:to_i)
+      scores = _zero_based_scores(data.culture_contribution, opts)
+      scores = _filter_out_not_applicables(scores)
 
-      mean(scores).to_percent(7)
+      mean(scores).to_percent(6)
     end
 
     def learning_support(opts = {})
-      scores = data.learning_support
-                   .subject_id(opts[:player_id])
-                   .cycle(opts[:cycle_no])
-                   .values(&:to_i)
+      scores = _zero_based_scores(data.learning_support, opts)
+      scores = _filter_out_not_applicables(scores)
 
-      mean(scores).to_percent(7)
+      mean(scores).to_percent(6)
     end
 
     def team_play(opts = {})
-      scores = data.team_play
-                   .subject_id(opts[:player_id])
-                   .cycle(opts[:cycle_no])
-                   .values(&:to_i)
+      scores = _zero_based_scores(data.team_play, opts)
+      scores = _filter_out_not_applicables(scores)
 
-      mean(scores).to_percent(7)
+      mean(scores).to_percent(6)
+    end
+
+  private
+
+    # Use 0..6 Likert scale (input values are 0..7, with 0 = N/A)
+    def _zero_based_scores(records, opts)
+      records.subject_id(opts[:player_id])
+             .cycle(opts[:cycle_no])
+             .values(&:to_i)
+             .map { |v| (v - 1) }
+    end
+
+    # Don't use N/A values when calculating stats
+    def _filter_out_not_applicables(scores)
+      scores.reject { |v| v == -1 }
     end
   end
 end

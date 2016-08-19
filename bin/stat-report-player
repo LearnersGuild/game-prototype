@@ -2,6 +2,7 @@
 
 require_relative '../config'
 
+require 'game_data'
 require 'stats'
 require 'stat_reporter'
 
@@ -9,14 +10,19 @@ player_id = ARGV.shift
 
 raise "No player id provided" unless player_id
 
-if ARGV.empty?
-  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
+anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
+cycle_limit = ENV['CYCLE'] && ENV['CYCLE'].to_i
+
+if cycle_limit
+  cycles = (1..cycle_limit)
+  files = cycles.map { |cycle_no| File.join(DATA_PATH, "cycle-#{cycle_no}.csv")}
+elsif ARGV.empty?
+  files = Dir[ File.join(DATA_PATH, 'cycle-*.csv') ]
 else
   files = ARGV
 end
 
-anonymous = !(ENV['ANON'] && ENV['ANON'].downcase =~ /no|false/)
-
-s = Stats.new(*files)
+s = Stats.new(GameData.import(files))
 r = StatReporter.new(s, anonymous)
+
 puts r.player_report(player_id)

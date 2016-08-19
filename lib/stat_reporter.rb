@@ -51,7 +51,7 @@ class StatReporter
       report << player_cycle_report(player_id: player_id, cycle_no: cycle_no)
 
       projects = stats.projects(player_id: player_id, cycle_no: cycle_no)
-      projects.sort.each do |proj|
+      projects.sort_by { |p| p[:name] }.each do |proj|
         report << player_project_report(player_id: player_id, proj_name: proj[:name])
       end
     end
@@ -93,7 +93,7 @@ class StatReporter
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contribution(opts),
       team_play: stats.team_play(opts),
-      project_contrib: stats.project_contribution(opts),
+      project_contrib: stats.actual_contribution(opts),
       expected_contrib: stats.expected_contribution(opts),
       contrib_gap: stats.contribution_gap(opts),
       est_accuracy: stats.estimation_accuracy(opts),

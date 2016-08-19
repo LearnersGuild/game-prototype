@@ -8,7 +8,7 @@ require 'stats/mastery'
 require 'stats/review'
 require 'stats/support'
 
-require 'stats/utils'
+require 'utils'
 
 class Stats
   class << self
@@ -26,6 +26,8 @@ class Stats
   include Support
 
   include Aggregates
+
+  NO_DATA = 'MISSING DATA'
 
   attr_reader :data, :debug
 

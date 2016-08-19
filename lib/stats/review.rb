@@ -16,7 +16,7 @@ class Stats
       projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
       scores = projects.map { |proj| proj_completeness(proj_name: proj[:name]) }
 
-      return 'missing data' if scores.none?
+      return NO_DATA if scores.none?
       mean(scores).to_percent(100)
     end
 
@@ -32,7 +32,7 @@ class Stats
       projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
       scores = projects.map { |proj| proj_quality(proj_name: proj[:name]) }
 
-      return 'missing data' if scores.none?
+      return NO_DATA if scores.none?
       mean(scores).to_percent(100)
     end
 

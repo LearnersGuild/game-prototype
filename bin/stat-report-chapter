@@ -6,14 +6,26 @@ require 'game_data'
 require 'stats'
 require 'stat_reporter'
 
-if ARGV.empty?
-  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
+anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
+cycle_limit = ENV['CYCLE'] && ENV['CYCLE'].to_i
+report_file = nil
+
+if cycle_limit
+  cycles = (1..cycle_limit)
+  files = cycles.map { |cycle_no| File.join(DATA_PATH, "cycle-#{cycle_no}.csv")}
+
+  report_filename = "cycle-#{[1, cycles.last].uniq.join('to')}.csv"
+  report_file = File.join(REPORTS_PATH, report_filename)
+elsif ARGV.empty?
+  files = Dir[ File.join(DATA_PATH, 'cycle-*.csv') ]
 else
   files = ARGV
 end
 
-anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
-
 s = Stats.new(GameData.import(files))
 r = StatReporter.new(s, anonymous)
-puts r.full_report
+
+report = r.full_report
+puts report
+
+File.write(report_file, report) if report_file

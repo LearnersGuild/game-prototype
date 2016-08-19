@@ -45,6 +45,20 @@ af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
 ...
 ```
 
+Alternatively, you omit the filenames and can simply set the `CYCLE` env variable to the cycle you wish to generate a report for (including all previous reports).
+
+**Note**: this assumes the presence of a `./data/` directory with cycle data files and a `./reports/` directory for saving report files to. Both must be in the root folder.
+
+```shell-session
+$ CYCLE=4 bin/stat-report-chapter
+  ...
+$ cat reports/cycle-1to4.csv
+id,xp,avg_cycle_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,est_accuracy,est_bias,no_proj_rvws
+a4b6116a,22.78,40.0,89.28,90.0,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,8
+cbcff678,53.24,36.25,82.94,83.29,70.0,93.33,MISSING DATA,90.5,-1.75,22
+...
+```
+
 ### Player Stat Reports
 
 Stats can be generated for a player by running `./bin/stat-report-chapter` and passing a player id one or more data files.

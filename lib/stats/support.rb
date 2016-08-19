@@ -8,6 +8,7 @@ class Stats
       scores = _zero_based_scores(data.culture_contribution, opts)
       scores = _filter_out_not_applicables(scores)
 
+      return NO_DATA if scores.none?
       mean(scores).to_percent(6)
     end
 
@@ -15,6 +16,7 @@ class Stats
       scores = _zero_based_scores(data.learning_support, opts)
       scores = _filter_out_not_applicables(scores)
 
+      return NO_DATA if scores.none?
       mean(scores).to_percent(6)
     end
 
@@ -22,6 +24,7 @@ class Stats
       scores = _zero_based_scores(data.team_play, opts)
       scores = _filter_out_not_applicables(scores)
 
+      return NO_DATA if scores.none?
       mean(scores).to_percent(6)
     end
 

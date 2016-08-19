@@ -6,7 +6,7 @@ class Stats
 
     def estimation_accuracy(opts = {})
       diff = _estimation_differences(opts)
-      return diff if diff == 'missing data'
+      return diff if diff == NO_DATA
       (100 - diff.to_f).round(2)
     end
 
@@ -55,7 +55,7 @@ class Stats
       accuracies = accuracies.reject(&:nil?)
       accuracies = accuracies.map(&:abs) unless opts[:include_negatives]
 
-      return 'missing data' if accuracies.none?
+      return NO_DATA if accuracies.none?
       mean(accuracies).round(2)
     end
   end

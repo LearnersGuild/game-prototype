@@ -27,6 +27,8 @@ class Stats
 
   include Aggregates
 
+  NO_DATA = 'MISSING DATA'
+
   attr_reader :data, :debug
 
   def initialize(game_data, opts = {})

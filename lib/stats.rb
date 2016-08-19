@@ -8,7 +8,7 @@ require 'stats/mastery'
 require 'stats/review'
 require 'stats/support'
 
-require 'stats/utils'
+require 'utils'
 
 class Stats
   class << self

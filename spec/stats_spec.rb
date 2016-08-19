@@ -51,7 +51,7 @@ describe Stats do
   describe "#culture_contribution" do
     describe "when given a player" do
       it "calculates mean culture contribution as a 2-decimal percentage" do
-        expect(s.culture_contribution(opts_adv_player)).to eq(97.14)
+        expect(s.culture_contribution(opts_adv_player)).to eq(96.67)
       end
     end
   end
@@ -59,7 +59,7 @@ describe Stats do
   describe "#learning_support" do
     describe "when given a player" do
       it "calculates mean learning support as 2-decimal percentage" do
-        expect(s.learning_support(opts_adv_player)).to eq(94.29)
+        expect(s.learning_support(opts_adv_player)).to eq(93.33)
       end
     end
   end
@@ -67,7 +67,7 @@ describe Stats do
   describe "#team_play" do
     describe "when given a player" do
       it "calculates mean team play as 2-decimal percentage" do
-        expect(s.team_play(opts_adv_player)).to eq(94.29)
+        expect(s.team_play(opts_adv_player)).to eq(93.33)
       end
     end
   end

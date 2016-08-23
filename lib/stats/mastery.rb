@@ -2,8 +2,8 @@ require 'elo'
 require 'stats/stat_type'
 
 Elo.configure do |config|
-  config.k_factor(200) { games_played < 20 }
-  config.default_k_factor = 16
+  config.k_factor(100) { games_played < 20 }
+  config.default_k_factor = 20
   config.use_FIDE_settings = false
 end
 

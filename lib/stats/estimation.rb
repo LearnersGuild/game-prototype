@@ -36,7 +36,7 @@ class Stats
   private
 
     def _estimation_differences(opts = {})
-      projects = data.cycle(opts[:cycle_no]).get_projects(opts[:player_id])
+      projects = weighted_records(data, opts[:cycle_no]).get_projects(opts[:player_id])
 
       accuracies = projects.map do |proj|
         next if opts[:proj_name] && proj[:name] != opts[:proj_name]

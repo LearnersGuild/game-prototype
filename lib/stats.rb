@@ -27,6 +27,8 @@ class Stats
 
   include Aggregates
 
+  CYCLE_INCLUSION_LIMIT = 5 # how many previous cycles (beyond the current one) to use when weighting stats
+
   NO_DATA = 'MISSING DATA'
 
   attr_reader :data, :debug
@@ -62,6 +64,13 @@ class Stats
 
   def current_cycle
     cycles.last
+  end
+
+  def weighted_records(records, cycle_no)
+    cycle_end = cycle_no || current_cycle
+    cycle_begin = cycle_end > CYCLE_INCLUSION_LIMIT ? cycle_end - CYCLE_INCLUSION_LIMIT : 1
+
+    records.cycle(cycle_begin..cycle_end)
   end
 
   def log(message)

@@ -57,9 +57,12 @@ class GameData
     define_method(type) { self.class.new(data.select { |r| shortened(r['questionId']) == shortened(id) }) }
   end
 
-  def cycle(cycle_no=nil)
-    return self if cycle_no.nil?
-    self.class.new(data.select { |r| r['cycleNumber'].to_i == cycle_no.to_i })
+  def cycle(cycle_no_or_range=nil)
+    return self if cycle_no_or_range.nil?
+
+    cycles = (Range === cycle_no_or_range) ? cycle_no_or_range : (cycle_no_or_range..cycle_no_or_range)
+
+    self.class.new(data.select { |r| cycles.member?(r['cycleNumber'].to_i) })
   end
 
   def reporter_id(player_id=nil, opts={})

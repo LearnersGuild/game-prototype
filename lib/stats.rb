@@ -60,6 +60,10 @@ class Stats
     data.cycles.map(&:to_i).sort
   end
 
+  def current_cycle
+    cycles.last
+  end
+
   def log(message)
     return nil unless debug
 

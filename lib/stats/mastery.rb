@@ -10,7 +10,7 @@ end
 class Stats
   module Mastery
     PROFESSIONAL_PLAYERS = %w[ jrob8577 deadlyicon bluemihai ]
-    PROFESSIONAL_INITIAL_RATING = 1400
+    PROFESSIONAL_INITIAL_RATING = 1300
     DEFAULT_INITIAL_RATING = 1000
 
     extend StatType

@@ -31,6 +31,7 @@ class StatReporter
       stat_report[:est_accuracy] = stats.estimation_accuracy(player_id: id)
       stat_report[:est_bias] = stats.estimation_bias(player_id: id)
       stat_report[:no_proj_rvws] = stats.no_proj_reviews(player_id: id)
+      stat_report[:elo] = stats.elo(player_id: id)
 
       stat_report
     end

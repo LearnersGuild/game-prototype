@@ -1,26 +1,48 @@
 require 'csv'
 
+require 'mastery'
+
 require 'utils'
 
 class Stats
   include Aggregates
+  include Mastery
 
   CYCLE_INCLUSION_LIMIT = 5 # how many previous cycles (beyond the current one) to use when weighting stats
 
   NO_DATA = 'MISSING DATA'
 
-  attr_reader :data, :proj_stats, :review_stats, :debug
+  attr_reader :data, :proj_stats, :review_stats
 
-  def initialize(proj_stats, review_stats, game_data, opts = {})
+  def initialize(proj_stats, review_stats, game_data)
     @data = game_data
     @proj_stats = proj_stats
     @review_stats = review_stats
-    @debug = opts.fetch(:debug) { false }
   end
+
+  # proj stat queries
 
   def player_ids
     proj_stats.map { |s| s['id'] }.uniq
   end
+
+  def projects(cycle_no)
+    proj_stats.select { |s| s['cycle_no'].to_i == cycle_no }.map { |s| s['project'] }
+  end
+
+  def team(proj_name)
+    proj_stats.select { |s| s['project'] == proj_name }.map { |s| s['id'] }
+  end
+
+  def actual_contribution(proj_name, player_id)
+    proj_stats.for_player(player_id).find { |s| s['project'] == proj_name }['project_contrib'].to_f
+  end
+
+  def proj_hours(proj_name, player_id)
+    proj_stats.for_player(player_id).find { |s| s['project'] == proj_name }['proj_hours'].to_f
+  end
+
+  # aggregate stats
 
   def xp(id)
     proj_xps = proj_stats.for_player(id).map { |s| s['xp'].to_f }
@@ -76,14 +98,14 @@ class Stats
   end
 
   def proj_completeness_for_player(id)
-    stats = weighted_stats(id).map { |s| s['avg_proj_comp'].to_f }
+    stats = proj_stats.for_player(id).map { |s| s['avg_proj_comp'].to_f }
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def proj_quality_for_player(id)
-    stats = weighted_stats(id).map { |s| s['avg_proj_qual'].to_f }
+    stats = proj_stats.for_player(id).map { |s| s['avg_proj_qual'].to_f }
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
@@ -111,7 +133,7 @@ private
   end
 
   def log(message)
-    return nil unless debug
+    return nil unless ENV['DEBUG']
 
     case message
     when String

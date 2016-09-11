@@ -97,7 +97,6 @@ class StatReporter
 
   def player_project_report(opts = {})
     proj_report = {
-      cycle: stats.current_cycle,
       project: opts[:proj_name],
       id: opts[:player_id],
       xp: stats.xp(opts),

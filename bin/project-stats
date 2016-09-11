@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require_relative '../config'
+
+require 'game_data'
+require 'stats'
+require 'stat_reporter'
+
+files = ARGV
+
+gd = GameData.import(files)
+s = Stats.new(gd)
+r = StatReporter.new(s)
+
+projects = s.projects.map { |p| p[:name] }
+
+projects.each do |project|
+  report = r.project_report(project)
+  puts report
+
+  report_file = File.join(STATS_PATH, 'projects', "#{project}.csv")
+  File.write(report_file, report)
+end

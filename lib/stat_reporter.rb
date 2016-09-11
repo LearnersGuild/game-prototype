@@ -44,6 +44,18 @@ class StatReporter
     report
   end
 
+  def project_report(proj_name, as=:csv)
+    report = []
+
+    player_ids = stats.team(proj_name: proj_name).map { |p| p[:id] }
+    player_ids.each do |p_id|
+      report << player_project_report(proj_name: proj_name, player_id: p_id)
+    end
+
+    return csv(report) if as == :csv
+    report
+  end
+
   def player_report(player_id, as=:csv)
     report = []
     report << player_aggreagate_report(player_id)
@@ -85,7 +97,8 @@ class StatReporter
 
   def player_project_report(opts = {})
     proj_report = {
-      period: "project #{opts[:proj_name]}",
+      cycle: stats.current_cycle,
+      project: opts[:proj_name],
       id: opts[:player_id],
       xp: stats.xp(opts),
       proj_hours: stats.proj_hours(opts),

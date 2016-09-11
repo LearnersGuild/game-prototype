@@ -4,6 +4,10 @@ class StatsFromData
   module Review
     extend StatType
 
+    def review_data
+      data.review_data
+    end
+
     def proj_completeness(opts = {})
       scores = data.project(opts[:proj_name])
                    .proj_completeness

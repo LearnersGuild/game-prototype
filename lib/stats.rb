@@ -9,11 +9,12 @@ class Stats
 
   NO_DATA = 'MISSING DATA'
 
-  attr_reader :data, :proj_stats, :debug
+  attr_reader :data, :proj_stats, :review_stats, :debug
 
-  def initialize(proj_stats, game_data, opts = {})
+  def initialize(proj_stats, review_stats, game_data, opts = {})
     @data = game_data
     @proj_stats = proj_stats
+    @review_stats = review_stats
     @debug = opts.fetch(:debug) { false }
   end
 
@@ -73,6 +74,29 @@ class Stats
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
+
+  def proj_completeness_for_player(id)
+    stats = weighted_stats(id).map { |s| s['avg_proj_comp'].to_f }
+
+    return NO_DATA if stats.none?
+    mean(stats).to_percent(100)
+  end
+
+  def proj_quality_for_player(id)
+    stats = weighted_stats(id).map { |s| s['avg_proj_qual'].to_f }
+
+    return NO_DATA if stats.none?
+    mean(stats).to_percent(100)
+  end
+
+  def no_proj_reviews(id)
+    total_count = review_stats.for_player(id).count
+    total_count -= 1 if total_count.odd?
+
+    total_count / 2
+  end
+
+private
 
   def weighted_stats(id)
     cycle_end = current_cycle

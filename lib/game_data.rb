@@ -194,4 +194,24 @@ class GameData
       player[:id]
     end
   end
+
+  def review_data
+    completeness_data = proj_completeness.map do |record|
+      { cycle_no: record['cycleNumber'].to_i,
+        player_id: shortened(record['respondentId']),
+        proj_name: record['subject'],
+        review_type: 'proj_completeness',
+        review_value: record['value'].to_f }
+    end
+
+    quality_data = proj_quality.map do |record|
+      { cycle_no: record['cycleNumber'].to_i,
+        player_id: shortened(record['respondentId']),
+        proj_name: record['subject'],
+        review_type: 'proj_quality',
+        review_value: record['value'].to_f }
+    end
+
+    (completeness_data + quality_data).sort_by { |r| r[:cycle_no] }
+  end
 end

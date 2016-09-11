@@ -148,7 +148,7 @@ class GameData
     survey_ids = contributions.map { |r| r['surveyId'] }.uniq
     project_records = survey_ids.map { |survey_id| survey(survey_id).proj_hours.data }.flatten
 
-    project_records.map { |r| { name: r['subject'], survey: r['surveyId'], subj: r['subjectId'] } }
+    project_records.map { |r| { name: r['subject'], survey: r['surveyId'], subj: r['subjectId'], cycle_no: r['cycleNumber'] } }
                    .uniq
   end
 

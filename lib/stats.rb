@@ -58,6 +58,11 @@ class Stats
     data.get_team(opts[:proj_name])
   end
 
+  def project_cycle_no(proj_name)
+    proj = data.get_projects.find { |proj| proj[:name] == proj_name }
+    proj[:cycle_no]
+  end
+
   def cycles
     data.cycles.map(&:to_i).sort
   end

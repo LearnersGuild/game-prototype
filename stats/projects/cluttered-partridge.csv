@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+3,cluttered-partridge,690c133a,16.62,40.0,73.53,80.14,61.11,75.0,MISSING DATA,25.0,44.44,-19.44,92.5,7.5
+3,cluttered-partridge,adda47cf,18.83,40.0,81.19,81.84,70.83,62.5,MISSING DATA,28.33,44.44,-16.11,97.5,2.5
+3,cluttered-partridge,75dbe257,31.02,10.0,84.85,82.29,92.86,95.24,MISSING DATA,46.67,11.11,35.56,80.0,20.0

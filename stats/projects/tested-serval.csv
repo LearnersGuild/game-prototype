@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+3,tested-serval,dcf14075,21.3,16.0,65.35,77.43,96.67,88.89,MISSING DATA,35.0,17.58,17.42,92.5,7.5
+3,tested-serval,90945a45,12.17,40.0,78.17,80.69,75.0,87.5,MISSING DATA,20.0,43.96,-23.96,100.0,0.0
+3,tested-serval,9ae522cc,13.39,35.0,74.5,81.11,83.33,91.67,MISSING DATA,22.0,38.46,-16.46,98.5,-1.5

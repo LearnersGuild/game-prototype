@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,shrill-corella,b6aa9c94,14.1,30.0,86.95,91.5,90.0,93.33,96.67,45.0,73.17,-28.17,100.0,0.0
+7,shrill-corella,75dbe257,14.1,11.0,93.95,92.28,96.79,93.59,92.95,45.0,26.83,18.17,90.0,-10.0

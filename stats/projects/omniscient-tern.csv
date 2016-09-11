@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,omniscient-tern,85eb0e18,22.31,31.0,97.59,93.92,86.11,100.0,100.0,36.0,43.66,-7.66,94.0,-6.0
+7,omniscient-tern,dcf14075,19.42,10.0,93.82,90.64,95.61,87.72,89.47,31.33,14.08,17.25,83.0,-17.0
+7,omniscient-tern,9ae522cc,20.25,30.0,95.71,90.98,83.33,94.44,91.67,32.67,42.25,-9.58,97.5,-2.5

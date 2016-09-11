@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,mushy-whale,4d87f1c5,9.58,19.0,96.92,91.48,63.89,86.11,86.11,20.0,38.78,-18.78,92.5,7.5
+9,mushy-whale,dcf14075,16.92,10.0,93.82,90.64,95.61,87.72,89.47,35.33,20.41,14.92,92.0,-8.0
+9,mushy-whale,936e3168,21.39,20.0,97.36,97.11,83.33,91.67,100.0,44.67,40.82,3.85,99.5,0.5

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,thin-hyena,dcf14075,26.97,15.0,93.82,90.64,95.61,87.72,89.47,42.33,17.44,24.89,88.5,11.5
+7,thin-hyena,4d87f1c5,16.78,36.0,96.92,91.48,63.89,86.11,86.11,26.33,41.86,-15.53,91.5,8.5
+7,thin-hyena,45664623,19.96,35.0,95.33,89.29,85.71,76.19,73.81,31.33,40.7,-9.37,97.5,2.5

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,apprehensive-goose,89ffaeb3,20.62,40.0,87.2,88.88,76.19,83.33,83.33,25.67,41.67,-16.0,99.0,-1.0
+4,apprehensive-goose,75dbe257,36.41,16.0,95.73,93.63,99.21,96.03,98.04,45.33,16.67,28.66,99.0,1.0
+4,apprehensive-goose,45a99283,23.3,40.0,97.88,93.14,80.95,97.62,96.67,29.0,41.67,-12.67,94.0,-6.0

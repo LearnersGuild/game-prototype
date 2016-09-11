@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+5,forgetful-tamandua,4d87f1c5,13.18,34.0,88.01,88.29,66.67,78.57,76.67,26.33,49.28,-22.95,96.0,4.0
+5,forgetful-tamandua,90945a45,20.18,30.0,94.47,88.66,64.29,73.81,60.0,40.33,43.48,-3.15,89.0,-11.0
+5,forgetful-tamandua,dcf14075,16.68,5.0,95.82,90.38,97.06,89.22,92.42,33.33,7.25,26.08,87.5,-12.5

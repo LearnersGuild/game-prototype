@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+5,different-boubou,45a99283,8.92,40.0,97.88,93.14,80.95,97.62,96.67,11.67,50.0,-38.33,95.0,5.0
+5,different-boubou,dcf14075,62.42,20.0,95.82,90.38,97.06,89.22,92.42,81.67,25.0,56.67,95.0,5.0
+5,different-boubou,29f423c4,5.1,20.0,98.87,95.12,80.56,80.56,62.5,6.67,25.0,-18.33,97.5,-2.5

@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,tangy-paca,75dbe257,30.84,9.0,93.95,92.28,96.79,93.59,92.95,32.25,8.82,23.43,89.0,-11.0
+7,tangy-paca,396fad2d,26.06,33.0,92.29,92.42,88.1,92.86,92.86,27.25,32.35,-5.1,91.67,-8.33
+7,tangy-paca,690c133a,17.69,30.0,95.98,93.23,66.67,85.71,85.71,18.5,29.41,-10.91,98.0,2.0
+7,tangy-paca,cbcff678,21.04,30.0,94.47,88.78,80.56,97.22,100.0,22.0,29.41,-7.41,97.33,-2.67

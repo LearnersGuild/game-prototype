@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,steady-bison,b6aa9c94,7.56,30.0,88.53,87.77,77.78,94.44,91.67,17.67,36.59,-18.92,90.0,-10.0
+4,steady-bison,070b3063,29.1,17.0,81.55,83.58,91.67,83.33,70.83,68.0,20.73,47.27,92.5,7.5
+4,steady-bison,adda47cf,6.13,35.0,85.49,86.06,42.86,69.05,50.0,14.33,42.68,-28.35,84.0,16.0

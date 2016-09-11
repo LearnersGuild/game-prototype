@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,quirky-crake,b6aa9c94,11.6,25.0,86.95,91.5,90.0,93.33,96.67,21.33,43.86,-22.53,90.5,-9.5
+9,quirky-crake,396fad2d,11.96,25.0,92.29,92.42,88.1,92.86,92.86,22.0,43.86,-21.86,98.5,-1.5
+9,quirky-crake,75dbe257,30.81,7.0,93.95,92.28,96.79,93.59,92.95,56.67,12.28,44.39,75.0,-25.0

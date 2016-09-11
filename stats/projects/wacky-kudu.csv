@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+8,wacky-kudu,396fad2d,12.91,29.0,92.29,92.42,88.1,92.86,92.86,28.0,42.65,-14.65,94.0,-6.0
+8,wacky-kudu,75dbe257,19.22,7.0,93.95,92.28,96.79,93.59,92.95,41.67,10.29,31.38,90.0,-10.0
+8,wacky-kudu,b6aa9c94,13.99,32.0,86.95,91.5,90.0,93.33,96.67,30.33,47.06,-16.73,99.5,-0.5

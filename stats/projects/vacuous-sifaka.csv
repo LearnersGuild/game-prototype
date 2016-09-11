@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,vacuous-sifaka,75dbe257,20.06,9.0,93.95,92.28,96.79,93.59,92.95,30.33,12.16,18.17,90.0,10.0
+7,vacuous-sifaka,adda47cf,21.83,35.0,98.74,91.08,72.22,91.67,91.67,33.0,47.3,-14.3,82.0,18.0
+7,vacuous-sifaka,4a6f36f6,24.25,30.0,95.88,92.95,80.95,95.24,90.48,36.67,40.54,-3.87,97.5,-2.5

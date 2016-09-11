@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+6,jolly-nighthawk,75dbe257,25.93,12.0,95.73,93.63,99.21,96.03,98.04,36.0,11.65,24.35,88.0,12.0
+6,jolly-nighthawk,f7ba1065,14.05,25.0,81.25,86.9,66.67,85.71,76.67,19.5,24.27,-4.77,95.33,4.67
+6,jolly-nighthawk,89ffaeb3,16.03,30.0,87.2,88.88,76.19,83.33,83.33,22.25,29.13,-6.88,99.0,1.0
+6,jolly-nighthawk,4d87f1c5,16.03,36.0,88.01,88.29,66.67,78.57,76.67,22.25,34.95,-12.7,99.0,1.0

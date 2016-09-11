@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,witty-trumpeter,29f423c4,21.07,38.0,98.87,95.12,80.56,80.56,62.5,27.0,44.19,-17.19,92.5,7.5
+4,witty-trumpeter,75dbe257,35.89,16.0,95.73,93.63,99.21,96.03,98.04,46.0,18.6,27.4,94.0,6.0
+4,witty-trumpeter,4d87f1c5,21.07,32.0,88.01,88.29,66.67,78.57,76.67,27.0,37.21,-10.21,98.5,-1.5

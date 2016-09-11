@@ -1,11 +1,11 @@
 require_relative './spec_config'
 
-require 'stats'
+require 'stats_from_data'
 require 'game_data'
 
-describe Stats do
-  let(:s) { Stats.new( GameData.import([CLEAN_DATA]) ) }
-  let(:s_raw) { Stats.new( GameData.import([RAW_DATA]) ) }
+describe StatsFromData do
+  let(:s) { StatsFromData.new( GameData.import([CLEAN_DATA]) ) }
+  let(:s_raw) { StatsFromData.new( GameData.import([RAW_DATA]) ) }
 
   let(:opts_adv_player) { { player_id: '75dbe257' } } # player: 'jrob8577'
   let(:opts_adv_player_project) { { player_id: '75dbe257', proj_name: 'wiggly-jacana' } }
@@ -163,7 +163,7 @@ describe Stats do
   end
 
   describe ".types" do
-    let(:types) { Stats.types }
+    let(:types) { StatsFromData.types }
 
     it "returns a mapping of all stat types and their stat methods" do
       expect(types.keys).to include(:estimation, :support)

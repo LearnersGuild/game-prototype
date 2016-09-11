@@ -1,6 +1,6 @@
-require 'stats/stat_type'
+require 'stats_from_data/stat_type'
 
-class Stats
+class StatsFromData
   module Review
     extend StatType
 

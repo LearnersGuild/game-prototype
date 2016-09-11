@@ -1,5 +1,5 @@
 require 'elo'
-require 'stats/stat_type'
+require 'stats_from_data/stat_type'
 
 Elo.configure do |config|
   config.k_factor(100) { games_played < 20 }
@@ -7,7 +7,7 @@ Elo.configure do |config|
   config.use_FIDE_settings = false
 end
 
-class Stats
+class StatsFromData
   module Mastery
     PROFESSIONAL_PLAYERS = %w[ jrob8577 deadlyicon bluemihai ]
     PROFESSIONAL_INITIAL_RATING = 1300

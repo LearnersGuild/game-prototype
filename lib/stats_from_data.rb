@@ -1,16 +1,16 @@
 require 'csv'
 
-require 'stats/contribution'
-require 'stats/estimation'
-require 'stats/experience'
-require 'stats/hours'
-require 'stats/mastery'
-require 'stats/review'
-require 'stats/support'
+require 'stats_from_data/contribution'
+require 'stats_from_data/estimation'
+require 'stats_from_data/experience'
+require 'stats_from_data/hours'
+require 'stats_from_data/mastery'
+require 'stats_from_data/review'
+require 'stats_from_data/support'
 
 require 'utils'
 
-class Stats
+class StatsFromData
   class << self
     def types
       @types ||= {}

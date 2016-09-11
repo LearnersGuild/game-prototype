@@ -5,16 +5,15 @@ require 'pry'
 require_relative '../config'
 
 require 'game_data'
-require 'stats'
+require 'project_stat_data'
+require 'stats_from_data'
 require 'stat_reporter'
 
-if ARGV.empty?
-  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
-else
-  files = ARGV
-end
+game_data_files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
+proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
 
-gd = GameData.import(files)
-s = Stats.new(gd)
+gd = GameData.import(game_data_files)
+psd = ProjectStatData.import(proj_stat_files)
+s = StatsFromData.new(gd)
 sr = StatReporter.new(s)
 binding.pry

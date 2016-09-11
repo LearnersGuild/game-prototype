@@ -3,7 +3,7 @@
 require_relative '../config'
 
 require 'game_data'
-require 'stats'
+require 'stats_from_data'
 
 if ARGV.empty?
   files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
@@ -12,7 +12,7 @@ else
 end
 
 gd = GameData.import(files)
-s = Stats.new(gd, debug: ENV['DEBUG'])
+s = StatsFromData.new(gd, debug: ENV['DEBUG'])
 
 player_ratings = s.players.reduce({}) do |roster, player|
   roster[player[:handle]] = s.elo(player_id: player[:id])

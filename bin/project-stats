@@ -3,13 +3,13 @@
 require_relative '../config'
 
 require 'game_data'
-require 'stats'
+require 'stats_from_data'
 require 'stat_reporter'
 
 files = ARGV
 
 gd = GameData.import(files)
-s = Stats.new(gd)
+s = StatsFromData.new(gd)
 r = StatReporter.new(s)
 
 projects = s.projects.map { |p| p[:name] }

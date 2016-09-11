@@ -10,7 +10,7 @@ You can load a sandbox console to launch a pry session to play with some of the 
 $ bin/sandbox
     ...
     17: gd = GameData.import(files)
-    18: s = Stats.new(gd)
+    18: s = StatsFromData.new(gd)
     19: sr = StatReporter.new(s)
  => 20: binding.pry
  [1] pry(main)> s.learning_support(player_id: '75dbe257', cycle_no: 3)

@@ -28,7 +28,8 @@ describe StatReporter do
                             team_play: 93.33,
                             est_accuracy: 90.83,
                             est_bias: 9.17,
-                            no_proj_rvws: 7 }]
+                            no_proj_rvws: 7,
+                            elo: 1310 }]
 
         expect(player_stats).to eq(expected_stats)
       end

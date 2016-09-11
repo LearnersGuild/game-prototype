@@ -31,7 +31,7 @@ describe Stats do
   describe "#elo" do
     describe "when given a player" do
       it "calculates the correct Elo ranking for that player" do
-        expect(s.elo(opts_adv_player)).to eq(1372)
+        expect(s.elo(opts_adv_player)).to eq(1310)
       end
     end
 

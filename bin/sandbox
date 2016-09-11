@@ -5,7 +5,7 @@ require 'pry'
 require_relative '../config'
 
 require 'game_data'
-require 'project_stat_data'
+require 'project_stats'
 require 'stats_from_data'
 require 'stat_reporter'
 
@@ -13,7 +13,7 @@ game_data_files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
 proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
 
 gd = GameData.import(game_data_files)
-psd = ProjectStatData.import(proj_stat_files)
+psd = ProjectStats.import(proj_stat_files)
 s = StatsFromData.new(gd)
 sr = StatReporter.new(s)
 binding.pry

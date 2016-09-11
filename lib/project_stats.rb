@@ -1,6 +1,6 @@
 require 'csv'
 
-class ProjectStatData
+class ProjectStats
   class NoDataFileProvidedError < StandardError; end
   class MissingDataError < StandardError; end
   class InvalidCSVError < StandardError; end
@@ -31,6 +31,10 @@ class ProjectStatData
 
   def each(&block)
     data.each { |r| block.call(r) }
+  end
+
+  def for_player(id)
+    data.select { |s| s['id'] == id }
   end
 
   def self.import(files)

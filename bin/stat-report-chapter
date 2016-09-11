@@ -3,7 +3,9 @@
 require_relative '../config'
 
 require 'game_data'
-require 'stats_from_data'
+require 'project_stats'
+# require 'stats_from_data'
+require 'stats'
 require 'stat_reporter'
 
 anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
@@ -12,17 +14,20 @@ report_file = nil
 
 if cycle_limit
   cycles = (1..cycle_limit)
-  files = cycles.map { |cycle_no| File.join(DATA_PATH, "cycle-#{cycle_no}.csv")}
+  gd_files = cycles.map { |cycle_no| File.join(DATA_PATH, "cycle-#{cycle_no}.csv")}
 
   report_filename = "cycle-#{[1, cycles.last].uniq.join('to')}.csv"
   report_file = File.join(REPORTS_PATH, report_filename)
 elsif ARGV.empty?
-  files = Dir[ File.join(DATA_PATH, 'cycle-*.csv') ]
+  gd_files = Dir[ File.join(DATA_PATH, 'cycle-*.csv') ]
 else
-  files = ARGV
+  gd_files = ARGV
 end
 
-s = StatsFromData.new(GameData.import(files))
+proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
+proj_stats = ProjectStats.import(proj_stat_files)
+
+s = Stats.new(proj_stats, GameData.import(gd_files))
 r = StatReporter.new(s, anonymous)
 
 report = r.full_report

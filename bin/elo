@@ -7,15 +7,16 @@ require 'project_stats'
 require 'review_stats'
 require 'stats'
 
-gd_files = Dir[ File.join(DATA_PATH, 'cycle-*.csv') ]
+cycle_limit = (ENV['CYCLE'] && ENV['CYCLE'].to_i)
+raise "must provide a CYCLE" unless cycle_limit
 
 proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
-proj_stats = ProjectStats.import(proj_stat_files)
+proj_stats = ProjectStats.import(proj_stat_files, cycle_limit)
 
 review_stat_files = Dir[ File.join(STATS_PATH, 'reviews.csv') ]
-review_stats = ReviewStats.import(review_stat_files)
+review_stats = ReviewStats.import(review_stat_files, cycle_limit)
 
-s = Stats.new(proj_stats, review_stats, GameData.import(gd_files))
+s = Stats.new(proj_stats, review_stats)
 
 player_ratings = s.player_ids.reduce({}) do |roster, player_id|
   roster[player_id] = s.elo(player_id)

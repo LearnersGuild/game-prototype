@@ -12,10 +12,9 @@ class Stats
 
   NO_DATA = 'MISSING DATA'
 
-  attr_reader :data, :proj_stats, :review_stats
+  attr_reader :proj_stats, :review_stats
 
-  def initialize(proj_stats, review_stats, game_data)
-    @data = game_data
+  def initialize(proj_stats, review_stats)
     @proj_stats = proj_stats
     @review_stats = review_stats
   end

@@ -15,8 +15,8 @@ class ReviewStats
 
   attr_reader :data
 
-  def initialize(dataset=[])
-    @data = dataset
+  def initialize(dataset, cycle_limit)
+    @data = dataset.select { |s| s['cycle_no'].to_i <= cycle_limit }
   end
 
   def each(&block)
@@ -27,7 +27,7 @@ class ReviewStats
     data.select { |s| s['player_id'] == id }
   end
 
-  def self.import(files)
+  def self.import(files, cycle_limit)
     raise NoDataFileProvidedError unless files.count > 0
 
     dataset = files.map do |file|
@@ -36,6 +36,6 @@ class ReviewStats
       csv.map(&:to_hash)
     end.flatten
 
-    self.new(dataset)
+    self.new(dataset, cycle_limit)
   end
 end

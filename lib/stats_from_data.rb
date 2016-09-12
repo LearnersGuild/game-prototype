@@ -4,7 +4,7 @@ require 'stats_from_data/contribution'
 require 'stats_from_data/estimation'
 require 'stats_from_data/experience'
 require 'stats_from_data/hours'
-require 'stats_from_data/mastery'
+# require 'stats_from_data/mastery'
 require 'stats_from_data/review'
 require 'stats_from_data/support'
 
@@ -21,7 +21,7 @@ class StatsFromData
   include Estimation
   include Experience
   include Hours
-  include Mastery
+  # include Mastery
   include Review
   include Support
 

@@ -2,39 +2,29 @@
 
 require_relative '../config'
 
-require 'game_data'
 require 'project_stats'
 require 'review_stats'
-# require 'stats_from_data'
 require 'stats'
 require 'stat_reporter'
 
 anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
-cycle_limit = ENV['CYCLE'] && ENV['CYCLE'].to_i
-report_file = nil
-
-if cycle_limit
-  cycles = (1..cycle_limit)
-  gd_files = cycles.map { |cycle_no| File.join(DATA_PATH, "cycle-#{cycle_no}.csv")}
-
-  report_filename = "cycle-#{[1, cycles.last].uniq.join('to')}.csv"
-  report_file = File.join(REPORTS_PATH, report_filename)
-elsif ARGV.empty?
-  gd_files = Dir[ File.join(DATA_PATH, 'cycle-*.csv') ]
-else
-  gd_files = ARGV
-end
+cycle_limit = (ENV['CYCLE'] && ENV['CYCLE'].to_i)
+raise "must provide a CYCLE" unless cycle_limit
 
 proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
-proj_stats = ProjectStats.import(proj_stat_files)
-
 review_stat_files = Dir[ File.join(STATS_PATH, 'reviews.csv') ]
-review_stats = ReviewStats.import(review_stat_files)
 
-s = Stats.new(proj_stats, review_stats, GameData.import(gd_files))
+proj_stats = ProjectStats.import(proj_stat_files, cycle_limit)
+review_stats = ReviewStats.import(review_stat_files, cycle_limit)
+
+s = Stats.new(proj_stats, review_stats)
 r = StatReporter.new(s, anonymous)
 
 report = r.full_report
 puts report
+
+cycles = (1..cycle_limit)
+report_filename = "cycle-#{[1, cycles.last].uniq.join('to')}.csv"
+report_file = File.join(REPORTS_PATH, report_filename)
 
 File.write(report_file, report) if report_file

@@ -28,7 +28,7 @@ class Stats
 
     # scoreboard is a data structure storing player Elo rankings
     # it has the following shape:
-    # { 'player_id' => { elo: Elo::Player, handle: '@handle', name: 'name' }
+    # { 'player_id' => { elo: Elo::Player, id: 'player_id' }
     def _scoreboard
       return @scoreboard if @scoreboard
       @scoreboard = Hash[
@@ -73,16 +73,16 @@ class Stats
     end
 
     def _play(players, proj_name)
-      # before_a = "#{players[0][:handle]}(#{players[0][:elo].rating})"
-      # before_b = "#{players[1][:handle]}(#{players[1][:elo].rating})"
+      before_a = "#{players[0][:id]}(#{players[0][:elo].rating})"
+      before_b = "#{players[1][:id]}(#{players[1][:elo].rating})"
 
       game = players[0][:elo].versus(players[1][:elo])
       game.result = _game_result(players, proj_name)
 
       game_outcome = game.result.round(2)
-      # after_a = "#{players[0][:handle]}(#{players[0][:elo].rating})"
-      # after_b = "#{players[1][:handle]}(#{players[1][:elo].rating})"
-      # log [ before_a, before_b, game_outcome, after_a, after_b ]
+      after_a = "#{players[0][:id]}(#{players[0][:elo].rating})"
+      after_b = "#{players[1][:id]}(#{players[1][:elo].rating})"
+      log [ before_a, before_b, game_outcome, after_a, after_b ]
     end
 
     def _game_result(players, proj_name)

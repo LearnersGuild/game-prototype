@@ -27,7 +27,7 @@ class Stats
   end
 
   def projects(cycle_no)
-    proj_stats.select { |s| s['cycle_no'].to_i == cycle_no }.map { |s| s['project'] }
+    proj_stats.select { |s| s['cycle_no'].to_i == cycle_no }.map { |s| s['project'] }.uniq
   end
 
   def team(proj_name)

@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require_relative '../config'
+
+require 'game_data'
+require 'stats_from_data'
+require 'stat_reporter'
+
+files = ARGV
+
+gd = GameData.import(files)
+s = StatsFromData.new(gd)
+r = StatReporter.new(s)
+
+report = r.review_report
+puts report
+
+report_file = File.join(STATS_PATH, 'reviews.csv')
+File.write(report_file, report)

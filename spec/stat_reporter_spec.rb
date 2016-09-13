@@ -4,7 +4,7 @@ require 'stat_reporter'
 require 'game_data'
 
 describe StatReporter do
-  let(:s) { Stats.new( GameData.import([CLEAN_DATA]) ) }
+  let(:s) { StatsFromData.new( GameData.import([CLEAN_DATA]) ) }
   let(:sr) { StatReporter.new( s ) }
 
   describe "#report" do

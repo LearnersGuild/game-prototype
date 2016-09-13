@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+1,efficacious-grenadier,a4b6116a,22.78,40.0,89.28,90.0,83.33,83.33,MISSING DATA,31.5,44.44,-12.94,MISSING DATA,MISSING DATA
+1,efficacious-grenadier,dcf14075,26.76,10.0,89.28,90.0,97.62,95.24,MISSING DATA,37.0,11.11,25.89,94.0,6.0
+1,efficacious-grenadier,b6aa9c94,22.78,40.0,89.28,90.0,50.0,50.0,MISSING DATA,31.5,44.44,-12.94,97.0,3.0

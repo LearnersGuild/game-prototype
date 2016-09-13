@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+3,instinctive-nyala,4d87f1c5,16.66,45.0,76.17,84.78,83.33,94.44,MISSING DATA,20.0,34.88,-14.88,100.0,0.0
+3,instinctive-nyala,dcf14075,28.12,16.0,76.17,84.78,100.0,93.33,MISSING DATA,33.75,12.4,21.35,81.67,-18.33
+3,instinctive-nyala,85eb0e18,19.37,30.0,76.17,84.78,88.89,100.0,MISSING DATA,23.25,23.26,-0.01,94.33,-5.67
+3,instinctive-nyala,396fad2d,19.16,38.0,76.17,84.78,83.33,94.44,MISSING DATA,23.0,29.46,-6.46,100.0,0.0

@@ -1,8 +1,12 @@
-require 'stats/stat_type'
+require 'stats_from_data/stat_type'
 
-class Stats
+class StatsFromData
   module Review
     extend StatType
+
+    def review_data
+      data.review_data
+    end
 
     def proj_completeness(opts = {})
       scores = data.project(opts[:proj_name])

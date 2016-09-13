@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+6,miscreant-langur,45a99283,31.48,38.0,98.75,95.67,83.33,100.0,100.0,34.0,38.78,-4.78,92.0,8.0
+6,miscreant-langur,690c133a,18.98,30.0,98.75,95.67,61.11,77.78,94.44,20.5,30.61,-10.11,99.33,-0.67
+6,miscreant-langur,adda47cf,14.35,22.0,98.75,95.67,50.0,72.22,66.67,15.5,22.45,-6.95,98.0,2.0
+6,miscreant-langur,75dbe257,27.78,8.0,98.75,95.67,100.0,98.15,100.0,30.0,8.16,21.84,100.0,0.0

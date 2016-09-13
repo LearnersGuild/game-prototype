@@ -148,7 +148,7 @@ class GameData
     survey_ids = contributions.map { |r| r['surveyId'] }.uniq
     project_records = survey_ids.map { |survey_id| survey(survey_id).proj_hours.data }.flatten
 
-    project_records.map { |r| { name: r['subject'], survey: r['surveyId'], subj: r['subjectId'] } }
+    project_records.map { |r| { name: r['subject'], survey: r['surveyId'], subj: r['subjectId'], cycle_no: r['cycleNumber'] } }
                    .uniq
   end
 
@@ -193,5 +193,25 @@ class GameData
     end.uniq do |player|
       player[:id]
     end
+  end
+
+  def review_data
+    completeness_data = proj_completeness.map do |record|
+      { cycle_no: record['cycleNumber'].to_i,
+        player_id: shortened(record['respondentId']),
+        proj_name: record['subject'],
+        review_type: 'proj_completeness',
+        review_value: record['value'].to_f }
+    end
+
+    quality_data = proj_quality.map do |record|
+      { cycle_no: record['cycleNumber'].to_i,
+        player_id: shortened(record['respondentId']),
+        proj_name: record['subject'],
+        review_type: 'proj_quality',
+        review_value: record['value'].to_f }
+    end
+
+    (completeness_data + quality_data).sort_by { |r| r[:cycle_no] }
   end
 end

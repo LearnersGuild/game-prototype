@@ -1,0 +1,6 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+2,absorbing-hedgehog,396fad2d,13.87,40.0,60.22,75.22,79.17,95.83,MISSING DATA,17.6,22.99,-5.39,94.5,5.5
+2,absorbing-hedgehog,690c133a,8.51,40.0,60.22,75.22,54.17,75.0,MISSING DATA,10.8,22.99,-12.19,99.0,-1.0
+2,absorbing-hedgehog,dcf14075,34.68,14.0,60.22,75.22,95.0,86.67,MISSING DATA,44.0,8.05,35.95,98.75,1.25
+2,absorbing-hedgehog,f7ba1065,8.04,40.0,60.22,75.22,66.67,62.5,MISSING DATA,10.2,22.99,-12.79,96.5,3.5
+2,absorbing-hedgehog,85eb0e18,13.71,40.0,60.22,75.22,58.33,66.67,MISSING DATA,17.4,22.99,-5.59,96.75,3.25

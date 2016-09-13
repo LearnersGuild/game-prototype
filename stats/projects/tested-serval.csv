@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+3,tested-serval,dcf14075,30.66,16.0,80.78,82.78,100.0,93.33,MISSING DATA,35.0,12.21,22.79,92.5,7.5
+3,tested-serval,90945a45,17.52,40.0,80.78,82.78,83.33,91.67,MISSING DATA,20.0,30.53,-10.53,100.0,0.0
+3,tested-serval,9ae522cc,19.27,35.0,80.78,82.78,75.0,83.33,MISSING DATA,22.0,26.72,-4.72,98.5,-1.5
+3,tested-serval,45664623,20.15,40.0,80.78,82.78,83.33,100.0,MISSING DATA,23.0,30.53,-7.53,MISSING DATA,MISSING DATA

@@ -3,7 +3,7 @@
 require_relative '../config'
 
 require 'game_data'
-require 'stats'
+require 'stats_from_data'
 require 'stat_reporter'
 
 player_id = ARGV.shift
@@ -22,7 +22,7 @@ else
   files = ARGV
 end
 
-s = Stats.new(GameData.import(files))
+s = StatsFromData.new(GameData.import(files))
 r = StatReporter.new(s, anonymous)
 
 puts r.player_report(player_id)

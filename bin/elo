@@ -3,24 +3,28 @@
 require_relative '../config'
 
 require 'game_data'
+require 'project_stats'
+require 'review_stats'
 require 'stats'
 
-if ARGV.empty?
-  files = Dir[ File.expand_path('../../data/cycle-*.csv', __FILE__) ]
-else
-  files = ARGV
-end
+cycle_limit = (ENV['CYCLE'] && ENV['CYCLE'].to_i)
+raise "must provide a CYCLE" unless cycle_limit
 
-gd = GameData.import(files)
-s = Stats.new(gd, debug: ENV['DEBUG'])
+proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
+proj_stats = ProjectStats.import(proj_stat_files, cycle_limit)
 
-player_ratings = s.players.reduce({}) do |roster, player|
-  roster[player[:handle]] = s.elo(player_id: player[:id])
+review_stat_files = Dir[ File.join(STATS_PATH, 'reviews.csv') ]
+review_stats = ReviewStats.import(review_stat_files, cycle_limit)
+
+s = Stats.new(proj_stats, review_stats)
+
+player_ratings = s.player_ids.reduce({}) do |roster, player_id|
+  roster[player_id] = s.elo(player_id)
   roster
 end
 
 puts "Elo rankings"
 puts "------------"
-player_ratings.sort_by { |handle, rating| -rating }.each do |handle, rating|
-  puts "#{handle.ljust(20)}: #{rating}"
+player_ratings.sort_by { |id, rating| -rating }.each do |id, rating|
+  puts "#{id.ljust(20)}: #{rating}"
 end

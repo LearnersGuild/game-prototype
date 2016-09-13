@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,sharp-hawk-eagle,45a99283,13.87,25.0,100.0,99.09,75.0,91.67,100.0,25.0,44.64,-19.64,100.0,0.0
+9,sharp-hawk-eagle,29f423c4,13.87,25.0,100.0,99.09,83.33,91.67,100.0,25.0,44.64,-19.64,100.0,0.0
+9,sharp-hawk-eagle,75dbe257,27.75,6.0,100.0,99.09,97.22,91.67,91.67,50.0,10.71,39.29,100.0,0.0

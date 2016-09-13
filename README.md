@@ -8,46 +8,41 @@ You can load a sandbox console to launch a pry session to play with some of the 
 
 ```shell-session
 $ bin/sandbox
-    ...
-    17: gd = GameData.import(files)
-    18: s = StatsFromData.new(gd)
-    19: sr = StatReporter.new(s)
- => 20: binding.pry
- [1] pry(main)> s.learning_support(player_id: '75dbe257', cycle_no: 3)
- => 94.29
+
+From: /Users/tanner/LearnersGuild/game-prototype/bin/sandbox @ line 24 :
+
+    19: ds = StatsFromData.new(gd)
+    20: rs = ReviewStats.import(review_stat_files, 1000)
+    21: ps = ProjectStats.import(proj_stat_files, 1000)
+    22: s = Stats.new(ps, rs)
+    23: sr = StatReporter.new(s)
+ => 24: binding.pry
+
+[1] pry(main)> s.projects(2)
+=> ["absorbing-hedgehog",
+ "cagey-lapwing",
+ "clumsy-quail",
+ "giant-viper",
+ "measly-parakeet",
+ "unusual-woodpecker"]
 ```
 
 ## Stats
 
-There are two kinds of stat reports: `chapter` and `player`.
+To generate a stat report for the chapter, use the `./bin/stat-report-chapter` script.
 
-Chapter reports are by default aggregates (they do not report data by cycle or project).
+_BEFORE YOU DO THIS_, you need to **prepare the data** (for projects and reviews). This is a four-step process:
 
-Player reports show stats for each project and cycle, as well as the full aggregation.
+1. Download the reflection data from the latest cycle (see [Data Sources](#data-sources)) and move to `./data/cycle-N.csv`, where `N` is the cycle number
+1. Validate the data is appropriately formatted, and every active player logged their hours using `$ ./bin/validate-data ./data/cycle-N.csv`
+1. Calculate stats **for each project** using the latest reflection data: `$ ./bin/project-stats ./data/cycle-N.csv`. This will add/update project stat files under `./stats/projects/`
+1. Calculate new **review stats** using ALL the review data: `$ ./bin/review-stats ./data/cycle-*.csv`. This will update the `./stats/reviews.csv` file.
 
-### Chapter Stat Reports
+Now you are ready to generate a chapter stat report.
 
-Stats can be generated for a chapter by running `./bin/stat-report-chapter` and passing one or more data files.
+Stats can be generated for a chapter by running `./bin/stat-report-chapter` with a `CYCLE` env variable set to the cycle you wish to calculate stats up to.
 
-The report will be written to `STDOUT`, and any missing data or errors will be written to `STDERR`.
-
-```shell-session
-$ bin/stat-report-chapter data/cycle-1.csv data/cycle-2.csv > report-c2.csv
-$ cat report-c2.csv
-id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
-af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
-...
-
-$ bin/stat-report-chapter data/cycle-* > report-all.csv
-$ cat report-c2.csv
-id,name,handle,xp,proj-completeness,proj-quality,rel-contribution
-af38nda2,bob jones,bobbyj,123,98.23,72.23,3.42
-...
-```
-
-Alternatively, you omit the filenames and can simply set the `CYCLE` env variable to the cycle you wish to generate a report for (including all previous reports).
-
-**Note**: this assumes the presence of a `./data/` directory with cycle data files and a `./reports/` directory for saving report files to. Both must be in the root folder.
+The report will be written to a file `./reports/cycle1toN.csv` and printed `STDOUT`, and any missing data or errors will be written to `STDERR`.
 
 ```shell-session
 $ CYCLE=4 bin/stat-report-chapter
@@ -59,24 +54,7 @@ cbcff678,53.24,36.25,82.94,83.29,70.0,93.33,MISSING DATA,90.5,-1.75,22
 ...
 ```
 
-### Player Stat Reports
-
-Stats can be generated for a player by running `./bin/stat-report-chapter` and passing a player id one or more data files.
-
-The report will be written to `STDOUT`, and any missing data or errors will be written to `STDERR`.
-
-The player id can be the first 4 bytes of a player's id (e.g. `b6aa9c94`) or the full 128-bit UUID.
-
-```shell-session
-$ ./bin/stat-report-player 75dbe257 data/cycle-3* > 75dbe257-report.csv
-$ cat 75dbe257-report.csv
-period,id,xp,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,est_accuracy,no_proj_rvws
-aggregated stats,75dbe257,100.56,87.94,83.52,94.29,97.14,6.05,7
-cycle 3,75dbe257,100.56,87.94,83.52,94.29,97.14,6.05,7
-project cluttered-partridge,75dbe257,31.02,87.94,83.52,94.29,97.14,13.33,
-project dazzling-white-eye,75dbe257,32.36,87.94,83.52,94.29,97.14,0.5,
-project wiggly-jacana,75dbe257,37.18,87.94,83.52,94.29,97.14,4.33,
-```
+**Note**: this assumes the presence of a `./data/` directory with cycle data files and a `./reports/` directory for saving report files to. Both must be in the root folder.
 
 ### Elo Rating
 

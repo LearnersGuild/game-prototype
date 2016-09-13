@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-9,whole-potoroo,dcf14075,4.7,5.0,93.82,90.64,95.61,87.72,89.47,27.5,21.74,5.76,85.0,-15.0
-9,whole-potoroo,cbcff678,12.4,18.0,94.47,88.78,80.56,97.22,100.0,72.5,78.26,-5.76,85.0,-15.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,whole-potoroo,dcf14075,4.7,5.0,85.4,87.1,92.59,79.63,87.04,27.5,21.74,5.76,85.0,-15.0
+9,whole-potoroo,cbcff678,12.4,18.0,85.4,87.1,50.0,83.33,100.0,72.5,78.26,-5.76,85.0,-15.0

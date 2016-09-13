@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
 1,hideous-tinamou,45664623,30.48,40.0,95.83,95.0,83.33,100.0,MISSING DATA,36.0,43.01,-7.01,94.0,6.0
 1,hideous-tinamou,45a99283,30.48,40.0,95.83,95.0,83.33,75.0,MISSING DATA,36.0,43.01,-7.01,MISSING DATA,MISSING DATA
-1,hideous-tinamou,75dbe257,23.71,13.0,94.0,91.0,97.22,94.44,MISSING DATA,28.0,13.98,14.02,88.0,12.0
+1,hideous-tinamou,75dbe257,23.71,13.0,95.83,95.0,97.22,94.44,MISSING DATA,28.0,13.98,14.02,88.0,12.0

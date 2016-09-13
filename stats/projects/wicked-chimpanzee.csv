@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,wicked-chimpanzee,f7ba1065,23.69,30.0,81.25,86.9,66.67,85.71,76.67,34.67,34.48,0.19,97.5,-2.5
-5,wicked-chimpanzee,89ffaeb3,21.87,30.0,87.2,88.88,76.19,83.33,83.33,32.0,34.48,-2.48,95.5,4.5
-5,wicked-chimpanzee,070b3063,22.78,27.0,81.55,83.58,91.67,83.33,70.83,33.33,31.03,2.3,99.0,1.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+5,wicked-chimpanzee,f7ba1065,23.69,30.0,88.88,88.38,83.33,100.0,83.33,34.67,34.48,0.19,97.5,-2.5
+5,wicked-chimpanzee,89ffaeb3,21.87,30.0,88.88,88.38,91.67,100.0,83.33,32.0,34.48,-2.48,95.5,4.5
+5,wicked-chimpanzee,070b3063,22.78,27.0,88.88,88.38,79.17,75.0,70.83,33.33,31.03,2.3,99.0,1.0

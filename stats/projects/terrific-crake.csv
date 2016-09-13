@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-3,terrific-crake,29f423c4,39.73,42.0,78.79,85.7,90.48,95.24,MISSING DATA,27.0,27.45,-0.45,97.33,-2.67
-3,terrific-crake,070b3063,30.53,30.0,71.32,77.93,70.37,68.52,MISSING DATA,20.75,19.61,1.14,99.67,0.33
-3,terrific-crake,45a99283,39.73,45.0,75.47,83.16,86.67,93.33,MISSING DATA,27.0,29.41,-2.41,96.0,4.0
-3,terrific-crake,4a6f36f6,37.15,36.0,75.47,83.16,86.67,100.0,MISSING DATA,25.25,23.53,1.72,99.0,1.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+3,terrific-crake,29f423c4,39.73,42.0,99.47,96.68,100.0,94.44,MISSING DATA,27.0,27.45,-0.45,97.33,-2.67
+3,terrific-crake,070b3063,30.53,30.0,99.47,96.68,93.33,93.33,MISSING DATA,20.75,19.61,1.14,99.67,0.33
+3,terrific-crake,45a99283,39.73,45.0,99.47,96.68,94.44,94.44,MISSING DATA,27.0,29.41,-2.41,96.0,4.0
+3,terrific-crake,4a6f36f6,37.15,36.0,99.47,96.68,88.89,100.0,MISSING DATA,25.25,23.53,1.72,99.0,1.0

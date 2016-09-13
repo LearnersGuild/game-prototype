@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,resolute-kongoni,b6aa9c94,23.98,38.0,88.53,87.77,77.78,94.44,91.67,32.67,48.41,-15.74,96.5,3.5
-5,resolute-kongoni,75dbe257,31.8,12.0,95.73,93.63,99.21,96.03,98.04,43.33,15.29,28.04,90.0,10.0
-5,resolute-kongoni,85eb0e18,17.61,28.5,93.24,91.11,80.56,97.22,83.33,24.0,36.31,-12.31,98.5,1.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+5,resolute-kongoni,b6aa9c94,23.98,38.0,97.8,95.6,58.33,100.0,100.0,32.67,48.41,-15.74,96.5,3.5
+5,resolute-kongoni,75dbe257,31.8,12.0,97.8,95.6,97.92,91.67,95.83,43.33,15.29,28.04,90.0,10.0
+5,resolute-kongoni,85eb0e18,17.61,28.5,97.8,95.6,50.0,91.67,75.0,24.0,36.31,-12.31,98.5,1.5

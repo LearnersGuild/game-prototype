@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-7,earsplitting-glider,75dbe257,16.7,8.0,93.95,92.28,96.79,93.59,92.95,45.67,13.11,32.56,87.0,-13.0
-7,earsplitting-glider,f7ba1065,8.41,23.0,86.39,86.59,54.76,61.9,57.14,23.0,37.7,-14.7,98.5,1.5
-7,earsplitting-glider,90945a45,11.46,30.0,91.1,87.88,77.78,88.89,86.11,31.33,49.18,-17.85,90.5,-9.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,earsplitting-glider,75dbe257,16.7,8.0,74.0,81.0,93.33,91.67,90.0,45.67,13.11,32.56,87.0,-13.0
+7,earsplitting-glider,f7ba1065,8.41,23.0,74.0,81.0,41.67,50.0,41.67,23.0,37.7,-14.7,98.5,1.5
+7,earsplitting-glider,90945a45,11.46,30.0,74.0,81.0,83.33,91.67,83.33,31.33,49.18,-17.85,90.5,-9.5

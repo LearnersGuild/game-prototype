@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-7,utter-ant,75dbe257,25.16,11.0,93.95,92.28,96.79,93.59,92.95,39.0,15.49,23.51,91.0,-9.0
-7,utter-ant,936e3168,17.42,30.0,97.36,97.11,83.33,91.67,100.0,27.0,42.25,-15.25,100.0,0.0
-7,utter-ant,29f423c4,21.94,30.0,97.67,97.43,88.89,88.89,100.0,34.0,42.25,-8.25,98.5,1.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,utter-ant,75dbe257,25.16,11.0,93.0,97.71,93.33,91.67,90.0,39.0,15.49,23.51,91.0,-9.0
+7,utter-ant,936e3168,17.42,30.0,93.0,97.71,83.33,91.67,100.0,27.0,42.25,-15.25,100.0,0.0
+7,utter-ant,29f423c4,21.94,30.0,93.0,97.71,91.67,91.67,100.0,34.0,42.25,-8.25,98.5,1.5

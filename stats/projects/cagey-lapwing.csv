@@ -1,6 +1,6 @@
-cycle_no,project,id,xp,proj_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-2,cagey-lapwing,29f423c4,22.08,40.0,78.79,85.7,90.48,95.24,MISSING DATA,29.4,23.12,6.28,97.0,-3.0
-2,cagey-lapwing,936e3168,15.32,40.0,71.76,78.95,80.0,86.67,MISSING DATA,20.4,23.12,-2.72,94.25,5.75
-2,cagey-lapwing,cbcff678,9.01,40.0,71.76,78.95,66.67,97.22,MISSING DATA,12.0,23.12,-11.12,87.5,-12.5
-2,cagey-lapwing,dcf14075,13.82,13.0,65.35,77.43,96.67,88.89,MISSING DATA,18.4,7.51,10.89,98.0,2.0
-2,cagey-lapwing,b6aa9c94,14.87,40.0,72.69,82.65,77.78,80.56,MISSING DATA,19.8,23.12,-3.32,85.25,-14.75
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+2,cagey-lapwing,29f423c4,22.08,40.0,58.11,74.72,83.33,95.83,MISSING DATA,29.4,23.12,6.28,97.0,-3.0
+2,cagey-lapwing,936e3168,15.32,40.0,58.11,74.72,72.22,88.89,MISSING DATA,20.4,23.12,-2.72,94.25,5.75
+2,cagey-lapwing,cbcff678,9.01,40.0,58.11,74.72,62.5,95.83,MISSING DATA,12.0,23.12,-11.12,87.5,-12.5
+2,cagey-lapwing,dcf14075,13.82,13.0,58.11,74.72,95.0,86.67,MISSING DATA,18.4,7.51,10.89,98.0,2.0
+2,cagey-lapwing,b6aa9c94,14.87,40.0,58.11,74.72,79.17,79.17,MISSING DATA,19.8,23.12,-3.32,85.25,-14.75

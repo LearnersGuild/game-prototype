@@ -12,8 +12,8 @@ class ProjectStats
                id
                xp
                proj_hours
-               avg_proj_comp
-               avg_proj_qual
+               proj_comp
+               proj_qual
                lrn_supp
                cult_cont
                team_play

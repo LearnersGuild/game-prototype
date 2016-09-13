@@ -62,49 +62,63 @@ class Stats
   end
 
   def culture_contribution(id)
-    stats = weighted_stats(id).map { |s| s['cult_cont'].to_f }
+    stats = weighted_stats(id).map { |s| s['cult_cont'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def learning_support(id)
-    stats = weighted_stats(id).map { |s| s['lrn_supp'].to_f }
+    stats = weighted_stats(id).map { |s| s['lrn_supp'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def team_play(id)
-    stats = weighted_stats(id).map { |s| s['team_play'].to_f }
+    stats = weighted_stats(id).map { |s| s['team_play'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def estimation_accuracy(id)
-    stats = weighted_stats(id).map { |s| s['est_accuracy'].to_f }
+    stats = weighted_stats(id).map { |s| s['est_accuracy'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def estimation_bias(id)
-    stats = weighted_stats(id).map { |s| s['est_bias'].to_f }
+    stats = weighted_stats(id).map { |s| s['est_bias'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def proj_completeness_for_player(id)
-    stats = proj_stats.for_player(id).map { |s| s['avg_proj_comp'].to_f }
+    stats = proj_stats.for_player(id).map { |s| s['proj_comp'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
 
   def proj_quality_for_player(id)
-    stats = proj_stats.for_player(id).map { |s| s['avg_proj_qual'].to_f }
+    stats = proj_stats.for_player(id).map { |s| s['proj_qual'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
 
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)

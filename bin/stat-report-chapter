@@ -25,6 +25,6 @@ puts report
 
 cycles = (1..cycle_limit)
 report_filename = "cycle-#{[1, cycles.last].uniq.join('to')}.csv"
-report_file = File.join(REPORTS_PATH, report_filename)
+report_file = File.join(STATS_PATH, report_filename)
 
 File.write(report_file, report) if report_file

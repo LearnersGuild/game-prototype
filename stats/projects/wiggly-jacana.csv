@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-3,wiggly-jacana,75dbe257,37.18,16.0,85.41,83.18,93.33,96.67,MISSING DATA,55.67,17.02,38.65,93.5,6.5
-3,wiggly-jacana,936e3168,17.14,40.0,85.41,83.18,91.67,83.33,MISSING DATA,25.67,42.55,-16.88,90.5,9.5
-3,wiggly-jacana,cbcff678,12.47,38.0,85.41,83.18,75.0,100.0,MISSING DATA,18.67,40.43,-21.76,90.0,-10.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+3,wiggly-jacana,75dbe257,37.18,16.0,85.41,83.18,93.33,96.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,55.67,17.02,38.65,93.5,6.5
+3,wiggly-jacana,936e3168,17.14,40.0,85.41,83.18,91.67,83.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,25.67,42.55,-16.88,90.5,9.5
+3,wiggly-jacana,cbcff678,12.47,38.0,85.41,83.18,75.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,18.67,40.43,-21.76,90.0,-10.0

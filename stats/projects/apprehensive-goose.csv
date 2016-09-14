@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-4,apprehensive-goose,89ffaeb3,20.62,40.0,95.71,87.43,66.67,75.0,MISSING DATA,25.67,41.67,-16.0,99.0,-1.0
-4,apprehensive-goose,75dbe257,36.41,16.0,95.71,87.43,100.0,100.0,MISSING DATA,45.33,16.67,28.66,99.0,1.0
-4,apprehensive-goose,45a99283,23.3,40.0,95.71,87.43,75.0,91.67,MISSING DATA,29.0,41.67,-12.67,94.0,-6.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,apprehensive-goose,89ffaeb3,20.62,40.0,95.71,87.43,66.67,75.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,25.67,41.67,-16.0,99.0,-1.0
+4,apprehensive-goose,75dbe257,36.41,16.0,95.71,87.43,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,45.33,16.67,28.66,99.0,1.0
+4,apprehensive-goose,45a99283,23.3,40.0,95.71,87.43,75.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,29.0,41.67,-12.67,94.0,-6.0

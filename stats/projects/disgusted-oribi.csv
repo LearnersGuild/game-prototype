@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-1,disgusted-oribi,89ffaeb3,17.58,40.0,82.11,83.95,91.67,100.0,MISSING DATA,28.33,44.44,-16.11,87.5,-12.5
-1,disgusted-oribi,dcf14075,25.85,10.0,82.11,83.95,97.62,95.24,MISSING DATA,41.67,11.11,30.56,72.5,27.5
-1,disgusted-oribi,85eb0e18,18.61,40.0,82.11,83.95,83.33,100.0,MISSING DATA,30.0,44.44,-14.44,85.0,15.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+1,disgusted-oribi,89ffaeb3,17.58,40.0,82.11,83.95,91.67,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,28.33,44.44,-16.11,87.5,-12.5
+1,disgusted-oribi,dcf14075,25.85,10.0,82.11,83.95,97.62,95.24,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,41.67,11.11,30.56,72.5,27.5
+1,disgusted-oribi,85eb0e18,18.61,40.0,82.11,83.95,83.33,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,30.0,44.44,-14.44,85.0,15.0

@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-4,witty-trumpeter,29f423c4,21.07,38.0,97.86,92.71,83.33,100.0,MISSING DATA,27.0,44.19,-17.19,92.5,7.5
-4,witty-trumpeter,75dbe257,35.89,16.0,97.86,92.71,100.0,100.0,MISSING DATA,46.0,18.6,27.4,94.0,6.0
-4,witty-trumpeter,4d87f1c5,21.07,32.0,97.86,92.71,75.0,91.67,MISSING DATA,27.0,37.21,-10.21,98.5,-1.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,witty-trumpeter,29f423c4,21.07,38.0,97.86,92.71,83.33,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,27.0,44.19,-17.19,92.5,7.5
+4,witty-trumpeter,75dbe257,35.89,16.0,97.86,92.71,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,46.0,18.6,27.4,94.0,6.0
+4,witty-trumpeter,4d87f1c5,21.07,32.0,97.86,92.71,75.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,27.0,37.21,-10.21,98.5,-1.5

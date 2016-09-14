@@ -18,6 +18,9 @@ class StatReporter
       stat_report[:lrn_supp] = stats.learning_support(id)
       stat_report[:cult_cont] = stats.culture_contribution(id)
       stat_report[:team_play] = stats.team_play(id)
+      stat_report[:health_culture] = stats.health_culture(id)
+      stat_report[:health_team_play] = stats.health_team_play(id)
+      stat_report[:health_technical] = stats.health_technical(id)
       stat_report[:est_accuracy] = stats.estimation_accuracy(id)
       stat_report[:est_bias] = stats.estimation_bias(id)
       stat_report[:no_proj_rvws] = stats.no_proj_reviews(id)
@@ -104,6 +107,9 @@ class StatReporter
       lrn_supp: stats.learning_support(opts),
       cult_cont: stats.culture_contribution(opts),
       team_play: stats.team_play(opts),
+      health_culture: stats.health_culture(opts),
+      health_team_play: stats.health_team_play(opts),
+      health_technical: stats.health_technical(opts),
       project_contrib: stats.actual_contribution(opts),
       expected_contrib: stats.expected_contribution(opts),
       contrib_gap: stats.contribution_gap(opts),

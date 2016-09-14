@@ -3,6 +3,7 @@ require 'csv'
 require 'stats_from_data/contribution'
 require 'stats_from_data/estimation'
 require 'stats_from_data/experience'
+require 'stats_from_data/health'
 require 'stats_from_data/hours'
 # require 'stats_from_data/mastery'
 require 'stats_from_data/review'
@@ -20,6 +21,7 @@ class StatsFromData
   include Contribution
   include Estimation
   include Experience
+  include Health
   include Hours
   # include Mastery
   include Review

@@ -27,7 +27,10 @@ class GameData
     learning_support: '26ccd2a0-64af-4bf4-ae6b-e87445a2b213',
     proj_completeness: '65cad3c5-e9e9-4284-999b-3a72c481c55e',
     proj_quality: '2c335ce5-ed0b-4068-92c8-56666fb7fdad',
-    team_play: '57bc052d-1a7e-4faa-9617-11a93619ff6e'
+    team_play: '57bc052d-1a7e-4faa-9617-11a93619ff6e',
+    health_culture: '4b3b9383-b107-4e16-995e-4617d8f9e0f9',
+    health_team_play: 'bb2927c9-a16d-49e9-8c3a-dd308a17315a',
+    health_technical: '16d10fb3-463e-4d0a-b621-1557d9cfbeb9'
   }
 
   attr_reader :data

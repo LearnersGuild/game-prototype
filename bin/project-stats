@@ -8,16 +8,19 @@ require 'stat_reporter'
 
 files = ARGV
 
-gd = GameData.import(files)
-s = StatsFromData.new(gd)
-r = StatReporter.new(s)
+files.each do |cycle_retro_data_file|
+  puts "Making project stats from data in #{cycle_retro_data_file}..."
+  gd = GameData.import([cycle_retro_data_file])
+  s = StatsFromData.new(gd)
+  r = StatReporter.new(s)
 
-projects = s.projects.map { |p| p[:name] }
+  projects = s.projects.map { |p| p[:name] }
 
-projects.each do |project|
-  report = r.project_report(project)
-  puts report
+  projects.each do |project|
+    report = r.project_report(project)
+    puts report
 
-  report_file = File.join(STATS_PATH, 'projects', "#{project}.csv")
-  File.write(report_file, report)
+    report_file = File.join(STATS_PATH, 'projects', "#{project}.csv")
+    File.write(report_file, report)
+  end
 end

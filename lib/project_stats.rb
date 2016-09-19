@@ -17,6 +17,9 @@ class ProjectStats
                lrn_supp
                cult_cont
                team_play
+               health_culture
+               health_team_play
+               health_technical
                project_contrib
                expected_contrib
                contrib_gap

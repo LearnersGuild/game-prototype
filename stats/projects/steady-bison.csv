@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-4,steady-bison,b6aa9c94,7.56,30.0,69.13,75.5,91.67,91.67,MISSING DATA,17.67,36.59,-18.92,90.0,-10.0
-4,steady-bison,070b3063,29.1,17.0,69.13,75.5,100.0,88.89,MISSING DATA,68.0,20.73,47.27,92.5,7.5
-4,steady-bison,adda47cf,6.13,35.0,69.13,75.5,16.67,58.33,MISSING DATA,14.33,42.68,-28.35,84.0,16.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,steady-bison,b6aa9c94,7.56,30.0,69.13,75.5,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,17.67,36.59,-18.92,90.0,-10.0
+4,steady-bison,070b3063,29.1,17.0,69.13,75.5,100.0,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,68.0,20.73,47.27,92.5,7.5
+4,steady-bison,adda47cf,6.13,35.0,69.13,75.5,16.67,58.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,14.33,42.68,-28.35,84.0,16.0

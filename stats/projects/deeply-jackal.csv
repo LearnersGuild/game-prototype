@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-8,deeply-jackal,4a6f36f6,20.47,33.0,96.0,91.6,83.33,100.0,94.44,24.0,34.02,-10.02,98.67,1.33
-8,deeply-jackal,dcf14075,27.08,5.0,96.0,91.6,96.67,93.33,90.0,31.75,5.15,26.6,95.67,4.33
-8,deeply-jackal,45664623,21.96,32.0,96.0,91.6,88.89,72.22,66.67,25.75,32.99,-7.24,97.0,3.0
-8,deeply-jackal,f7ba1065,15.78,27.0,96.0,91.6,55.56,66.67,55.56,18.5,27.84,-9.34,99.33,-0.67
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+8,deeply-jackal,4a6f36f6,20.47,33.0,96.0,91.6,83.33,100.0,94.44,MISSING DATA,MISSING DATA,MISSING DATA,24.0,34.02,-10.02,98.67,1.33
+8,deeply-jackal,dcf14075,27.08,5.0,96.0,91.6,96.67,93.33,90.0,MISSING DATA,MISSING DATA,MISSING DATA,31.75,5.15,26.6,95.67,4.33
+8,deeply-jackal,45664623,21.96,32.0,96.0,91.6,88.89,72.22,66.67,MISSING DATA,MISSING DATA,MISSING DATA,25.75,32.99,-7.24,97.0,3.0
+8,deeply-jackal,f7ba1065,15.78,27.0,96.0,91.6,55.56,66.67,55.56,MISSING DATA,MISSING DATA,MISSING DATA,18.5,27.84,-9.34,99.33,-0.67

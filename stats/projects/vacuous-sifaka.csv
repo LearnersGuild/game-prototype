@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-7,vacuous-sifaka,75dbe257,20.06,9.0,97.5,91.67,93.33,91.67,90.0,30.33,12.16,18.17,90.0,10.0
-7,vacuous-sifaka,adda47cf,21.83,35.0,97.5,91.67,58.33,91.67,83.33,33.0,47.3,-14.3,82.0,18.0
-7,vacuous-sifaka,4a6f36f6,24.25,30.0,97.5,91.67,83.33,91.67,91.67,36.67,40.54,-3.87,97.5,-2.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,vacuous-sifaka,75dbe257,20.06,9.0,97.5,91.67,93.33,91.67,90.0,MISSING DATA,MISSING DATA,MISSING DATA,30.33,12.16,18.17,90.0,10.0
+7,vacuous-sifaka,adda47cf,21.83,35.0,97.5,91.67,58.33,91.67,83.33,MISSING DATA,MISSING DATA,MISSING DATA,33.0,47.3,-14.3,82.0,18.0
+7,vacuous-sifaka,4a6f36f6,24.25,30.0,97.5,91.67,83.33,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,36.67,40.54,-3.87,97.5,-2.5

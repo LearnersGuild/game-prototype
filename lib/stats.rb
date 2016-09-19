@@ -88,6 +88,33 @@ class Stats
     mean(stats).to_percent(100)
   end
 
+  def health_culture(id)
+    stats = weighted_stats(id).map { |s| s['health_culture'] }
+                              .reject { |n| n.nil? || n == NO_DATA }
+                              .map(&:to_f)
+
+    return NO_DATA if stats.none?
+    mean(stats).to_percent(100)
+  end
+
+  def health_team_play(id)
+    stats = weighted_stats(id).map { |s| s['health_team_play'] }
+                              .reject { |n| n.nil? || n == NO_DATA }
+                              .map(&:to_f)
+
+    return NO_DATA if stats.none?
+    mean(stats).to_percent(100)
+  end
+
+  def health_technical(id)
+    stats = weighted_stats(id).map { |s| s['health_technical'] }
+                              .reject { |n| n.nil? || n == NO_DATA }
+                              .map(&:to_f)
+
+    return NO_DATA if stats.none?
+    mean(stats).to_percent(100)
+  end
+
   def estimation_accuracy(id)
     stats = weighted_stats(id).map { |s| s['est_accuracy'] }
     stats = stats.reject { |n| n.nil? || n == NO_DATA }

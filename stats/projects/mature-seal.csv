@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+10,mature-seal,29f423c4,27.08,34.0,92.11,92.16,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,29.0,30.91,-1.91,92.0,8.0
+10,mature-seal,90945a45,24.75,35.0,92.11,92.16,MISSING DATA,MISSING DATA,MISSING DATA,94.44,100.0,77.78,26.5,31.82,-5.32,98.0,-2.0
+10,mature-seal,75dbe257,17.74,5.0,92.11,92.16,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,93.75,19.0,4.55,14.45,88.0,-12.0
+10,mature-seal,4d87f1c5,23.81,36.0,92.11,92.16,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,25.5,32.73,-7.23,95.33,-4.67

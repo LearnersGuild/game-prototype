@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+
+require_relative '../config'
+
+require 'csv'
+
+anonymous = !(ENV['ANON'] && ENV['ANON'].downcase  =~ /no|false/)
+cycle_limit = (ENV['CYCLE'] && ENV['CYCLE'].to_i)
+raise "must provide a CYCLE" unless cycle_limit
+
+proj_stat_files = Dir[ File.join(STATS_PATH, 'projects', '*.csv') ]
+
+project_data = []
+
+proj_stat_files.each do |file|
+  csv = CSV.read(file, headers: true)
+
+  next if csv.first['cycle_no'].to_i > cycle_limit
+  project_data << csv
+end
+
+report = CSV.generate do |csv|
+  headers = project_data.first.headers
+  csv << headers
+
+  project_data.each do |proj_csv|
+    proj_csv.each do |row|
+      csv << row
+    end
+  end
+end
+
+puts report
+
+cycles = (1..cycle_limit)
+report_filename = "projects-cycle-#{[1, cycles.last].uniq.join('to')}.csv"
+report_file = File.join(STATS_PATH, report_filename)
+
+File.write(report_file, report)

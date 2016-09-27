@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-10,satisfying-sloth,85eb0e18,20.3,29.0,84.85,90.23,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,39.0,42.65,-3.65,98.5,1.5
-10,satisfying-sloth,936e3168,21.0,34.0,84.85,90.23,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,40.33,50.0,-9.67,99.0,1.0
-10,satisfying-sloth,75dbe257,10.76,5.0,84.85,90.23,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,93.75,20.67,7.35,13.32,99.0,-1.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+10,satisfying-sloth,85eb0e18,20.3,29.0,84.85,90.23,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,39.0,42.65,-3.65,98.5,1.5
+10,satisfying-sloth,936e3168,21.0,34.0,84.85,90.23,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,6.0,40.33,50.0,-9.67,99.0,1.0
+10,satisfying-sloth,75dbe257,10.76,5.0,84.85,90.23,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,93.75,4.0,20.67,7.35,13.32,99.0,-1.0

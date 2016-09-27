@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-8,violet-phascogale,75dbe257,21.22,9.0,98.0,85.5,100.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,35.67,12.68,22.99,99.5,0.5
-8,violet-phascogale,9ae522cc,19.83,32.0,98.0,85.5,83.33,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,33.33,45.07,-11.74,99.0,1.0
-8,violet-phascogale,cbcff678,18.44,30.0,98.0,85.5,75.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,31.0,42.25,-11.25,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+8,violet-phascogale,75dbe257,21.22,9.0,98.0,85.5,100.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,4.0,35.67,12.68,22.99,99.5,0.5
+8,violet-phascogale,9ae522cc,19.83,32.0,98.0,85.5,83.33,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,7.0,33.33,45.07,-11.74,99.0,1.0
+8,violet-phascogale,cbcff678,18.44,30.0,98.0,85.5,75.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,6.0,31.0,42.25,-11.25,100.0,0.0

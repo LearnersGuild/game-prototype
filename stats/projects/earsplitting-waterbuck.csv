@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-4,earsplitting-waterbuck,936e3168,17.39,35.0,90.71,89.29,75.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,30.67,50.0,-19.33,95.0,5.0
-4,earsplitting-waterbuck,dcf14075,23.06,5.0,90.71,89.29,94.44,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,40.67,7.14,33.53,86.0,14.0
-4,earsplitting-waterbuck,9ae522cc,16.25,30.0,90.71,89.29,75.0,83.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,28.67,42.86,-14.19,99.0,-1.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+4,earsplitting-waterbuck,936e3168,17.39,35.0,90.71,89.29,75.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,30.67,50.0,-19.33,95.0,5.0
+4,earsplitting-waterbuck,dcf14075,23.06,5.0,90.71,89.29,94.44,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,40.67,7.14,33.53,86.0,14.0
+4,earsplitting-waterbuck,9ae522cc,16.25,30.0,90.71,89.29,75.0,83.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,28.67,42.86,-14.19,99.0,-1.0

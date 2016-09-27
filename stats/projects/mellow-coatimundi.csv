@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-1,mellow-coatimundi,90945a45,27.52,40.0,96.75,93.75,83.33,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,21.67,28.57,-6.9,97.5,-2.5
-1,mellow-coatimundi,936e3168,37.68,40.0,96.75,93.75,94.44,94.44,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,29.67,28.57,1.1,93.5,6.5
-1,mellow-coatimundi,070b3063,52.48,40.0,96.75,93.75,83.33,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,41.33,28.57,12.76,MISSING DATA,MISSING DATA
-1,mellow-coatimundi,4d87f1c5,9.31,20.0,96.75,93.75,41.67,58.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,7.33,14.29,-6.96,96.5,-3.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+1,mellow-coatimundi,90945a45,27.52,40.0,96.75,93.75,83.33,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,21.67,28.57,-6.9,97.5,-2.5
+1,mellow-coatimundi,936e3168,37.68,40.0,96.75,93.75,94.44,94.44,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,29.67,28.57,1.1,93.5,6.5
+1,mellow-coatimundi,070b3063,52.48,40.0,96.75,93.75,83.33,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,41.33,28.57,12.76,MISSING DATA,MISSING DATA
+1,mellow-coatimundi,4d87f1c5,9.31,20.0,96.75,93.75,41.67,58.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,7.33,14.29,-6.96,96.5,-3.5

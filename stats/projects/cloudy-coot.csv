@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-9,cloudy-coot,adda47cf,17.71,38.0,99.29,87.14,75.0,91.67,91.67,83.33,91.67,66.67,29.67,55.07,-25.4,93.5,6.5
-9,cloudy-coot,90945a45,13.93,25.0,99.29,87.14,66.67,83.33,83.33,75.0,66.67,75.0,23.33,36.23,-12.9,87.5,-12.5
-9,cloudy-coot,75dbe257,28.06,6.0,99.29,87.14,97.22,91.67,91.67,94.44,94.44,97.22,47.0,8.7,38.3,97.0,-3.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,cloudy-coot,adda47cf,17.71,38.0,99.29,87.14,75.0,91.67,91.67,83.33,91.67,66.67,7.0,29.67,55.07,-25.4,93.5,6.5
+9,cloudy-coot,90945a45,13.93,25.0,99.29,87.14,66.67,83.33,83.33,75.0,66.67,75.0,7.0,23.33,36.23,-12.9,87.5,-12.5
+9,cloudy-coot,75dbe257,28.06,6.0,99.29,87.14,97.22,91.67,91.67,94.44,94.44,97.22,4.0,47.0,8.7,38.3,97.0,-3.0

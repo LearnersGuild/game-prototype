@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-8,venomous-hawk,85eb0e18,25.82,34.0,99.44,94.44,83.33,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,37.67,46.58,-8.91,90.5,9.5
-8,venomous-hawk,adda47cf,23.31,34.0,99.44,94.44,83.33,91.67,100.0,MISSING DATA,MISSING DATA,MISSING DATA,34.0,46.58,-12.58,100.0,0.0
-8,venomous-hawk,dcf14075,19.42,5.0,99.44,94.44,96.67,93.33,90.0,MISSING DATA,MISSING DATA,MISSING DATA,28.33,6.85,21.48,93.0,7.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+8,venomous-hawk,85eb0e18,25.82,34.0,99.44,94.44,83.33,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,7.0,37.67,46.58,-8.91,90.5,9.5
+8,venomous-hawk,adda47cf,23.31,34.0,99.44,94.44,83.33,91.67,100.0,MISSING DATA,MISSING DATA,MISSING DATA,7.0,34.0,46.58,-12.58,100.0,0.0
+8,venomous-hawk,dcf14075,19.42,5.0,99.44,94.44,96.67,93.33,90.0,MISSING DATA,MISSING DATA,MISSING DATA,3.0,28.33,6.85,21.48,93.0,7.0

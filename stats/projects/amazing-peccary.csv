@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-9,amazing-peccary,dcf14075,20.95,10.0,98.33,95.44,92.59,79.63,87.04,81.48,83.33,98.15,31.0,13.89,17.11,83.5,-16.5
-9,amazing-peccary,45664623,23.43,31.0,98.33,95.44,83.33,83.33,83.33,83.33,83.33,83.33,34.67,43.06,-8.39,96.0,-4.0
-9,amazing-peccary,85eb0e18,23.2,31.0,98.33,95.44,83.33,100.0,100.0,100.0,100.0,91.67,34.33,43.06,-8.73,96.5,-3.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,amazing-peccary,dcf14075,20.95,10.0,98.33,95.44,92.59,79.63,87.04,81.48,83.33,98.15,4.0,31.0,13.89,17.11,83.5,-16.5
+9,amazing-peccary,45664623,23.43,31.0,98.33,95.44,83.33,83.33,83.33,83.33,83.33,83.33,6.0,34.67,43.06,-8.39,96.0,-4.0
+9,amazing-peccary,85eb0e18,23.2,31.0,98.33,95.44,83.33,100.0,100.0,100.0,100.0,91.67,7.0,34.33,43.06,-8.73,96.5,-3.5

@@ -77,7 +77,14 @@ class Stats
       before_b = "#{players[1][:id]}(#{players[1][:elo].rating})"
 
       game = players[0][:elo].versus(players[1][:elo])
-      game.result = _game_result(players, proj_name)
+
+      begin
+        game.result = _game_result(players, proj_name)
+      rescue RuntimeError
+        warn "Can't calculate elo for:"
+        warn players, proj_name
+        exit
+      end
 
       game_outcome = game.result.round(2)
       after_a = "#{players[0][:id]}(#{players[0][:elo].rating})"

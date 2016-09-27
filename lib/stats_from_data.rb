@@ -1,5 +1,6 @@
 require 'csv'
 
+require 'stats_from_data/challenge'
 require 'stats_from_data/contribution'
 require 'stats_from_data/estimation'
 require 'stats_from_data/experience'
@@ -18,6 +19,7 @@ class StatsFromData
     end
   end
 
+  include Challenge
   include Contribution
   include Estimation
   include Experience

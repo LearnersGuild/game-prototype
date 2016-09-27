@@ -115,6 +115,15 @@ class Stats
     mean(stats).to_percent(100)
   end
 
+  def challenge(id)
+    stats = weighted_stats(id).map { |s| s['challenge'] }
+    stats = stats.reject { |n| n.nil? || n == NO_DATA }
+    stats = stats.map(&:to_f)
+
+    return NO_DATA if stats.none?
+    mean(stats)
+  end
+
   def estimation_accuracy(id)
     stats = weighted_stats(id).map { |s| s['est_accuracy'] }
     stats = stats.reject { |n| n.nil? || n == NO_DATA }

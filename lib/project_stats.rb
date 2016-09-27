@@ -20,6 +20,7 @@ class ProjectStats
                health_culture
                health_team_play
                health_technical
+               challenge
                project_contrib
                expected_contrib
                contrib_gap

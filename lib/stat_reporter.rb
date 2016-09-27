@@ -18,6 +18,7 @@ class StatReporter
       stat_report[:health_culture] = stats.health_culture(id)
       stat_report[:health_team_play] = stats.health_team_play(id)
       stat_report[:health_technical] = stats.health_technical(id)
+      stat_report[:challenge] = stats.challenge(id)
       stat_report[:est_accuracy] = stats.estimation_accuracy(id)
       stat_report[:est_bias] = stats.estimation_bias(id)
       stat_report[:no_proj_rvws] = stats.no_proj_reviews(id)
@@ -107,6 +108,7 @@ class StatReporter
       health_culture: stats.health_culture(opts),
       health_team_play: stats.health_team_play(opts),
       health_technical: stats.health_technical(opts),
+      challenge: stats.challenge(opts),
       project_contrib: stats.actual_contribution(opts),
       expected_contrib: stats.expected_contribution(opts),
       contrib_gap: stats.contribution_gap(opts),

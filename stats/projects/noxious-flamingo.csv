@@ -1,0 +1,6 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+11,noxious-flamingo,eed94af6,23.26,23.0,99.33,96.33,MISSING DATA,MISSING DATA,MISSING DATA,95.83,91.67,83.33,19.6,18.55,1.05,99.5,0.5
+11,noxious-flamingo,5178cbf5,19.46,25.0,99.33,96.33,MISSING DATA,MISSING DATA,MISSING DATA,87.5,83.33,54.17,16.4,20.16,-3.76,92.0,-8.0
+11,noxious-flamingo,e76412aa,22.54,26.0,99.33,96.33,MISSING DATA,MISSING DATA,MISSING DATA,91.67,87.5,91.67,19.0,20.97,-1.97,98.75,1.25
+11,noxious-flamingo,af162939,20.88,25.0,99.33,96.33,MISSING DATA,MISSING DATA,MISSING DATA,95.83,95.83,87.5,17.6,20.16,-2.56,99.25,-0.75
+11,noxious-flamingo,29f423c4,32.51,25.0,99.33,96.33,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,100.0,27.4,20.16,7.24,94.25,5.75

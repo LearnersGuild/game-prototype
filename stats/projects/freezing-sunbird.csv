@@ -1,0 +1,6 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+11,freezing-sunbird,ea4646be,12.8,28.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,87.5,91.67,54.17,11.2,23.41,-12.21,90.25,9.75
+11,freezing-sunbird,4d838f6e,21.95,26.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,95.83,19.2,21.74,-2.54,99.0,1.0
+11,freezing-sunbird,45a99283,30.41,20.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,26.6,16.72,9.88,95.75,4.25
+11,freezing-sunbird,94b1cd36,23.78,20.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,95.83,100.0,20.8,16.72,4.08,97.75,-2.25
+11,freezing-sunbird,66930ba2,25.38,25.6,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,22.2,21.4,0.8,98.5,-1.5

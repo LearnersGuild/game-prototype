@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-11,standing-alpaca,45664623,20.21,14.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,87.5,26.33,17.28,9.05,96.5,-3.5
-11,standing-alpaca,110df682,23.28,40.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,58.33,30.33,49.38,-19.05,92.0,-8.0
-11,standing-alpaca,f2d70fa5,33.26,26.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,43.33,32.1,11.23,97.5,2.5
-11,standing-alpaca,197db2df,0.0,1.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,50.0,50.0,50.0,0.0,1.23,-1.23,MISSING DATA,MISSING DATA
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+11,standing-alpaca,45664623,20.21,14.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,87.5,5.0,26.33,17.28,9.05,96.5,-3.5
+11,standing-alpaca,110df682,23.28,40.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,58.33,6.0,30.33,49.38,-19.05,92.0,-8.0
+11,standing-alpaca,f2d70fa5,33.26,26.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,3.0,43.33,32.1,11.23,97.5,2.5
+11,standing-alpaca,197db2df,0.0,1.0,98.12,96.59,MISSING DATA,MISSING DATA,MISSING DATA,50.0,50.0,50.0,,0.0,1.23,-1.23,MISSING DATA,MISSING DATA

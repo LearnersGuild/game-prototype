@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-9,joyous-giraffe,f7ba1065,16.44,26.0,89.18,87.18,66.67,66.67,75.0,75.0,50.0,66.67,34.67,42.62,-7.95,93.5,6.5
-9,joyous-giraffe,690c133a,18.34,30.0,89.18,87.18,66.67,83.33,83.33,83.33,83.33,58.33,38.67,49.18,-10.51,98.0,2.0
-9,joyous-giraffe,dcf14075,12.65,5.0,89.18,87.18,92.59,79.63,87.04,81.48,83.33,98.15,26.67,8.2,18.47,97.5,-2.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+9,joyous-giraffe,f7ba1065,16.44,26.0,89.18,87.18,66.67,66.67,75.0,75.0,50.0,66.67,5.0,34.67,42.62,-7.95,93.5,6.5
+9,joyous-giraffe,690c133a,18.34,30.0,89.18,87.18,66.67,83.33,83.33,83.33,83.33,58.33,6.0,38.67,49.18,-10.51,98.0,2.0
+9,joyous-giraffe,dcf14075,12.65,5.0,89.18,87.18,92.59,79.63,87.04,81.48,83.33,98.15,1.0,26.67,8.2,18.47,97.5,-2.5

@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-7,tangy-paca,75dbe257,30.84,9.0,100.0,93.75,93.33,91.67,90.0,MISSING DATA,MISSING DATA,MISSING DATA,32.25,8.82,23.43,89.0,-11.0
-7,tangy-paca,396fad2d,26.06,33.0,100.0,93.75,83.33,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,27.25,32.35,-5.1,91.67,-8.33
-7,tangy-paca,690c133a,17.69,30.0,100.0,93.75,61.11,83.33,88.89,MISSING DATA,MISSING DATA,MISSING DATA,18.5,29.41,-10.91,98.0,2.0
-7,tangy-paca,cbcff678,21.04,30.0,100.0,93.75,94.44,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,22.0,29.41,-7.41,97.33,-2.67
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+7,tangy-paca,75dbe257,30.84,9.0,100.0,93.75,93.33,91.67,90.0,MISSING DATA,MISSING DATA,MISSING DATA,,32.25,8.82,23.43,89.0,-11.0
+7,tangy-paca,396fad2d,26.06,33.0,100.0,93.75,83.33,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,27.25,32.35,-5.1,91.67,-8.33
+7,tangy-paca,690c133a,17.69,30.0,100.0,93.75,61.11,83.33,88.89,MISSING DATA,MISSING DATA,MISSING DATA,,18.5,29.41,-10.91,98.0,2.0
+7,tangy-paca,cbcff678,21.04,30.0,100.0,93.75,94.44,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,22.0,29.41,-7.41,97.33,-2.67

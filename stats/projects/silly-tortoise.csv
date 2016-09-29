@@ -1,6 +1,6 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-11,silly-tortoise,085c56bc,18.4,15.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,75.0,70.83,18.0,14.42,3.58,100.0,0.0
-11,silly-tortoise,d69e4081,23.51,28.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,83.33,79.17,100.0,23.0,26.92,-3.92,91.25,8.75
-11,silly-tortoise,717e2737,16.56,22.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,87.5,79.17,54.17,16.2,21.15,-4.95,95.25,4.75
-11,silly-tortoise,8e44efb9,18.81,22.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,91.67,79.17,79.17,18.4,21.15,-2.75,98.0,2.0
-11,silly-tortoise,85eb0e18,24.94,17.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,83.33,75.0,83.33,24.4,16.35,8.05,83.0,17.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+11,silly-tortoise,085c56bc,18.4,15.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,75.0,70.83,6.0,18.0,14.42,3.58,100.0,0.0
+11,silly-tortoise,d69e4081,23.51,28.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,83.33,79.17,100.0,2.0,23.0,26.92,-3.92,91.25,8.75
+11,silly-tortoise,717e2737,16.56,22.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,87.5,79.17,54.17,7.0,16.2,21.15,-4.95,95.25,4.75
+11,silly-tortoise,8e44efb9,18.81,22.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,91.67,79.17,79.17,8.0,18.4,21.15,-2.75,98.0,2.0
+11,silly-tortoise,85eb0e18,24.94,17.0,100.0,98.29,MISSING DATA,MISSING DATA,MISSING DATA,83.33,75.0,83.33,6.0,24.4,16.35,8.05,83.0,17.0

@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,enthusiastic-hawk,adda47cf,14.63,25.0,88.6,87.0,58.33,75.0,25.0,MISSING DATA,MISSING DATA,MISSING DATA,22.33,29.41,-7.08,99.0,1.0
-5,enthusiastic-hawk,4a6f36f6,23.15,33.0,88.6,87.0,83.33,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,35.33,38.82,-3.49,96.0,4.0
-5,enthusiastic-hawk,070b3063,27.73,27.0,88.6,87.0,79.17,75.0,70.83,MISSING DATA,MISSING DATA,MISSING DATA,42.33,31.76,10.57,89.0,-11.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+5,enthusiastic-hawk,adda47cf,14.63,25.0,88.6,87.0,58.33,75.0,25.0,MISSING DATA,MISSING DATA,MISSING DATA,,22.33,29.41,-7.08,99.0,1.0
+5,enthusiastic-hawk,4a6f36f6,23.15,33.0,88.6,87.0,83.33,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,35.33,38.82,-3.49,96.0,4.0
+5,enthusiastic-hawk,070b3063,27.73,27.0,88.6,87.0,79.17,75.0,70.83,MISSING DATA,MISSING DATA,MISSING DATA,,42.33,31.76,10.57,89.0,-11.0

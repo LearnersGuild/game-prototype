@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'csv'
+
+input_files = ARGV
+
+output_data = []
+
+input_files.each do |file|
+  output_data << CSV.read(file, headers: true)
+end
+
+report = CSV.generate do |compiled_csv|
+  headers = output_data.first.headers
+  compiled_csv << headers
+
+  output_data.each do |csv_file|
+    csv_file.each do |row|
+      compiled_csv << row
+    end
+  end
+end
+
+puts report

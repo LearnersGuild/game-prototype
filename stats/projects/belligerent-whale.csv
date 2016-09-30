@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-10,belligerent-whale,dcf14075,17.77,4.0,96.87,94.93,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,100.0,4.0,23.0,4.76,18.24,95.5,-4.5
-10,belligerent-whale,45664623,29.87,34.0,96.87,94.93,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,38.67,40.48,-1.81,93.5,6.5
-10,belligerent-whale,45a99283,29.61,46.0,96.87,94.93,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,6.0,38.33,54.76,-16.43,92.0,-8.0
+10,belligerent-whale,dcf14075,19.32,4.0,96.87,94.93,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,100.0,4.0,23.0,4.76,18.24,95.5,-4.5
+10,belligerent-whale,45664623,32.48,34.0,96.87,94.93,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,38.67,40.48,-1.81,93.5,6.5
+10,belligerent-whale,45a99283,32.2,46.0,96.87,94.93,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,6.0,38.33,54.76,-16.43,92.0,-8.0

@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,different-boubou,45a99283,8.92,40.0,99.17,96.33,83.33,100.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,11.67,50.0,-38.33,95.0,5.0
-5,different-boubou,dcf14075,62.42,20.0,99.17,96.33,100.0,87.5,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,81.67,25.0,56.67,95.0,5.0
-5,different-boubou,29f423c4,5.1,20.0,99.17,96.33,66.67,58.33,50.0,MISSING DATA,MISSING DATA,MISSING DATA,,6.67,25.0,-18.33,97.5,-2.5
+5,different-boubou,45a99283,9.34,40.0,99.17,96.33,83.33,100.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,11.67,50.0,-38.33,95.0,5.0
+5,different-boubou,dcf14075,65.34,20.0,99.17,96.33,100.0,87.5,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,81.67,25.0,56.67,95.0,5.0
+5,different-boubou,29f423c4,5.34,20.0,99.17,96.33,66.67,58.33,50.0,MISSING DATA,MISSING DATA,MISSING DATA,,6.67,25.0,-18.33,97.5,-2.5

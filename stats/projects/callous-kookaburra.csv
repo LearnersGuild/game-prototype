@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-4,callous-kookaburra,f7ba1065,11.59,29.0,77.88,81.5,83.33,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,24.67,39.19,-14.52,95.0,5.0
-4,callous-kookaburra,070b3063,21.29,7.0,77.88,81.5,100.0,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,45.33,9.46,35.87,78.0,22.0
-4,callous-kookaburra,4a6f36f6,14.09,38.0,77.88,81.5,83.33,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,30.0,51.35,-21.35,98.5,1.5
+4,callous-kookaburra,f7ba1065,18.26,29.0,77.88,81.5,83.33,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,24.67,39.19,-14.52,95.0,5.0
+4,callous-kookaburra,070b3063,33.54,7.0,77.88,81.5,100.0,88.89,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,45.33,9.46,35.87,78.0,22.0
+4,callous-kookaburra,4a6f36f6,22.2,38.0,77.88,81.5,83.33,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,30.0,51.35,-21.35,98.5,1.5

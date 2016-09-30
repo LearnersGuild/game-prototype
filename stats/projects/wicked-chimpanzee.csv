@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,wicked-chimpanzee,f7ba1065,23.69,30.0,88.88,88.38,83.33,100.0,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,34.67,34.48,0.19,97.5,-2.5
-5,wicked-chimpanzee,89ffaeb3,21.87,30.0,88.88,88.38,91.67,100.0,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,32.0,34.48,-2.48,95.5,4.5
-5,wicked-chimpanzee,070b3063,22.78,27.0,88.88,88.38,79.17,75.0,70.83,MISSING DATA,MISSING DATA,MISSING DATA,,33.33,31.03,2.3,99.0,1.0
+5,wicked-chimpanzee,f7ba1065,30.16,30.0,88.88,88.38,83.33,100.0,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,34.67,34.48,0.19,97.5,-2.5
+5,wicked-chimpanzee,89ffaeb3,27.84,30.0,88.88,88.38,91.67,100.0,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,32.0,34.48,-2.48,95.5,4.5
+5,wicked-chimpanzee,070b3063,29.0,27.0,88.88,88.38,79.17,75.0,70.83,MISSING DATA,MISSING DATA,MISSING DATA,,33.33,31.03,2.3,99.0,1.0

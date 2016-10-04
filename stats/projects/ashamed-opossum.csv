@@ -1,5 +1,5 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,ashamed-opossum,936e3168,24.23,31.0,100.0,96.0,66.67,94.44,88.89,MISSING DATA,MISSING DATA,MISSING DATA,,24.5,30.1,-5.6,99.33,-0.67
-5,ashamed-opossum,396fad2d,22.99,32.0,100.0,96.0,55.56,83.33,94.44,MISSING DATA,MISSING DATA,MISSING DATA,,23.25,31.07,-7.82,98.33,-1.67
-5,ashamed-opossum,75dbe257,33.87,12.0,100.0,96.0,97.92,91.67,95.83,MISSING DATA,MISSING DATA,MISSING DATA,,34.25,11.65,22.6,92.33,7.67
-5,ashamed-opossum,cbcff678,17.8,28.0,100.0,96.0,66.67,94.44,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,18.0,27.18,-9.18,97.33,2.67
+5,ashamed-opossum,936e3168,25.24,31.0,100.0,96.0,66.67,94.44,88.89,MISSING DATA,MISSING DATA,MISSING DATA,,24.5,30.1,-5.6,99.33,-0.67
+5,ashamed-opossum,396fad2d,23.95,32.0,100.0,96.0,55.56,83.33,94.44,MISSING DATA,MISSING DATA,MISSING DATA,,23.25,31.07,-7.82,98.33,-1.67
+5,ashamed-opossum,75dbe257,35.28,12.0,100.0,96.0,97.92,91.67,95.83,MISSING DATA,MISSING DATA,MISSING DATA,,34.25,11.65,22.6,92.33,7.67
+5,ashamed-opossum,cbcff678,18.54,28.0,100.0,96.0,66.67,94.44,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,18.0,27.18,-9.18,97.33,2.67

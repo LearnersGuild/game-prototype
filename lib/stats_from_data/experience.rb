@@ -15,11 +15,7 @@ class StatsFromData
         proj[:total_hours] = proj_hours(proj_name: proj[:name])
         proj[:contribution] = actual_contribution(opts.merge(proj_name: proj[:name]))
 
-        proj_xp = proj[:total_hours] \
-                * (proj[:contribution] / 100.0) \
-                * (proj[:completeness] / 100.0) \
-                * (proj[:quality] / 100.0)
-
+        proj_xp = proj[:total_hours] * (proj[:contribution] / 100.0)
         proj_xp.round(2)
       end.reject(&:nil?)
 

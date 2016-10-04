@@ -10,6 +10,7 @@ class StatReporter
     stats.player_ids.map do |id|
       stat_report = {}
 
+      stat_report[:cycle] = stats.current_cycle
       stat_report[:id] = id
       stat_report[:xp] = stats.xp(id)
       stat_report[:avg_cycle_hours] = stats.avg_cycle_hours(id)

@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-1,humorous-tortoise,adda47cf,20.62,40.0,93.82,86.47,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,27.33,43.01,-15.68,96.5,-3.5
-1,humorous-tortoise,75dbe257,33.95,13.0,93.82,86.47,97.22,94.44,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,45.0,13.98,31.02,92.5,7.5
-1,humorous-tortoise,690c133a,20.88,40.0,93.82,86.47,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,27.67,43.01,-15.34,87.5,12.5
+1,humorous-tortoise,adda47cf,25.42,40.0,93.82,86.47,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,27.33,43.01,-15.68,96.5,-3.5
+1,humorous-tortoise,75dbe257,41.85,13.0,93.82,86.47,97.22,94.44,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,45.0,13.98,31.02,92.5,7.5
+1,humorous-tortoise,690c133a,25.73,40.0,93.82,86.47,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,27.67,43.01,-15.34,87.5,12.5

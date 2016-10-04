@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-6,first-paradoxure,396fad2d,19.33,32.0,96.82,87.55,83.33,83.33,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,31.67,44.44,-12.77,94.5,-5.5
-6,first-paradoxure,4a6f36f6,18.51,33.0,96.82,87.55,91.67,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,30.33,45.83,-15.5,89.0,-11.0
-6,first-paradoxure,dcf14075,23.19,7.0,96.82,87.55,97.62,90.48,92.86,MISSING DATA,MISSING DATA,MISSING DATA,,38.0,9.72,28.28,73.0,-27.0
+6,first-paradoxure,396fad2d,22.8,32.0,96.82,87.55,83.33,83.33,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,31.67,44.44,-12.77,94.5,-5.5
+6,first-paradoxure,4a6f36f6,21.84,33.0,96.82,87.55,91.67,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,30.33,45.83,-15.5,89.0,-11.0
+6,first-paradoxure,dcf14075,27.36,7.0,96.82,87.55,97.62,90.48,92.86,MISSING DATA,MISSING DATA,MISSING DATA,,38.0,9.72,28.28,73.0,-27.0

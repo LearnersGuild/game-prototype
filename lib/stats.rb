@@ -167,6 +167,10 @@ class Stats
     total_count / 2
   end
 
+  def current_cycle
+    proj_stats.map { |s| s['cycle_no'].to_i }.max
+  end
+
 private
 
   def weighted_stats(id)
@@ -175,10 +179,6 @@ private
     cycle_range = (cycle_begin..cycle_end)
 
     proj_stats.for_player(id).select { |s| cycle_range.include? s['cycle_no'].to_i }
-  end
-
-  def current_cycle
-    proj_stats.map { |s| s['cycle_no'].to_i }.max
   end
 
   def log(message)

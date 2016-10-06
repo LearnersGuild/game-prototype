@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+12,unwieldy-pronghorn,396fad2d,35.85,28.0,98.92,94.85,MISSING DATA,MISSING DATA,MISSING DATA,94.44,88.89,94.44,5.0,26.75,20.9,5.85,99.67,0.33
+12,unwieldy-pronghorn,d69e4081,29.48,35.0,98.92,94.85,MISSING DATA,MISSING DATA,MISSING DATA,94.44,88.89,94.44,8.0,22.0,26.12,-4.12,94.67,-5.33
+12,unwieldy-pronghorn,713b4462,30.82,37.0,98.92,94.85,MISSING DATA,MISSING DATA,MISSING DATA,100.0,94.44,94.44,7.0,23.0,27.61,-4.61,98.67,-1.33
+12,unwieldy-pronghorn,5c217ba1,37.85,34.0,98.92,94.85,MISSING DATA,MISSING DATA,MISSING DATA,94.44,100.0,100.0,6.0,28.25,25.37,2.88,95.67,-4.33

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+12,frantic-phascogale,66930ba2,31.97,32.0,98.86,95.09,MISSING DATA,MISSING DATA,MISSING DATA,91.67,100.0,100.0,6.8,46.67,46.72,-0.05,98.0,2.0
+12,frantic-phascogale,85eb0e18,10.28,6.0,98.86,95.09,MISSING DATA,MISSING DATA,MISSING DATA,97.92,97.92,91.67,6.0,15.0,8.76,6.24,80.5,19.5
+12,frantic-phascogale,717e2737,26.26,30.5,98.86,95.09,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,38.33,44.53,-6.2,98.0,-2.0

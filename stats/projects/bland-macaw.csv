@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+12,bland-macaw,198449da,25.83,31.0,99.47,95.0,MISSING DATA,MISSING DATA,MISSING DATA,72.22,50.0,55.56,6.0,20.5,24.6,-4.1,96.67,3.33
+12,bland-macaw,29f423c4,34.65,30.0,99.47,95.0,MISSING DATA,MISSING DATA,MISSING DATA,88.1,83.33,97.62,4.0,27.5,23.81,3.69,90.0,10.0
+12,bland-macaw,ea4646be,26.78,35.0,99.47,95.0,MISSING DATA,MISSING DATA,MISSING DATA,77.78,83.33,44.44,7.0,21.25,27.78,-6.53,96.33,3.67
+12,bland-macaw,94b1cd36,38.74,30.0,99.47,95.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,100.0,6.0,30.75,23.81,6.94,96.33,-3.67

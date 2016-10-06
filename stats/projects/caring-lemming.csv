@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+12,caring-lemming,8e44efb9,27.54,31.0,93.92,95.42,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,94.44,8.0,27.0,30.39,-3.39,100.0,0.0
+12,caring-lemming,90945a45,31.37,30.0,93.92,95.42,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,30.75,29.41,1.34,99.0,-1.0
+12,caring-lemming,85eb0e18,12.24,3.0,93.92,95.42,MISSING DATA,MISSING DATA,MISSING DATA,97.92,97.92,91.67,6.0,12.0,2.94,9.06,93.33,-6.67
+12,caring-lemming,45550069,30.86,38.0,93.92,95.42,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,30.25,37.25,-7.0,99.67,-0.33

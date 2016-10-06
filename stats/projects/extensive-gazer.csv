@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+12,extensive-gazer,4d87f1c5,29.75,30.0,93.12,96.47,MISSING DATA,MISSING DATA,MISSING DATA,61.11,55.56,61.11,6.0,25.0,25.21,-0.21,94.67,5.33
+12,extensive-gazer,adda47cf,36.0,28.0,93.12,96.47,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,88.89,7.0,30.25,23.53,6.72,97.0,-3.0
+12,extensive-gazer,cbcff678,34.21,31.0,93.12,96.47,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,28.75,26.05,2.7,98.33,1.67
+12,extensive-gazer,085c56bc,19.04,30.0,93.12,96.47,MISSING DATA,MISSING DATA,MISSING DATA,88.89,94.44,55.56,8.5,16.0,25.21,-9.21,93.33,6.67

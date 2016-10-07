@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+13,impossible-gazelle,8e44efb9,27.16,38.0,91.36,92.27,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,10.0,32.33,45.24,-12.91,99.5,-0.5
+13,impossible-gazelle,4d838f6e,27.44,25.0,91.36,92.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,8.0,32.67,29.76,2.91,99.5,0.5
+13,impossible-gazelle,396fad2d,29.4,21.0,91.36,92.27,MISSING DATA,MISSING DATA,MISSING DATA,96.67,90.0,96.67,8.0,35.0,25.0,10.0,98.5,1.5

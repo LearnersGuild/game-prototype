@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+13,nine-badger,45a99283,29.74,30.0,99.13,97.13,MISSING DATA,MISSING DATA,MISSING DATA,50.0,44.44,72.22,6.0,48.75,49.18,-0.43,75.0,-25.0
+13,nine-badger,690c133a,10.98,10.0,99.13,97.13,MISSING DATA,MISSING DATA,MISSING DATA,77.78,83.33,72.22,10.0,18.0,16.39,1.61,89.33,-10.67
+13,nine-badger,396fad2d,9.3,6.0,99.13,97.13,MISSING DATA,MISSING DATA,MISSING DATA,96.67,90.0,96.67,8.0,15.25,9.84,5.41,99.0,1.0
+13,nine-badger,0af92c55,10.98,15.0,99.13,97.13,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,9.0,18.0,24.59,-6.59,89.33,-10.67

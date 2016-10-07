@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+13,fanatical-woodpecker,66930ba2,23.7,33.0,98.93,95.64,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,77.78,9.0,19.75,27.5,-7.75,95.0,-5.0
+13,fanatical-woodpecker,3760fbe8,60.6,25.0,98.93,95.64,MISSING DATA,MISSING DATA,MISSING DATA,83.33,88.89,94.44,1.0,50.5,20.83,29.67,99.33,-0.67
+13,fanatical-woodpecker,eb678107,16.8,30.0,98.93,95.64,MISSING DATA,MISSING DATA,MISSING DATA,77.78,83.33,66.67,7.0,14.0,25.0,-11.0,94.67,5.33
+13,fanatical-woodpecker,085c56bc,18.9,32.0,98.93,95.64,MISSING DATA,MISSING DATA,MISSING DATA,94.44,88.89,66.67,8.0,15.75,26.67,-10.92,95.67,4.33

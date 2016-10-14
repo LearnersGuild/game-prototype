@@ -8,7 +8,7 @@ end
 
 class Stats
   module Mastery
-    PROFESSIONAL_PLAYERS = %w[ 75dbe257 dcf14075 070b3063 ]# %w[ jrob8577 deadlyicon bluemihai ]
+    PROFESSIONAL_PLAYERS = %w[ 75dbe257 dcf14075 070b3063 3760fbe8 f490c8ee ]# %w[ jrob8577 deadlyicon bluemihai sj tanner ]
     PROFESSIONAL_INITIAL_RATING = 1300
     DEFAULT_INITIAL_RATING = 1000
 
@@ -64,6 +64,8 @@ class Stats
           # log "Team: #{handles.join(', ')}"
 
           team.combination(2).each do |players|
+            # ids = players.map { |p| p[:id] }
+            # next if ids.any? { |id| PROFESSIONAL_PLAYERS.include? id } # ignore prof. player games
             _play(players, proj_name)
           end
         end

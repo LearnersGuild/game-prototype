@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+15,stale-chameleon,45664623,22.11,22.0,92.25,94.75,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,33.0,32.84,0.16,100.0,0.0
+15,stale-chameleon,690c133a,22.33,25.0,92.25,94.75,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,33.33,37.31,-3.98,99.0,1.0
+15,stale-chameleon,0af92c55,22.56,20.0,92.25,94.75,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,33.67,29.85,3.82,99.5,0.5

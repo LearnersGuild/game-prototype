@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+15,helpless-bustard,110df682,30.0,30.0,97.5,98.31,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,6.0,33.33,33.33,0.0,99.5,-0.5
+15,helpless-bustard,085c56bc,34.2,30.0,97.5,98.31,MISSING DATA,MISSING DATA,MISSING DATA,100.0,91.67,91.67,7.0,38.0,33.33,4.67,97.0,3.0
+15,helpless-bustard,5178cbf5,25.8,30.0,97.5,98.31,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,28.67,33.33,-4.66,99.0,-1.0

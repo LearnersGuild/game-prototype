@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+15,different-racer,94b1cd36,31.0,32.0,100.0,99.53,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,2.0,50.0,51.61,-1.61,100.0,0.0
+15,different-racer,5178cbf5,31.0,30.0,100.0,99.53,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,66.67,6.0,50.0,48.39,1.61,100.0,0.0

@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+15,huge-bee-eater,198449da,33.99,35.0,99.84,99.53,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,6.0,51.5,53.03,-1.53,97.0,3.0
+15,huge-bee-eater,ea4646be,32.01,31.0,99.84,99.53,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,7.0,48.5,46.97,1.53,97.0,3.0

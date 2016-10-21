@@ -1,5 +1,5 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-13,deafening-rattlesnake,adda47cf,21.85,29.0,97.5,95.0,MISSING DATA,MISSING DATA,MISSING DATA,88.89,83.33,77.78,8.0,23.0,30.53,-7.53,98.67,-1.33
-13,deafening-rattlesnake,f2d70fa5,23.04,30.0,97.5,95.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,88.89,6.0,24.25,31.58,-7.33,93.0,-7.0
-13,deafening-rattlesnake,45664623,20.19,21.0,97.5,95.0,MISSING DATA,MISSING DATA,MISSING DATA,72.22,66.67,66.67,7.0,21.25,22.11,-0.86,93.67,6.33
-13,deafening-rattlesnake,dcf14075,29.93,15.0,97.5,95.0,MISSING DATA,MISSING DATA,MISSING DATA,90.48,92.86,95.24,7.0,31.5,15.79,15.71,88.67,11.33
+13,deafening-rattlesnake,adda47cf,21.85,29.0,98.33,96.67,MISSING DATA,MISSING DATA,MISSING DATA,88.89,83.33,77.78,8.0,23.0,30.53,-7.53,98.67,-1.33
+13,deafening-rattlesnake,f2d70fa5,23.04,30.0,98.33,96.67,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,88.89,6.0,24.25,31.58,-7.33,93.0,-7.0
+13,deafening-rattlesnake,dcf14075,29.93,15.0,98.33,96.67,MISSING DATA,MISSING DATA,MISSING DATA,90.48,92.86,95.24,7.0,31.5,15.79,15.71,88.67,11.33
+13,deafening-rattlesnake,45664623,20.19,21.0,98.33,96.67,MISSING DATA,MISSING DATA,MISSING DATA,72.22,55.56,66.67,7.0,21.25,22.11,-0.86,93.67,6.33

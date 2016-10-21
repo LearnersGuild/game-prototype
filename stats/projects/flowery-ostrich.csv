@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-15,flowery-ostrich,4d87f1c5,23.66,27.0,96.82,95.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,30.33,34.62,-4.29,96.5,-3.5
-15,flowery-ostrich,cbcff678,26.78,25.0,96.82,95.27,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,34.33,32.05,2.28,98.0,-2.0
-15,flowery-ostrich,94b1cd36,27.56,26.0,96.82,95.27,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,35.33,33.33,2.0,99.5,-0.5
+14,flowery-ostrich,4d87f1c5,21.53,20.0,96.82,95.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,30.33,28.17,2.16,96.5,-3.5
+14,flowery-ostrich,cbcff678,24.37,25.0,96.82,95.27,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,34.33,35.21,-0.88,98.0,-2.0
+14,flowery-ostrich,94b1cd36,25.08,26.0,96.82,95.27,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,35.33,36.62,-1.29,99.5,-0.5

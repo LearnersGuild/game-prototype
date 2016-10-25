@@ -6,6 +6,14 @@ Elo.configure do |config|
   config.use_FIDE_settings = false
 end
 
+CSV_LOG_HEADERS = [ :cycle_no, :project, :a, :a_start_elo, :a_effect, :a_end_elo, :b, :b_start_elo, :b_effect, :b_end_elo, :game_outcome ]
+
+def csv_log(vals)
+  puts CSV_LOG_HEADERS.map { |k| vals[k] }.join(',')
+end
+
+$log_message = {}
+
 class Stats
   module Mastery
     PROFESSIONAL_PLAYERS = %w[ 75dbe257 dcf14075 070b3063 3760fbe8 f490c8ee ]# %w[ jrob8577 deadlyicon bluemihai sj tanner ]
@@ -49,23 +57,20 @@ class Stats
     def _generate_rankings
       return @generated if @generated
 
-      1.upto(current_cycle) do |cycle_no|
-        log " --- "
-        log "Running games for cycle #{cycle_no}..."
+      puts CSV_LOG_HEADERS.map(&:to_s).join(',')
 
+      1.upto(current_cycle) do |cycle_no|
         cycle_projects = projects(cycle_no).sort
+
+        $log_message[:cycle_no] = cycle_no
 
         cycle_projects.each do |proj_name|
           team = team(proj_name).map { |player_id| _scoreboard[player_id] }
-          # handles = team.map { |p| p[:handle] }
 
-          log " --- "
-          log "Running games for project #{proj_name}..."
-          # log "Team: #{handles.join(', ')}"
+          $log_message[:project] = proj_name
 
           team.combination(2).each do |players|
-            # ids = players.map { |p| p[:id] }
-            # next if ids.any? { |id| PROFESSIONAL_PLAYERS.include? id } # ignore prof. player games
+            next if players.any? { |p| PROFESSIONAL_PLAYERS.include? p[:id] } # ignore prof. player games
             _play(players, proj_name)
           end
         end
@@ -75,8 +80,10 @@ class Stats
     end
 
     def _play(players, proj_name)
-      before_a = "#{players[0][:id]}(#{players[0][:elo].rating})"
-      before_b = "#{players[1][:id]}(#{players[1][:elo].rating})"
+      $log_message[:a] = players[0][:id]
+      $log_message[:a_start_elo] = players[0][:elo].rating
+      $log_message[:b] = players[1][:id]
+      $log_message[:b_start_elo] = players[1][:elo].rating
 
       game = players[0][:elo].versus(players[1][:elo])
 
@@ -89,13 +96,19 @@ class Stats
       end
 
       game_outcome = game.result.round(2)
-      after_a = "#{players[0][:id]}(#{players[0][:elo].rating})"
-      after_b = "#{players[1][:id]}(#{players[1][:elo].rating})"
-      log [ before_a, before_b, game_outcome, after_a, after_b ]
+      $log_message[:game_outcome] = game_outcome
+      $log_message[:a_end_elo] = players[0][:elo].rating
+      $log_message[:b_end_elo] = players[1][:elo].rating
+
+      csv_log($log_message)
+
+      return game_outcome
     end
 
     def _game_result(players, proj_name)
       effectivenesses = players.map { |player| proj_effectiveness(player[:id], proj_name) }
+      $log_message[:a_effect] = effectivenesses[0]
+      $log_message[:b_effect] = effectivenesses[1]
 
       # margin-based ELO
       return effectivenesses[0] / (effectivenesses[0] + effectivenesses[1]).to_f

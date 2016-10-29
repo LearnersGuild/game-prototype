@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+16,worrisome-bushbuck,29f423c4,34.9,36.0,99.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,45.33,46.75,-1.42,93.0,7.0
+16,worrisome-bushbuck,75dbe257,13.34,8.0,99.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,97.22,100.0,4.0,17.33,10.39,6.94,81.0,19.0
+16,worrisome-bushbuck,85eb0e18,28.74,33.0,99.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,37.33,42.86,-5.53,99.5,-0.5

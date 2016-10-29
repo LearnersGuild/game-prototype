@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+16,adventurous-heron,b7faca92,20.69,24.0,91.6,99.0,MISSING DATA,MISSING DATA,MISSING DATA,50.0,41.67,75.0,7.0,32.33,37.5,-5.17,88.5,11.5
+16,adventurous-heron,dcf14075,15.36,4.0,91.6,99.0,MISSING DATA,MISSING DATA,MISSING DATA,93.33,97.22,97.22,4.0,24.0,6.25,17.75,86.5,13.5
+16,adventurous-heron,4d87f1c5,27.95,36.0,91.6,99.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,7.0,43.67,56.25,-12.58,96.0,-4.0

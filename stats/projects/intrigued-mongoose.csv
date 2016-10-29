@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+16,intrigued-mongoose,45550069,28.5,29.0,100.0,98.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,50.88,-0.88,100.0,0.0
+16,intrigued-mongoose,eed94af6,28.5,28.0,100.0,98.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,49.12,0.88,100.0,0.0

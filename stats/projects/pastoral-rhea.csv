@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+16,pastoral-rhea,713b4462,33.22,33.5,100.0,99.86,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,48.5,48.91,-0.41,99.0,1.0
+16,pastoral-rhea,164d773b,35.28,35.0,100.0,99.86,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,51.5,51.09,0.41,99.0,1.0

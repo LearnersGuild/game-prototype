@@ -23,8 +23,8 @@ player_ratings = s.player_ids.reduce({}) do |roster, player_id|
   roster
 end
 
-puts "Elo rankings"
-puts "------------"
-player_ratings.sort_by { |id, rating| -rating }.each do |id, rating|
-  puts "#{id.ljust(20)}: #{rating}"
-end
+# puts "Elo rankings"
+# puts "------------"
+# player_ratings.sort_by { |id, rating| -rating }.each do |id, rating|
+#   puts "#{id.ljust(20)}: #{rating}"
+# end

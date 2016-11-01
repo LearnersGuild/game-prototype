@@ -16,7 +16,8 @@ $log_message = {}
 
 class Stats
   module Mastery
-    PROFESSIONAL_PLAYERS = %w[ 75dbe257 dcf14075 070b3063 3760fbe8 f490c8ee ]# %w[ jrob8577 deadlyicon bluemihai sj tanner ]
+    # [ jrob jared mihai sj tanner deonna ]
+    PROFESSIONAL_PLAYERS = %w[ 75dbe257 dcf14075 070b3063 3760fbe8 f490c8ee ed958f6f ]
     PROFESSIONAL_INITIAL_RATING = 1300
     DEFAULT_INITIAL_RATING = 1000
 
@@ -65,12 +66,13 @@ class Stats
         $log_message[:cycle_no] = cycle_no
 
         cycle_projects.each do |proj_name|
-          team = team(proj_name).map { |player_id| _scoreboard[player_id] }
+          team = team(proj_name)
+          team = team - PROFESSIONAL_PLAYERS # don't play PROFESSIONAL_PLAYERS
+          team_players = team.map { |player_id| _scoreboard[player_id] }
 
           $log_message[:project] = proj_name
 
-          team.combination(2).each do |players|
-            next if players.any? { |p| PROFESSIONAL_PLAYERS.include? p[:id] } # ignore prof. player games
+          team_players.combination(2).each do |players|
             _play(players, proj_name)
           end
         end
@@ -112,10 +114,6 @@ class Stats
 
       # margin-based ELO
       return effectivenesses[0] / (effectivenesses[0] + effectivenesses[1]).to_f
-
-      # return 0.5 if (((effectivenesses[0]-effectivenesses[1]).abs/effectivenesses[0]) < 0.1)
-      # return 1 if effectivenesses[0] > effectivenesses[1]
-      # return 0 if effectivenesses[1] > effectivenesses[0]
     end
   end
 end

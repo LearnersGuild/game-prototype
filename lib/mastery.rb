@@ -18,7 +18,7 @@ class Stats
   module Mastery
     # [ jrob jared mihai sj tanner deonna ]
     PROFESSIONAL_PLAYERS = %w[ 75dbe257 dcf14075 070b3063 3760fbe8 f490c8ee ed958f6f ]
-    PROFESSIONAL_INITIAL_RATING = 1300
+    PROFESSIONAL_INITIAL_RATING = 0
     DEFAULT_INITIAL_RATING = 1000
 
     def elo(player_id)

@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
 15,domineering-gazelle,e76412aa,27.62,34.0,99.71,97.59,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,66.67,9.0,28.33,34.87,-6.54,87.5,-12.5
-15,domineering-gazelle,5c217ba1,35.75,32.5,99.71,97.59,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,91.67,7.0,36.67,33.33,3.34,96.0,-4.0
 15,domineering-gazelle,164d773b,34.13,31.0,99.71,97.59,MISSING DATA,MISSING DATA,MISSING DATA,75.0,66.67,66.67,9.0,35.0,31.79,3.21,98.5,-1.5
+15,domineering-gazelle,5c217ba1,35.75,32.5,99.71,97.59,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,91.67,7.0,36.67,33.33,3.34,96.0,-4.0

@@ -9,7 +9,7 @@ end
 CSV_LOG_HEADERS = [ :cycle_no, :project, :a, :a_start_elo, :a_effect, :a_end_elo, :b, :b_start_elo, :b_effect, :b_end_elo, :game_outcome ]
 
 def csv_log(vals)
-  puts CSV_LOG_HEADERS.map { |k| vals[k] }.join(',')
+  puts CSV_LOG_HEADERS.map { |k| vals[k] }.join(',') if ENV['DEBUG']
 end
 
 $log_message = {}
@@ -58,7 +58,7 @@ class Stats
     def _generate_rankings
       return @generated if @generated
 
-      puts CSV_LOG_HEADERS.map(&:to_s).join(',')
+      puts CSV_LOG_HEADERS.map(&:to_s).join(',') if ENV['DEBUG']
 
       1.upto(current_cycle) do |cycle_no|
         cycle_projects = projects(cycle_no).sort

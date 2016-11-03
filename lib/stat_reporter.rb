@@ -7,7 +7,13 @@ class StatReporter
   end
 
   def report(opts = {})
-    stats.player_ids.map do |id|
+    player_ids = stats.player_ids
+
+    if opts[:player_id]
+      player_ids.select! { |id| id == opts[:player_id] }
+    end
+
+    player_ids.map do |id|
       stat_report = {}
 
       stat_report[:cycle] = stats.current_cycle
@@ -29,11 +35,11 @@ class StatReporter
     end
   end
 
-  def full_report(as=:csv)
-    report = report(anonymous: anonymous)
+  def full_report(player_id=nil, as=:csv)
+    stat_report = report(anonymous: anonymous, player_id: player_id)
 
-    return csv(report) if as == :csv
-    report
+    return csv(stat_report) if as == :csv
+    stat_report
   end
 
   def project_report(proj_name, as=:csv)

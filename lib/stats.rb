@@ -173,12 +173,16 @@ class Stats
 
 private
 
-  def weighted_stats(id)
-    cycle_end = current_cycle
-    cycle_begin = cycle_end > CYCLE_INCLUSION_LIMIT ? cycle_end - CYCLE_INCLUSION_LIMIT : 1
-    cycle_range = (cycle_begin..cycle_end)
+  NO_OF_PREV_ACTIVE_CYCLES = 6
 
-    proj_stats.for_player(id).select { |s| cycle_range.include? s['cycle_no'].to_i }
+  def weighted_stats(id)
+    proj_stats.for_player(id)
+              .group_by { |s| s['cycle_no'].to_i }
+              .sort
+              .reverse
+              .take(NO_OF_PREV_ACTIVE_CYCLES)
+              .map { |_, projs| projs }
+              .flatten
   end
 
   def log(message)

@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+17,calm-alligator,b7faca92,30.45,38.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,16.67,16.67,50.0,6.0,72.5,90.48,-17.98,55.0,45.0
+17,calm-alligator,75dbe257,11.55,4.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,90.74,94.44,98.15,7.0,27.5,9.52,17.98,55.0,45.0

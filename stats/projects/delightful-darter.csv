@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+17,delightful-darter,dcf14075,16.68,5.0,90.0,95.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,100.0,4.0,30.33,9.09,21.24,82.5,17.5
+17,delightful-darter,936e3168,18.33,21.0,90.0,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,91.67,91.67,6.0,33.33,38.18,-4.85,95.0,-5.0
+17,delightful-darter,4a6f36f6,19.98,29.0,90.0,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,36.33,52.73,-16.4,87.0,13.0

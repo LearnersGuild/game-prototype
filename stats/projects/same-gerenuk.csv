@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+17,same-gerenuk,085c56bc,30.0,30.0,97.5,92.63,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,50.0,50.0,0.0,100.0,0.0
+17,same-gerenuk,af162939,30.0,30.0,97.5,92.63,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,50.0,50.0,0.0,100.0,0.0

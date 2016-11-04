@@ -13,6 +13,7 @@ class StatsFromData
                    .proj_completeness
                    .values(&:to_i)
 
+      return NO_DATA if scores.none?
       mean(scores).to_percent(100)
     end
 
@@ -29,6 +30,7 @@ class StatsFromData
                    .proj_quality
                    .values(&:to_i)
 
+      return NO_DATA if scores.none?
       mean(scores).to_percent(100)
     end
 

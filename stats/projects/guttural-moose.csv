@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+18,guttural-moose,717e2737,10.5,18.0,84.0,93.4,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,50.0,10.0,21.0,36.0,-15.0,97.0,3.0
+18,guttural-moose,75dbe257,12.34,4.0,84.0,93.4,MISSING DATA,MISSING DATA,MISSING DATA,88.89,90.28,91.67,4.0,24.67,8.0,16.67,92.0,8.0
+18,guttural-moose,9ae522cc,27.17,28.0,84.0,93.4,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,54.33,56.0,-1.67,90.5,-9.5

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+18,rainy-siskin,dcf14075,11.34,4.0,99.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,94.44,2.0,22.67,8.0,14.67,81.0,-19.0
+18,rainy-siskin,396fad2d,23.17,21.0,99.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,46.33,42.0,4.33,89.0,-11.0
+18,rainy-siskin,29f423c4,15.5,25.0,99.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,75.0,7.0,31.0,50.0,-19.0,83.5,-16.5

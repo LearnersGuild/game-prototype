@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+18,loud-lizard,198449da,25.5,26.0,100.0,98.56,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,5.0,50.0,50.98,-0.98,100.0,0.0
+18,loud-lizard,e76412aa,25.5,25.0,100.0,98.56,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,50.0,49.02,0.98,100.0,0.0

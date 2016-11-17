@@ -2,7 +2,55 @@
 
 Lightweight, minimal implementation of game mechanics for rapid experimentation and prototyping.
 
-## Getting Started
+## Quick (sort) and Dirty Stat Calculation
+
+For all following, assume that `N` is the cycle number to calculate stats for. `N` should be an integer greater than 1.
+
+1. Download the retro/review data at `https://game.learnersguild.org/reports/cycleResponses?chapterName=Oakland&cycleNumber=N`
+1. Move the downloaded file to the `./data/` folder
+
+  `$ mv ~/path/to/cycleResponses.csv ./data/`
+1. Calculate all stats
+
+  `$ CYCLE=N ./bin/run`
+1. Open the generated cycle stats file
+
+  `$ open stats/cycle-N.csv`
+1. Copy the stats over into a new sheet on the [Player Stats [READ ONLY]](https://docs.google.com/spreadsheets/d/1OeEsKJIz86NArRsdlzJ6qVhxzQwfmdm2yoFdoxguiuw/edit#gid=1404536392) spreadsheet
+  - To preserve formatting, duplicate an existing `cycle1toX` sheet first
+1. Create a new `Cycle N Progress` sheet on the [Player Stats [READ ONLY]](https://docs.google.com/spreadsheets/d/1OeEsKJIz86NArRsdlzJ6qVhxzQwfmdm2yoFdoxguiuw/edit#gid=1404536392) spreadsheet
+  - To preserve formatting and formulas, duplicate an existing `Cycle X Progress` sheet first
+1. Change the formulas in `Cycle N Progress` to show diff between cycle N and N-1.
+1. Share with player support
+
+### Errors from missing stats
+
+Sometimes there aren't retros submitted for all members of a project. This breaks the stats. :(
+
+To get around this, run the `bin/run` script with an `OMIT` env variable set to a list of the project names, separated by a comma.
+
+For example, in cycle 18 we had to calculate stats like this:
+
+```
+$ CYCLE=18 OMIT=disturbed-grison,ablaze-coot bin/run
+```
+
+Because there were retros missing for #disturbed-grison and #ablaze-coot.
+
+If you want to check for potential errors _before_ running `bin/run`, use `bin/validate-data $DATA_FILE`, e.g.:
+
+```
+$ bin/validate-data data/cycle-18.csv
+Validated hours. 0 invalid record(s) found.
+Checked project reviews. 0 projects are missing reviews.
+[MISSING DATA] No hours reported for full team of: 'disturbed-grison'
+  Cycle: 18 IDs: ["b7faca92-1701-4895-a455-27fcf50fc838"]
+[MISSING DATA] No hours reported for full team of: 'ablaze-coot'
+  Cycle: 18 IDs: ["0af92c55-918e-43df-8014-efa35f18dd7d"]
+Checked project hours. 2 projects are missing hours.
+```
+
+## Exploring
 
 You can load a sandbox console to launch a pry session to play with some of the main classes and query datasets from `./data/cycle-*.csv`:
 
@@ -42,26 +90,26 @@ Now you are ready to generate a chapter stat report.
 
 Stats can be generated for a chapter by running `./bin/stat-report-chapter` with a `CYCLE` env variable set to the cycle you wish to calculate stats up to.
 
-The report will be written to a file `./reports/cycle1toN.csv` and printed `STDOUT`, and any missing data or errors will be written to `STDERR`.
+The report will be written to a file `./reports/cycleN.csv` and printed `STDOUT`, and any missing data or errors will be written to `STDERR`.
 
 ```shell-session
 $ CYCLE=4 bin/stat-report-chapter
   ...
-$ cat reports/cycle-1to4.csv
+$ cat reports/cycle-4.csv
 id,xp,avg_cycle_hours,avg_proj_comp,avg_proj_qual,lrn_supp,cult_cont,team_play,est_accuracy,est_bias,no_proj_rvws
 a4b6116a,22.78,40.0,89.28,90.0,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,8
 cbcff678,53.24,36.25,82.94,83.29,70.0,93.33,MISSING DATA,90.5,-1.75,22
 ...
 ```
 
-**Note**: this assumes the presence of a `./data/` directory with cycle data files and a `./reports/` directory for saving report files to. Both must be in the root folder.
+**Note**: this assumes the presence of a `./data/` directory with cycle data files and a `./stats/` directory for saving stat report files to.
 
 ### Elo Rating
 
 To see Elo ratings for players, use the `bin/elo` command:
 
 ```shell-session
-$ bin/elo data/cycle-*.csv
+$ CYCLE=17 bin/elo
 Elo rankings
 ------------
 jrob8577            : 1159
@@ -73,7 +121,7 @@ deadlyicon          : 1108
 To see a history of all the Elo games, set the env variable `DEBUG` to `true`:
 
 ```shell-session
-$ DEBUG=true bin/elo data/cycle-*.csv
+$ DEBUG=true CYCLE=17 bin/elo
  ---
 Running games for cycle 1...
  ---
@@ -107,7 +155,7 @@ Change the `chapterName` and `cycleNumber` to match what you need.
 
 Note: you'll need to have `moderator` or `backoffice` privileges to download these files.
 
-Then move the cycle data files to a `./data/` directory (that way they aren't tracked by git).
+Then move the cycle data files to the `./data/` directory.
 
 ### Validating Data
 

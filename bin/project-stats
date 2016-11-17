@@ -7,9 +7,11 @@ require 'stats_from_data'
 require 'stat_reporter'
 
 files = ARGV
+projects_to_skip = ENV['OMIT'] && ENV['OMIT'].split(',')
 
 files.each do |cycle_retro_data_file|
   puts "Making project stats from data in #{cycle_retro_data_file}..."
+  puts "excluding projects: #{projects_to_skip}" if projects_to_skip
   gd = GameData.import([cycle_retro_data_file])
   s = StatsFromData.new(gd)
   r = StatReporter.new(s)
@@ -17,6 +19,11 @@ files.each do |cycle_retro_data_file|
   projects = s.projects.map { |p| p[:name] }
 
   projects.each do |project|
+    if projects_to_skip && projects_to_skip.include?(project)
+      puts "Skipping project #{project}"
+      next
+    end
+
     report = r.project_report(project)
     puts report
 

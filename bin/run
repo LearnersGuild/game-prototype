@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+if [ -z "${CYCLE+x}" ]; then
+  echo "Must provide a CYCLE env var"
+  echo " example: "
+  echo " $ CYCLE=18 $0"
+  exit
+fi
+
+echo
+echo "------------| VALIDATING DATA |------------"
+echo "running ./bin/validate-data ./data/cycle-$CYCLE.csv"
+echo
+./bin/validate-data "./data/cycle-$CYCLE.csv"
+
+echo
+echo "------------| PROJECT STATS |------------"
+echo "running ./bin/project-stats ./data/cycle-$CYCLE.csv"
+echo
+./bin/project-stats "./data/cycle-$CYCLE.csv"
+
+echo
+echo "------------| REVIEW STATS |------------"
+echo "running ./bin/review-stats ./data/cycle-*.csv"
+echo
+./bin/review-stats ./data/cycle-*.csv
+
+echo
+echo "------------| GENERATING CYCLE STAT REPORT |------------"
+echo "running ./bin/stat-report-chapter"
+echo
+./bin/stat-report-chapter
+
+echo
+echo "------------| GENERATING FULL PROJECT STAT REPORT |------------"
+echo "running ./bin/stat-report-projects"
+echo
+./bin/stat-report-projects

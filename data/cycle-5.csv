@@ -1,0 +1,1083 @@
+cycleNumber,question,questionId,respondentEmail,respondentHandle,respondentId,respondentName,subject,subjectId,surveyId,value
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"JRob, I want to work with you because you know your stuff and you take the time to support us in learning computer science, not just minimum viable knowledge. I'd like to work with you more if... this is a challenge. I think you've improved on splitting your time fairly btwn groups. maybe helping to hold us accountable to start time/general accountability?"
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,10
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,22
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,29
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,25
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,6
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,3
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,33
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,346a666a-deb1-4256-884f-edf20c2d3640,30
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,98
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,1
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,"you are super great at reading and digesting code. You're a super star. I would want to work with you more if you could focus more on the project. At one point in the week, you said you were happy with finishing 25 and we finished 30. I think you have to push yourself more to become the great developer I know you will be ."
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,@deadlyicon Hey man your such an awesome coder and mentor. you have super fast lightning hand but your willing to slow down to break down the good for us. I was really really awesome of you to break down what your were doing and answer our questions about how you were thinking about each situation. I want to learn more from you about what goes into your thought process as far as how you look at each situation. i would want to work with you more anytime dude you really knowledgeable.
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,88
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,33
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,6
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,5
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,5
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,6
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,6
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,25
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,30
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,1
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,346a666a-deb1-4256-884f-edf20c2d3640,30
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,25
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,80
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,4
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,95
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,6
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,"I want to work with you because you are able to communicate directly, give critical feedback to team members to enhance our learning, able to adapt to things you don't know, and are not defensive when receiving critical feedback/accountability. I would want to work with you more if you were able to focus longer, ignore distractions, and study up on Javascript fundamentals."
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,1
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,30
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,0eebd075-0211-40c1-9bee-b3f54216c19b,40
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,98
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,90
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,30
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,98
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,31
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,90
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,"@Ethan: Man you are an awesomely chill dude and it was great working with you when we coworked together. I feel like since this was such an individual project that I did not get to experience you as a coder at 100% or get as much interaction as I wanted with you. 
+
+I want to work with you b/c you flow like water, have no projected judgements about people, are very nice to interact with and if I was on an intensive coding project that we would work very well together.
+
+I would like to work more with you if you tried to include team mates a bit more, co working together was nice. However we did not have enough of it this week and part of that was because we did not have a compromise in our environment, which I wish we would have discussed more in hindsight. ie I like light side, you like dark side :)"
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"@rachel-ftw, I want to work with you because you're a great team member and contributed a lot to the project and the team dynamics. You're also a great programmer and are able to think through problems logically and voice out what you're thinking as well as your opinions on what should happen next in the code and on how to move the project forward. I would want to work with you more on more projects if I was able to follow with your thinking, at times, but I just probably need top get better at coding. it was great to work with you."
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,0eebd075-0211-40c1-9bee-b3f54216c19b,20
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,6
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,90
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"I want to work with you more because you're kind, patient,  and hard working. I will want to work with you more as you acquire more knowledge, but I admire that you continue to hold your own."
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,80
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,2
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,38
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,6
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,12
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,95
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,12
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,25
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,You are always great to work with.  Great teacher and you know exactly where to guide us and challenge us.  You create a very interesting and creative environment.
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,28.5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,17
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,35
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,70
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,24
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,93
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,36
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,2
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,"I want to work with you because in a technical sense, you consistently help me learn new things, and you always do it in such an understandable way. I want to work with you interpersonally because you are one of the rare people in life that truly appreciates feedback, gives quality objective feedback, and truly care about individual relationships. I am very grateful to be on a team with you. I would want to work with you more: (this is feedback I gave earlier in the week, and I don't think it's valid anymore since you tried to adjust then) I would want to work with you more if you were more open to different methods working for different people."
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,25
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,20
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,23
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,2
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,30
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,"You're an amazing person! I wish we had more time to work together, but this was a very individual project (plus we were on crunch-time). I really hope you consider my offer to help with ruby/rails over the weekend. I would love a lesson on testing as well!"
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,24
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,80
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,90
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,55
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,85
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,95
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,5
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"@jrob8577, I want to work with you because you're an awesome programmer and also take the time to explain what you're think while working, as well as explain the concepts that are being applied in the program. It truly is a great experience to work with you because I learned a lot and can see how to write better code, as well, through the manner in which you refactor your code to make it  work or more simple to read and execute. I would want to work with you more in general, I think that I just need to get better in my understanding of what's going on in the program in order to contribute more."
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,95
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,100
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,27
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"@nicosesma, I want to work with you because you're focused on project completion and you have the independence and drive to research topics necessary to our project on your own. You also were able to defer your own feelings for those of the majority, which is not easy to do and which I appreciate. I would want to work with you more if you weren't so quick to sacrifice ease for project completion and if you had more confidence in our abilities as a team."
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"@jrob8577 I want to work with you because your knowledge allows you to explain topics as simply as possible. Other than contributing to the code itself, you divided your time well between us and the other teams, and you started telling us about more advanced topics. You're also patient, which encourages me to ask more questions of you and seek out your help."
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,88
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,2
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,2
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,91
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,80
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,33
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,"I want to work with you because you're helpful in making me understand the code itself and thinking through how the code may be used. 
+As I said, I would want to work with you more if you're feedback had more career context."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,20
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,23
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,20
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,40
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,You are great to work with and amazing with your technical skills.  You are fun to be around and you create an environment that so joyful and not boring.  I would love to work more with you if you could include your team players in your journey and not only focus on yourself.  I felt isolated many times around you and i truly understand that it is unintentional.  You are focused and good with your code all you need is to include everyone in your team even when its not convenient.
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,I want to work with you because you keep your eye on the prize ;) You stay focused on our goal and when distracted you get me refocused. You know how to balance fun with staying engaged. You are good at finding solutions - some Jared googling skills :) I would want to work with you more if you honed your git skills. (I need to do this too!)
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,22
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,80
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,5
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,80
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,15
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,You really taught me about github in a way that I think I understand. I really understood your process for figuring things out and learned a lot from watching you code and you answering my questions.
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,4
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,5
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,34
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,5
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,"I like working with you because you are fun to work with and you are not afraid to try new things and very smart about coding. I would want to work with you more if you were more thoughtful about your work process and more organized, it makes it easier on the technical and personal side to collaborate, and if you were more receptive to feedback."
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,95
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,31
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,"I want to work with you  because you're a very uplifting person. Technically and interpersonally, I always feel good about myself after an interaction with you.I also like to work with you because you're incredible at hyper-focusing on the task at hand. I would want to work with you more if you occasionally lowered your hyper-focus on your personal priorities and made more focus on the group's in-the-moment priority."
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,95
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,32
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,it is really amazing and great working with you because you are so considerate patient and you take your time to explain things.  You are fun to be around and i admire your enthusiasm.  I would work with you more if you just continue to be yourself and you don't need to change anything so far :).  Great team player!!!!
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,2
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,"Jrob, I want to work with you because you write good, clean, code. I am impressed by the way you think through problems and admire your open ness to show vulnerability through that process. I would want to work with you more if you could better balance your time between teams."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,29
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,"@jrob8577, I want to work with you because you have a teacher's soul and an ability to break down concepts and make them easy to digest. I am so grateful when I get to work with you. I would want to work with you more if you were a touch more realistic about your time commitments, which is also feedback I give with the understanding that you are in a far different position than us. Thank you for being a great ally."
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,85
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,"i really enjoy working with you Majid. You're fun, honest and assertive.
+
+i would enjoy working with you more if you would be less greateful for my help and more demanding of what you need to learn."
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,346a666a-deb1-4256-884f-edf20c2d3640,27
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,35
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,90
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"@Moniarchy, I want to work with you more because you're very present and attentive and ask good questions that are relevant and actually help me think and you are also able to clarify what is going on at times. I would want to work with you more in general."
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,88
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,30
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,25
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,99
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,29
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,23
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,5
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,33
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,I want to work with you because you continue to have such a great attitude even when it seems as if the material we work through is at times daunting.  You ask perceptive questions that clarify the problems we are discussing.  I would want to work with you more if we could increase your learning trajectory with some of the core competencies (like javascript) so that you could take on more of the work in the team.
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,95
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,"I like working with you Ana because you're so kind and easy to communicate with. 
+
+I would enjoy working with you more if you were more aggressive about demanding what support you need from you project partners to get what you need."
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,90883b75-02ad-4423-94b1-51fe7762f6df,34
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,35
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,31
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,24
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"I want to work with you because you have offer considered and thoughtful input as we collaborate to solve a problem.  I would want to work with you more if you spoke up more!  I think you have a lot of valuable insight, but I sense that you withhold that insight... Glad I got to be on a team with you finally!"
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,100
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,35
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,32
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,2
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,I like working with you because you are programming genius :P and you model good working skills an you challenge me to try new things and get better at my craft. I would want to work with you more if I had more time with to work with you this week.
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,90883b75-02ad-4423-94b1-51fe7762f6df,30
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,12
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,25
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,"I want to work with you because you are thoughtful, and your thinking often produces different answers to the same questions compared to mine; because you care deeply; because you have fun and bring lightness when needed.
+
+I would want to work with you more if you were able to perform, complete and deliver more - some people have kind of a ""machine"" or ""business"" mode where they can deliver even amidst chaos.  Also, if you trusted and leveraged your experience with programming to lead more."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,35
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,35
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,37
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,80
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,95
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,6
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,28
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,25
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,30
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,"I want to work with you because you obviously have a lot of enthusiasm and passion. I would want to work with you more if you were able to be less rigid about structure and let structure be a frame that provides value rather than a crutch that slows progress. I wanted you to ""do"" more and ""discuss"" less."
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,80
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,85
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,4
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,100
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,5
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,95
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,"@Mihai: We have had a lot of interactions, collisions, debates, defensive tendencies from both of our sides and I learned a lot from you in terms of how you think and how to better interact with you in general. I appreciate you letting me give you feedback and in turn giving me constant feedback and making me rethink how I thought about a lot of things. 
+
+I want to work with you b/c I learn so much in terms of how to overcome my own feedback validations, how I value myself, what I let affect me and what leads to becoming a stronger emotionally and mentally person.
+
+I would want to work with you more if you:
+-allowed other trains of thought that may differ from your own
+-were kinder in your feedback to people
+-remembered your feedback and gave it after a discussion
+-were able to follow discussions from people that may not be relevant to the discussion at hand
+-put aside the differences you see in people an learned to still allow for free minded discourse 
+-tried to unlearn your own biases towards me and how you valued me as a person
+-any time I give you feedback I would prefer to not feel like whatever I said was not actually taken in and was just thrown back on me in a negative format. 
+-analyzed why you did not trust me to perform certain actions however automatically believed that others you had not dealt with were able to perform those actions (ie lead a fun team, esp since I did not even want to lead a fun activity team lol) 
+
+However I personally still know that I can do that if I wanted too based on my personal experience and I do not need to prove it to you."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,22
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,"I want to work with you because you are very passionate about the work, and bring a sense of fun and engaged attitude to the team.  You also bring experience in javascript and problem solving that seems impactful for your team members.  I would want to work with you more if you spoke up more! It seemed to me that there were a few occasions where you had something insightful to share, but didn't. I would say, however, that this seemed to improve throughout the week.  I'm glad I finally got an opportunity to work with you on a team!!"
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,"I want to work with you because you bring such a positive, can do attitude to the team. I also appreciate that you seem very introspective/reflective about the work we have done, critically assessing your performance regularly, and sharing that assessment openly with the team. I would want to work with you more if we could increase your comfort level with javascript so that you could independently solve some of the problems. I have some ideas about some practice problems that could help here, would love to continue to explore this with you! Really happy that I finally got an opportunity to work with you on a team."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,15
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,"You bravely give and receive feedback, you're a helpful model at various hard and soft skills, and you're constantly seeking to improve yourself. Aside from ""more experience"", there isn't much in the ""would want to work with you more"" category."
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,30
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,6
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"Nico, I want to work with you more because you contribute to the project and are on point. I will want to work with you more as you continue along the path of learning team skills. I could you see you actively trying to be present and contribute and I look forward to watching you continue to put points in that skill."
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,95
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,"@jamestewartjr, I want  to work with you because you give honest immediate feedback, and you are communicative. I appreciate your willingness to help when needed. I would want to work with you more if you would be a 'sprinkle' more realistic about devlierables (this is also a critique for me)"
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,6
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,90
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,90
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,80
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,"Hey Devon, I enjoy working with you because you're honest about what you do and dont know. 
+
+I would enjoy working with you more if were more aggressive  about getting what you need to learn every day. Know what you need and demand it of your gropmates."
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,"This was a great week for me and you. It was really hard to get some one on one time with you but that had more to do with the project than me disagreeing with you. I'de love to work with you again if we got to work with code in my stretch zone. Seriously stoked to see how quickly you pick up the Raspberry Pi. 
+
+I didnt use your program to track my progress but thats not to say I didn't learn anything from it. Helped me become a better programmer for sure."
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,70
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,5
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,2
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,38
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,26
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,50
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,100
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,80
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,14
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,78
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,90
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,asauceda@mail.ccsf.edu,Anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,anasauce,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,90
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,44
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,"I really like working with you john because youre so focused and dedicated. 
+
+i would enjoy working with you more if you worked less on your own and were more of a team player / pair programmer."
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,45
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,"I was fascinating watching you coding, I learned a lot and captured a lot of techniques while you were coding. I wish I would have make the project easier so I could contribute more to the project."
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,6
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,12
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,"I want to work with you because you bring a technical competence and practical attitude to the team that really helped moved us towards the finish line.  I also value your honest feedback and communication, and patience when collaborating, as well as your insightful questions about the work we did together as a team. I would want to work with you more if you were more engaged with helping other members of the team - I sense a depth of knowledge with you that could be leveraged to bring other team members up to speed (I hasten to add that because I'm not always present on the team, this feedback may be wholly informed by the work we did). I'm really happy that I finally had an opportunity to work on a team with you!"
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,"I want to work with you because you're not afraid to admit when you don't know something. Also, you stayed focused on the project through the week. 
+
+I would want to work with you more if you attempted to try different peer programming models more often. There are many different formats and we may have found one that made quicker results for us instead of defaulting to individuality. I also felt you chose all of the easiest functions which left me with all of the difficult functions. That resulted in me having a different level of completion."
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,95
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,resolute-kongoni,d094fec4-9348-40f9-bc15-8524e2f5ac46,fc5728a8-ad9d-4043-a978-edc121b6f073,100
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,2
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,@rachel-ftw I want to work with you because you know your stuff and you're interested in actually trying to push  forward through trouble before giving up/asking the professional player.
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,6
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,d50ac0d6-52bb-4125-8112-8035fced94c5,25
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,20
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,85
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,48
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,Majid Rahimi,45a99283-2d41-48b3-b859-5826dab526a4,0eebd075-0211-40c1-9bee-b3f54216c19b,"I want to want with you more because you have a very cool personality 
+and you keep thing very honest as far as your learning, you have a great sense of humor and challenge me to right code. thank you. I would want to work with you more if we had a little more time and  understanding about what we were doing."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,85
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,95
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,95
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,"I want to work with you because the quality of your listening generates positive ideas for me; because you are enthusiastic about programming and supportive of your teammates (since Harman can't rate your support of him, I'm doing it)."
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,90883b75-02ad-4423-94b1-51fe7762f6df,I appreciated you taking a step back and allowing us to work independently more this week. I feel like we could have used your help more in structuring the project early on.
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,3
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,"I want to work with you because your growth in technical skill is apparent and exciting to watch and be a part of.  You can critically think about and deconstruct a problem, and continue to get closer to taking a solution from concept to code. I would want to work with you more if ... <thinking sounds> you created a goal that would place you squarely in your ZPD for the technologies you are interested in!"
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,33
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,36
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,0707dd34-eedc-44a9-9ebc-f50066f33a72,90
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,James D Stewart,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,30
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,346a666a-deb1-4256-884f-edf20c2d3640,30
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,90
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,harmansingh@me.com,harmanlearns,adda47cf-d09f-40f0-98c0-9d7f24945122,Harman Singh,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,100
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,95
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,1683b66e-280f-457c-8aa1-5dc46578a397,95
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Jared Grippe,dcf14075-6fbe-44ab-89bf-cba2511f0278,0eebd075-0211-40c1-9bee-b3f54216c19b,7
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,you are willing to ask questions and try new things. You really taught me more in the process of me having to explain things and you forcing to clarify my process and code. I would want to work with you more if you were more focused and oriented towards finishing the project. I think you can be super oriented about learning and a bit relaxed about finishing the project and specs.
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,2
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,rachelralston@gmail.com,rachel-ftw,936e3168-e187-456d-9bb1-e6e882f39bab,Rachel,Nico,396fad2d-cac8-400c-ba77-189d47204e92,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,6
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,6
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,pllearns@gmail.com,pllearns,85eb0e18-7dac-4440-805b-5f6b8d730ba2,Phillip Lorenzo,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,39951c20-4dbe-4c31-aea5-0beb19c47fd9,95
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,3
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,85
+5,"Rate your agreement with the following statement:
+
+""Independent of their coding skills, {{subject}} participated on our project as a world class team player.""
+",57bc052d-1a7e-4faa-9617-11a93619ff6e,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,3
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,95
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,d50ac0d6-52bb-4125-8112-8035fced94c5,33
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,ashamed-opossum,447d912a-8c90-475c-b2b5-fab684534107,fd1ade49-4b5f-4f96-ac3d-98b35ceff65d,100
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Syd Rothman,f7ba1065-b4ad-4108-8360-a963b564d005,346a666a-deb1-4256-884f-edf20c2d3640,"I want to work with you because you have strong opinions backed with facts, which you're also open to changing, and then you celebrate the change; because you bring thought diversity to a somewhat monolithic industry.
+
+I would want to work with you more if you questioned your own beliefs more (this week was definitely a great step in that direction); there's also a bit of a solitary streak, which robs your team of your considerable contribution."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,20
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,Harman Singh,adda47cf-d09f-40f0-98c0-9d7f24945122,d50ac0d6-52bb-4125-8112-8035fced94c5,"I want to work with you because you're enthusiastic, genuine, positive, talented, and fun to be around. And I will want to work with you more as you get deeper and bravely explore some of the challenges and emotions that came up this week."
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,Mihai Banulescu,070b3063-0ff7-40c6-b3d1-321fa49b6c94,d50ac0d6-52bb-4125-8112-8035fced94c5,35
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,mrahimi1@mail.ccsf.edu,Farhad33,45a99283-2d41-48b3-b859-5826dab526a4,Majid Rahimi,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,"You're very easy going, I feel comfortable to talk to you and solve programming challenges with you. I look forward to work with you more."
+5,What percentage of this project has been completed?,65cad3c5-e9e9-4284-999b-3a72c481c55e,ts22082@gmail.com,TS22082,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,Thomas W. Smith,puzzling-salmon,4ee38e58-3d4b-449b-85dc-768fbfeed531,7ca5929d-91c1-4420-acc3-f5834079f559,100
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,30
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,johnthopkins@gmail.com,phoniks,90945a45-751d-43df-95d3-cc74b366aadc,John Hopkins,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,0
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,monicaestellaw@gmail.com,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,Moniarchy,Rachel,936e3168-e187-456d-9bb1-e6e882f39bab,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,5
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,anasauce,4d87f1c5-442b-4c07-9f72-ffae70908418,90883b75-02ad-4423-94b1-51fe7762f6df,4
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,jamstewjr@gmail.com,jamestewartjr,b6aa9c94-7b73-4168-9dcf-4593b3c4ccb6,James D Stewart,Phillip Lorenzo,85eb0e18-7dac-4440-805b-5f6b8d730ba2,6f153bb9-4dff-46c5-a679-fdf2791a3a6c,6
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,shakalee14@gmail.com,shakalee14,9ae522cc-b394-49b3-b913-9c2f771a6932,Shaka Lee,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,forgetful-tamandua,aaacf08e-aba5-4a06-915f-affde0ad1826,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,John Hopkins,90945a45-751d-43df-95d3-cc74b366aadc,90883b75-02ad-4423-94b1-51fe7762f6df,5
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,6
+5,How would you rate the quality of this project on a scale of 0-100%?,2c335ce5-ed0b-4068-92c8-56666fb7fdad,asantos3026@gmail.com,asantos3026,45664623-cf69-43ad-b98d-c354a82a382b,Aileen Santos,wicked-chimpanzee,253f2ae3-a698-47ed-b8e8-8dca3494c385,3049f871-ca9c-4fdd-9d74-478ddced0fa9,85
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,nicosm310@gmail.com,nicosesma,396fad2d-cac8-400c-ba77-189d47204e92,Nico,Moniarchy,cbcff678-e05c-42b7-8167-02b500150b56,e4ac0a48-9b0d-4667-890a-0b8dba6b24d6,20
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,John Roberts,75dbe257-a701-4725-ba74-4341376f540d,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,50
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,dwesley89@gmail.com,Jusdev89,29f423c4-406a-4efd-8488-cb484dab7440,Devon Wesley,different-boubou,c3f09f64-5179-4797-803f-059e816a6e3a,0eebd075-0211-40c1-9bee-b3f54216c19b,20
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Aileen Santos,45664623-cf69-43ad-b98d-c354a82a382b,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,"I want to work with you because you have such a great attitude, all the time! You seem to bring a technical competence to the teams I've been on with you as well that really helps the team collaborate to solve problems. I would want to work with you more if you practiced your problem solving skills so that translating the idea of a solution into code becomes easier. (I can recommend some good problems to work on to help improve this skill!) Always great working with you!!"
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,"I want to work with you because you've demonstrated creativity, precision, great team-building skills, great listening for brainstorms and integration talks, ability to learn quickly and so on...
+
+I would want to work with you more if you stepped up your leadership and, trusting your people skills, were fully okay with guiding people."
+5,"Rate your agreement with the following statement:
+
+""I'm a better software developer after working with {{subject}}.""
+",26ccd2a0-64af-4bf4-ae6b-e87445a2b213,jared@deadlyicon.com,deadlyicon,dcf14075-6fbe-44ab-89bf-cba2511f0278,Jared Grippe,Devon Wesley,29f423c4-406a-4efd-8488-cb484dab7440,0eebd075-0211-40c1-9bee-b3f54216c19b,3
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Shaka Lee,9ae522cc-b394-49b3-b913-9c2f771a6932,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,7
+5,"Rate your agreement with the following statement:
+
+""{{subject}} contributed positively to our team culture.""
+",60fb5922-6be7-4e76-aaa3-16d574489833,sydrothman@gmail.com,sydroth,f7ba1065-b4ad-4108-8360-a963b564d005,Syd Rothman,Thomas W. Smith,89ffaeb3-5368-4ec0-8dd7-2a1efb9dac99,346a666a-deb1-4256-884f-edf20c2d3640,7
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,ethanstark@gmail.com,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,EthanJStark,EthanJStark,4a6f36f6-e5c7-4057-b6ef-9698acad85e6,d50ac0d6-52bb-4125-8112-8035fced94c5,38
+5,"Give feedback to your teammate by completing the following sentence:
+
+""{{subject}}, I want to work with you because... and I would want to work with you more if...""
+",cd350a14-8a70-4593-9801-30cedab3dc75,roberts.john@gmail.com,jrob8577,75dbe257-a701-4725-ba74-4341376f540d,John Roberts,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,"I want to work with you because you bring a positive attitude to the team, and seem eager to absorb knowledge and participate.  I would want to work with you more if you could increase the rate at which you were acquiring knowledge in some of the core competencies, so that you could more effectively contribute to the project goals."
+5,How much did each team member contribute this cycle?,cacefe2b-9193-41e1-9886-a0dd61fe9159,yaseen.uc@gmail.com,yaseenagag,690c133a-1e8b-44a1-9eba-db076f69b7f9,Yaseen Hussain,Yaseen Hussain,690c133a-1e8b-44a1-9eba-db076f69b7f9,2d52df45-f7f0-4b0c-b9c9-aa48c3c780e0,19
+5,"During this past cycle, how many hours did you dedicate to this project?",29a4bc7e-631e-409b-a8ed-6d06a9ae39f7,mihai.banulescu@gmail.com,bluemihai,070b3063-0ff7-40c6-b3d1-321fa49b6c94,Mihai Banulescu,enthusiastic-hawk,b1f1230a-5af3-45a2-8191-d5f3db6d30f2,d50ac0d6-52bb-4125-8112-8035fced94c5,27

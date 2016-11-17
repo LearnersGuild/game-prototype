@@ -2,7 +2,7 @@
 
 Lightweight, minimal implementation of game mechanics for rapid experimentation and prototyping.
 
-## Quick (sort) and Dirty Stat Calculation
+## Quick (sorta) and Dirty Stat Calculation
 
 For all following, assume that `N` is the cycle number to calculate stats for. `N` should be an integer greater than 1.
 

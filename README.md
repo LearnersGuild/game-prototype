@@ -4,6 +4,8 @@ Lightweight, minimal implementation of game mechanics for rapid experimentation 
 
 ## Quick (sorta) and Dirty Stat Calculation
 
+Video overview: https://shereef.wistia.com/medias/lcyzwdxm1l
+
 For all following, assume that `N` is the cycle number to calculate stats for. `N` should be an integer greater than 1.
 
 1. Download the retro/review data at `https://game.learnersguild.org/reports/cycleResponses?chapterName=Oakland&cycleNumber=N`

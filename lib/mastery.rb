@@ -1,7 +1,6 @@
 require 'elo'
 
 Elo.configure do |config|
-  config.k_factor(100) { games_played < 20 }
   config.default_k_factor = 20
   config.use_FIDE_settings = false
 end
@@ -98,7 +97,6 @@ class Stats
       end
 
       game_outcome = game.result.round(2)
-      $log_message[:game_outcome] = game_outcome
       $log_message[:a_end_elo] = players[0][:elo].rating
       $log_message[:b_end_elo] = players[1][:elo].rating
 
@@ -113,7 +111,20 @@ class Stats
       $log_message[:b_effect] = effectivenesses[1]
 
       # margin-based ELO
-      return effectivenesses[0] / (effectivenesses[0] + effectivenesses[1]).to_f
+      result = effectivenesses[0] / (effectivenesses[0] + effectivenesses[1]).to_f
+      $log_message[:game_outcome] = result
+
+      scaled_outcome = _scale_game_result(result)
+      return scaled_outcome
+    end
+
+    STRETCH_FACTOR = 3
+
+    def _scale_game_result(result)
+      new_result = ((result - 0.5) * STRETCH_FACTOR) + 0.5
+      new_result = 1 if new_result > 1
+      new_result = 0 if new_result < 0
+      return new_result
     end
   end
 end

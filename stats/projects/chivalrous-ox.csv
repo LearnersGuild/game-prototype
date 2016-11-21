@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+19,chivalrous-ox,af162939,34.0,34.0,87.0,99.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,50.0,0.0,100.0,0.0
+19,chivalrous-ox,198449da,34.0,34.0,87.0,99.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,50.0,50.0,0.0,100.0,0.0

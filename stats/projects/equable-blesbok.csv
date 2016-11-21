@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+19,equable-blesbok,45664623,24.6,34.0,91.0,97.78,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,66.67,7.0,39.67,54.84,-15.17,99.5,0.5
+19,equable-blesbok,94b1cd36,26.24,23.0,91.0,97.78,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,75.0,7.5,42.33,37.1,5.23,97.5,2.5
+19,equable-blesbok,dcf14075,11.16,5.0,91.0,97.78,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,6.0,18.0,8.06,9.94,97.0,3.0

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+19,uncovered-monster,dd09183e,23.73,32.0,90.44,95.0,MISSING DATA,MISSING DATA,MISSING DATA,75.0,66.67,83.33,6.0,37.67,50.79,-13.12,96.5,3.5
+19,uncovered-monster,cbcff678,26.04,25.0,90.44,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,41.33,39.68,1.65,87.0,13.0
+19,uncovered-monster,75dbe257,13.23,6.0,90.44,95.0,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,4.0,21.0,9.52,11.48,82.0,18.0

@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+19,festive-malleefowl,085c56bc,24.75,25.0,100.0,99.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,83.33,83.33,8.0,45.0,45.45,-0.45,100.0,0.0
+19,festive-malleefowl,8e44efb9,30.25,30.0,100.0,99.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,55.0,54.55,0.45,100.0,0.0

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+20,efficacious-wolf,9b34a8d3,20.24,20.0,98.93,98.57,MISSING DATA,MISSING DATA,MISSING DATA,33.33,16.67,50.0,6.0,46.0,45.45,0.55,98.5,-1.5
+20,efficacious-wolf,dcf14075,0.15,0.0,98.93,98.57,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,100.0,1.0,0.33,0.0,0.33,99.5,-0.5
+20,efficacious-wolf,5c217ba1,23.61,24.0,98.93,98.57,MISSING DATA,MISSING DATA,MISSING DATA,33.33,50.0,100.0,6.0,53.67,54.55,-0.88,96.5,3.5

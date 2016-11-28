@@ -1,0 +1,5 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+20,nervous-siskin,94b1cd36,16.5,15.0,98.07,97.71,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,33.0,30.0,3.0,98.67,-1.33
+20,nervous-siskin,66930ba2,23.13,20.0,98.07,97.71,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,46.25,40.0,6.25,99.67,-0.33
+20,nervous-siskin,dcf14075,0.13,0.0,98.07,97.71,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,100.0,1.0,0.25,0.0,0.25,99.67,-0.33
+20,nervous-siskin,90945a45,10.25,15.0,98.07,97.71,MISSING DATA,MISSING DATA,MISSING DATA,100.0,75.0,83.33,7.0,20.5,30.0,-9.5,86.0,-14.0

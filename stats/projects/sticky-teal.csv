@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+20,sticky-teal,164d773b,13.35,8.0,99.29,96.07,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,2.0,30.33,18.18,12.15,90.5,-9.5
+20,sticky-teal,0af92c55,15.25,25.0,99.29,96.07,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,34.67,56.82,-22.15,97.5,-2.5
+20,sticky-teal,e76412aa,15.4,11.0,99.29,96.07,MISSING DATA,MISSING DATA,MISSING DATA,83.33,75.0,91.67,6.0,35.0,25.0,10.0,97.0,-3.0

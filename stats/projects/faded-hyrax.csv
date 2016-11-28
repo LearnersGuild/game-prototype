@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+20,faded-hyrax,45550069,21.5,20.0,100.0,99.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,46.51,3.49,100.0,0.0
+20,faded-hyrax,eed94af6,21.5,23.0,100.0,99.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,53.49,-3.49,100.0,0.0

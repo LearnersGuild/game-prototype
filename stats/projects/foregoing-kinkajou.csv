@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+20,foregoing-kinkajou,713b4462,21.76,19.0,91.0,97.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,64.0,55.88,8.12,98.0,2.0
+20,foregoing-kinkajou,5178cbf5,12.24,15.0,91.0,97.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,8.0,36.0,44.12,-8.12,98.0,2.0

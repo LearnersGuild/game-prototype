@@ -20,6 +20,7 @@ class StatReporter
       stat_report[:id] = id
       stat_report[:xp] = stats.xp(id)
       stat_report[:avg_cycle_hours] = stats.avg_cycle_hours(id)
+      stat_report[:time_on_task] = stats.time_on_task(id)
       stat_report[:avg_proj_comp] = stats.proj_completeness_for_player(id)
       stat_report[:avg_proj_qual] = stats.proj_quality_for_player(id)
       stat_report[:health_culture] = stats.health_culture(id)

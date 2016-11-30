@@ -1,15 +1,15 @@
 require 'csv'
 
 require 'mastery'
-
+require 'cycle_hours'
 require 'utils'
 
 class Stats
   include Aggregates
   include Mastery
+  include CycleHours
 
-  CYCLE_INCLUSION_LIMIT = 5 # how many previous cycles (beyond the current one) to use when weighting stats
-
+  NO_OF_PREV_ACTIVE_CYCLES = 6 # for weighting
   NO_DATA = 'MISSING DATA'
 
   attr_reader :proj_stats, :review_stats
@@ -46,6 +46,26 @@ class Stats
   def xp(id)
     proj_xps = proj_stats.for_player(id).map { |s| s['xp'].to_f }
     proj_xps.reduce(:+).round(2)
+  end
+
+  def time_on_task(id)
+    all_hours = project_hours_per_cycle(id)
+
+    hour_ratio = all_hours.map do |cycle_no, hours|
+      no_projects = hours.count
+      hours_per_project = hours_for_cycle(cycle_no) / no_projects
+
+      percents_on_task = hours.map do |hour|
+        hour > hours_per_project ? 1 : hour / hours_per_project
+      end
+
+      [cycle_no, mean(percents_on_task).round(2)]
+    end
+
+    weighted_ratios = hour_ratio.sort_by { |cycle_hours| -cycle_hours[0] }
+                                .take(NO_OF_PREV_ACTIVE_CYCLES)
+
+    mean(weighted_ratios.map { |_, ratio| ratio }).to_percent(100)
   end
 
   def avg_cycle_hours(id)
@@ -171,9 +191,18 @@ class Stats
     proj_stats.map { |s| s['cycle_no'].to_i }.max
   end
 
-private
+  def project_hours_per_cycle(id)
+    hours = proj_stats.for_player(id).map { |s| [s['cycle_no'].to_i, s['proj_hours'].to_f] }
 
-  NO_OF_PREV_ACTIVE_CYCLES = 6
+    hours.reduce({}) do |cycles, hours|
+      cycle_no, proj_hours = hours
+      cycles[cycle_no] ||= []
+      cycles[cycle_no] << proj_hours
+      cycles
+    end
+  end
+
+private
 
   def weighted_stats(id)
     proj_stats.for_player(id)

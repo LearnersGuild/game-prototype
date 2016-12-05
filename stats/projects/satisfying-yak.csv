@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+21,satisfying-yak,50b78c66,56.0,30.0,88.75,97.5,MISSING DATA,MISSING DATA,MISSING DATA,50.0,50.0,50.0,7.0,87.5,46.88,40.62,85.0,15.0
+21,satisfying-yak,eb678107,8.0,34.0,88.75,97.5,MISSING DATA,MISSING DATA,MISSING DATA,16.67,50.0,0.0,8.0,12.5,53.13,-40.63,85.0,15.0

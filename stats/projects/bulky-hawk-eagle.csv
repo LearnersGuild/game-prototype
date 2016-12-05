@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+21,bulky-hawk-eagle,5ff662f1,46.2,35.0,98.89,99.78,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,66.0,50.0,16.0,100.0,0.0
+21,bulky-hawk-eagle,84c5a454,23.8,35.0,98.89,99.78,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,34.0,50.0,-16.0,100.0,0.0

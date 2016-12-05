@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+21,overconfident-owl,717e2737,34.98,32.0,98.76,96.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,53.0,48.48,4.52,94.0,-6.0
+21,overconfident-owl,198449da,31.02,34.0,98.76,96.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,9.0,47.0,51.52,-4.52,94.0,-6.0

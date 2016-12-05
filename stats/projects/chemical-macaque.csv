@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+21,chemical-macaque,85eb0e18,30.0,28.0,97.3,98.6,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,50.0,46.67,3.33,100.0,0.0
+21,chemical-macaque,29f423c4,30.0,32.0,97.3,98.6,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,50.0,53.33,-3.33,100.0,0.0

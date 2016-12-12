@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+22,snotty-marten,b6aa9c94,29.48,30.0,84.33,83.56,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,9.0,44.0,44.78,-0.78,91.0,9.0
+22,snotty-marten,9ae522cc,33.5,35.0,84.33,83.56,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,50.0,52.24,-2.24,100.0,0.0
+22,snotty-marten,dcf14075,4.02,2.0,84.33,83.56,MISSING DATA,MISSING DATA,MISSING DATA,94.44,100.0,100.0,1.0,6.0,2.99,3.01,91.0,-9.0

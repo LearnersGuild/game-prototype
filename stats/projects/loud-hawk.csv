@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+22,loud-hawk,b7faca92,18.46,8.0,98.75,96.25,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,4.0,71.0,30.77,40.23,78.0,-22.0
+22,loud-hawk,af162939,7.54,18.0,98.75,96.25,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,6.0,29.0,69.23,-40.23,78.0,-22.0

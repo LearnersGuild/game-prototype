@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+22,gruesome-lynx,5d65c9db,35.0,34.0,98.95,99.21,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,7.0,50.0,48.57,1.43,100.0,0.0
+22,gruesome-lynx,110df682,35.0,36.0,98.95,99.21,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,50.0,51.43,-1.43,100.0,0.0

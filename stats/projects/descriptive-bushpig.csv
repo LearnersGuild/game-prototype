@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+22,descriptive-bushpig,dcf14075,4.67,4.0,98.67,98.67,MISSING DATA,MISSING DATA,MISSING DATA,94.44,100.0,100.0,2.0,9.33,8.0,1.33,98.0,-2.0
+22,descriptive-bushpig,396fad2d,21.0,20.0,98.67,98.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,42.0,40.0,2.0,100.0,0.0
+22,descriptive-bushpig,9b34a8d3,24.34,26.0,98.67,98.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,91.67,100.0,5.0,48.67,52.0,-3.33,96.5,3.5

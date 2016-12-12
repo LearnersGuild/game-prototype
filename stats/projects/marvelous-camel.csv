@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+22,marvelous-camel,eb678107,26.0,26.0,99.56,98.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,83.33,50.0,6.0,50.0,50.0,0.0,100.0,0.0
+22,marvelous-camel,8360aff4,26.0,26.0,99.56,98.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,7.0,50.0,50.0,0.0,100.0,0.0

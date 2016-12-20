@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+23,petite-kongoni,9ae522cc,23.49,31.0,96.47,95.68,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,29.0,38.27,-9.27,98.5,1.5
+23,petite-kongoni,b7faca92,25.11,22.0,96.47,95.68,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,31.0,27.16,3.84,97.0,3.0
+23,petite-kongoni,9b34a8d3,24.03,28.0,96.47,95.68,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,29.67,34.57,-4.9,98.0,2.0

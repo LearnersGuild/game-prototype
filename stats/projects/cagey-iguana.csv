@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+23,cagey-iguana,94b1cd36,28.8,30.0,83.75,98.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,6.0,48.0,50.0,-2.0,82.0,18.0
+23,cagey-iguana,50b78c66,29.1,30.0,83.75,98.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,48.5,50.0,-1.5,79.0,21.0

@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+23,roasted-egret,355bc9e4,39.0,40.0,63.08,75.38,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,8.0,50.0,51.28,-1.28,100.0,0.0
+23,roasted-egret,eb678107,39.0,38.0,63.08,75.38,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,7.0,50.0,48.72,1.28,100.0,0.0

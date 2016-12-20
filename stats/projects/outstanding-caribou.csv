@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+23,outstanding-caribou,53bcb2df,43.55,34.0,96.58,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,65.0,50.75,14.25,80.0,-20.0
+23,outstanding-caribou,5ff662f1,23.45,33.0,96.58,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,35.0,49.25,-14.25,80.0,-20.0

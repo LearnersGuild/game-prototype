@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+23,wonderful-hartebeest,b6aa9c94,27.73,32.0,78.29,83.83,MISSING DATA,MISSING DATA,MISSING DATA,83.33,100.0,66.67,8.0,43.33,50.0,-6.67,95.0,-5.0
+23,wonderful-hartebeest,75dbe257,12.8,2.0,78.29,83.83,MISSING DATA,MISSING DATA,MISSING DATA,91.67,94.44,97.22,4.0,20.0,3.13,16.87,62.5,37.5
+23,wonderful-hartebeest,5c217ba1,23.47,30.0,78.29,83.83,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,5.0,36.67,46.88,-10.21,72.5,27.5

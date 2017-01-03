@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+24,silly-albatross,396fad2d,23.17,14.0,92.0,95.43,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,2.0,56.5,34.15,22.35,93.0,-7.0
+24,silly-albatross,164d773b,17.84,27.0,92.0,95.43,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,100.0,9.0,43.5,65.85,-22.35,93.0,-7.0

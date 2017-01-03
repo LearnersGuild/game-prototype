@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+24,sedate-dove,b046921b,25.5,21.0,97.15,94.62,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,9.0,28.33,23.33,5.0,97.5,2.5
+24,sedate-dove,094be108,25.5,35.0,97.15,94.62,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,8.0,28.33,38.89,-10.56,97.5,2.5
+24,sedate-dove,53bcb2df,39.0,34.0,97.15,94.62,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,91.67,7.0,43.33,37.78,5.55,90.0,10.0

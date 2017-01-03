@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+24,tiny-chameleon,936e3168,26.55,19.0,95.83,96.17,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,45.0,32.2,12.8,90.0,10.0
+24,tiny-chameleon,29f423c4,32.45,40.0,95.83,96.17,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,5.0,55.0,67.8,-12.8,90.0,10.0

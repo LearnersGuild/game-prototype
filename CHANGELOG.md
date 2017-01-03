@@ -7,3 +7,5 @@
     - because only 1/3 team members submitted a retro, so no stats could be calculated (Devon did, Isis + Majid didn't)
 - Cycle 18
   - omitted projects 'disturbed-grison' and 'ablaze-coot' due to missing retros
+- Cycle 24
+  - omitted projects 'periodic-quoll' and 'impolite-mynah' due to missing retros for 3 players

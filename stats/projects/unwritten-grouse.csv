@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+24,unwritten-grouse,5c217ba1,21.0,23.0,100.0,97.25,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,52.5,57.5,-5.0,95.0,5.0
+24,unwritten-grouse,4d87f1c5,19.0,17.0,100.0,97.25,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,66.67,7.0,47.5,42.5,5.0,95.0,5.0

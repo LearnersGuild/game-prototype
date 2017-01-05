@@ -8,4 +8,4 @@
 - Cycle 18
   - omitted projects 'disturbed-grison' and 'ablaze-coot' due to missing retros
 - Cycle 24
-  - omitted projects 'periodic-quoll' and 'impolite-mynah' due to missing retros for 3 players
+  - added 0 hours for fa8a9a72 in 'periodic-quoll' (they left the guild)

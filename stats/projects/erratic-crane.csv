@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-22,erratic-crane,4a6f36f6,29.92,31.0,100.0,98.13,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,45.33,46.97,-1.64,98.0,-2.0
 22,erratic-crane,75dbe257,7.26,4.0,100.0,98.13,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,4.0,11.0,6.06,4.94,98.5,-1.5
+22,erratic-crane,4a6f36f6,29.92,31.0,100.0,98.13,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,45.33,46.97,-1.64,98.0,-2.0
 22,erratic-crane,94b1cd36,28.82,31.0,100.0,98.13,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,6.5,43.67,46.97,-3.3,96.5,3.5

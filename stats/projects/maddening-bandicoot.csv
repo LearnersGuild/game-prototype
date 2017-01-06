@@ -1,4 +1,4 @@
 cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-21,maddening-bandicoot,713b4462,17.42,29.0,97.94,97.35,MISSING DATA,MISSING DATA,MISSING DATA,58.33,75.0,75.0,6.0,31.67,52.73,-21.06,87.5,12.5
-21,maddening-bandicoot,0af92c55,25.85,5.0,97.94,97.35,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,7.0,47.0,9.09,37.91,65.5,34.5
-21,maddening-bandicoot,110df682,11.73,21.0,97.94,97.35,MISSING DATA,MISSING DATA,MISSING DATA,91.67,100.0,75.0,9.0,21.33,38.18,-16.85,94.5,5.5
+21,maddening-bandicoot,713b4462,32.93,29.0,97.94,97.35,MISSING DATA,MISSING DATA,MISSING DATA,58.33,75.0,75.0,6.0,43.33,38.16,5.17,95.0,-5.0
+21,maddening-bandicoot,110df682,17.48,21.0,97.94,97.35,MISSING DATA,MISSING DATA,MISSING DATA,91.67,100.0,75.0,9.0,23.0,27.63,-4.63,97.0,3.0
+21,maddening-bandicoot,0af92c55,25.59,26.0,97.94,97.35,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,7.0,33.67,34.21,-0.54,94.5,-5.5

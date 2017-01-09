@@ -1,0 +1,2 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+25,lethal-mantis,085c56bc,8.07,17.0,58.75,90.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,7.0,47.5,100.0,-52.5,95.0,-5.0

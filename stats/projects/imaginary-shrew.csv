@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+25,imaginary-shrew,7cd10098,27.26,29.0,100.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,47.0,50.0,-3.0,100.0,0.0
+25,imaginary-shrew,b046921b,21.46,29.0,100.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,8.0,37.0,50.0,-13.0,100.0,0.0

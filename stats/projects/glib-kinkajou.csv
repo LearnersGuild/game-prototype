@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+25,glib-kinkajou,45550069,13.8,17.0,55.0,82.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,9.0,30.0,36.96,-6.96,100.0,0.0
+25,glib-kinkajou,713b4462,32.2,29.0,55.0,82.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,70.0,63.04,6.96,100.0,0.0

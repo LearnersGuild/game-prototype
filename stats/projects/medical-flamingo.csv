@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-17,medical-flamingo,75dbe257,3.13,3.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,90.74,94.44,98.15,3.0,6.67,6.38,0.29,95.0,5.0
-17,medical-flamingo,396fad2d,12.53,16.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,5.0,26.67,34.04,-7.37,97.5,-2.5
-17,medical-flamingo,9b34a8d3,31.33,28.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,5.0,66.67,59.57,7.1,80.0,20.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+17,medical-flamingo,75dbe257,3.13,3.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,90.74,94.44,98.15,3.0,6.67,6.38,0.29,95.0,5.0,6,1,6,1,6,3
+17,medical-flamingo,396fad2d,12.53,16.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,5.0,26.67,34.04,-7.37,97.5,-2.5,6,6,6,6,6,6
+17,medical-flamingo,9b34a8d3,31.33,28.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,5.0,66.67,59.57,7.1,80.0,20.0,6,6,6,6,6,6

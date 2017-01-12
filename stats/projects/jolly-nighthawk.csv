@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-6,jolly-nighthawk,75dbe257,37.08,12.0,77.0,90.83,100.0,98.15,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,36.0,11.65,24.35,88.0,12.0
-6,jolly-nighthawk,f7ba1065,20.09,25.0,77.0,90.83,33.33,72.22,72.22,MISSING DATA,MISSING DATA,MISSING DATA,,19.5,24.27,-4.77,95.33,4.67
-6,jolly-nighthawk,89ffaeb3,22.92,30.0,77.0,90.83,72.22,77.78,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,22.25,29.13,-6.88,99.0,1.0
-6,jolly-nighthawk,4d87f1c5,22.92,36.0,77.0,90.83,66.67,88.89,88.89,MISSING DATA,MISSING DATA,MISSING DATA,,22.25,34.95,-12.7,99.0,1.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+6,jolly-nighthawk,75dbe257,37.08,12.0,77.0,90.83,100.0,98.15,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,36.0,11.65,24.35,88.0,12.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+6,jolly-nighthawk,f7ba1065,20.09,25.0,77.0,90.83,33.33,72.22,72.22,MISSING DATA,MISSING DATA,MISSING DATA,,19.5,24.27,-4.77,95.33,4.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+6,jolly-nighthawk,89ffaeb3,22.92,30.0,77.0,90.83,72.22,77.78,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,22.25,29.13,-6.88,99.0,1.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+6,jolly-nighthawk,4d87f1c5,22.92,36.0,77.0,90.83,66.67,88.89,88.89,MISSING DATA,MISSING DATA,MISSING DATA,,22.25,34.95,-12.7,99.0,1.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA

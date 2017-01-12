@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-21,able-jaguar,adda47cf,55.5,40.0,92.73,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,74.0,53.33,20.67,88.0,12.0
-21,able-jaguar,5178cbf5,19.5,35.0,92.73,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,8.0,26.0,46.67,-20.67,88.0,12.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+21,able-jaguar,adda47cf,55.5,40.0,92.73,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,74.0,53.33,20.67,88.0,12.0,6,6,6,6,5,5
+21,able-jaguar,5178cbf5,19.5,35.0,92.73,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,8.0,26.0,46.67,-20.67,88.0,12.0,6,6,6,6,6,6

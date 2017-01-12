@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-22,tight-rhinoceros,75dbe257,10.71,5.0,97.9,95.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,4.0,14.67,6.85,7.82,92.0,8.0
-22,tight-rhinoceros,66930ba2,34.55,34.0,97.9,95.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,47.33,46.58,0.75,91.5,8.5
-22,tight-rhinoceros,cbcff678,27.74,34.0,97.9,95.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,38.0,46.58,-8.58,97.0,-3.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+22,tight-rhinoceros,75dbe257,10.71,5.0,97.9,95.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,4.0,14.67,6.85,7.82,92.0,8.0,6,6,6,5,6,5
+22,tight-rhinoceros,66930ba2,34.55,34.0,97.9,95.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,47.33,46.58,0.75,91.5,8.5,6,6,6,6,6,6
+22,tight-rhinoceros,cbcff678,27.74,34.0,97.9,95.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,38.0,46.58,-8.58,97.0,-3.0,6,6,6,6,6,6

@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,graceful-lemur,717e2737,20.67,29.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,94.44,72.22,7.0,26.5,37.18,-10.68,95.33,4.67
-19,graceful-lemur,4d87f1c5,20.87,15.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,88.89,83.33,7.0,26.75,19.23,7.52,89.0,11.0
-19,graceful-lemur,4a6f36f6,27.69,29.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,100.0,94.44,7.0,35.5,37.18,-1.68,92.67,7.33
-19,graceful-lemur,75dbe257,8.78,5.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,3.0,11.25,6.41,4.84,98.33,-1.67
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,graceful-lemur,717e2737,20.67,29.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,94.44,72.22,7.0,26.5,37.18,-10.68,95.33,4.67,6,6,6,5,6,6
+19,graceful-lemur,4d87f1c5,20.87,15.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,88.89,83.33,7.0,26.75,19.23,7.52,89.0,11.0,6,5,6,5,6,4
+19,graceful-lemur,4a6f36f6,27.69,29.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,94.44,100.0,94.44,7.0,35.5,37.18,-1.68,92.67,7.33,6,5,6,5,6,4
+19,graceful-lemur,75dbe257,8.78,5.0,97.75,100.0,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,3.0,11.25,6.41,4.84,98.33,-1.67,6,5,6,5,6,5

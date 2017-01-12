@@ -9,14 +9,16 @@ class Stats
   include Mastery
   include CycleHours
 
+  NO_OF_PREV_ACTIVE_UNIQUE_REVIEWERS = 12 # for health evaluations
   NO_OF_PREV_ACTIVE_CYCLES = 6 # for weighting
   NO_DATA = 'MISSING DATA'
 
-  attr_reader :proj_stats, :review_stats
+  attr_reader :proj_stats, :review_stats, :game_data
 
-  def initialize(proj_stats, review_stats)
+  def initialize(proj_stats, review_stats, game_data = nil)
     @proj_stats = proj_stats
     @review_stats = review_stats
+    @game_data = game_data
   end
 
   # proj stat queries
@@ -117,6 +119,32 @@ class Stats
     mean(stats).to_percent(100)
   end
 
+  def health_adjusted_culture(id)
+
+    # Get last 8 project stats
+    unique_culture_feedbacks = unique_feedback(game_data.health_culture, id)
+
+    return NO_DATA if unique_culture_feedbacks.none?
+
+    stats = unique_culture_feedbacks.map do |culture_feedback|
+
+      respondentId = game_data.shortened(culture_feedback["respondentId"])
+      puts "respondentId #{respondentId}"
+      value = culture_feedback["value"].to_f
+      puts "value #{value}"
+      max_average = retro_average(respondentId, "retro_max_culture")
+      puts "max aveage #{max_average}"
+      min_average = retro_average(respondentId, "retro_min_culture")
+      puts "min average #{min_average}"
+      stat = (value - min_average) / (max_average - min_average)
+      puts "stat #{stat}"
+      stat
+    end
+
+
+    stats
+  end
+
   def health_team_play(id)
     stats = weighted_stats(id).map { |s| s['health_team_play'] }
                               .reject { |n| n.nil? || n == NO_DATA }
@@ -134,6 +162,12 @@ class Stats
     return NO_DATA if stats.none?
     mean(stats).to_percent(100)
   end
+
+  def retro_average(id,stat)
+    rmcs = proj_stats.for_player(id).map { |s| s[stat].to_f }
+    rmcs.reduce(:+) / rmcs.size.to_f
+  end
+
 
   def challenge(id)
     stats = weighted_stats(id).map { |s| s['challenge'] }
@@ -212,6 +246,13 @@ private
               .take(NO_OF_PREV_ACTIVE_CYCLES)
               .map { |_, projs| projs }
               .flatten
+  end
+
+  def unique_feedback(feedback_collection, id)
+    feedback_collection.select {|hc| game_data.shortened(hc["subjectId"]) == id }
+                            .sort{|n,m| m["cycleNumber"].to_f <=> n["cycleNumber"].to_f}
+                            .uniq{|a| a["respondentId"]}
+                            .first(NO_OF_PREV_ACTIVE_UNIQUE_REVIEWERS)
   end
 
   def log(message)

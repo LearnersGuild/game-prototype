@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-14,clammy-baboon,8e44efb9,28.0,28.0,100.0,99.3,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,100.0,7.0,50.0,50.0,0.0,100.0,0.0
-14,clammy-baboon,adda47cf,28.0,28.0,100.0,99.3,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,50.0,0.0,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+14,clammy-baboon,8e44efb9,28.0,28.0,100.0,99.3,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,100.0,7.0,50.0,50.0,0.0,100.0,0.0,6,6,6,6,6,6
+14,clammy-baboon,adda47cf,28.0,28.0,100.0,99.3,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,50.0,0.0,100.0,0.0,5,5,5,5,6,6

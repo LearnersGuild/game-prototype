@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-18,shaggy-sheathbill,dd09183e,26.98,30.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,5.0,38.0,42.25,-4.25,97.0,3.0
-18,shaggy-sheathbill,adda47cf,26.75,37.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,37.67,52.11,-14.44,93.0,-7.0
-18,shaggy-sheathbill,75dbe257,17.27,4.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,88.89,90.28,91.67,4.0,24.33,5.63,18.7,93.5,-6.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+18,shaggy-sheathbill,dd09183e,26.98,30.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,5.0,38.0,42.25,-4.25,97.0,3.0,6,5,6,5,6,5
+18,shaggy-sheathbill,adda47cf,26.75,37.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,37.67,52.11,-14.44,93.0,-7.0,5,5,5,4,5,5
+18,shaggy-sheathbill,75dbe257,17.27,4.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,88.89,90.28,91.67,4.0,24.33,5.63,18.7,93.5,-6.5,6,4,6,4,6,2

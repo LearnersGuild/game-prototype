@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-17,ubiquitous-urial,adda47cf,43.75,35.0,100.0,98.69,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,62.5,50.0,12.5,85.0,15.0
-17,ubiquitous-urial,ea4646be,26.25,35.0,100.0,98.69,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,66.67,7.0,37.5,50.0,-12.5,85.0,15.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+17,ubiquitous-urial,adda47cf,43.75,35.0,100.0,98.69,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,62.5,50.0,12.5,85.0,15.0,5,5,5,5,4,4
+17,ubiquitous-urial,ea4646be,26.25,35.0,100.0,98.69,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,66.67,7.0,37.5,50.0,-12.5,85.0,15.0,6,6,6,6,6,6

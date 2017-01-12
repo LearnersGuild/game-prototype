@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-1,lumpy-guerza,396fad2d,25.5,40.0,93.25,89.25,75.0,66.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,28.33,44.44,-16.11,96.0,4.0
-1,lumpy-guerza,dcf14075,38.7,10.0,93.25,89.25,97.62,95.24,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,43.0,11.11,31.89,65.5,34.5
-1,lumpy-guerza,cbcff678,25.8,40.0,93.25,89.25,83.33,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,28.67,44.44,-15.77,87.5,12.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+1,lumpy-guerza,396fad2d,25.5,40.0,93.25,89.25,75.0,66.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,28.33,44.44,-16.11,96.0,4.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+1,lumpy-guerza,dcf14075,38.7,10.0,93.25,89.25,97.62,95.24,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,43.0,11.11,31.89,65.5,34.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+1,lumpy-guerza,cbcff678,25.8,40.0,93.25,89.25,83.33,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,28.67,44.44,-15.77,87.5,12.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA

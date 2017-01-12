@@ -1,6 +1,6 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-12,incompetent-colobus,5178cbf5,22.18,22.5,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,91.67,95.83,70.83,7.0,18.8,19.07,-0.27,98.5,1.5
-12,incompetent-colobus,690c133a,29.03,35.0,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,95.83,100.0,100.0,6.0,24.6,29.66,-5.06,99.5,0.5
-12,incompetent-colobus,29f423c4,10.62,2.0,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,88.1,83.33,97.62,4.0,9.0,1.69,7.31,98.75,1.25
-12,incompetent-colobus,164d773b,24.54,33.0,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,100.0,6.0,20.8,27.97,-7.17,96.0,4.0
-12,incompetent-colobus,b7faca92,31.62,25.5,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,83.33,100.0,6.0,26.8,21.61,5.19,96.0,4.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+12,incompetent-colobus,5178cbf5,22.18,22.5,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,91.67,95.83,70.83,7.0,18.8,19.07,-0.27,98.5,1.5,6,6,6,3,6,6
+12,incompetent-colobus,690c133a,29.03,35.0,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,95.83,100.0,100.0,6.0,24.6,29.66,-5.06,99.5,0.5,6,6,6,6,6,4
+12,incompetent-colobus,29f423c4,10.62,2.0,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,88.1,83.33,97.62,4.0,9.0,1.69,7.31,98.75,1.25,6,5,6,5,6,3
+12,incompetent-colobus,164d773b,24.54,33.0,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,100.0,6.0,20.8,27.97,-7.17,96.0,4.0,6,4,6,5,6,5
+12,incompetent-colobus,b7faca92,31.62,25.5,99.21,97.29,MISSING DATA,MISSING DATA,MISSING DATA,100.0,83.33,100.0,6.0,26.8,21.61,5.19,96.0,4.0,6,5,6,5,6,4

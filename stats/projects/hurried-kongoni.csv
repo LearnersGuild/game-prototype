@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,hurried-kongoni,b6aa9c94,24.51,26.0,99.9,99.9,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,43.0,45.61,-2.61,97.0,-3.0
-19,hurried-kongoni,dcf14075,7.22,2.0,99.9,99.9,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,3.0,12.67,3.51,9.16,96.0,-4.0
-19,hurried-kongoni,66930ba2,25.27,29.0,99.9,99.9,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,44.33,50.88,-6.55,96.0,4.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,hurried-kongoni,b6aa9c94,24.51,26.0,99.9,99.9,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,43.0,45.61,-2.61,97.0,-3.0,6,6,6,6,6,6
+19,hurried-kongoni,dcf14075,7.22,2.0,99.9,99.9,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,3.0,12.67,3.51,9.16,96.0,-4.0,6,3,6,4,6,3
+19,hurried-kongoni,66930ba2,25.27,29.0,99.9,99.9,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,44.33,50.88,-6.55,96.0,4.0,6,5,6,5,6,5

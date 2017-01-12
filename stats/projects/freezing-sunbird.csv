@@ -1,6 +1,6 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-11,freezing-sunbird,ea4646be,13.4,28.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,87.5,91.67,54.17,7.0,11.2,23.41,-12.21,90.25,9.75
-11,freezing-sunbird,4d838f6e,22.96,26.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,95.83,7.0,19.2,21.74,-2.54,99.0,1.0
-11,freezing-sunbird,45a99283,31.81,20.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,6.0,26.6,16.72,9.88,95.75,4.25
-11,freezing-sunbird,94b1cd36,24.88,20.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,95.83,100.0,7.0,20.8,16.72,4.08,97.75,-2.25
-11,freezing-sunbird,66930ba2,26.55,25.6,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,22.2,21.4,0.8,98.5,-1.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+11,freezing-sunbird,ea4646be,13.4,28.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,87.5,91.67,54.17,7.0,11.2,23.41,-12.21,90.25,9.75,6,6,6,6,6,6
+11,freezing-sunbird,4d838f6e,22.96,26.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,95.83,95.83,7.0,19.2,21.74,-2.54,99.0,1.0,6,5,6,5,6,3
+11,freezing-sunbird,45a99283,31.81,20.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,6.0,26.6,16.72,9.88,95.75,4.25,6,5,6,5,6,1
+11,freezing-sunbird,94b1cd36,24.88,20.0,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,95.83,100.0,7.0,20.8,16.72,4.08,97.75,-2.25,6,5,6,5,6,4
+11,freezing-sunbird,66930ba2,26.55,25.6,99.06,96.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,22.2,21.4,0.8,98.5,-1.5,6,5,6,6,6,5

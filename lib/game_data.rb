@@ -48,7 +48,7 @@ class GameData
     raise NoDataFileProvidedError unless files.count > 0
 
     dataset = files.map do |file|
-      csv = CSV.read(file, headers: true)
+      csv = CSV.read(file, "r:ISO-8859-1", headers: true)
       raise InvalidCSVError unless csv.headers.sort == FIELDS.sort
       csv.map(&:to_hash)
     end.flatten
@@ -105,6 +105,11 @@ class GameData
     end
   end
 
+  def get_project(proj_name=nil)
+    return self if proj_name.nil?
+    project = get_projects.find { |proj| proj[:name] == proj_name }
+  end
+
   def project(proj_name=nil)
     return self if proj_name.nil?
     project = get_projects.find { |proj| proj[:name] == proj_name }
@@ -133,6 +138,7 @@ class GameData
                .contribution
 
     raise MissingDataError, "No team-reported contributions for player #{player_id} in project #{proj_name}" if result.none?
+
     result
   end
 

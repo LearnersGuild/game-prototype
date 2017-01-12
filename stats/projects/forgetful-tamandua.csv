@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-5,forgetful-tamandua,4d87f1c5,18.17,34.0,89.17,81.33,50.0,50.0,58.33,MISSING DATA,MISSING DATA,MISSING DATA,,26.33,49.28,-22.95,96.0,4.0
-5,forgetful-tamandua,90945a45,27.83,30.0,89.17,81.33,66.67,66.67,50.0,MISSING DATA,MISSING DATA,MISSING DATA,,40.33,43.48,-3.15,89.0,-11.0
-5,forgetful-tamandua,dcf14075,23.0,5.0,89.17,81.33,100.0,87.5,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,33.33,7.25,26.08,87.5,-12.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+5,forgetful-tamandua,4d87f1c5,18.17,34.0,89.17,81.33,50.0,50.0,58.33,MISSING DATA,MISSING DATA,MISSING DATA,,26.33,49.28,-22.95,96.0,4.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+5,forgetful-tamandua,90945a45,27.83,30.0,89.17,81.33,66.67,66.67,50.0,MISSING DATA,MISSING DATA,MISSING DATA,,40.33,43.48,-3.15,89.0,-11.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+5,forgetful-tamandua,dcf14075,23.0,5.0,89.17,81.33,100.0,87.5,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,33.33,7.25,26.08,87.5,-12.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA

@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-13,excited-stork,85eb0e18,35.41,30.0,78.73,87.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,83.33,83.33,7.0,37.67,31.91,5.76,98.0,2.0
-13,excited-stork,90945a45,38.23,33.0,78.73,87.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,7.0,40.67,35.11,5.56,98.0,2.0
-13,excited-stork,713b4462,20.37,31.0,78.73,87.27,MISSING DATA,MISSING DATA,MISSING DATA,75.0,83.33,91.67,8.0,21.67,32.98,-11.31,90.5,9.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+13,excited-stork,85eb0e18,35.41,30.0,78.73,87.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,83.33,83.33,7.0,37.67,31.91,5.76,98.0,2.0,6,5,6,5,6,5
+13,excited-stork,90945a45,38.23,33.0,78.73,87.27,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,7.0,40.67,35.11,5.56,98.0,2.0,6,4,5,5,6,5
+13,excited-stork,713b4462,20.37,31.0,78.73,87.27,MISSING DATA,MISSING DATA,MISSING DATA,75.0,83.33,91.67,8.0,21.67,32.98,-11.31,90.5,9.5,5,5,5,5,6,5

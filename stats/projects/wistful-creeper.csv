@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-18,wistful-creeper,66930ba2,30.82,30.0,100.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,46.0,44.78,1.22,92.5,7.5
-18,wistful-creeper,dcf14075,11.61,4.0,100.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,94.44,4.0,17.33,5.97,11.36,96.0,4.0
-18,wistful-creeper,c9a274b3,24.57,33.0,100.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,66.67,66.67,91.67,7.0,36.67,49.25,-12.58,94.5,-5.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+18,wistful-creeper,66930ba2,30.82,30.0,100.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,46.0,44.78,1.22,92.5,7.5,5,4,5,5,6,6
+18,wistful-creeper,dcf14075,11.61,4.0,100.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,94.44,4.0,17.33,5.97,11.36,96.0,4.0,6,3,6,3,6,3
+18,wistful-creeper,c9a274b3,24.57,33.0,100.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,66.67,66.67,91.67,7.0,36.67,49.25,-12.58,94.5,-5.5,6,4,6,4,5,4

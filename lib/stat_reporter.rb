@@ -24,6 +24,7 @@ class StatReporter
       stat_report[:avg_proj_comp] = stats.proj_completeness_for_player(id)
       stat_report[:avg_proj_qual] = stats.proj_quality_for_player(id)
       stat_report[:health_culture] = stats.health_culture(id)
+      stat_report[:health_culture_adjusted] = stats.health_culture_adjusted(id)
       stat_report[:health_team_play] = stats.health_team_play(id)
       stat_report[:health_technical] = stats.health_technical(id)
       stat_report[:challenge] = stats.challenge(id)
@@ -122,6 +123,12 @@ class StatReporter
       contrib_gap: stats.contribution_gap(opts),
       est_accuracy: stats.estimation_accuracy(opts),
       est_bias: stats.estimation_bias(opts),
+      retro_max_culture: stats.retro_max_culture(opts),
+      retro_min_culture: stats.retro_min_culture(opts),
+      retro_max_team_play: stats.retro_max_team_play(opts),
+      retro_min_team_play: stats.retro_min_team_play(opts),
+      retro_max_technical: stats.retro_max_technical(opts),
+      retro_min_technical: stats.retro_min_technical(opts),
     }
   end
 

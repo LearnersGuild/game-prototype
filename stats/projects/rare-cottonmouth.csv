@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-10,rare-cottonmouth,9ae522cc,33.07,38.0,98.75,94.38,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,40.33,46.34,-6.01,99.5,-0.5
-10,rare-cottonmouth,396fad2d,33.35,40.0,98.75,94.38,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,40.67,48.78,-8.11,98.0,2.0
-10,rare-cottonmouth,dcf14075,15.58,4.0,98.75,94.38,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,100.0,4.0,19.0,4.88,14.12,98.5,1.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+10,rare-cottonmouth,9ae522cc,33.07,38.0,98.75,94.38,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,40.33,46.34,-6.01,99.5,-0.5,6,6,6,6,6,6
+10,rare-cottonmouth,396fad2d,33.35,40.0,98.75,94.38,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,40.67,48.78,-8.11,98.0,2.0,6,6,6,6,6,6
+10,rare-cottonmouth,dcf14075,15.58,4.0,98.75,94.38,MISSING DATA,MISSING DATA,MISSING DATA,94.44,94.44,100.0,4.0,19.0,4.88,14.12,98.5,1.5,6,6,6,6,5,4

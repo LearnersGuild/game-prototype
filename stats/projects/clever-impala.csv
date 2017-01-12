@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-22,clever-impala,198449da,41.98,33.0,98.89,99.67,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,7.0,59.0,46.38,12.62,92.0,8.0
-22,clever-impala,34951fac,29.17,38.15,98.89,99.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,41.0,53.62,-12.62,92.0,8.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+22,clever-impala,198449da,41.98,33.0,98.89,99.67,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,7.0,59.0,46.38,12.62,92.0,8.0,6,6,6,6,6,6
+22,clever-impala,34951fac,29.17,38.15,98.89,99.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,41.0,53.62,-12.62,92.0,8.0,5,5,5,5,5,5

@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-24,lumpy-openbill,6dcee2bb,21.06,27.0,100.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,50.0,8.0,40.5,51.92,-11.42,89.0,-11.0
-24,lumpy-openbill,ea4646be,30.94,25.0,100.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,4.0,59.5,48.08,11.42,89.0,-11.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+24,lumpy-openbill,6dcee2bb,21.06,27.0,100.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,50.0,8.0,40.5,51.92,-11.42,89.0,-11.0,6,6,6,6,6,6
+24,lumpy-openbill,ea4646be,30.94,25.0,100.0,99.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,4.0,59.5,48.08,11.42,89.0,-11.0,6,6,6,6,3,3

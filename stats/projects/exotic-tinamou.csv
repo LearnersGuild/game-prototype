@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-17,exotic-tinamou,90945a45,25.5,36.0,98.0,94.67,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,7.0,56.67,80.0,-23.33,90.0,-10.0
-17,exotic-tinamou,29f423c4,14.25,6.0,98.0,94.67,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,91.67,4.0,31.67,13.33,18.34,90.0,-10.0
-17,exotic-tinamou,75dbe257,5.25,3.0,98.0,94.67,MISSING DATA,MISSING DATA,MISSING DATA,90.74,94.44,98.15,3.0,11.67,6.67,5.0,87.5,12.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+17,exotic-tinamou,90945a45,25.5,36.0,98.0,94.67,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,7.0,56.67,80.0,-23.33,90.0,-10.0,6,5,6,6,6,6
+17,exotic-tinamou,29f423c4,14.25,6.0,98.0,94.67,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,91.67,4.0,31.67,13.33,18.34,90.0,-10.0,6,6,6,6,6,6
+17,exotic-tinamou,75dbe257,5.25,3.0,98.0,94.67,MISSING DATA,MISSING DATA,MISSING DATA,90.74,94.44,98.15,3.0,11.67,6.67,5.0,87.5,12.5,6,1,6,1,6,3

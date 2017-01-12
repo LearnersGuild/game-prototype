@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-25,tasteful-woylie,45664623,24.54,29.0,88.89,93.44,MISSING DATA,MISSING DATA,MISSING DATA,91.67,100.0,91.67,9.0,30.67,36.25,-5.58,98.0,2.0
-25,tasteful-woylie,b6aa9c94,26.94,25.0,88.89,93.44,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,8.0,33.67,31.25,2.42,98.0,2.0
-25,tasteful-woylie,717e2737,28.54,26.0,88.89,93.44,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,100.0,8.0,35.67,32.5,3.17,98.0,2.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+25,tasteful-woylie,45664623,24.54,29.0,88.89,93.44,MISSING DATA,MISSING DATA,MISSING DATA,91.67,100.0,91.67,9.0,30.67,36.25,-5.58,98.0,2.0,5,5,5,5,6,5
+25,tasteful-woylie,b6aa9c94,26.94,25.0,88.89,93.44,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,8.0,33.67,31.25,2.42,98.0,2.0,5,5,6,6,6,6
+25,tasteful-woylie,717e2737,28.54,26.0,88.89,93.44,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,100.0,8.0,35.67,32.5,3.17,98.0,2.0,6,6,6,6,6,5

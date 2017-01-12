@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-2,giant-viper,9ae522cc,37.67,40.0,68.22,79.44,91.67,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,37.67,40.0,-2.33,96.0,-4.0
-2,giant-viper,45664623,37.33,40.0,68.22,79.44,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,37.33,40.0,-2.67,93.0,7.0
-2,giant-viper,070b3063,25.0,20.0,68.22,79.44,41.67,37.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,25.0,20.0,5.0,92.5,7.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+2,giant-viper,9ae522cc,37.67,40.0,68.22,79.44,91.67,100.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,37.67,40.0,-2.33,96.0,-4.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+2,giant-viper,45664623,37.33,40.0,68.22,79.44,91.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,37.33,40.0,-2.67,93.0,7.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+2,giant-viper,070b3063,25.0,20.0,68.22,79.44,41.67,37.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,,25.0,20.0,5.0,92.5,7.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA

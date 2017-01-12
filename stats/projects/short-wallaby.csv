@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-23,short-wallaby,085c56bc,28.0,20.0,89.28,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,33.33,23.81,9.52,97.5,2.5
-23,short-wallaby,198449da,24.36,30.0,89.28,95.0,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,75.0,7.0,29.0,35.71,-6.71,97.0,-3.0
-23,short-wallaby,5d65c9db,31.64,34.0,89.28,95.0,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,91.67,8.0,37.67,40.48,-2.81,98.0,2.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+23,short-wallaby,085c56bc,28.0,20.0,89.28,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,33.33,23.81,9.52,97.5,2.5,5,4,5,3,5,4
+23,short-wallaby,198449da,24.36,30.0,89.28,95.0,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,75.0,7.0,29.0,35.71,-6.71,97.0,-3.0,6,5,6,6,6,6
+23,short-wallaby,5d65c9db,31.64,34.0,89.28,95.0,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,91.67,8.0,37.67,40.48,-2.81,98.0,2.0,6,6,6,6,6,5

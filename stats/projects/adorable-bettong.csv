@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,adorable-bettong,0af92c55,34.15,30.0,100.0,99.89,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,75.0,7.0,34.67,30.46,4.21,96.5,3.5
-19,adorable-bettong,110df682,34.8,33.5,100.0,99.89,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,83.33,7.0,35.33,34.01,1.32,98.0,-2.0
-19,adorable-bettong,ea4646be,29.55,35.0,100.0,99.89,MISSING DATA,MISSING DATA,MISSING DATA,75.0,83.33,41.67,6.0,30.0,35.53,-5.53,95.5,4.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,adorable-bettong,0af92c55,34.15,30.0,100.0,99.89,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,75.0,7.0,34.67,30.46,4.21,96.5,3.5,6,4,6,5,6,4
+19,adorable-bettong,110df682,34.8,33.5,100.0,99.89,MISSING DATA,MISSING DATA,MISSING DATA,75.0,75.0,83.33,7.0,35.33,34.01,1.32,98.0,-2.0,6,5,6,5,6,1
+19,adorable-bettong,ea4646be,29.55,35.0,100.0,99.89,MISSING DATA,MISSING DATA,MISSING DATA,75.0,83.33,41.67,6.0,30.0,35.53,-5.53,95.5,4.5,4,3,4,3,4,3

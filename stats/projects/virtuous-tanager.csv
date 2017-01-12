@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-24,virtuous-tanager,eaabeb41,34.2,30.0,100.0,99.6,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,60.0,52.63,7.37,100.0,0.0
-24,virtuous-tanager,1ecc896c,22.8,27.0,100.0,99.6,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,5.0,40.0,47.37,-7.37,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+24,virtuous-tanager,eaabeb41,34.2,30.0,100.0,99.6,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,60.0,52.63,7.37,100.0,0.0,6,6,6,6,5,5
+24,virtuous-tanager,1ecc896c,22.8,27.0,100.0,99.6,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,5.0,40.0,47.37,-7.37,100.0,0.0,6,6,6,6,6,6

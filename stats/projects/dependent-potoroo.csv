@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-22,dependent-potoroo,75dbe257,6.35,2.0,91.92,94.08,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,4.0,10.0,3.15,6.85,92.5,-7.5
-22,dependent-potoroo,5c217ba1,31.96,32.5,91.92,94.08,MISSING DATA,MISSING DATA,MISSING DATA,16.67,58.33,75.0,7.0,50.33,51.18,-0.85,98.0,-2.0
-22,dependent-potoroo,45664623,25.19,29.0,91.92,94.08,MISSING DATA,MISSING DATA,MISSING DATA,58.33,50.0,16.67,8.0,39.67,45.67,-6.0,95.0,5.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+22,dependent-potoroo,75dbe257,6.35,2.0,91.92,94.08,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,4.0,10.0,3.15,6.85,92.5,-7.5,6,6,6,5,6,5
+22,dependent-potoroo,5c217ba1,31.96,32.5,91.92,94.08,MISSING DATA,MISSING DATA,MISSING DATA,16.67,58.33,75.0,7.0,50.33,51.18,-0.85,98.0,-2.0,5,1,5,1,6,1
+22,dependent-potoroo,45664623,25.19,29.0,91.92,94.08,MISSING DATA,MISSING DATA,MISSING DATA,58.33,50.0,16.67,8.0,39.67,45.67,-6.0,95.0,5.0,6,1,6,1,6,3

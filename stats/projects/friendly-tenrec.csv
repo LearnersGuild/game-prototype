@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,friendly-tenrec,9ae522cc,26.66,28.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,43.0,45.16,-2.16,95.5,-4.5
-19,friendly-tenrec,490387f1,21.7,30.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,83.33,75.0,91.67,6.0,35.0,48.39,-13.39,100.0,0.0
-19,friendly-tenrec,75dbe257,13.64,4.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,4.0,22.0,6.45,15.55,97.0,-3.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,friendly-tenrec,9ae522cc,26.66,28.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,43.0,45.16,-2.16,95.5,-4.5,6,5,6,4,6,6
+19,friendly-tenrec,490387f1,21.7,30.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,83.33,75.0,91.67,6.0,35.0,48.39,-13.39,100.0,0.0,5,5,5,5,5,5
+19,friendly-tenrec,75dbe257,13.64,4.0,100.0,99.17,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,4.0,22.0,6.45,15.55,97.0,-3.0,6,5,6,5,6,5

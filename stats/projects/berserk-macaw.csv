@@ -1,5 +1,5 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-12,berserk-macaw,eaf4b011,10.64,17.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,44.44,33.33,33.33,7.0,10.75,17.17,-6.42,94.33,5.67
-12,berserk-macaw,4d838f6e,28.46,30.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,94.44,8.0,28.75,30.3,-1.55,95.0,-5.0
-12,berserk-macaw,e76412aa,33.41,33.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,33.75,33.33,0.42,95.0,-5.0
-12,berserk-macaw,85eb0e18,26.48,19.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,97.92,97.92,91.67,7.0,26.75,19.19,7.56,98.33,1.67
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+12,berserk-macaw,eaf4b011,10.64,17.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,44.44,33.33,33.33,7.0,10.75,17.17,-6.42,94.33,5.67,6,6,6,6,6,6
+12,berserk-macaw,4d838f6e,28.46,30.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,94.44,8.0,28.75,30.3,-1.55,95.0,-5.0,6,3,6,2,6,1
+12,berserk-macaw,e76412aa,33.41,33.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,33.75,33.33,0.42,95.0,-5.0,6,1,6,2,5,1
+12,berserk-macaw,85eb0e18,26.48,19.0,97.0,90.2,MISSING DATA,MISSING DATA,MISSING DATA,97.92,97.92,91.67,7.0,26.75,19.19,7.56,98.33,1.67,6,4,6,2,6,4

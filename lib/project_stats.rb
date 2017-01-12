@@ -25,7 +25,13 @@ class ProjectStats
                expected_contrib
                contrib_gap
                est_accuracy
-               est_bias ]
+               est_bias
+               retro_max_culture
+               retro_min_culture
+               retro_max_team_play
+               retro_min_team_play
+               retro_max_technical
+               retro_min_technical ]
 
   attr_reader :data
 
@@ -39,6 +45,10 @@ class ProjectStats
 
   def for_player(id)
     data.select { |s| s['id'] == id }
+  end
+
+  def for_project(proj_name)
+    data.select { |s| s['project'] == proj_name }
   end
 
   def self.import(files, cycle_limit)

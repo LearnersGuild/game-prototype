@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,mellow-wagtail,eed94af6,29.0,29.0,97.86,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,50.0,50.0,0.0,100.0,0.0
-19,mellow-wagtail,45550069,29.0,29.0,97.86,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,50.0,0.0,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,mellow-wagtail,eed94af6,29.0,29.0,97.86,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,50.0,50.0,0.0,100.0,0.0,6,6,6,6,6,6
+19,mellow-wagtail,45550069,29.0,29.0,97.86,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.0,50.0,0.0,100.0,0.0,6,6,6,6,6,6

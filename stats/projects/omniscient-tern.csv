@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-7,omniscient-tern,85eb0e18,25.56,31.0,95.0,91.88,91.67,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,36.0,43.66,-7.66,94.0,-6.0
-7,omniscient-tern,dcf14075,22.24,10.0,95.0,91.88,100.0,96.67,93.33,MISSING DATA,MISSING DATA,MISSING DATA,,31.33,14.08,17.25,83.0,-17.0
-7,omniscient-tern,9ae522cc,23.2,30.0,95.0,91.88,83.33,100.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,32.67,42.25,-9.58,97.5,-2.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+7,omniscient-tern,85eb0e18,25.56,31.0,95.0,91.88,91.67,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,,36.0,43.66,-7.66,94.0,-6.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+7,omniscient-tern,dcf14075,22.24,10.0,95.0,91.88,100.0,96.67,93.33,MISSING DATA,MISSING DATA,MISSING DATA,,31.33,14.08,17.25,83.0,-17.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+7,omniscient-tern,9ae522cc,23.2,30.0,95.0,91.88,83.33,100.0,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,32.67,42.25,-9.58,97.5,-2.5,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA

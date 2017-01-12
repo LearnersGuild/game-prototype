@@ -19,6 +19,6 @@ gd = GameData.import(gd_files)
 ds = StatsFromData.new(gd)
 rs = ReviewStats.import(review_stat_files, 1000)
 ps = ProjectStats.import(proj_stat_files, 1000)
-s = Stats.new(ps, rs)
+s = Stats.new(ps, rs, gd)
 sr = StatReporter.new(s)
 binding.pry

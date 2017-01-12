@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-18,parallel-waterbuck,94b1cd36,21.09,30.0,86.85,92.46,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,8.5,30.0,42.67,-12.67,92.5,-7.5
-18,parallel-waterbuck,dcf14075,18.75,6.0,86.85,92.46,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,94.44,5.0,26.67,8.53,18.14,90.0,-10.0
-18,parallel-waterbuck,5c217ba1,30.46,34.3,86.85,92.46,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,7.0,43.33,48.79,-5.46,95.0,-5.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+18,parallel-waterbuck,94b1cd36,21.09,30.0,86.85,92.46,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,8.5,30.0,42.67,-12.67,92.5,-7.5,6,5,6,5,6,6
+18,parallel-waterbuck,dcf14075,18.75,6.0,86.85,92.46,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,94.44,5.0,26.67,8.53,18.14,90.0,-10.0,6,3,6,3,6,3
+18,parallel-waterbuck,5c217ba1,30.46,34.3,86.85,92.46,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,7.0,43.33,48.79,-5.46,95.0,-5.0,6,5,6,5,6,5

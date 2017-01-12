@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-7,shrill-corella,b6aa9c94,22.95,30.0,84.0,91.0,83.33,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,45.0,58.82,-13.82,100.0,0.0
-7,shrill-corella,75dbe257,22.95,11.0,84.0,91.0,93.33,91.67,90.0,MISSING DATA,MISSING DATA,MISSING DATA,,45.0,21.57,23.43,90.0,-10.0
-7,shrill-corella,45a99283,5.1,10.0,84.0,91.0,58.33,66.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,10.0,19.61,-9.61,MISSING DATA,MISSING DATA
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+7,shrill-corella,b6aa9c94,22.95,30.0,84.0,91.0,83.33,83.33,83.33,MISSING DATA,MISSING DATA,MISSING DATA,,45.0,58.82,-13.82,100.0,0.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+7,shrill-corella,75dbe257,22.95,11.0,84.0,91.0,93.33,91.67,90.0,MISSING DATA,MISSING DATA,MISSING DATA,,45.0,21.57,23.43,90.0,-10.0,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA
+7,shrill-corella,45a99283,5.1,10.0,84.0,91.0,58.33,66.67,91.67,MISSING DATA,MISSING DATA,MISSING DATA,,10.0,19.61,-9.61,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA,MISSING DATA

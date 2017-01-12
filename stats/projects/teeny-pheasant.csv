@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,teeny-pheasant,dcf14075,13.4,4.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,4.0,20.0,5.97,14.03,100.0,0.0
-19,teeny-pheasant,adda47cf,26.8,35.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,91.67,9.0,40.0,52.24,-12.24,100.0,0.0
-19,teeny-pheasant,48758a80,26.8,28.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,40.0,41.79,-1.79,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,teeny-pheasant,dcf14075,13.4,4.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,4.0,20.0,5.97,14.03,100.0,0.0,6,3,6,4,6,3
+19,teeny-pheasant,adda47cf,26.8,35.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,91.67,9.0,40.0,52.24,-12.24,100.0,0.0,6,5,6,6,6,6
+19,teeny-pheasant,48758a80,26.8,28.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,83.33,7.0,40.0,41.79,-1.79,100.0,0.0,6,6,6,6,6,6

@@ -1,3 +1,3 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,aspiring-colobus,e76412aa,26.5,26.0,93.33,93.83,MISSING DATA,MISSING DATA,MISSING DATA,100.0,83.33,83.33,7.0,50.0,49.06,0.94,100.0,0.0
-19,aspiring-colobus,164d773b,26.5,27.0,93.33,93.83,MISSING DATA,MISSING DATA,MISSING DATA,66.67,66.67,83.33,7.0,50.0,50.94,-0.94,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,aspiring-colobus,e76412aa,26.5,26.0,93.33,93.83,MISSING DATA,MISSING DATA,MISSING DATA,100.0,83.33,83.33,7.0,50.0,49.06,0.94,100.0,0.0,4,4,4,4,5,5
+19,aspiring-colobus,164d773b,26.5,27.0,93.33,93.83,MISSING DATA,MISSING DATA,MISSING DATA,66.67,66.67,83.33,7.0,50.0,50.94,-0.94,100.0,0.0,6,6,5,5,5,5

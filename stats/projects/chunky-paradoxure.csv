@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,chunky-paradoxure,dcf14075,6.71,4.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,4.0,11.0,6.56,4.44,94.0,6.0
-19,chunky-paradoxure,5c217ba1,34.97,36.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,57.33,59.02,-1.69,91.5,8.5
-19,chunky-paradoxure,396fad2d,19.32,21.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,6.0,31.67,34.43,-2.76,90.5,9.5
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,chunky-paradoxure,dcf14075,6.71,4.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,93.06,94.44,100.0,4.0,11.0,6.56,4.44,94.0,6.0,6,3,6,4,6,3
+19,chunky-paradoxure,5c217ba1,34.97,36.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,57.33,59.02,-1.69,91.5,8.5,6,5,6,5,6,5
+19,chunky-paradoxure,396fad2d,19.32,21.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,83.33,91.67,83.33,6.0,31.67,34.43,-2.76,90.5,9.5,6,6,6,6,6,6

@@ -1,4 +1,4 @@
-cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
-19,inconclusive-gemsbok,85eb0e18,17.55,16.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,6.0,45.0,41.03,3.97,100.0,0.0
-19,inconclusive-gemsbok,75dbe257,3.9,3.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,4.0,10.0,7.69,2.31,100.0,0.0
-19,inconclusive-gemsbok,936e3168,17.55,20.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,5.0,45.0,51.28,-6.28,100.0,0.0
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias,retro_max_culture,retro_min_culture,retro_max_team_play,retro_min_team_play,retro_max_technical,retro_min_technical
+19,inconclusive-gemsbok,85eb0e18,17.55,16.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,6.0,45.0,41.03,3.97,100.0,0.0,6,6,6,6,6,6
+19,inconclusive-gemsbok,75dbe257,3.9,3.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,92.59,94.44,96.3,4.0,10.0,7.69,2.31,100.0,0.0,6,5,6,5,6,5
+19,inconclusive-gemsbok,936e3168,17.55,20.0,96.67,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,5.0,45.0,51.28,-6.28,100.0,0.0,6,5,6,6,6,6

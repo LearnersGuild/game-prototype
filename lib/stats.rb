@@ -3,6 +3,7 @@ require 'csv'
 require 'mastery'
 require 'cycle_hours'
 require 'utils'
+require 'game_data'
 
 class Stats
   include Aggregates
@@ -120,29 +121,33 @@ class Stats
   end
 
   def health_adjusted_culture(id)
+    health_adjusted(id, game_data.health_culture, :health_culture)
+  end
 
-    # Get last 8 project stats
-    unique_culture_feedbacks = unique_feedback(game_data.health_culture, id)
+  def health_adjusted_team_play(id)
+    health_adjusted(id, game_data.health_team_play, :health_team_play)
+  end
 
-    return NO_DATA if unique_culture_feedbacks.none?
+  def health_adjusted_technical(id)
+    health_adjusted(id, game_data.health_technical, :health_technical)
+  end
 
-    stats = unique_culture_feedbacks.map do |culture_feedback|
+  def health_adjusted(id, data, question_type)
+    unique_feedbacks = unique_feedback(data, id)
 
-      respondentId = game_data.shortened(culture_feedback["respondentId"])
-      puts "respondentId #{respondentId}"
-      value = culture_feedback["value"].to_f
-      puts "value #{value}"
-      max_average = retro_average(respondentId, "retro_max_culture")
-      puts "max aveage #{max_average}"
-      min_average = retro_average(respondentId, "retro_min_culture")
-      puts "min average #{min_average}"
-      stat = (value - min_average) / (max_average - min_average)
-      puts "stat #{stat}"
-      stat
+    return NO_DATA if unique_feedbacks.none?
+
+    stats = unique_feedbacks.map do |feedback|
+
+      respondentId = game_data.shortened(feedback["respondentId"])
+      value = feedback["value"].to_f
+      average = retro_average(respondentId, question_type)
+      puts "respondentId #{respondentId} : #{feedback["respondentName"]} : #{value/average}"
+      value/average
     end
 
+    mean(stats)
 
-    stats
   end
 
   def health_team_play(id)
@@ -163,9 +168,12 @@ class Stats
     mean(stats).to_percent(100)
   end
 
-  def retro_average(id,stat)
-    rmcs = proj_stats.for_player(id).map { |s| s[stat].to_f }
-    rmcs.reduce(:+) / rmcs.size.to_f
+  def retro_average(id,question_type)
+    arr = game_data.select{|gd| game_data.shortened(gd["respondentId"]) == id}
+              .select{|a| a["questionId"] == QUESTION_TYPES[question_type]}
+              .map{|b| b["value"].to_f}
+    arr = arr.map { |v| (v.to_i - 1) }.reject {|v| v == -1}
+    arr.reduce(:+) / arr.size.to_f
   end
 
 

@@ -1,5 +1,21 @@
 require 'csv'
 
+
+QUESTION_TYPES = {
+  contribution: 'cacefe2b-9193-41e1-9886-a0dd61fe9159',
+  culture_contribution: '60fb5922-6be7-4e76-aaa3-16d574489833',
+  text_feedback: 'cd350a14-8a70-4593-9801-30cedab3dc75',
+  proj_hours: '29a4bc7e-631e-409b-a8ed-6d06a9ae39f7',
+  learning_support: '26ccd2a0-64af-4bf4-ae6b-e87445a2b213',
+  proj_completeness: '65cad3c5-e9e9-4284-999b-3a72c481c55e',
+  proj_quality: '2c335ce5-ed0b-4068-92c8-56666fb7fdad',
+  team_play: '57bc052d-1a7e-4faa-9617-11a93619ff6e',
+  health_culture: '4b3b9383-b107-4e16-995e-4617d8f9e0f9',
+  health_team_play: 'bb2927c9-a16d-49e9-8c3a-dd308a17315a',
+  health_technical: '16d10fb3-463e-4d0a-b621-1557d9cfbeb9',
+  zpd: '09dff295-c339-4326-8e21-71cf332e0895'
+}
+  
 class GameData
   class NoDataFileProvidedError < StandardError; end
   class MissingDataError < StandardError; end
@@ -19,20 +35,6 @@ class GameData
                surveyId
                value ]
 
-  QUESTION_TYPES = {
-    contribution: 'cacefe2b-9193-41e1-9886-a0dd61fe9159',
-    culture_contribution: '60fb5922-6be7-4e76-aaa3-16d574489833',
-    text_feedback: 'cd350a14-8a70-4593-9801-30cedab3dc75',
-    proj_hours: '29a4bc7e-631e-409b-a8ed-6d06a9ae39f7',
-    learning_support: '26ccd2a0-64af-4bf4-ae6b-e87445a2b213',
-    proj_completeness: '65cad3c5-e9e9-4284-999b-3a72c481c55e',
-    proj_quality: '2c335ce5-ed0b-4068-92c8-56666fb7fdad',
-    team_play: '57bc052d-1a7e-4faa-9617-11a93619ff6e',
-    health_culture: '4b3b9383-b107-4e16-995e-4617d8f9e0f9',
-    health_team_play: 'bb2927c9-a16d-49e9-8c3a-dd308a17315a',
-    health_technical: '16d10fb3-463e-4d0a-b621-1557d9cfbeb9',
-    zpd: '09dff295-c339-4326-8e21-71cf332e0895'
-  }
 
   attr_reader :data
 

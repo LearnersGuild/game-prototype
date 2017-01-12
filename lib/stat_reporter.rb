@@ -123,12 +123,6 @@ class StatReporter
       contrib_gap: stats.contribution_gap(opts),
       est_accuracy: stats.estimation_accuracy(opts),
       est_bias: stats.estimation_bias(opts),
-      retro_max_culture: stats.retro_max_culture(opts),
-      retro_min_culture: stats.retro_min_culture(opts),
-      retro_max_team_play: stats.retro_max_team_play(opts),
-      retro_min_team_play: stats.retro_min_team_play(opts),
-      retro_max_technical: stats.retro_max_technical(opts),
-      retro_min_technical: stats.retro_min_technical(opts),
     }
   end
 

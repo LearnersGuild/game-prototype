@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,false-kangaroo,45664623,22.0,34.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,0.0,0.0,0.0,8.0,50.0,77.27,-27.27,0.0,100.0
+27,false-kangaroo,50b78c66,22.0,10.0,100.0,100.0,MISSING DATA,MISSING DATA,MISSING DATA,0.0,0.0,0.0,7.0,50.0,22.73,27.27,0.0,100.0

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,normal-drongo,c9a4cb01,50.9,24.0,93.93,98.07,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,91.67,5.0,61.33,28.92,32.41,87.0,13.0
+27,normal-drongo,6dcee2bb,18.82,32.0,93.93,98.07,MISSING DATA,MISSING DATA,MISSING DATA,91.67,83.33,58.33,7.0,22.67,38.55,-15.88,98.0,2.0
+27,normal-drongo,9206846b,13.28,27.0,93.93,98.07,MISSING DATA,MISSING DATA,MISSING DATA,91.67,100.0,100.0,7.0,16.0,32.53,-16.53,98.5,-1.5

@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,dependent-jaguar,e76412aa,13.2,18.0,53.75,86.25,MISSING DATA,MISSING DATA,MISSING DATA,66.67,83.33,83.33,8.0,27.5,37.5,-10.0,95.0,5.0
+27,dependent-jaguar,94b1cd36,34.8,30.0,53.75,86.25,MISSING DATA,MISSING DATA,MISSING DATA,83.33,100.0,83.33,7.0,72.5,62.5,10.0,95.0,5.0

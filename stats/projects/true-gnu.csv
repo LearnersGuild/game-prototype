@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,true-gnu,652fb7f5,27.3,30.0,98.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,30.33,33.33,-3.0,96.0,4.0
+27,true-gnu,198449da,29.4,28.0,98.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,32.67,31.11,1.56,99.0,-1.0
+27,true-gnu,5ff662f1,33.3,32.0,98.0,96.67,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,37.0,35.56,1.44,95.5,-4.5

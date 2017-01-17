@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,possessive-moorhen,cbcff678,26.52,20.0,83.8,89.45,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,51.0,38.46,12.54,98.0,2.0
+27,possessive-moorhen,5d65c9db,25.48,32.0,83.8,89.45,MISSING DATA,MISSING DATA,MISSING DATA,83.33,83.33,83.33,8.5,49.0,61.54,-12.54,98.0,2.0

@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,wild-giraffe,8e44efb9,22.41,32.0,90.4,95.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,66.67,7.5,27.33,39.02,-11.69,94.5,5.5
+27,wild-giraffe,9b34a8d3,32.8,25.0,90.4,95.5,MISSING DATA,MISSING DATA,MISSING DATA,91.67,91.67,100.0,6.0,40.0,30.49,9.51,97.0,-3.0
+27,wild-giraffe,4a6f36f6,26.79,25.0,90.4,95.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,32.67,30.49,2.18,99.5,0.5

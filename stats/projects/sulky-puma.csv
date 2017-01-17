@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+27,sulky-puma,b7faca92,26.88,15.0,91.88,97.69,MISSING DATA,MISSING DATA,MISSING DATA,83.33,75.0,100.0,2.0,37.33,20.83,16.5,96.0,4.0
+27,sulky-puma,085c56bc,22.56,27.0,91.88,97.69,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,8.0,31.33,37.5,-6.17,96.0,4.0
+27,sulky-puma,eaabeb41,22.56,30.0,91.88,97.69,MISSING DATA,MISSING DATA,MISSING DATA,91.67,83.33,91.67,8.0,31.33,41.67,-10.34,98.0,-2.0

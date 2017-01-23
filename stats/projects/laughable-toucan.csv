@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,laughable-toucan,717e2737,22.98,24.5,99.17,98.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,50.5,53.85,-3.35,99.0,-1.0
+28,laughable-toucan,713b4462,22.52,21.0,99.17,98.5,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,7.0,49.5,46.15,3.35,99.0,-1.0

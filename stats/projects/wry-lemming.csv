@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,wry-lemming,af162939,19.2,24.0,83.82,98.7,MISSING DATA,MISSING DATA,MISSING DATA,83.33,100.0,83.33,8.0,40.0,50.0,-10.0,100.0,0.0
+28,wry-lemming,379a8010,28.8,24.0,83.82,98.7,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,7.0,60.0,50.0,10.0,100.0,0.0

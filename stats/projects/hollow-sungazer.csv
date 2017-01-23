@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,hollow-sungazer,094be108,34.47,39.0,80.0,83.5,MISSING DATA,MISSING DATA,MISSING DATA,41.67,58.33,66.67,10.0,36.67,41.49,-4.82,98.0,2.0
+28,hollow-sungazer,6ac58d8a,33.21,27.0,80.0,83.5,MISSING DATA,MISSING DATA,MISSING DATA,50.0,50.0,66.67,10.0,35.33,28.72,6.61,99.5,-0.5
+28,hollow-sungazer,ea4646be,26.32,28.0,80.0,83.5,MISSING DATA,MISSING DATA,MISSING DATA,25.0,8.33,25.0,8.0,28.0,29.79,-1.79,91.0,9.0

@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,disagreeable-tiger,90945a45,22.0,28.0,77.5,91.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,40.0,50.91,-10.91,100.0,0.0
+28,disagreeable-tiger,164d773b,33.0,27.0,77.5,91.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,9.0,60.0,49.09,10.91,100.0,0.0

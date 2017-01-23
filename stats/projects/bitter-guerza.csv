@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,bitter-guerza,eed94af6,26.95,26.0,73.57,96.43,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,83.33,9.0,55.0,53.06,1.94,100.0,0.0
+28,bitter-guerza,8360aff4,22.05,23.0,73.57,96.43,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,9.0,45.0,46.94,-1.94,100.0,0.0

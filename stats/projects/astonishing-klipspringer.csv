@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,astonishing-klipspringer,b6aa9c94,20.3,28.0,100.0,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,29.0,40.0,-11.0,94.0,-6.0
+28,astonishing-klipspringer,396fad2d,24.27,20.0,100.0,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,91.67,100.0,6.0,34.67,28.57,6.1,99.5,0.5
+28,astonishing-klipspringer,29f423c4,25.43,22.0,100.0,95.0,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,36.33,31.43,4.9,95.0,-5.0

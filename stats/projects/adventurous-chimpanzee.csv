@@ -1,0 +1,3 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,adventurous-chimpanzee,7cd10098,30.08,32.0,96.88,97.69,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,47.0,50.0,-3.0,94.0,-6.0
+28,adventurous-chimpanzee,45550069,33.92,32.0,96.88,97.69,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,53.0,50.0,3.0,94.0,-6.0

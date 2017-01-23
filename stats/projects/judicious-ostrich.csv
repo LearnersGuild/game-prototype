@@ -1,0 +1,4 @@
+cycle_no,project,id,xp,proj_hours,proj_comp,proj_qual,lrn_supp,cult_cont,team_play,health_culture,health_team_play,health_technical,challenge,project_contrib,expected_contrib,contrib_gap,est_accuracy,est_bias
+28,judicious-ostrich,085c56bc,29.26,26.0,94.8,97.7,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,91.67,7.0,32.33,28.73,3.6,99.0,1.0
+28,judicious-ostrich,9b57a8f0,29.57,35.0,94.8,97.7,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,8.0,32.67,38.67,-6.0,98.0,2.0
+28,judicious-ostrich,355bc9e4,31.67,29.5,94.8,97.7,MISSING DATA,MISSING DATA,MISSING DATA,100.0,100.0,100.0,6.0,35.0,32.6,2.4,95.5,4.5
